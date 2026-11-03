@@ -25,7 +25,7 @@ python src/update.py
 4. Fills in results for past picks.
 5. Writes the dashboard files.
 
-Windows Task Scheduler runs `daily_update.bat` every morning at 07:25 (task "Football Safe Picks daily update"). It runs `update.py` (retrying once if it fails), writes its output to `output/last_update_run.log`, and commits and pushes the new files to GitHub. Run the .bat by hand to update now. Options for `update.py`:
+Windows Task Scheduler runs `daily_update.bat` every morning at 07:25 (task "Football Safe Picks daily update", created once with `powershell -ExecutionPolicy Bypass -File setup_daily_task.ps1`). It runs `update.py` (retrying once if it fails), writes its output to `output/last_update_run.log`, and commits and pushes the new files to GitHub. Run the .bat by hand to update now. Options for `update.py`:
 
 - `--days 5` covers a longer window.
 - `--today 2026-10-27 --no-download` re-runs a day from data already on disk.
