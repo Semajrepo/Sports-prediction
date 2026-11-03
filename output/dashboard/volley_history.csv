@@ -1,4 +1,14 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+V-2026-11-02-Montes-Claros-Norde-Volei|1,V-2026-11-02-Montes-Claros-Norde-Volei,2026-11-02,Brazil Superliga,Montes Claros,Norde Volei,3-1,Pick 1,Result,Winner,Home,0.84,won,Live
+V-2026-11-02-Montes-Claros-Norde-Volei|2,V-2026-11-02-Montes-Claros-Norde-Volei,2026-11-02,Brazil Superliga,Montes Claros,Norde Volei,3-1,Pick 2,Sets,Total Sets,Over 3.5 sets,0.526,won,Live
+V-2026-11-02-Sesi-Praia-Clube|0,V-2026-11-02-Sesi-Praia-Clube,2026-11-02,Brazil Superliga,Sesi,Praia Clube,3-0,Best,Sets,Set Handicap,Home +1.5 sets,0.696,won,Live
+V-2026-11-02-Sesi-Praia-Clube|1,V-2026-11-02-Sesi-Praia-Clube,2026-11-02,Brazil Superliga,Sesi,Praia Clube,3-0,Pick 1,Result,Winner,Home,0.55,won,Live
+V-2026-11-02-Sesi-Praia-Clube|2,V-2026-11-02-Sesi-Praia-Clube,2026-11-02,Brazil Superliga,Sesi,Praia Clube,3-0,Pick 2,Sets,Total Sets,Over 3.5 sets,0.669,lost,Live
+V-2026-11-02-Novara-W-Brescia-W|1,V-2026-11-02-Novara-W-Brescia-W,2026-11-02,Italy Serie A1 Women,Novara W,Brescia W,3-0,Pick 1,Result,Winner,Home,0.803,won,Live
+V-2026-11-02-Novara-W-Brescia-W|2,V-2026-11-02-Novara-W-Brescia-W,2026-11-02,Italy Serie A1 Women,Novara W,Brescia W,3-0,Pick 2,Sets,Total Sets,Over 3.5 sets,0.56,lost,Live
+V-2026-11-02-Mogilno-W-MKS-Kalisz-W|0,V-2026-11-02-Mogilno-W-MKS-Kalisz-W,2026-11-02,Poland Tauron Liga Women,Mogilno W,MKS Kalisz W,0-3,Best,Sets,Total Sets,Under 4.5 sets,0.695,won,Live
+V-2026-11-02-Mogilno-W-MKS-Kalisz-W|1,V-2026-11-02-Mogilno-W-MKS-Kalisz-W,2026-11-02,Poland Tauron Liga Women,Mogilno W,MKS Kalisz W,0-3,Pick 1,Result,Winner,Home,0.548,lost,Live
+V-2026-11-02-Mogilno-W-MKS-Kalisz-W|2,V-2026-11-02-Mogilno-W-MKS-Kalisz-W,2026-11-02,Poland Tauron Liga Women,Mogilno W,MKS Kalisz W,0-3,Pick 2,Sets,Total Sets,Over 3.5 sets,0.669,lost,Live
 V-2026-11-01-Osasco-W-Sancor-Seguros-W|1,V-2026-11-01-Osasco-W-Sancor-Seguros-W,2026-11-01,Brazil Superliga Women,Osasco W,Sancor Seguros W,3-0,Pick 1,Result,Winner,Home,0.824,won,Live
 V-2026-11-01-Osasco-W-Sancor-Seguros-W|2,V-2026-11-01-Osasco-W-Sancor-Seguros-W,2026-11-01,Brazil Superliga Women,Osasco W,Sancor Seguros W,3-0,Pick 2,Sets,Total Sets,Over 3.5 sets,0.541,lost,Live
 V-2026-11-01-Bergamo-W-Scandicci-W|0,V-2026-11-01-Bergamo-W-Scandicci-W,2026-11-01,Italy Serie A1 Women,Bergamo W,Scandicci W,0-3,Best,Sets,Total Sets,Under 4.5 sets,0.781,won,Live

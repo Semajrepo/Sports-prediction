@@ -1,4 +1,44 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-02-Newcastle-Everton|0,2026-11-02-Newcastle-Everton,2026-11-02,England Premier League,Newcastle,Everton,0-1,Best,Corners,Total Corners,Corners Over 7.5,0.79,won,Live
+2026-11-02-Newcastle-Everton|1,2026-11-02-Newcastle-Everton,2026-11-02,England Premier League,Newcastle,Everton,0-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.67,lost,Live
+2026-11-02-Newcastle-Everton|2,2026-11-02-Newcastle-Everton,2026-11-02,England Premier League,Newcastle,Everton,0-1,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.841,won,Live
+2026-11-02-Newcastle-Everton|3,2026-11-02-Newcastle-Everton,2026-11-02,England Premier League,Newcastle,Everton,0-1,Pick 3,Cards,Home Team Cards,Home Cards Over 0.5,0.836,won,Live
+2026-11-02-Lorient-Brest|0,2026-11-02-Lorient-Brest,2026-11-02,France Ligue 1,Lorient,Brest,0-2,Best,Corners,Home Team Corners,Home Corners Over 2.5,0.78,won,Live
+2026-11-02-Lorient-Brest|1,2026-11-02-Lorient-Brest,2026-11-02,France Ligue 1,Lorient,Brest,0-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.669,lost,Live
+2026-11-02-Lorient-Brest|2,2026-11-02-Lorient-Brest,2026-11-02,France Ligue 1,Lorient,Brest,0-2,Pick 2,Corners,Away Team Corners,Away Corners Under 6.5,0.831,won,Live
+2026-11-02-Lorient-Brest|3,2026-11-02-Lorient-Brest,2026-11-02,France Ligue 1,Lorient,Brest,0-2,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.828,won,Live
+2026-11-02-Atromitos-Volos-NFC|0,2026-11-02-Atromitos-Volos-NFC,2026-11-02,Greece Super League,Atromitos,Volos NFC,3-0,Best,Goals,Home Team Over/Under,Home Under 2.5,0.786,lost,Live
+2026-11-02-Atromitos-Volos-NFC|1,2026-11-02-Atromitos-Volos-NFC,2026-11-02,Greece Super League,Atromitos,Volos NFC,3-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.762,won,Live
+2026-11-02-Atromitos-Volos-NFC|2,2026-11-02-Atromitos-Volos-NFC,2026-11-02,Greece Super League,Atromitos,Volos NFC,3-0,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.796,won,Live
+2026-11-02-Atromitos-Volos-NFC|3,2026-11-02-Atromitos-Volos-NFC,2026-11-02,Greece Super League,Atromitos,Volos NFC,3-0,Pick 3,Goals,Multigoals,Multigoals 1-4,0.795,won,Live
+2026-11-02-Kalamata-Iraklis|0,2026-11-02-Kalamata-Iraklis,2026-11-02,Greece Super League,Kalamata,Iraklis,1-1,Best,Goals,Over/Under,Under 3.5,0.77,won,Live
+2026-11-02-Kalamata-Iraklis|1,2026-11-02-Kalamata-Iraklis,2026-11-02,Greece Super League,Kalamata,Iraklis,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.706,won,Live
+2026-11-02-Kalamata-Iraklis|2,2026-11-02-Kalamata-Iraklis,2026-11-02,Greece Super League,Kalamata,Iraklis,1-1,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.845,won,Live
+2026-11-02-Kalamata-Iraklis|3,2026-11-02-Kalamata-Iraklis,2026-11-02,Greece Super League,Kalamata,Iraklis,1-1,Pick 3,Goals,Multigoals,Multigoals 1-4,0.804,won,Live
+2026-11-02-Atalanta-Parma|0,2026-11-02-Atalanta-Parma,2026-11-02,Italy Serie A,Atalanta,Parma,0-3,Best,Corners,Home Team Corners,Home Corners Over 3.5,0.789,won,Live
+2026-11-02-Atalanta-Parma|1,2026-11-02-Atalanta-Parma,2026-11-02,Italy Serie A,Atalanta,Parma,0-3,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.848,lost,Live
+2026-11-02-Atalanta-Parma|2,2026-11-02-Atalanta-Parma,2026-11-02,Italy Serie A,Atalanta,Parma,0-3,Pick 2,Cards,Total Cards,Cards Over 1.5,0.836,lost,Live
+2026-11-02-Atalanta-Parma|3,2026-11-02-Atalanta-Parma,2026-11-02,Italy Serie A,Atalanta,Parma,0-3,Pick 3,Corners,Total Corners,Corners Under 12.5,0.835,won,Live
+2026-11-02-Sassuolo-Fiorentina|0,2026-11-02-Sassuolo-Fiorentina,2026-11-02,Italy Serie A,Sassuolo,Fiorentina,2-4,Best,Goals,Multigoals,Multigoals 2-6,0.786,won,Live
+2026-11-02-Sassuolo-Fiorentina|1,2026-11-02-Sassuolo-Fiorentina,2026-11-02,Italy Serie A,Sassuolo,Fiorentina,2-4,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.659,won,Live
+2026-11-02-Sassuolo-Fiorentina|2,2026-11-02-Sassuolo-Fiorentina,2026-11-02,Italy Serie A,Sassuolo,Fiorentina,2-4,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.83,won,Live
+2026-11-02-Sassuolo-Fiorentina|3,2026-11-02-Sassuolo-Fiorentina,2026-11-02,Italy Serie A,Sassuolo,Fiorentina,2-4,Pick 3,Goals,Over/Under,Over 1.5,0.827,won,Live
+2026-11-02-Benfica-Alverca|0,2026-11-02-Benfica-Alverca,2026-11-02,Portugal Primeira Liga,Benfica,Alverca,1-0,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.789,lost,Live
+2026-11-02-Benfica-Alverca|1,2026-11-02-Benfica-Alverca,2026-11-02,Portugal Primeira Liga,Benfica,Alverca,1-0,Pick 1,Result,1X2 / Double Chance,Home,0.801,won,Live
+2026-11-02-Benfica-Alverca|2,2026-11-02-Benfica-Alverca,2026-11-02,Portugal Primeira Liga,Benfica,Alverca,1-0,Pick 2,Goals,Away Team Over/Under,Away Under 1.5,0.841,won,Live
+2026-11-02-Benfica-Alverca|3,2026-11-02-Benfica-Alverca,2026-11-02,Portugal Primeira Liga,Benfica,Alverca,1-0,Pick 3,Goals,Multigoals,Multigoals 1-5,0.824,won,Live
+2026-11-02-Gil-Vicente-Guimaraes|0,2026-11-02-Gil-Vicente-Guimaraes,2026-11-02,Portugal Primeira Liga,Gil Vicente,Guimaraes,0-0,Best,Goals,Over/Under,Under 3.5,0.783,won,Live
+2026-11-02-Gil-Vicente-Guimaraes|1,2026-11-02-Gil-Vicente-Guimaraes,2026-11-02,Portugal Primeira Liga,Gil Vicente,Guimaraes,0-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.666,won,Live
+2026-11-02-Gil-Vicente-Guimaraes|2,2026-11-02-Gil-Vicente-Guimaraes,2026-11-02,Portugal Primeira Liga,Gil Vicente,Guimaraes,0-0,Pick 2,Goals,Multigoals,Multigoals 1-4,0.806,lost,Live
+2026-11-02-Gil-Vicente-Guimaraes|3,2026-11-02-Gil-Vicente-Guimaraes,2026-11-02,Portugal Primeira Liga,Gil Vicente,Guimaraes,0-0,Pick 3,Goals,Over/Under,Under 3.5,0.783,won,Live
+2026-11-02-La-Coruna-Osasuna|0,2026-11-02-La-Coruna-Osasuna,2026-11-02,Spain La Liga,La Coruna,Osasuna,2-1,Best,Corners,Away Team Corners,Away Corners Under 5.5,0.787,won,Live
+2026-11-02-La-Coruna-Osasuna|1,2026-11-02-La-Coruna-Osasuna,2026-11-02,Spain La Liga,La Coruna,Osasuna,2-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.726,won,Live
+2026-11-02-La-Coruna-Osasuna|2,2026-11-02-La-Coruna-Osasuna,2026-11-02,Spain La Liga,La Coruna,Osasuna,2-1,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.842,won,Live
+2026-11-02-La-Coruna-Osasuna|3,2026-11-02-La-Coruna-Osasuna,2026-11-02,Spain La Liga,La Coruna,Osasuna,2-1,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.841,won,Live
+2026-11-02-Genclerbirligi-Alanyaspor|0,2026-11-02-Genclerbirligi-Alanyaspor,2026-11-02,Turkey Super Lig,Genclerbirligi,Alanyaspor,5-0,Best,Goals,Over/Under,Under 3.5,0.753,lost,Live
+2026-11-02-Genclerbirligi-Alanyaspor|1,2026-11-02-Genclerbirligi-Alanyaspor,2026-11-02,Turkey Super Lig,Genclerbirligi,Alanyaspor,5-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.647,lost,Live
+2026-11-02-Genclerbirligi-Alanyaspor|2,2026-11-02-Genclerbirligi-Alanyaspor,2026-11-02,Turkey Super Lig,Genclerbirligi,Alanyaspor,5-0,Pick 2,Goals,Multigoals,Multigoals 1-4,0.8,lost,Live
+2026-11-02-Genclerbirligi-Alanyaspor|3,2026-11-02-Genclerbirligi-Alanyaspor,2026-11-02,Turkey Super Lig,Genclerbirligi,Alanyaspor,5-0,Pick 3,Goals,Over/Under,Under 3.5,0.753,lost,Live
 2026-11-01-Cercle-Brugge-Antwerp|0,2026-11-01-Cercle-Brugge-Antwerp,2026-11-01,Belgium Pro League,Cercle Brugge,Antwerp,2-1,Best,Goals,Multigoals,Multigoals 2-6,0.786,won,Live
 2026-11-01-Cercle-Brugge-Antwerp|1,2026-11-01-Cercle-Brugge-Antwerp,2026-11-01,Belgium Pro League,Cercle Brugge,Antwerp,2-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.724,won,Live
 2026-11-01-Cercle-Brugge-Antwerp|2,2026-11-01-Cercle-Brugge-Antwerp,2026-11-01,Belgium Pro League,Cercle Brugge,Antwerp,2-1,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.836,won,Live
@@ -25,40 +65,40 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-11-01-Sheffield-Weds-Blackpool|3,2026-11-01-Sheffield-Weds-Blackpool,2026-11-01,England League One,Sheffield Weds,Blackpool,1-1,Pick 3,Goals,Multigoals,Multigoals 2-6,0.783,won,Live
 2026-11-01-Liverpool-Arsenal|0,2026-11-01-Liverpool-Arsenal,2026-11-01,England Premier League,Liverpool,Arsenal,0-1,Best,Goals,Multigoals,Multigoals 1-4,0.787,won,Live
 2026-11-01-Liverpool-Arsenal|1,2026-11-01-Liverpool-Arsenal,2026-11-01,England Premier League,Liverpool,Arsenal,0-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.677,won,Live
-2026-11-01-Liverpool-Arsenal|2,2026-11-01-Liverpool-Arsenal,2026-11-01,England Premier League,Liverpool,Arsenal,0-1,Pick 2,Cards,Total Cards,Cards Under 5.5,0.834,pending,Live
+2026-11-01-Liverpool-Arsenal|2,2026-11-01-Liverpool-Arsenal,2026-11-01,England Premier League,Liverpool,Arsenal,0-1,Pick 2,Cards,Total Cards,Cards Under 5.5,0.834,lost,Live
 2026-11-01-Liverpool-Arsenal|3,2026-11-01-Liverpool-Arsenal,2026-11-01,England Premier League,Liverpool,Arsenal,0-1,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.821,won,Live
-2026-11-01-Lyon-Angers|0,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,,Best,Goals,Over/Under,Under 4.5,0.788,pending,Live
-2026-11-01-Lyon-Angers|1,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,,Pick 1,Result,1X2 / Double Chance,Home,0.671,pending,Live
-2026-11-01-Lyon-Angers|2,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,,Pick 2,Goals,Over/Under,Over 1.5,0.829,pending,Live
-2026-11-01-Lyon-Angers|3,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,,Pick 3,Corners,Away Team Corners,Away Corners Under 6.5,0.828,pending,Live
-2026-11-01-Marseille-Toulouse|0,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,,Best,Goals,Over/Under,Under 4.5,0.788,pending,Live
-2026-11-01-Marseille-Toulouse|1,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.734,pending,Live
-2026-11-01-Marseille-Toulouse|2,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,,Pick 2,Cards,Home Team Cards,Home Cards Over 0.5,0.85,pending,Live
-2026-11-01-Marseille-Toulouse|3,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.843,pending,Live
-2026-11-01-Paris-FC-Monaco|0,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,,Best,Goals,Multigoals,Multigoals 1-4,0.78,pending,Live
-2026-11-01-Paris-FC-Monaco|1,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.682,pending,Live
-2026-11-01-Paris-FC-Monaco|2,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.85,pending,Live
-2026-11-01-Paris-FC-Monaco|3,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,,Pick 3,Goals,Over/Under,Under 4.5,0.848,pending,Live
-2026-11-01-Strasbourg-Auxerre|0,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,,Best,Goals,Multigoals,Multigoals 2-6,0.783,pending,Live
-2026-11-01-Strasbourg-Auxerre|1,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.756,pending,Live
-2026-11-01-Strasbourg-Auxerre|2,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.846,pending,Live
-2026-11-01-Strasbourg-Auxerre|3,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,,Pick 3,Corners,Home Team Corners,Home Corners Under 7.5,0.838,pending,Live
-2026-11-01-Ein-Frankfurt-Hamburg|0,2026-11-01-Ein-Frankfurt-Hamburg,2026-11-01,Germany Bundesliga,Ein Frankfurt,Hamburg,3-1,Best,Corners,Total Corners,Corners Under 12.5,0.788,pending,Live
+2026-11-01-Lyon-Angers|0,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,2-0,Best,Goals,Over/Under,Under 4.5,0.788,won,Live
+2026-11-01-Lyon-Angers|1,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,2-0,Pick 1,Result,1X2 / Double Chance,Home,0.671,won,Live
+2026-11-01-Lyon-Angers|2,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,2-0,Pick 2,Goals,Over/Under,Over 1.5,0.829,won,Live
+2026-11-01-Lyon-Angers|3,2026-11-01-Lyon-Angers,2026-11-01,France Ligue 1,Lyon,Angers,2-0,Pick 3,Corners,Away Team Corners,Away Corners Under 6.5,0.828,won,Live
+2026-11-01-Marseille-Toulouse|0,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,2-0,Best,Goals,Over/Under,Under 4.5,0.788,won,Live
+2026-11-01-Marseille-Toulouse|1,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.734,won,Live
+2026-11-01-Marseille-Toulouse|2,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,2-0,Pick 2,Cards,Home Team Cards,Home Cards Over 0.5,0.85,won,Live
+2026-11-01-Marseille-Toulouse|3,2026-11-01-Marseille-Toulouse,2026-11-01,France Ligue 1,Marseille,Toulouse,2-0,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.843,won,Live
+2026-11-01-Paris-FC-Monaco|0,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,3-1,Best,Goals,Multigoals,Multigoals 1-4,0.78,won,Live
+2026-11-01-Paris-FC-Monaco|1,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,3-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.682,won,Live
+2026-11-01-Paris-FC-Monaco|2,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,3-1,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.85,won,Live
+2026-11-01-Paris-FC-Monaco|3,2026-11-01-Paris-FC-Monaco,2026-11-01,France Ligue 1,Paris FC,Monaco,3-1,Pick 3,Goals,Over/Under,Under 4.5,0.848,won,Live
+2026-11-01-Strasbourg-Auxerre|0,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,5-1,Best,Goals,Multigoals,Multigoals 2-6,0.783,won,Live
+2026-11-01-Strasbourg-Auxerre|1,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,5-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.756,won,Live
+2026-11-01-Strasbourg-Auxerre|2,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,5-1,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.846,won,Live
+2026-11-01-Strasbourg-Auxerre|3,2026-11-01-Strasbourg-Auxerre,2026-11-01,France Ligue 1,Strasbourg,Auxerre,5-1,Pick 3,Corners,Home Team Corners,Home Corners Under 7.5,0.838,won,Live
+2026-11-01-Ein-Frankfurt-Hamburg|0,2026-11-01-Ein-Frankfurt-Hamburg,2026-11-01,Germany Bundesliga,Ein Frankfurt,Hamburg,3-1,Best,Corners,Total Corners,Corners Under 12.5,0.788,won,Live
 2026-11-01-Ein-Frankfurt-Hamburg|1,2026-11-01-Ein-Frankfurt-Hamburg,2026-11-01,Germany Bundesliga,Ein Frankfurt,Hamburg,3-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.805,won,Live
-2026-11-01-Ein-Frankfurt-Hamburg|2,2026-11-01-Ein-Frankfurt-Hamburg,2026-11-01,Germany Bundesliga,Ein Frankfurt,Hamburg,3-1,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.846,pending,Live
-2026-11-01-Ein-Frankfurt-Hamburg|3,2026-11-01-Ein-Frankfurt-Hamburg,2026-11-01,Germany Bundesliga,Ein Frankfurt,Hamburg,3-1,Pick 3,Corners,Home Team Corners,Home Corners Over 3.5,0.833,pending,Live
-2026-11-01-Union-Berlin-FC-Koln|0,2026-11-01-Union-Berlin-FC-Koln,2026-11-01,Germany Bundesliga,Union Berlin,FC Koln,1-1,Best,Corners,Total Corners,Corners Over 7.5,0.782,pending,Live
+2026-11-01-Ein-Frankfurt-Hamburg|2,2026-11-01-Ein-Frankfurt-Hamburg,2026-11-01,Germany Bundesliga,Ein Frankfurt,Hamburg,3-1,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.846,won,Live
+2026-11-01-Ein-Frankfurt-Hamburg|3,2026-11-01-Ein-Frankfurt-Hamburg,2026-11-01,Germany Bundesliga,Ein Frankfurt,Hamburg,3-1,Pick 3,Corners,Home Team Corners,Home Corners Over 3.5,0.833,won,Live
+2026-11-01-Union-Berlin-FC-Koln|0,2026-11-01-Union-Berlin-FC-Koln,2026-11-01,Germany Bundesliga,Union Berlin,FC Koln,1-1,Best,Corners,Total Corners,Corners Over 7.5,0.782,won,Live
 2026-11-01-Union-Berlin-FC-Koln|1,2026-11-01-Union-Berlin-FC-Koln,2026-11-01,Germany Bundesliga,Union Berlin,FC Koln,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.628,won,Live
-2026-11-01-Union-Berlin-FC-Koln|2,2026-11-01-Union-Berlin-FC-Koln,2026-11-01,Germany Bundesliga,Union Berlin,FC Koln,1-1,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.829,pending,Live
-2026-11-01-Union-Berlin-FC-Koln|3,2026-11-01-Union-Berlin-FC-Koln,2026-11-01,Germany Bundesliga,Union Berlin,FC Koln,1-1,Pick 3,Corners,Away Team Corners,Away Corners Over 2.5,0.818,pending,Live
+2026-11-01-Union-Berlin-FC-Koln|2,2026-11-01-Union-Berlin-FC-Koln,2026-11-01,Germany Bundesliga,Union Berlin,FC Koln,1-1,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.829,lost,Live
+2026-11-01-Union-Berlin-FC-Koln|3,2026-11-01-Union-Berlin-FC-Koln,2026-11-01,Germany Bundesliga,Union Berlin,FC Koln,1-1,Pick 3,Corners,Away Team Corners,Away Corners Over 2.5,0.818,won,Live
 2026-11-01-Levadeiakos-Aris-Thessaloniki|0,2026-11-01-Levadeiakos-Aris-Thessaloniki,2026-11-01,Greece Super League,Levadeiakos,Aris Thessaloniki,3-0,Best,Goals,Away Team Over/Under,Away Over 0.5,0.77,lost,Live
-2026-11-01-Levadeiakos-Aris|0,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,,Best,Goals,Away Team Over/Under,Away Over 0.5,0.77,pending,Live
+2026-11-01-Levadeiakos-Aris|0,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,3-0,Best,Goals,Away Team Over/Under,Away Over 0.5,0.77,lost,Live
 2026-11-01-Levadeiakos-Aris-Thessaloniki|1,2026-11-01-Levadeiakos-Aris-Thessaloniki,2026-11-01,Greece Super League,Levadeiakos,Aris Thessaloniki,3-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.742,lost,Live
-2026-11-01-Levadeiakos-Aris|1,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.748,pending,Live
+2026-11-01-Levadeiakos-Aris|1,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,3-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.748,lost,Live
 2026-11-01-Levadeiakos-Aris-Thessaloniki|2,2026-11-01-Levadeiakos-Aris-Thessaloniki,2026-11-01,Greece Super League,Levadeiakos,Aris Thessaloniki,3-0,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.816,won,Live
-2026-11-01-Levadeiakos-Aris|2,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.816,pending,Live
+2026-11-01-Levadeiakos-Aris|2,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,3-0,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.816,won,Live
 2026-11-01-Levadeiakos-Aris-Thessaloniki|3,2026-11-01-Levadeiakos-Aris-Thessaloniki,2026-11-01,Greece Super League,Levadeiakos,Aris Thessaloniki,3-0,Pick 3,Goals,Multigoals,Multigoals 1-4,0.802,won,Live
-2026-11-01-Levadeiakos-Aris|3,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.803,pending,Live
+2026-11-01-Levadeiakos-Aris|3,2026-11-01-Levadeiakos-Aris,2026-11-01,Greece Super League,Levadeiakos,Aris,3-0,Pick 3,Goals,Multigoals,Multigoals 1-4,0.803,won,Live
 2026-11-01-PAOK-Asteras-Tripolis|0,2026-11-01-PAOK-Asteras-Tripolis,2026-11-01,Greece Super League,PAOK,Asteras Tripolis,2-1,Best,Goals,Multigoals,Multigoals 2-6,0.778,won,Live
 2026-11-01-PAOK-Asteras-Tripolis|1,2026-11-01-PAOK-Asteras-Tripolis,2026-11-01,Greece Super League,PAOK,Asteras Tripolis,2-1,Pick 1,Result,1X2 / Double Chance,Home,0.712,won,Live
 2026-11-01-PAOK-Asteras-Tripolis|2,2026-11-01-PAOK-Asteras-Tripolis,2026-11-01,Greece Super League,PAOK,Asteras Tripolis,2-1,Pick 2,Goals,Away Team Over/Under,Away Under 1.5,0.82,won,Live
@@ -77,24 +117,24 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-11-01-Panetolikos-Agrinio-OFI-Crete|3,2026-11-01-Panetolikos-Agrinio-OFI-Crete,2026-11-01,Greece Super League,Panetolikos Agrinio,OFI Crete,,Pick 3,Goals,Over/Under,Under 3.5,0.775,pending,Live
 2026-11-01-Como-Venezia|0,2026-11-01-Como-Venezia,2026-11-01,Italy Serie A,Como,Venezia,1-0,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.789,won,Live
 2026-11-01-Como-Venezia|1,2026-11-01-Como-Venezia,2026-11-01,Italy Serie A,Como,Venezia,1-0,Pick 1,Result,1X2 / Double Chance,Home,0.73,won,Live
-2026-11-01-Como-Venezia|2,2026-11-01-Como-Venezia,2026-11-01,Italy Serie A,Como,Venezia,1-0,Pick 2,Corners,Home Team Corners,Home Corners Over 3.5,0.835,pending,Live
+2026-11-01-Como-Venezia|2,2026-11-01-Como-Venezia,2026-11-01,Italy Serie A,Como,Venezia,1-0,Pick 2,Corners,Home Team Corners,Home Corners Over 3.5,0.835,won,Live
 2026-11-01-Como-Venezia|3,2026-11-01-Como-Venezia,2026-11-01,Italy Serie A,Como,Venezia,1-0,Pick 3,Goals,Multigoals,Multigoals 1-5,0.823,won,Live
-2026-11-01-Frosinone-Torino|0,2026-11-01-Frosinone-Torino,2026-11-01,Italy Serie A,Frosinone,Torino,2-0,Best,Corners,Total Corners,Corners Over 7.5,0.784,pending,Live
+2026-11-01-Frosinone-Torino|0,2026-11-01-Frosinone-Torino,2026-11-01,Italy Serie A,Frosinone,Torino,2-0,Best,Corners,Total Corners,Corners Over 7.5,0.784,won,Live
 2026-11-01-Frosinone-Torino|1,2026-11-01-Frosinone-Torino,2026-11-01,Italy Serie A,Frosinone,Torino,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.679,won,Live
-2026-11-01-Frosinone-Torino|2,2026-11-01-Frosinone-Torino,2026-11-01,Italy Serie A,Frosinone,Torino,2-0,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.848,pending,Live
+2026-11-01-Frosinone-Torino|2,2026-11-01-Frosinone-Torino,2026-11-01,Italy Serie A,Frosinone,Torino,2-0,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.848,won,Live
 2026-11-01-Frosinone-Torino|3,2026-11-01-Frosinone-Torino,2026-11-01,Italy Serie A,Frosinone,Torino,2-0,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.846,won,Live
-2026-11-01-Juventus-Napoli|0,2026-11-01-Juventus-Napoli,2026-11-01,Italy Serie A,Juventus,Napoli,2-0,Best,Corners,Away Team Corners,Away Corners Over 2.5,0.774,pending,Live
+2026-11-01-Juventus-Napoli|0,2026-11-01-Juventus-Napoli,2026-11-01,Italy Serie A,Juventus,Napoli,2-0,Best,Corners,Away Team Corners,Away Corners Over 2.5,0.774,won,Live
 2026-11-01-Juventus-Napoli|1,2026-11-01-Juventus-Napoli,2026-11-01,Italy Serie A,Juventus,Napoli,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.699,won,Live
-2026-11-01-Juventus-Napoli|2,2026-11-01-Juventus-Napoli,2026-11-01,Italy Serie A,Juventus,Napoli,2-0,Pick 2,Corners,Total Corners,Corners Under 12.5,0.847,pending,Live
+2026-11-01-Juventus-Napoli|2,2026-11-01-Juventus-Napoli,2026-11-01,Italy Serie A,Juventus,Napoli,2-0,Pick 2,Corners,Total Corners,Corners Under 12.5,0.847,lost,Live
 2026-11-01-Juventus-Napoli|3,2026-11-01-Juventus-Napoli,2026-11-01,Italy Serie A,Juventus,Napoli,2-0,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.826,won,Live
 2026-11-01-Lazio-Cagliari|0,2026-11-01-Lazio-Cagliari,2026-11-01,Italy Serie A,Lazio,Cagliari,2-1,Best,Goals,Multigoals,Multigoals 1-4,0.785,won,Live
 2026-11-01-Lazio-Cagliari|1,2026-11-01-Lazio-Cagliari,2026-11-01,Italy Serie A,Lazio,Cagliari,2-1,Pick 1,Result,1X2 / Double Chance,Home,0.654,won,Live
-2026-11-01-Lazio-Cagliari|2,2026-11-01-Lazio-Cagliari,2026-11-01,Italy Serie A,Lazio,Cagliari,2-1,Pick 2,Cards,Total Cards,Cards Under 6.5,0.847,pending,Live
-2026-11-01-Lazio-Cagliari|3,2026-11-01-Lazio-Cagliari,2026-11-01,Italy Serie A,Lazio,Cagliari,2-1,Pick 3,Corners,Total Corners,Corners Under 12.5,0.828,pending,Live
-2026-11-01-Lecce-Genoa|0,2026-11-01-Lecce-Genoa,2026-11-01,Italy Serie A,Lecce,Genoa,1-2,Best,Corners,Total Corners,Corners Under 11.5,0.763,pending,Live
+2026-11-01-Lazio-Cagliari|2,2026-11-01-Lazio-Cagliari,2026-11-01,Italy Serie A,Lazio,Cagliari,2-1,Pick 2,Cards,Total Cards,Cards Under 6.5,0.847,won,Live
+2026-11-01-Lazio-Cagliari|3,2026-11-01-Lazio-Cagliari,2026-11-01,Italy Serie A,Lazio,Cagliari,2-1,Pick 3,Corners,Total Corners,Corners Under 12.5,0.828,won,Live
+2026-11-01-Lecce-Genoa|0,2026-11-01-Lecce-Genoa,2026-11-01,Italy Serie A,Lecce,Genoa,1-2,Best,Corners,Total Corners,Corners Under 11.5,0.763,won,Live
 2026-11-01-Lecce-Genoa|1,2026-11-01-Lecce-Genoa,2026-11-01,Italy Serie A,Lecce,Genoa,1-2,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.698,won,Live
-2026-11-01-Lecce-Genoa|2,2026-11-01-Lecce-Genoa,2026-11-01,Italy Serie A,Lecce,Genoa,1-2,Pick 2,Corners,Home Team Corners,Home Corners Over 2.5,0.841,pending,Live
-2026-11-01-Lecce-Genoa|3,2026-11-01-Lecce-Genoa,2026-11-01,Italy Serie A,Lecce,Genoa,1-2,Pick 3,Cards,Total Cards,Cards Under 5.5,0.808,pending,Live
+2026-11-01-Lecce-Genoa|2,2026-11-01-Lecce-Genoa,2026-11-01,Italy Serie A,Lecce,Genoa,1-2,Pick 2,Corners,Home Team Corners,Home Corners Over 2.5,0.841,won,Live
+2026-11-01-Lecce-Genoa|3,2026-11-01-Lecce-Genoa,2026-11-01,Italy Serie A,Lecce,Genoa,1-2,Pick 3,Cards,Total Cards,Cards Under 5.5,0.808,won,Live
 2026-11-01-Excelsior-Twente|0,2026-11-01-Excelsior-Twente,2026-11-01,Netherlands Eredivisie,Excelsior,Twente,0-9,Best,Result,1X2 / Double Chance,Home/Away,0.786,won,Live
 2026-11-01-Excelsior-Twente|1,2026-11-01-Excelsior-Twente,2026-11-01,Netherlands Eredivisie,Excelsior,Twente,0-9,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.81,won,Live
 2026-11-01-Excelsior-Twente|2,2026-11-01-Excelsior-Twente,2026-11-01,Netherlands Eredivisie,Excelsior,Twente,0-9,Pick 2,Goals,Over/Under,Over 1.5,0.847,won,Live
@@ -147,15 +187,15 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-11-01-Falkirk-F-C-Celtic|1,2026-11-01-Falkirk-F-C-Celtic,2026-11-01,Scotland Premiership,Falkirk F.C.,Celtic,2-0,Pick 1,Result,1X2 / Double Chance,Away,0.655,lost,Live
 2026-11-01-Falkirk-F-C-Celtic|2,2026-11-01-Falkirk-F-C-Celtic,2026-11-01,Scotland Premiership,Falkirk F.C.,Celtic,2-0,Pick 2,Goals,Multigoals,Multigoals 1-5,0.838,won,Live
 2026-11-01-Falkirk-F-C-Celtic|3,2026-11-01-Falkirk-F-C-Celtic,2026-11-01,Scotland Premiership,Falkirk F.C.,Celtic,2-0,Pick 3,Goals,1st Half Over/Under,1st Half Over 0.5,0.774,won,Live
-2026-11-01-Ath-Bilbao-Sociedad|0,2026-11-01-Ath-Bilbao-Sociedad,2026-11-01,Spain La Liga,Ath Bilbao,Sociedad,2-1,Best,Corners,Total Corners,Corners Under 12.5,0.783,pending,Live
+2026-11-01-Ath-Bilbao-Sociedad|0,2026-11-01-Ath-Bilbao-Sociedad,2026-11-01,Spain La Liga,Ath Bilbao,Sociedad,2-1,Best,Corners,Total Corners,Corners Under 12.5,0.783,lost,Live
 2026-11-01-Ath-Bilbao-Sociedad|1,2026-11-01-Ath-Bilbao-Sociedad,2026-11-01,Spain La Liga,Ath Bilbao,Sociedad,2-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.699,won,Live
 2026-11-01-Ath-Bilbao-Sociedad|2,2026-11-01-Ath-Bilbao-Sociedad,2026-11-01,Spain La Liga,Ath Bilbao,Sociedad,2-1,Pick 2,Goals,Over/Under,Under 4.5,0.825,won,Live
-2026-11-01-Ath-Bilbao-Sociedad|3,2026-11-01-Ath-Bilbao-Sociedad,2026-11-01,Spain La Liga,Ath Bilbao,Sociedad,2-1,Pick 3,Cards,Total Cards,Cards Over 2.5,0.82,pending,Live
-2026-11-01-Elche-Valencia|0,2026-11-01-Elche-Valencia,2026-11-01,Spain La Liga,Elche,Valencia,0-1,Best,Cards,Away Team Cards,Away Cards Under 3.5,0.79,pending,Live
+2026-11-01-Ath-Bilbao-Sociedad|3,2026-11-01-Ath-Bilbao-Sociedad,2026-11-01,Spain La Liga,Ath Bilbao,Sociedad,2-1,Pick 3,Cards,Total Cards,Cards Over 2.5,0.82,won,Live
+2026-11-01-Elche-Valencia|0,2026-11-01-Elche-Valencia,2026-11-01,Spain La Liga,Elche,Valencia,0-1,Best,Cards,Away Team Cards,Away Cards Under 3.5,0.79,won,Live
 2026-11-01-Elche-Valencia|1,2026-11-01-Elche-Valencia,2026-11-01,Spain La Liga,Elche,Valencia,0-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.685,lost,Live
-2026-11-01-Elche-Valencia|2,2026-11-01-Elche-Valencia,2026-11-01,Spain La Liga,Elche,Valencia,0-1,Pick 2,Corners,Home Team Corners,Home Corners Under 7.5,0.847,pending,Live
+2026-11-01-Elche-Valencia|2,2026-11-01-Elche-Valencia,2026-11-01,Spain La Liga,Elche,Valencia,0-1,Pick 2,Corners,Home Team Corners,Home Corners Under 7.5,0.847,won,Live
 2026-11-01-Elche-Valencia|3,2026-11-01-Elche-Valencia,2026-11-01,Spain La Liga,Elche,Valencia,0-1,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.831,won,Live
-2026-11-01-Getafe-Sevilla|0,2026-11-01-Getafe-Sevilla,2026-11-01,Spain La Liga,Getafe,Sevilla,3-1,Best,Cards,Total Cards,Cards Over 3.5,0.781,pending,Live
+2026-11-01-Getafe-Sevilla|0,2026-11-01-Getafe-Sevilla,2026-11-01,Spain La Liga,Getafe,Sevilla,3-1,Best,Cards,Total Cards,Cards Over 3.5,0.781,won,Live
 2026-11-01-Getafe-Sevilla|1,2026-11-01-Getafe-Sevilla,2026-11-01,Spain La Liga,Getafe,Sevilla,3-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.698,lost,Live
 2026-11-01-Getafe-Sevilla|2,2026-11-01-Getafe-Sevilla,2026-11-01,Spain La Liga,Getafe,Sevilla,3-1,Pick 2,Goals,Multigoals,Multigoals 1-5,0.849,won,Live
 2026-11-01-Getafe-Sevilla|3,2026-11-01-Getafe-Sevilla,2026-11-01,Spain La Liga,Getafe,Sevilla,3-1,Pick 3,Goals,Over/Under,Under 3.5,0.839,lost,Live
@@ -355,25 +395,25 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-10-31-Tranmere-Cheltenham|1,2026-10-31-Tranmere-Cheltenham,2026-10-31,England League Two,Tranmere,Cheltenham,3-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.747,won,Live
 2026-10-31-Tranmere-Cheltenham|2,2026-10-31-Tranmere-Cheltenham,2026-10-31,England League Two,Tranmere,Cheltenham,3-1,Pick 2,Goals,Over/Under,Under 4.5,0.841,won,Live
 2026-10-31-Tranmere-Cheltenham|3,2026-10-31-Tranmere-Cheltenham,2026-10-31,England League Two,Tranmere,Cheltenham,3-1,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.815,won,Live
-2026-10-31-Aston-Villa-Fulham|0,2026-10-31-Aston-Villa-Fulham,2026-10-31,England Premier League,Aston Villa,Fulham,1-1,Best,Cards,Home Team Cards,Home Cards Under 2.5,0.78,pending,Live
+2026-10-31-Aston-Villa-Fulham|0,2026-10-31-Aston-Villa-Fulham,2026-10-31,England Premier League,Aston Villa,Fulham,1-1,Best,Cards,Home Team Cards,Home Cards Under 2.5,0.78,won,Live
 2026-10-31-Aston-Villa-Fulham|1,2026-10-31-Aston-Villa-Fulham,2026-10-31,England Premier League,Aston Villa,Fulham,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.744,won,Live
 2026-10-31-Aston-Villa-Fulham|2,2026-10-31-Aston-Villa-Fulham,2026-10-31,England Premier League,Aston Villa,Fulham,1-1,Pick 2,Goals,Over/Under,Under 4.5,0.829,won,Live
 2026-10-31-Aston-Villa-Fulham|3,2026-10-31-Aston-Villa-Fulham,2026-10-31,England Premier League,Aston Villa,Fulham,1-1,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.823,won,Live
 2026-10-31-Bournemouth-Leeds|0,2026-10-31-Bournemouth-Leeds,2026-10-31,England Premier League,Bournemouth,Leeds,2-0,Best,Goals,Home Team Over/Under,Home Over 0.5,0.788,won,Live
 2026-10-31-Bournemouth-Leeds|1,2026-10-31-Bournemouth-Leeds,2026-10-31,England Premier League,Bournemouth,Leeds,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.72,won,Live
-2026-10-31-Bournemouth-Leeds|2,2026-10-31-Bournemouth-Leeds,2026-10-31,England Premier League,Bournemouth,Leeds,2-0,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.848,pending,Live
-2026-10-31-Bournemouth-Leeds|3,2026-10-31-Bournemouth-Leeds,2026-10-31,England Premier League,Bournemouth,Leeds,2-0,Pick 3,Corners,Away Team Corners,Away Corners Under 6.5,0.834,pending,Live
+2026-10-31-Bournemouth-Leeds|2,2026-10-31-Bournemouth-Leeds,2026-10-31,England Premier League,Bournemouth,Leeds,2-0,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.848,won,Live
+2026-10-31-Bournemouth-Leeds|3,2026-10-31-Bournemouth-Leeds,2026-10-31,England Premier League,Bournemouth,Leeds,2-0,Pick 3,Corners,Away Team Corners,Away Corners Under 6.5,0.834,won,Live
 2026-10-31-Brentford-Nott-m-Forest|0,2026-10-31-Brentford-Nott-m-Forest,2026-10-31,England Premier League,Brentford,Nott'm Forest,2-0,Best,Goals,Over/Under,Over 1.5,0.789,won,Live
 2026-10-31-Brentford-Nott-m-Forest|1,2026-10-31-Brentford-Nott-m-Forest,2026-10-31,England Premier League,Brentford,Nott'm Forest,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.722,won,Live
-2026-10-31-Brentford-Nott-m-Forest|2,2026-10-31-Brentford-Nott-m-Forest,2026-10-31,England Premier League,Brentford,Nott'm Forest,2-0,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.845,pending,Live
+2026-10-31-Brentford-Nott-m-Forest|2,2026-10-31-Brentford-Nott-m-Forest,2026-10-31,England Premier League,Brentford,Nott'm Forest,2-0,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.845,won,Live
 2026-10-31-Brentford-Nott-m-Forest|3,2026-10-31-Brentford-Nott-m-Forest,2026-10-31,England Premier League,Brentford,Nott'm Forest,2-0,Pick 3,Goals,Over/Under,Under 4.5,0.835,won,Live
-2026-10-31-Chelsea-Man-United|0,2026-10-31-Chelsea-Man-United,2026-10-31,England Premier League,Chelsea,Man United,2-0,Best,Cards,Away Team Cards,Away Cards Under 3.5,0.786,pending,Live
+2026-10-31-Chelsea-Man-United|0,2026-10-31-Chelsea-Man-United,2026-10-31,England Premier League,Chelsea,Man United,2-0,Best,Cards,Away Team Cards,Away Cards Under 3.5,0.786,lost,Live
 2026-10-31-Chelsea-Man-United|1,2026-10-31-Chelsea-Man-United,2026-10-31,England Premier League,Chelsea,Man United,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.763,won,Live
 2026-10-31-Chelsea-Man-United|2,2026-10-31-Chelsea-Man-United,2026-10-31,England Premier League,Chelsea,Man United,2-0,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.849,won,Live
-2026-10-31-Chelsea-Man-United|3,2026-10-31-Chelsea-Man-United,2026-10-31,England Premier League,Chelsea,Man United,2-0,Pick 3,Cards,Home Team Cards,Home Cards Under 3.5,0.828,pending,Live
-2026-10-31-Coventry-Sunderland|0,2026-10-31-Coventry-Sunderland,2026-10-31,England Premier League,Coventry,Sunderland,3-1,Best,Corners,Total Corners,Corners Under 11.5,0.78,pending,Live
+2026-10-31-Chelsea-Man-United|3,2026-10-31-Chelsea-Man-United,2026-10-31,England Premier League,Chelsea,Man United,2-0,Pick 3,Cards,Home Team Cards,Home Cards Under 3.5,0.828,won,Live
+2026-10-31-Coventry-Sunderland|0,2026-10-31-Coventry-Sunderland,2026-10-31,England Premier League,Coventry,Sunderland,3-1,Best,Corners,Total Corners,Corners Under 11.5,0.78,won,Live
 2026-10-31-Coventry-Sunderland|1,2026-10-31-Coventry-Sunderland,2026-10-31,England Premier League,Coventry,Sunderland,3-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.688,lost,Live
-2026-10-31-Coventry-Sunderland|2,2026-10-31-Coventry-Sunderland,2026-10-31,England Premier League,Coventry,Sunderland,3-1,Pick 2,Cards,Total Cards,Cards Under 5.5,0.848,pending,Live
+2026-10-31-Coventry-Sunderland|2,2026-10-31-Coventry-Sunderland,2026-10-31,England Premier League,Coventry,Sunderland,3-1,Pick 2,Cards,Total Cards,Cards Under 5.5,0.848,won,Live
 2026-10-31-Coventry-Sunderland|3,2026-10-31-Coventry-Sunderland,2026-10-31,England Premier League,Coventry,Sunderland,3-1,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.826,won,Live
 2026-10-31-Hull-Ipswich|0,2026-10-31-Hull-Ipswich,2026-10-31,England Premier League,Hull,Ipswich,2-2,Best,Goals,Multigoals,Multigoals 1-4,0.787,won,Live
 2026-10-31-Hull-Ipswich|1,2026-10-31-Hull-Ipswich,2026-10-31,England Premier League,Hull,Ipswich,2-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.64,won,Live
@@ -381,40 +421,40 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-10-31-Hull-Ipswich|3,2026-10-31-Hull-Ipswich,2026-10-31,England Premier League,Hull,Ipswich,2-2,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.841,won,Live
 2026-10-31-Man-City-Brighton|0,2026-10-31-Man-City-Brighton,2026-10-31,England Premier League,Man City,Brighton,0-1,Best,Result,1X2 / Double Chance,Home/Away,0.789,won,Live
 2026-10-31-Man-City-Brighton|1,2026-10-31-Man-City-Brighton,2026-10-31,England Premier League,Man City,Brighton,0-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.793,lost,Live
-2026-10-31-Man-City-Brighton|2,2026-10-31-Man-City-Brighton,2026-10-31,England Premier League,Man City,Brighton,0-1,Pick 2,Cards,Home Team Cards,Home Cards Over 0.5,0.829,pending,Live
+2026-10-31-Man-City-Brighton|2,2026-10-31-Man-City-Brighton,2026-10-31,England Premier League,Man City,Brighton,0-1,Pick 2,Cards,Home Team Cards,Home Cards Over 0.5,0.829,lost,Live
 2026-10-31-Man-City-Brighton|3,2026-10-31-Man-City-Brighton,2026-10-31,England Premier League,Man City,Brighton,0-1,Pick 3,Goals,Multigoals,Multigoals 1-5,0.824,won,Live
-2026-10-31-Tottenham-Crystal-Palace|0,2026-10-31-Tottenham-Crystal-Palace,2026-10-31,England Premier League,Tottenham,Crystal Palace,2-0,Best,Corners,Away Team Corners,Away Corners Under 5.5,0.785,pending,Live
+2026-10-31-Tottenham-Crystal-Palace|0,2026-10-31-Tottenham-Crystal-Palace,2026-10-31,England Premier League,Tottenham,Crystal Palace,2-0,Best,Corners,Away Team Corners,Away Corners Under 5.5,0.785,won,Live
 2026-10-31-Tottenham-Crystal-Palace|1,2026-10-31-Tottenham-Crystal-Palace,2026-10-31,England Premier League,Tottenham,Crystal Palace,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.832,won,Live
 2026-10-31-Tottenham-Crystal-Palace|2,2026-10-31-Tottenham-Crystal-Palace,2026-10-31,England Premier League,Tottenham,Crystal Palace,2-0,Pick 2,Goals,Over/Under,Over 1.5,0.821,won,Live
-2026-10-31-Tottenham-Crystal-Palace|3,2026-10-31-Tottenham-Crystal-Palace,2026-10-31,England Premier League,Tottenham,Crystal Palace,2-0,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.798,pending,Live
-2026-10-31-Troyes-Le-Mans|0,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,,Best,Goals,Multigoals,Multigoals 1-4,0.785,pending,Live
-2026-10-31-Troyes-Le-Mans|1,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.68,pending,Live
-2026-10-31-Troyes-Le-Mans|2,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,,Pick 2,Cards,Home Team Cards,Home Cards Over 0.5,0.819,pending,Live
-2026-10-31-Troyes-Le-Mans|3,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,,Pick 3,Corners,Total Corners,Corners Under 12.5,0.818,pending,Live
-2026-10-31-Augsburg-Freiburg|0,2026-10-31-Augsburg-Freiburg,2026-10-31,Germany Bundesliga,Augsburg,Freiburg,1-2,Best,Corners,Away Team Corners,Away Corners Over 2.5,0.786,pending,Live
+2026-10-31-Tottenham-Crystal-Palace|3,2026-10-31-Tottenham-Crystal-Palace,2026-10-31,England Premier League,Tottenham,Crystal Palace,2-0,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.798,won,Live
+2026-10-31-Troyes-Le-Mans|0,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,2-0,Best,Goals,Multigoals,Multigoals 1-4,0.785,won,Live
+2026-10-31-Troyes-Le-Mans|1,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.68,won,Live
+2026-10-31-Troyes-Le-Mans|2,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,2-0,Pick 2,Cards,Home Team Cards,Home Cards Over 0.5,0.819,won,Live
+2026-10-31-Troyes-Le-Mans|3,2026-10-31-Troyes-Le-Mans,2026-10-31,France Ligue 1,Troyes,Le Mans,2-0,Pick 3,Corners,Total Corners,Corners Under 12.5,0.818,won,Live
+2026-10-31-Augsburg-Freiburg|0,2026-10-31-Augsburg-Freiburg,2026-10-31,Germany Bundesliga,Augsburg,Freiburg,1-2,Best,Corners,Away Team Corners,Away Corners Over 2.5,0.786,lost,Live
 2026-10-31-Augsburg-Freiburg|1,2026-10-31-Augsburg-Freiburg,2026-10-31,Germany Bundesliga,Augsburg,Freiburg,1-2,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.682,won,Live
 2026-10-31-Augsburg-Freiburg|2,2026-10-31-Augsburg-Freiburg,2026-10-31,Germany Bundesliga,Augsburg,Freiburg,1-2,Pick 2,Goals,Over/Under,Over 1.5,0.85,won,Live
-2026-10-31-Augsburg-Freiburg|3,2026-10-31-Augsburg-Freiburg,2026-10-31,Germany Bundesliga,Augsburg,Freiburg,1-2,Pick 3,Cards,Away Team Cards,Away Cards Over 0.5,0.842,pending,Live
-2026-10-31-Bayern-Munich-Dortmund|0,2026-10-31-Bayern-Munich-Dortmund,2026-10-31,Germany Bundesliga,Bayern Munich,Dortmund,2-2,Best,Cards,Home Team Cards,Home Cards Over 0.5,0.787,pending,Live
+2026-10-31-Augsburg-Freiburg|3,2026-10-31-Augsburg-Freiburg,2026-10-31,Germany Bundesliga,Augsburg,Freiburg,1-2,Pick 3,Cards,Away Team Cards,Away Cards Over 0.5,0.842,won,Live
+2026-10-31-Bayern-Munich-Dortmund|0,2026-10-31-Bayern-Munich-Dortmund,2026-10-31,Germany Bundesliga,Bayern Munich,Dortmund,2-2,Best,Cards,Home Team Cards,Home Cards Over 0.5,0.787,won,Live
 2026-10-31-Bayern-Munich-Dortmund|1,2026-10-31-Bayern-Munich-Dortmund,2026-10-31,Germany Bundesliga,Bayern Munich,Dortmund,2-2,Pick 1,Result,1X2 / Double Chance,Home,0.718,lost,Live
-2026-10-31-Bayern-Munich-Dortmund|2,2026-10-31-Bayern-Munich-Dortmund,2026-10-31,Germany Bundesliga,Bayern Munich,Dortmund,2-2,Pick 2,Corners,Away Team Corners,Away Corners Under 5.5,0.843,pending,Live
-2026-10-31-Bayern-Munich-Dortmund|3,2026-10-31-Bayern-Munich-Dortmund,2026-10-31,Germany Bundesliga,Bayern Munich,Dortmund,2-2,Pick 3,Cards,Total Cards,Cards Under 5.5,0.835,pending,Live
+2026-10-31-Bayern-Munich-Dortmund|2,2026-10-31-Bayern-Munich-Dortmund,2026-10-31,Germany Bundesliga,Bayern Munich,Dortmund,2-2,Pick 2,Corners,Away Team Corners,Away Corners Under 5.5,0.843,won,Live
+2026-10-31-Bayern-Munich-Dortmund|3,2026-10-31-Bayern-Munich-Dortmund,2026-10-31,Germany Bundesliga,Bayern Munich,Dortmund,2-2,Pick 3,Cards,Total Cards,Cards Under 5.5,0.835,won,Live
 2026-10-31-Leverkusen-Stuttgart|0,2026-10-31-Leverkusen-Stuttgart,2026-10-31,Germany Bundesliga,Leverkusen,Stuttgart,2-4,Best,Result,1X2 / Double Chance,Home/Away,0.788,won,Live
 2026-10-31-Leverkusen-Stuttgart|1,2026-10-31-Leverkusen-Stuttgart,2026-10-31,Germany Bundesliga,Leverkusen,Stuttgart,2-4,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.747,lost,Live
-2026-10-31-Leverkusen-Stuttgart|2,2026-10-31-Leverkusen-Stuttgart,2026-10-31,Germany Bundesliga,Leverkusen,Stuttgart,2-4,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.834,pending,Live
-2026-10-31-Leverkusen-Stuttgart|3,2026-10-31-Leverkusen-Stuttgart,2026-10-31,Germany Bundesliga,Leverkusen,Stuttgart,2-4,Pick 3,Corners,Home Team Corners,Home Corners Over 3.5,0.828,pending,Live
-2026-10-31-M-gladbach-Paderborn|0,2026-10-31-M-gladbach-Paderborn,2026-10-31,Germany Bundesliga,M'gladbach,Paderborn,0-0,Best,Corners,Total Corners,Corners Under 12.5,0.789,pending,Live
+2026-10-31-Leverkusen-Stuttgart|2,2026-10-31-Leverkusen-Stuttgart,2026-10-31,Germany Bundesliga,Leverkusen,Stuttgart,2-4,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.834,lost,Live
+2026-10-31-Leverkusen-Stuttgart|3,2026-10-31-Leverkusen-Stuttgart,2026-10-31,Germany Bundesliga,Leverkusen,Stuttgart,2-4,Pick 3,Corners,Home Team Corners,Home Corners Over 3.5,0.828,won,Live
+2026-10-31-M-gladbach-Paderborn|0,2026-10-31-M-gladbach-Paderborn,2026-10-31,Germany Bundesliga,M'gladbach,Paderborn,0-0,Best,Corners,Total Corners,Corners Under 12.5,0.789,won,Live
 2026-10-31-M-gladbach-Paderborn|1,2026-10-31-M-gladbach-Paderborn,2026-10-31,Germany Bundesliga,M'gladbach,Paderborn,0-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.723,won,Live
 2026-10-31-M-gladbach-Paderborn|2,2026-10-31-M-gladbach-Paderborn,2026-10-31,Germany Bundesliga,M'gladbach,Paderborn,0-0,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.849,lost,Live
 2026-10-31-M-gladbach-Paderborn|3,2026-10-31-M-gladbach-Paderborn,2026-10-31,Germany Bundesliga,M'gladbach,Paderborn,0-0,Pick 3,Goals,Over/Under,Over 1.5,0.845,lost,Live
-2026-10-31-Schalke-04-RB-Leipzig|0,2026-10-31-Schalke-04-RB-Leipzig,2026-10-31,Germany Bundesliga,Schalke 04,RB Leipzig,0-2,Best,Cards,Home Team Cards,Home Cards Over 0.5,0.784,pending,Live
+2026-10-31-Schalke-04-RB-Leipzig|0,2026-10-31-Schalke-04-RB-Leipzig,2026-10-31,Germany Bundesliga,Schalke 04,RB Leipzig,0-2,Best,Cards,Home Team Cards,Home Cards Over 0.5,0.784,won,Live
 2026-10-31-Schalke-04-RB-Leipzig|1,2026-10-31-Schalke-04-RB-Leipzig,2026-10-31,Germany Bundesliga,Schalke 04,RB Leipzig,0-2,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.752,won,Live
-2026-10-31-Schalke-04-RB-Leipzig|2,2026-10-31-Schalke-04-RB-Leipzig,2026-10-31,Germany Bundesliga,Schalke 04,RB Leipzig,0-2,Pick 2,Cards,Total Cards,Cards Under 5.5,0.85,pending,Live
+2026-10-31-Schalke-04-RB-Leipzig|2,2026-10-31-Schalke-04-RB-Leipzig,2026-10-31,Germany Bundesliga,Schalke 04,RB Leipzig,0-2,Pick 2,Cards,Total Cards,Cards Under 5.5,0.85,won,Live
 2026-10-31-Schalke-04-RB-Leipzig|3,2026-10-31-Schalke-04-RB-Leipzig,2026-10-31,Germany Bundesliga,Schalke 04,RB Leipzig,0-2,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.845,won,Live
 2026-10-31-Werder-Bremen-Hoffenheim|0,2026-10-31-Werder-Bremen-Hoffenheim,2026-10-31,Germany Bundesliga,Werder Bremen,Hoffenheim,2-0,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.786,lost,Live
 2026-10-31-Werder-Bremen-Hoffenheim|1,2026-10-31-Werder-Bremen-Hoffenheim,2026-10-31,Germany Bundesliga,Werder Bremen,Hoffenheim,2-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.658,lost,Live
-2026-10-31-Werder-Bremen-Hoffenheim|2,2026-10-31-Werder-Bremen-Hoffenheim,2026-10-31,Germany Bundesliga,Werder Bremen,Hoffenheim,2-0,Pick 2,Corners,Home Team Corners,Home Corners Over 2.5,0.842,pending,Live
-2026-10-31-Werder-Bremen-Hoffenheim|3,2026-10-31-Werder-Bremen-Hoffenheim,2026-10-31,Germany Bundesliga,Werder Bremen,Hoffenheim,2-0,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.84,pending,Live
+2026-10-31-Werder-Bremen-Hoffenheim|2,2026-10-31-Werder-Bremen-Hoffenheim,2026-10-31,Germany Bundesliga,Werder Bremen,Hoffenheim,2-0,Pick 2,Corners,Home Team Corners,Home Corners Over 2.5,0.842,won,Live
+2026-10-31-Werder-Bremen-Hoffenheim|3,2026-10-31-Werder-Bremen-Hoffenheim,2026-10-31,Germany Bundesliga,Werder Bremen,Hoffenheim,2-0,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.84,won,Live
 2026-10-31-AE-Kifisia-FC-Olympiakos|0,2026-10-31-AE-Kifisia-FC-Olympiakos,2026-10-31,Greece Super League,AE Kifisia FC,Olympiakos,2-3,Best,Goals,Multigoals,Multigoals 1-4,0.79,lost,Live
 2026-10-31-AE-Kifisia-FC-Olympiakos|1,2026-10-31-AE-Kifisia-FC-Olympiakos,2026-10-31,Greece Super League,AE Kifisia FC,Olympiakos,2-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.864,won,Live
 2026-10-31-AE-Kifisia-FC-Olympiakos|2,2026-10-31-AE-Kifisia-FC-Olympiakos,2026-10-31,Greece Super League,AE Kifisia FC,Olympiakos,2-3,Pick 2,Goals,Home Team Over/Under,Home Under 1.5,0.82,lost,Live
@@ -426,15 +466,15 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-10-31-Bologna-Monza|0,2026-10-31-Bologna-Monza,2026-10-31,Italy Serie A,Bologna,Monza,2-1,Best,Goals,Multigoals,Multigoals 1-4,0.784,won,Live
 2026-10-31-Bologna-Monza|1,2026-10-31-Bologna-Monza,2026-10-31,Italy Serie A,Bologna,Monza,2-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.804,won,Live
 2026-10-31-Bologna-Monza|2,2026-10-31-Bologna-Monza,2026-10-31,Italy Serie A,Bologna,Monza,2-1,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.833,won,Live
-2026-10-31-Bologna-Monza|3,2026-10-31-Bologna-Monza,2026-10-31,Italy Serie A,Bologna,Monza,2-1,Pick 3,Corners,Home Team Corners,Home Corners Under 7.5,0.83,pending,Live
-2026-10-31-Milan-Inter|0,2026-10-31-Milan-Inter,2026-10-31,Italy Serie A,Milan,Inter,3-1,Best,Corners,Home Team Corners,Home Corners Under 5.5,0.78,pending,Live
+2026-10-31-Bologna-Monza|3,2026-10-31-Bologna-Monza,2026-10-31,Italy Serie A,Bologna,Monza,2-1,Pick 3,Corners,Home Team Corners,Home Corners Under 7.5,0.83,won,Live
+2026-10-31-Milan-Inter|0,2026-10-31-Milan-Inter,2026-10-31,Italy Serie A,Milan,Inter,3-1,Best,Corners,Home Team Corners,Home Corners Under 5.5,0.78,won,Live
 2026-10-31-Milan-Inter|1,2026-10-31-Milan-Inter,2026-10-31,Italy Serie A,Milan,Inter,3-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.728,lost,Live
-2026-10-31-Milan-Inter|2,2026-10-31-Milan-Inter,2026-10-31,Italy Serie A,Milan,Inter,3-1,Pick 2,Cards,Total Cards,Cards Over 1.5,0.846,pending,Live
+2026-10-31-Milan-Inter|2,2026-10-31-Milan-Inter,2026-10-31,Italy Serie A,Milan,Inter,3-1,Pick 2,Cards,Total Cards,Cards Over 1.5,0.846,won,Live
 2026-10-31-Milan-Inter|3,2026-10-31-Milan-Inter,2026-10-31,Italy Serie A,Milan,Inter,3-1,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.826,won,Live
 2026-10-31-Udinese-Roma|0,2026-10-31-Udinese-Roma,2026-10-31,Italy Serie A,Udinese,Roma,2-5,Best,Result,1X2 / Double Chance,Home/Away,0.782,won,Live
 2026-10-31-Udinese-Roma|1,2026-10-31-Udinese-Roma,2026-10-31,Italy Serie A,Udinese,Roma,2-5,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.831,won,Live
-2026-10-31-Udinese-Roma|2,2026-10-31-Udinese-Roma,2026-10-31,Italy Serie A,Udinese,Roma,2-5,Pick 2,Cards,Away Team Cards,Away Cards Over 0.5,0.845,pending,Live
-2026-10-31-Udinese-Roma|3,2026-10-31-Udinese-Roma,2026-10-31,Italy Serie A,Udinese,Roma,2-5,Pick 3,Corners,Home Team Corners,Home Corners Under 6.5,0.838,pending,Live
+2026-10-31-Udinese-Roma|2,2026-10-31-Udinese-Roma,2026-10-31,Italy Serie A,Udinese,Roma,2-5,Pick 2,Cards,Away Team Cards,Away Cards Over 0.5,0.845,won,Live
+2026-10-31-Udinese-Roma|3,2026-10-31-Udinese-Roma,2026-10-31,Italy Serie A,Udinese,Roma,2-5,Pick 3,Corners,Home Team Corners,Home Corners Under 6.5,0.838,lost,Live
 2026-10-31-Ajax-AZ-Alkmaar|0,2026-10-31-Ajax-AZ-Alkmaar,2026-10-31,Netherlands Eredivisie,Ajax,AZ Alkmaar,1-0,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.789,won,Live
 2026-10-31-Ajax-AZ-Alkmaar|1,2026-10-31-Ajax-AZ-Alkmaar,2026-10-31,Netherlands Eredivisie,Ajax,AZ Alkmaar,1-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.782,won,Live
 2026-10-31-Ajax-AZ-Alkmaar|2,2026-10-31-Ajax-AZ-Alkmaar,2026-10-31,Netherlands Eredivisie,Ajax,AZ Alkmaar,1-0,Pick 2,Goals,Multigoals,Multigoals 1-5,0.822,won,Live
@@ -479,7 +519,7 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-10-31-Barcelona-Alaves|1,2026-10-31-Barcelona-Alaves,2026-10-31,Spain La Liga,Barcelona,Alaves,6-1,Pick 1,Result,1X2 / Double Chance,Home,0.863,won,Live
 2026-10-31-Barcelona-Alaves|2,2026-10-31-Barcelona-Alaves,2026-10-31,Spain La Liga,Barcelona,Alaves,6-1,Pick 2,Goals,Double Chance & Over/Under,Home/Away & Over 1.5,0.847,won,Live
 2026-10-31-Barcelona-Alaves|3,2026-10-31-Barcelona-Alaves,2026-10-31,Spain La Liga,Barcelona,Alaves,6-1,Pick 3,Goals,1st Half Over/Under,1st Half Over 0.5,0.844,won,Live
-2026-10-31-Betis-Malaga|0,2026-10-31-Betis-Malaga,2026-10-31,Spain La Liga,Betis,Malaga,2-1,Best,Corners,Away Team Corners,Away Corners Under 6.5,0.788,pending,Live
+2026-10-31-Betis-Malaga|0,2026-10-31-Betis-Malaga,2026-10-31,Spain La Liga,Betis,Malaga,2-1,Best,Corners,Away Team Corners,Away Corners Under 6.5,0.788,won,Live
 2026-10-31-Betis-Malaga|1,2026-10-31-Betis-Malaga,2026-10-31,Spain La Liga,Betis,Malaga,2-1,Pick 1,Result,1X2 / Double Chance,Home,0.706,won,Live
 2026-10-31-Betis-Malaga|2,2026-10-31-Betis-Malaga,2026-10-31,Spain La Liga,Betis,Malaga,2-1,Pick 2,Goals,Multigoals,Multigoals 1-5,0.844,won,Live
 2026-10-31-Betis-Malaga|3,2026-10-31-Betis-Malaga,2026-10-31,Spain La Liga,Betis,Malaga,2-1,Pick 3,Goals,Over/Under,Over 1.5,0.841,won,Live
@@ -487,10 +527,10 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-10-31-Levante-Ath-Madrid|1,2026-10-31-Levante-Ath-Madrid,2026-10-31,Spain La Liga,Levante,Ath Madrid,0-2,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.824,won,Live
 2026-10-31-Levante-Ath-Madrid|2,2026-10-31-Levante-Ath-Madrid,2026-10-31,Spain La Liga,Levante,Ath Madrid,0-2,Pick 2,Goals,Multigoals,Multigoals 1-5,0.848,won,Live
 2026-10-31-Levante-Ath-Madrid|3,2026-10-31-Levante-Ath-Madrid,2026-10-31,Spain La Liga,Levante,Ath Madrid,0-2,Pick 3,Goals,Over/Under,Over 1.5,0.834,won,Live
-2026-10-31-Vallecano-Celta|0,2026-10-31-Vallecano-Celta,2026-10-31,Spain La Liga,Vallecano,Celta,3-0,Best,Cards,Total Cards,Cards Under 6.5,0.789,pending,Live
+2026-10-31-Vallecano-Celta|0,2026-10-31-Vallecano-Celta,2026-10-31,Spain La Liga,Vallecano,Celta,3-0,Best,Cards,Total Cards,Cards Under 6.5,0.789,won,Live
 2026-10-31-Vallecano-Celta|1,2026-10-31-Vallecano-Celta,2026-10-31,Spain La Liga,Vallecano,Celta,3-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.686,won,Live
-2026-10-31-Vallecano-Celta|2,2026-10-31-Vallecano-Celta,2026-10-31,Spain La Liga,Vallecano,Celta,3-0,Pick 2,Corners,Away Team Corners,Away Corners Over 1.5,0.838,pending,Live
-2026-10-31-Vallecano-Celta|3,2026-10-31-Vallecano-Celta,2026-10-31,Spain La Liga,Vallecano,Celta,3-0,Pick 3,Cards,Total Cards,Cards Over 2.5,0.834,pending,Live
+2026-10-31-Vallecano-Celta|2,2026-10-31-Vallecano-Celta,2026-10-31,Spain La Liga,Vallecano,Celta,3-0,Pick 2,Corners,Away Team Corners,Away Corners Over 1.5,0.838,won,Live
+2026-10-31-Vallecano-Celta|3,2026-10-31-Vallecano-Celta,2026-10-31,Spain La Liga,Vallecano,Celta,3-0,Pick 3,Cards,Total Cards,Cards Over 2.5,0.834,won,Live
 2026-10-31-Erzurum-BB-Corum|0,2026-10-31-Erzurum-BB-Corum,2026-10-31,Turkey Super Lig,Erzurum BB,Corum,1-3,Best,Goals,Over/Under,Under 3.5,0.74,lost,Live
 2026-10-31-Erzurum-BB-Corum|1,2026-10-31-Erzurum-BB-Corum,2026-10-31,Turkey Super Lig,Erzurum BB,Corum,1-3,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.64,lost,Live
 2026-10-31-Erzurum-BB-Corum|2,2026-10-31-Erzurum-BB-Corum,2026-10-31,Turkey Super Lig,Erzurum BB,Corum,1-3,Pick 2,Goals,Multigoals,Multigoals 1-4,0.797,won,Live
@@ -523,22 +563,22 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-10-30-Newport-County-Chesterfield|1,2026-10-30-Newport-County-Chesterfield,2026-10-30,England League Two,Newport County,Chesterfield,4-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.773,lost,Live
 2026-10-30-Newport-County-Chesterfield|2,2026-10-30-Newport-County-Chesterfield,2026-10-30,England League Two,Newport County,Chesterfield,4-1,Pick 2,Goals,Over/Under,Under 4.5,0.848,lost,Live
 2026-10-30-Newport-County-Chesterfield|3,2026-10-30-Newport-County-Chesterfield,2026-10-30,England League Two,Newport County,Chesterfield,4-1,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.823,won,Live
-2026-10-30-Le-Havre-Paris-SG|0,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,,Best,Corners,Home Team Corners,Home Corners Under 5.5,0.788,pending,Live
-2026-10-30-Le-Havre-Paris-SG|1,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,,Pick 1,Result,1X2 / Double Chance,Away,0.732,pending,Live
-2026-10-30-Le-Havre-Paris-SG|2,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,,Pick 2,Corners,Total Corners,Corners Under 12.5,0.836,pending,Live
-2026-10-30-Le-Havre-Paris-SG|3,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,,Pick 3,Cards,Total Cards,Cards Over 1.5,0.829,pending,Live
-2026-10-30-Lille-Lens|0,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,,Best,Cards,Total Cards,Cards Over 2.5,0.789,pending,Live
-2026-10-30-Lille-Lens|1,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.646,pending,Live
-2026-10-30-Lille-Lens|2,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.847,pending,Live
-2026-10-30-Lille-Lens|3,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.841,pending,Live
-2026-10-30-Nice-Rennes|0,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,,Best,Corners,Total Corners,Corners Under 12.5,0.78,pending,Live
-2026-10-30-Nice-Rennes|1,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.628,pending,Live
-2026-10-30-Nice-Rennes|2,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,,Pick 2,Corners,Away Team Corners,Away Corners Over 2.5,0.847,pending,Live
-2026-10-30-Nice-Rennes|3,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,,Pick 3,Goals,Over/Under,Under 4.5,0.812,pending,Live
-2026-10-30-Elversberg-Mainz|0,2026-10-30-Elversberg-Mainz,2026-10-30,Germany Bundesliga,Elversberg,Mainz,4-1,Best,Corners,Home Team Corners,Home Corners Under 6.5,0.774,pending,Live
+2026-10-30-Le-Havre-Paris-SG|0,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,1-5,Best,Corners,Home Team Corners,Home Corners Under 5.5,0.788,won,Live
+2026-10-30-Le-Havre-Paris-SG|1,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,1-5,Pick 1,Result,1X2 / Double Chance,Away,0.732,won,Live
+2026-10-30-Le-Havre-Paris-SG|2,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,1-5,Pick 2,Corners,Total Corners,Corners Under 12.5,0.836,won,Live
+2026-10-30-Le-Havre-Paris-SG|3,2026-10-30-Le-Havre-Paris-SG,2026-10-30,France Ligue 1,Le Havre,Paris SG,1-5,Pick 3,Cards,Total Cards,Cards Over 1.5,0.829,lost,Live
+2026-10-30-Lille-Lens|0,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,1-0,Best,Cards,Total Cards,Cards Over 2.5,0.789,lost,Live
+2026-10-30-Lille-Lens|1,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,1-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.646,lost,Live
+2026-10-30-Lille-Lens|2,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,1-0,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.847,won,Live
+2026-10-30-Lille-Lens|3,2026-10-30-Lille-Lens,2026-10-30,France Ligue 1,Lille,Lens,1-0,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.841,won,Live
+2026-10-30-Nice-Rennes|0,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,5-2,Best,Corners,Total Corners,Corners Under 12.5,0.78,won,Live
+2026-10-30-Nice-Rennes|1,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,5-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.628,won,Live
+2026-10-30-Nice-Rennes|2,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,5-2,Pick 2,Corners,Away Team Corners,Away Corners Over 2.5,0.847,won,Live
+2026-10-30-Nice-Rennes|3,2026-10-30-Nice-Rennes,2026-10-30,France Ligue 1,Nice,Rennes,5-2,Pick 3,Goals,Over/Under,Under 4.5,0.812,lost,Live
+2026-10-30-Elversberg-Mainz|0,2026-10-30-Elversberg-Mainz,2026-10-30,Germany Bundesliga,Elversberg,Mainz,4-1,Best,Corners,Home Team Corners,Home Corners Under 6.5,0.774,won,Live
 2026-10-30-Elversberg-Mainz|1,2026-10-30-Elversberg-Mainz,2026-10-30,Germany Bundesliga,Elversberg,Mainz,4-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.698,lost,Live
 2026-10-30-Elversberg-Mainz|2,2026-10-30-Elversberg-Mainz,2026-10-30,Germany Bundesliga,Elversberg,Mainz,4-1,Pick 2,Goals,Over/Under,Over 1.5,0.85,won,Live
-2026-10-30-Elversberg-Mainz|3,2026-10-30-Elversberg-Mainz,2026-10-30,Germany Bundesliga,Elversberg,Mainz,4-1,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.845,pending,Live
+2026-10-30-Elversberg-Mainz|3,2026-10-30-Elversberg-Mainz,2026-10-30,Germany Bundesliga,Elversberg,Mainz,4-1,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.845,lost,Live
 2026-10-30-Casa-Pia-Sp-Lisbon|0,2026-10-30-Casa-Pia-Sp-Lisbon,2026-10-30,Portugal Primeira Liga,Casa Pia,Sp Lisbon,0-2,Best,Goals,Multigoals,Multigoals 2-6,0.778,won,Live
 2026-10-30-Casa-Pia-Sp-Lisbon|1,2026-10-30-Casa-Pia-Sp-Lisbon,2026-10-30,Portugal Primeira Liga,Casa Pia,Sp Lisbon,0-2,Pick 1,Result,1X2 / Double Chance,Away,0.728,won,Live
 2026-10-30-Casa-Pia-Sp-Lisbon|2,2026-10-30-Casa-Pia-Sp-Lisbon,2026-10-30,Portugal Primeira Liga,Casa Pia,Sp Lisbon,0-2,Pick 2,Goals,Home Team Over/Under,Home Under 1.5,0.834,won,Live
@@ -546,7 +586,7 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-10-30-Villarreal-Espanol|0,2026-10-30-Villarreal-Espanol,2026-10-30,Spain La Liga,Villarreal,Espanol,0-1,Best,Goals,Over/Under,Under 4.5,0.77,won,Live
 2026-10-30-Villarreal-Espanol|1,2026-10-30-Villarreal-Espanol,2026-10-30,Spain La Liga,Villarreal,Espanol,0-1,Pick 1,Result,1X2 / Double Chance,Home,0.673,lost,Live
 2026-10-30-Villarreal-Espanol|2,2026-10-30-Villarreal-Espanol,2026-10-30,Spain La Liga,Villarreal,Espanol,0-1,Pick 2,Goals,Multigoals,Multigoals 1-5,0.844,won,Live
-2026-10-30-Villarreal-Espanol|3,2026-10-30-Villarreal-Espanol,2026-10-30,Spain La Liga,Villarreal,Espanol,0-1,Pick 3,Corners,Away Team Corners,Away Corners Over 1.5,0.842,pending,Live
+2026-10-30-Villarreal-Espanol|3,2026-10-30-Villarreal-Espanol,2026-10-30,Spain La Liga,Villarreal,Espanol,0-1,Pick 3,Corners,Away Team Corners,Away Corners Over 1.5,0.842,won,Live
 2026-10-30-Torku-Konyaspor-Galatasaray|0,2026-10-30-Torku-Konyaspor-Galatasaray,2026-10-30,Turkey Super Lig,Torku Konyaspor,Galatasaray,0-4,Best,Result,1X2 / Double Chance,Home/Away,0.785,won,Live
 2026-10-30-Torku-Konyaspor-Galatasaray|1,2026-10-30-Torku-Konyaspor-Galatasaray,2026-10-30,Turkey Super Lig,Torku Konyaspor,Galatasaray,0-4,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.836,won,Live
 2026-10-30-Torku-Konyaspor-Galatasaray|2,2026-10-30-Torku-Konyaspor-Galatasaray,2026-10-30,Turkey Super Lig,Torku Konyaspor,Galatasaray,0-4,Pick 2,Goals,Over/Under,Over 1.5,0.818,won,Live

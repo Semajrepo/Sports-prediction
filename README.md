@@ -25,7 +25,7 @@ python src/update.py
 4. Fills in results for past picks.
 5. Writes the dashboard files.
 
-A scheduled Claude task runs it every morning at about 07:25 and uploads the files to the dashboard. Options:
+Windows Task Scheduler runs `daily_update.bat` every morning at 07:25 (task "Football Safe Picks daily update"). It runs `update.py` (retrying once if it fails), writes its output to `output/last_update_run.log`, and commits and pushes the new files to GitHub. Run the .bat by hand to update now. Options for `update.py`:
 
 - `--days 5` covers a longer window.
 - `--today 2026-10-27 --no-download` re-runs a day from data already on disk.
@@ -147,9 +147,11 @@ Same dashboard, switched with the Football / Volleyball buttons in the header.
 - **Backtest, 2024/25 season (unseen):** 2,869 best picks, predicted 73.1%, won 72.9%.
 - **Daily:** `src/update.py` calls `src/volley_update.py` at the end (skip with `--no-volleyball`). It writes `output/volley_log.csv` and `output/dashboard/volley_*.csv`. Rebuild the backtest with `python src/volley_backtest.py --refit`.
 
-## Viewing the dashboard without Claude
+## Viewing the dashboard
 
-Double-click `view_dashboard.bat` (or run `python -m http.server 8765` here and open http://localhost:8765/output/dashboard/view.html). It shows the same page as the Claude dashboard (`output/dashboard/index.html`), read from the CSV files in `output/dashboard/`, so it is as current as the last `python src/update.py` run. `view.html` and `dash-shim.js` stand in for the Claude dashboard runtime.
+Double-click `view_dashboard.bat` (or run `python -m http.server 8765` here and open http://localhost:8765/output/dashboard/view.html). The page (`output/dashboard/index.html`) reads the CSV files in `output/dashboard/`, so it is as current as the last update run. `view.html` supplies the page's theme and `dash-shim.js` loads the CSVs.
+
+SportyBet booking codes are no longer booked automatically; `output/dashboard/codes.csv` keeps the ones booked earlier. `.claude/skills/sportybet-code` and `src/slip.py` are the old Claude-driven booking flow, kept for reference.
 
 ## API keys
 

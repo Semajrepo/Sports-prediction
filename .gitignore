@@ -3,6 +3,9 @@ config/*_key.txt
 config/*.key
 .env
 
+# Rebuilt from data/raw by src/download.py on every update
+data/matches.parquet
+
 # Scratch files and logs
 tmp/
 *.log

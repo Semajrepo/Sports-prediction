@@ -42,7 +42,7 @@
 <body>
 <div id="dash-root"></div>
 <script>
-  // Load the dashboard page (index.html, kept identical to the Claude version) and run its scripts.
+  // Load the dashboard page (index.html) and run its scripts.
   fetch('index.html', { cache: 'no-cache' })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.text(); })
     .then((html) => {
