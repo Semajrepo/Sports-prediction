@@ -158,3 +158,7 @@ SportyBet booking codes are no longer booked automatically; `output/dashboard/co
 ## API keys
 
 `config/api_football_key.txt` and `config/odds_api_key.txt` are not in git (see `.gitignore`). On a new machine, create them again or set the `API_FOOTBALL_KEY` and `ODDS_API_KEY` environment variables.
+
+## Online
+
+GitHub Pages serves the repo at https://semajrepo.github.io/Sports-prediction/ (the root `index.html` opens the dashboard). Each daily update commit republishes it within a few minutes.
