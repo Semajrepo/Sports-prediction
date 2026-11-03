@@ -1,0 +1,45 @@
+# Runs the daily update on GitHub's servers and saves the new picks and results to the repo.
+# Needs two repository secrets: API_FOOTBALL_KEY and ODDS_API_KEY (Settings > Secrets and variables > Actions).
+name: Daily update
+
+on:
+  schedule:
+    - cron: "25 6 * * *"   # 06:25 UTC = 07:25 West Africa time
+  workflow_dispatch:         # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      TZ: Africa/Lagos
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run update (one retry)
+        run: python src/update.py || (sleep 60 && python src/update.py)
+
+      - name: Save results to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Daily update $(date +%Y-%m-%d)"
+          git push

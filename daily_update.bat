@@ -6,6 +6,7 @@ set PY=C:\Users\HP\AppData\Local\Programs\Python\Python313\python.exe
 set LOG=output\last_update_run.log
 
 echo === %date% %time% === > %LOG%
+git pull -q --rebase >> %LOG% 2>&1
 "%PY%" src\update.py >> %LOG% 2>&1
 if errorlevel 1 (
   echo Update failed, retrying in 60 seconds... >> %LOG%
