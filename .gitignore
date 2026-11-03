@@ -1,0 +1,13 @@
+# API keys: never commit these (the code also reads ODDS_API_KEY / API_FOOTBALL_KEY env vars)
+config/*_key.txt
+config/*.key
+.env
+
+# Scratch files and logs
+tmp/
+*.log
+output/dbcheck/
+__pycache__/
+*.pyc
+.venv/
+venv/

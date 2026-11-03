@@ -1,0 +1,65 @@
+family,category,option,n,predicted,hit_rate,roi,n_odds
+Result,1X2 / Double Chance,Home/Draw,20976.0,0.7404,0.7517,-0.0448,20976.0
+Goals,Multigoals,Multigoals 1-4,16074.0,0.798,0.8083,,0.0
+Result,1X2 / Double Chance,Away/Draw,10736.0,0.7246,0.7428,-0.035,10736.0
+Goals,Home Team Over/Under,Home Under 2.5,6801.0,0.8247,0.8434,,0.0
+Goals,Over/Under,Under 4.5,6241.0,0.833,0.8452,,0.0
+Goals,Home Team Over/Under,Home Over 0.5,5503.0,0.8205,0.8343,,0.0
+Goals,Over/Under,Under 3.5,4792.0,0.7885,0.7982,,0.0
+Result,1X2 / Double Chance,Home,4007.0,0.738,0.7776,-0.0047,4007.0
+Goals,Away Team Over/Under,Away Under 2.5,3802.0,0.8274,0.8275,,0.0
+Goals,Over/Under,Over 1.5,3498.0,0.8246,0.8273,,0.0
+Goals,Multigoals,Multigoals 1-5,2987.0,0.8388,0.8584,,0.0
+Goals,Away Team Over/Under,Away Over 0.5,2321.0,0.8219,0.8393,,0.0
+Goals,Away Team Over/Under,Away Under 1.5,2127.0,0.819,0.8171,,0.0
+Corners,Total Corners,Corners Under 12.5,1885.0,0.835,0.843,,0.0
+Cards,Home Team Cards,Home Cards Over 0.5,1446.0,0.8387,0.8513,,0.0
+Cards,Away Team Cards,Away Cards Under 3.5,1366.0,0.8367,0.8565,,0.0
+Corners,Away Team Corners,Away Corners Under 6.5,1321.0,0.8354,0.8478,,0.0
+Result,1X2 / Double Chance,Away,1291.0,0.7142,0.7459,-0.014,1291.0
+Goals,Multigoals,Multigoals 2-6,1119.0,0.7792,0.7811,,0.0
+Cards,Total Cards,Cards Over 2.5,1113.0,0.838,0.8437,,0.0
+Cards,Home Team Cards,Home Cards Under 3.5,1021.0,0.837,0.8639,,0.0
+Corners,Home Team Corners,Home Corners Over 2.5,1007.0,0.8402,0.8441,,0.0
+Corners,Home Team Corners,Home Corners Under 7.5,844.0,0.8407,0.8472,,0.0
+Corners,Away Team Corners,Away Corners Over 1.5,833.0,0.8409,0.8403,,0.0
+Cards,Total Cards,Cards Under 6.5,805.0,0.8387,0.8658,,0.0
+Corners,Away Team Corners,Away Corners Over 2.5,770.0,0.8344,0.8364,,0.0
+Goals,Home Team Over/Under,Home Under 1.5,708.0,0.8193,0.8164,,0.0
+Goals,1st Half Over/Under,1st Half Over 0.5,552.0,0.8037,0.8478,,0.0
+Cards,Total Cards,Cards Under 5.5,517.0,0.8338,0.7911,,0.0
+Corners,Home Team Corners,Home Corners Over 3.5,509.0,0.8363,0.8487,,0.0
+Cards,Away Team Cards,Away Cards Over 0.5,507.0,0.8377,0.8383,,0.0
+Corners,Home Team Corners,Home Corners Under 6.5,484.0,0.8329,0.8409,,0.0
+Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,480.0,0.8216,0.8521,,0.0
+Corners,Away Team Corners,Away Corners Under 5.5,393.0,0.8388,0.8651,,0.0
+Corners,Total Corners,Corners Over 7.5,390.0,0.8313,0.8154,,0.0
+Cards,Total Cards,Cards Over 1.5,341.0,0.8393,0.8856,,0.0
+Cards,Home Team Cards,Home Cards Under 2.5,211.0,0.8353,0.8436,,0.0
+Goals,Double Chance & Over/Under,Home/Draw & Under 4.5,139.0,0.7895,0.8058,,0.0
+Goals,Home Team Over/Under,Home Over 1.5,131.0,0.8301,0.8855,,0.0
+Cards,Away Team Cards,Away Cards Over 1.5,120.0,0.8229,0.75,,0.0
+Goals,Double Chance & Over/Under,Away/Draw & Over 1.5,102.0,0.8198,0.7843,,0.0
+Corners,Away Team Corners,Away Corners Over 3.5,94.0,0.834,0.8404,,0.0
+Goals,Multigoals,Multigoals 1-6,92.0,0.8428,0.8478,,0.0
+Corners,Home Team Corners,Home Corners Over 4.5,74.0,0.8368,0.8243,,0.0
+Goals,Double Chance & Over/Under,Home/Away & Over 1.5,70.0,0.8313,0.8571,,0.0
+Corners,Total Corners,Corners Under 11.5,62.0,0.8189,0.871,,0.0
+Cards,Total Cards,Cards Over 3.5,62.0,0.8273,0.8387,,0.0
+Corners,Home Team Corners,Home Corners Under 5.5,50.0,0.8322,0.84,,0.0
+Cards,Away Team Cards,Away Cards Under 2.5,41.0,0.8267,0.9024,,0.0
+Goals,Double Chance & Over/Under,Away/Draw & Under 4.5,40.0,0.7835,0.8,,0.0
+Cards,Total Cards,Cards Under 4.5,38.0,0.8327,0.7368,,0.0
+Goals,Over/Under,Over 0.5,29.0,0.8424,0.9655,,0.0
+Cards,Home Team Cards,Home Cards Over 1.5,28.0,0.8258,0.8214,,0.0
+Corners,Away Team Corners,Away Corners Under 4.5,24.0,0.8338,0.8333,,0.0
+Goals,Away Team Over/Under,Away Over 1.5,20.0,0.8278,0.8,,0.0
+Goals,Over/Under,Over 2.5,12.0,0.8239,1.0,,12.0
+Goals,1st Half Over/Under,1st Half Under 1.5,9.0,0.7778,1.0,,0.0
+Corners,Home Team Corners,Home Corners Over 5.5,4.0,0.8402,0.75,,0.0
+Goals,Double Chance & Over/Under,Home/Draw & Over 2.5,3.0,0.838,1.0,,0.0
+Corners,Away Team Corners,Away Corners Over 4.5,2.0,0.8257,1.0,,0.0
+Corners,Total Corners,Corners Over 8.5,2.0,0.8365,0.5,,0.0
+Corners,Home Team Corners,Home Corners Over 6.5,1.0,0.8376,0.0,,0.0
+Goals,Over/Under,Under 1.5,1.0,0.753,0.0,,0.0
+Corners,Total Corners,Corners Over 9.5,1.0,0.8212,1.0,,0.0

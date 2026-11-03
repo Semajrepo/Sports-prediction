@@ -1,0 +1,333 @@
+{
+  "calibration": {
+    "shrink": 1.418,
+    "spread": 0.0876
+  },
+  "games": 5483,
+  "test_games": 2961,
+  "from": "2023-09-28",
+  "to": "2026-10-28",
+  "by_market": [
+    {
+      "key": "1",
+      "category": "Winner",
+      "label": "Home",
+      "pred": 0.5505,
+      "hit": 0.539
+    },
+    {
+      "key": "2",
+      "category": "Winner",
+      "label": "Away",
+      "pred": 0.4495,
+      "hit": 0.461
+    },
+    {
+      "key": "H-1.5",
+      "category": "Set Handicap",
+      "label": "Home -1.5 sets",
+      "pred": 0.433,
+      "hit": 0.4319
+    },
+    {
+      "key": "A+1.5",
+      "category": "Set Handicap",
+      "label": "Away +1.5 sets",
+      "pred": 0.567,
+      "hit": 0.5681
+    },
+    {
+      "key": "A-1.5",
+      "category": "Set Handicap",
+      "label": "Away -1.5 sets",
+      "pred": 0.3388,
+      "hit": 0.3455
+    },
+    {
+      "key": "H+1.5",
+      "category": "Set Handicap",
+      "label": "Home +1.5 sets",
+      "pred": 0.6612,
+      "hit": 0.6545
+    },
+    {
+      "key": "H-2.5",
+      "category": "Set Handicap",
+      "label": "Home -2.5 sets (3-0)",
+      "pred": 0.2571,
+      "hit": 0.2496
+    },
+    {
+      "key": "A+2.5",
+      "category": "Set Handicap",
+      "label": "Away +2.5 sets (wins a set)",
+      "pred": 0.7429,
+      "hit": 0.7504
+    },
+    {
+      "key": "A-2.5",
+      "category": "Set Handicap",
+      "label": "Away -2.5 sets (0-3)",
+      "pred": 0.1902,
+      "hit": 0.1807
+    },
+    {
+      "key": "H+2.5",
+      "category": "Set Handicap",
+      "label": "Home +2.5 sets (wins a set)",
+      "pred": 0.8098,
+      "hit": 0.8193
+    },
+    {
+      "key": "O3.5",
+      "category": "Total Sets",
+      "label": "Over 3.5 sets",
+      "pred": 0.5527,
+      "hit": 0.5697
+    },
+    {
+      "key": "U3.5",
+      "category": "Total Sets",
+      "label": "Under 3.5 sets (3-0 or 0-3)",
+      "pred": 0.4473,
+      "hit": 0.4303
+    },
+    {
+      "key": "O4.5",
+      "category": "Total Sets",
+      "label": "Over 4.5 sets (goes to 5)",
+      "pred": 0.2282,
+      "hit": 0.2226
+    },
+    {
+      "key": "U4.5",
+      "category": "Total Sets",
+      "label": "Under 4.5 sets",
+      "pred": 0.7718,
+      "hit": 0.7774
+    },
+    {
+      "key": "S1-1",
+      "category": "1st Set Winner",
+      "label": "Home wins 1st set",
+      "pred": 0.538,
+      "hit": 0.5525
+    },
+    {
+      "key": "S1-2",
+      "category": "1st Set Winner",
+      "label": "Away wins 1st set",
+      "pred": 0.462,
+      "hit": 0.4475
+    }
+  ],
+  "best_pick": {
+    "n": 2869,
+    "pred": 0.7306,
+    "hit": 0.7285
+  },
+  "best_by_market": [
+    {
+      "pick": "U4.5",
+      "n": 946,
+      "pred": 0.7323,
+      "hit": 0.7474
+    },
+    {
+      "pick": "U3.5",
+      "n": 502,
+      "pred": 0.6511,
+      "hit": 0.5956
+    },
+    {
+      "pick": "H+1.5",
+      "n": 246,
+      "pred": 0.7424,
+      "hit": 0.7276
+    },
+    {
+      "pick": "A+2.5",
+      "n": 218,
+      "pred": 0.7632,
+      "hit": 0.7844
+    },
+    {
+      "pick": "S1-1",
+      "n": 209,
+      "pred": 0.7593,
+      "hit": 0.7703
+    },
+    {
+      "pick": "A+1.5",
+      "n": 193,
+      "pred": 0.7465,
+      "hit": 0.7565
+    },
+    {
+      "pick": "1",
+      "n": 169,
+      "pred": 0.767,
+      "hit": 0.8107
+    },
+    {
+      "pick": "H+2.5",
+      "n": 149,
+      "pred": 0.7627,
+      "hit": 0.7517
+    },
+    {
+      "pick": "S1-2",
+      "n": 120,
+      "pred": 0.7608,
+      "hit": 0.7167
+    },
+    {
+      "pick": "2",
+      "n": 102,
+      "pred": 0.7678,
+      "hit": 0.7843
+    },
+    {
+      "pick": "H-1.5",
+      "n": 8,
+      "pred": 0.788,
+      "hit": 0.875
+    },
+    {
+      "pick": "H-2.5",
+      "n": 4,
+      "pred": 0.7893,
+      "hit": 1.0
+    },
+    {
+      "pick": "A-1.5",
+      "n": 3,
+      "pred": 0.7886,
+      "hit": 0.3333
+    }
+  ],
+  "best_by_league": [
+    {
+      "league": "TUR",
+      "n": 181,
+      "pred": 0.7294,
+      "hit": 0.7735
+    },
+    {
+      "league": "BRA",
+      "n": 151,
+      "pred": 0.7321,
+      "hit": 0.755
+    },
+    {
+      "league": "FRA",
+      "n": 178,
+      "pred": 0.7468,
+      "hit": 0.7416
+    },
+    {
+      "league": "RUS",
+      "n": 230,
+      "pred": 0.7211,
+      "hit": 0.7391
+    },
+    {
+      "league": "GER",
+      "n": 157,
+      "pred": 0.7229,
+      "hit": 0.7389
+    },
+    {
+      "league": "JPN",
+      "n": 229,
+      "pred": 0.7323,
+      "hit": 0.738
+    },
+    {
+      "league": "JPN-W",
+      "n": 316,
+      "pred": 0.7311,
+      "hit": 0.7373
+    },
+    {
+      "league": "BRA-W",
+      "n": 136,
+      "pred": 0.7317,
+      "hit": 0.7353
+    },
+    {
+      "league": "POL",
+      "n": 265,
+      "pred": 0.7346,
+      "hit": 0.7321
+    },
+    {
+      "league": "ITA",
+      "n": 177,
+      "pred": 0.7335,
+      "hit": 0.7288
+    },
+    {
+      "league": "ITA-W",
+      "n": 203,
+      "pred": 0.7325,
+      "hit": 0.7094
+    },
+    {
+      "league": "CL",
+      "n": 105,
+      "pred": 0.7346,
+      "hit": 0.7048
+    },
+    {
+      "league": "POL-W",
+      "n": 150,
+      "pred": 0.7233,
+      "hit": 0.7
+    },
+    {
+      "league": "TUR-W",
+      "n": 189,
+      "pred": 0.7283,
+      "hit": 0.6984
+    },
+    {
+      "league": "RUS-W",
+      "n": 202,
+      "pred": 0.7251,
+      "hit": 0.6832
+    }
+  ],
+  "best_reliability": [
+    {
+      "band": "(0.5, 0.6]",
+      "n": 142,
+      "pred": 0.5742,
+      "hit": 0.5211
+    },
+    {
+      "band": "(0.6, 0.65]",
+      "n": 128,
+      "pred": 0.6239,
+      "hit": 0.5938
+    },
+    {
+      "band": "(0.65, 0.7]",
+      "n": 427,
+      "pred": 0.6898,
+      "hit": 0.6534
+    },
+    {
+      "band": "(0.7, 0.75]",
+      "n": 867,
+      "pred": 0.7276,
+      "hit": 0.7266
+    },
+    {
+      "band": "(0.75, 0.8]",
+      "n": 1305,
+      "pred": 0.7734,
+      "hit": 0.79
+    }
+  ]
+}

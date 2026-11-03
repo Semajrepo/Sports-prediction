@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Football Safe Picks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<style>
+  /* Theme tokens the dashboard page expects (normally supplied by the Claude dashboard runtime). */
+  :root {
+    --font-anthropic-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-anthropic-serif: 'Source Serif 4', Georgia, serif;
+    --color-fg: #1f1e1d; --color-fg-muted: #6b6a66; --color-bg: #faf9f5; --color-panel: #ffffff;
+    --color-border-line: #e3e1d9; --color-ok: #2f8a5b; --color-warn: #b7791f; --color-bad: #c0392b;
+    --cds-text-secondary: var(--color-fg-muted); --cds-border: var(--color-border-line);
+    --cds-surface-popover: var(--color-panel); --cds-shadow-popover: 0 6px 24px rgba(0,0,0,.12);
+    --cds-chart-axis: #8a8880; --cds-chart-grid: #ebe9e2; --cds-chart-muted: #b9b7af;
+    --cds-font-size-caption: 12.5px; --cds-font-size-body: 14px; --cds-font-size-heading: 17px; --cds-font-size-title: 28px;
+    --cds-font-weight-medium: 550;
+    --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 12px; --cds-gap-lg: 20px;
+    --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px;
+    --cds-radius: 6px; --cds-dur-slow: 300ms;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-fg: #ecebe6; --color-fg-muted: #a3a29c; --color-bg: #1d1c1a; --color-panel: #262523;
+      --color-border-line: #3a3936; --color-ok: #5cc28c; --color-warn: #e0a84a; --color-bad: #ee6b5b;
+      --cds-shadow-popover: 0 6px 24px rgba(0,0,0,.5);
+      --cds-chart-axis: #8f8d86; --cds-chart-grid: #34332f; --cds-chart-muted: #5d5b56;
+    }
+  }
+  body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); }
+  #dash-root { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
+  [hidden] { display: none !important; }
+  .dash-skeleton { opacity: .45; }
+  #load-error { color: var(--color-bad); }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="dash-shim.js"></script>
+</head>
+<body>
+<div id="dash-root"></div>
+<script>
+  // Load the dashboard page (index.html, kept identical to the Claude version) and run its scripts.
+  fetch('index.html', { cache: 'no-cache' })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then((html) => {
+      const root = document.getElementById('dash-root');
+      root.innerHTML = html;
+      root.querySelectorAll('script').forEach((old) => {
+        const s = document.createElement('script');
+        s.textContent = `{${old.textContent}\n}`;
+        old.replaceWith(s);
+      });
+    })
+    .catch((e) => {
+      document.getElementById('dash-root').innerHTML =
+        '<p id="load-error">Could not load the dashboard. Open it through a local web server ' +
+        '(run <code>python -m http.server 8765</code> in the project folder, then visit ' +
+        '<code>http://localhost:8765/output/dashboard/view.html</code>), not by double-clicking the file.</p>';
+      console.error(e);
+    });
+</script>
+</body>
+</html>

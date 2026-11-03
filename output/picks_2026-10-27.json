@@ -1,0 +1,1724 @@
+{
+ "asof": "2026-10-27",
+ "generated_from": "fixtures_2026-10-27.csv",
+ "matches": [
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "England League One",
+   "home": "Leicester",
+   "away": "Wigan",
+   "referee": "L Doughty",
+   "xg_home": 2.31,
+   "xg_away": 0.93,
+   "p_home": 0.678,
+   "p_draw": 0.191,
+   "p_away": 0.131,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home",
+     "prob": 0.678,
+     "fair_odds": 1.48,
+     "why": "Form: Leicester DLWWL, Wigan LLWLL (latest last). Odds make Leicester 68% to win, draw 19%. Would have won in 4 of Leicester's last 8 and 5 of Wigan's last 8. No meetings in the data since 2015.",
+     "support": "fair"
+    },
+    {
+     "category": "Over/Under",
+     "pick": "Over 1.5",
+     "prob": 0.839,
+     "fair_odds": 1.19,
+     "why": "Goals per game: Leicester matches 3.6, Wigan matches 2.1. Expected goals 2.3\u20130.9. Would have won in 8 of Leicester's last 8 and 4 of Wigan's last 8. No meetings in the data since 2015.",
+     "support": "fair"
+    },
+    {
+     "category": "Home Team Cards",
+     "pick": "Home Cards Over 0.5",
+     "prob": 0.837,
+     "fair_odds": 1.19,
+     "why": "Referee L Doughty averages 4.7 cards a game (last 20). Cards per game: Leicester matches 3.9, Wigan matches 5.2. Expected cards 1.8\u20132.2. Would have won in 7 of Leicester's last 8 and 7 of Wigan's last 8. No meetings in the data since 2015.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.785
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "England League One",
+   "home": "Luton",
+   "away": "Doncaster",
+   "referee": "M Russell",
+   "xg_home": 2.17,
+   "xg_away": 1.05,
+   "p_home": 0.623,
+   "p_draw": 0.209,
+   "p_away": 0.168,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.832,
+     "fair_odds": 1.2,
+     "why": "Form: Luton LWLWW, Doncaster WWLLW (latest last). Odds make Luton 62% to win, draw 21%. Would have won in 5 of Luton's last 8, 5 of Doncaster's last 8 and 3 of 4 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Cards",
+     "pick": "Away Cards Under 3.5",
+     "prob": 0.842,
+     "fair_odds": 1.19,
+     "why": "Referee M Russell averages 3.1 cards a game (last 20). Cards per game: Luton matches 4.0, Doncaster matches 4.0. Expected cards 1.5\u20132.1. Would have won in 4 of Luton's last 8, 8 of Doncaster's last 8 and 4 of 4 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Corners",
+     "pick": "Away Corners Over 1.5",
+     "prob": 0.842,
+     "fair_odds": 1.19,
+     "why": "Luton win 6.9 corners a game, Doncaster 5.1 (last 8). Expected corners 7.5\u20133.7. Would have won in 8 of Luton's last 8, 8 of Doncaster's last 8 and 4 of 4 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.839
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "England League One",
+   "home": "Milton Keynes Dons",
+   "away": "Bromley",
+   "referee": "S Jackson",
+   "xg_home": 1.99,
+   "xg_away": 1.05,
+   "p_home": 0.586,
+   "p_draw": 0.226,
+   "p_away": 0.188,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.812,
+     "fair_odds": 1.23,
+     "why": "Form: Milton Keynes Dons DLWLW, Bromley WLLLD (latest last). Odds make Milton Keynes Dons 59% to win, draw 23%. Would have won in 5 of Milton Keynes Dons's last 8, 7 of Bromley's last 8 and 2 of 4 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Corners",
+     "pick": "Away Corners Under 5.5",
+     "prob": 0.827,
+     "fair_odds": 1.21,
+     "why": "Milton Keynes Dons win 5.2 corners a game, Bromley 3.2 (last 8). Expected corners 7.4\u20133.5. Would have won in 5 of Milton Keynes Dons's last 8, 7 of Bromley's last 8 and 2 of 4 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Home Team Cards",
+     "pick": "Home Cards Over 0.5",
+     "prob": 0.825,
+     "fair_odds": 1.21,
+     "why": "Referee S Jackson averages 4.2 cards a game (last 20). Cards per game: Milton Keynes Dons matches 2.8, Bromley matches 3.4. Expected cards 1.7\u20132.0. Would have won in 7 of Milton Keynes Dons's last 8, 6 of Bromley's last 8 and 3 of 4 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.821
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "England League One",
+   "home": "Oxford",
+   "away": "Stockport",
+   "referee": "S Parkinson",
+   "xg_home": 1.31,
+   "xg_away": 1.73,
+   "p_home": 0.285,
+   "p_draw": 0.249,
+   "p_away": 0.467,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.715,
+     "fair_odds": 1.4,
+     "why": "Form: Oxford DWDWD, Stockport WWWWD (latest last). Odds make Stockport 47% to win, draw 25%. Would have won in 4 of Oxford's last 8 and 7 of Stockport's last 8. No meetings in the data since 2015.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Cards",
+     "pick": "Away Cards Under 3.5",
+     "prob": 0.837,
+     "fair_odds": 1.2,
+     "why": "Referee S Parkinson averages 3.0 cards a game (last 20). Cards per game: Oxford matches 5.0, Stockport matches 3.8. Expected cards 1.8\u20132.1. Would have won in 5 of Oxford's last 8 and 8 of Stockport's last 8. No meetings in the data since 2015.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Corners",
+     "pick": "Away Corners Over 3.5",
+     "prob": 0.823,
+     "fair_odds": 1.22,
+     "why": "Oxford win 4.1 corners a game, Stockport 7.0 (last 8). Expected corners 4.5\u20136.2. Would have won in 7 of Oxford's last 8 and 8 of Stockport's last 8. No meetings in the data since 2015.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.792
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "England League One",
+   "home": "Sheffield Weds",
+   "away": "Cambridge",
+   "referee": "D Whitestone",
+   "xg_home": 1.67,
+   "xg_away": 1.25,
+   "p_home": 0.466,
+   "p_draw": 0.254,
+   "p_away": 0.28,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.72,
+     "fair_odds": 1.39,
+     "why": "Form: Sheffield Weds DDWLL, Cambridge DWWDL (latest last). Odds make Sheffield Weds 47% to win, draw 25%. Would have won in 6 of Sheffield Weds's last 8, 5 of Cambridge's last 8 and 4 of 4 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Total Cards",
+     "pick": "Cards Over 1.5",
+     "prob": 0.842,
+     "fair_odds": 1.19,
+     "why": "Referee D Whitestone averages 3.7 cards a game (last 20). Cards per game: Sheffield Weds matches 4.1, Cambridge matches 4.5. Expected cards 1.7\u20131.8. Would have won in 8 of Sheffield Weds's last 8, 8 of Cambridge's last 8 and 2 of 4 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Total Corners",
+     "pick": "Corners Over 7.5",
+     "prob": 0.829,
+     "fair_odds": 1.21,
+     "why": "Sheffield Weds win 5.2 corners a game, Cambridge 9.9 (last 8). Expected corners 5.4\u20136.0. Would have won in 6 of Sheffield Weds's last 8, 8 of Cambridge's last 8 and 4 of 4 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.797
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "England League Two",
+   "home": "Barnet",
+   "away": "York",
+   "referee": "B Toner",
+   "xg_home": 1.79,
+   "xg_away": 1.41,
+   "p_home": 0.46,
+   "p_draw": 0.242,
+   "p_away": 0.298,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.702,
+     "fair_odds": 1.42,
+     "why": "Form: Barnet WWWLD, York WDDDW (latest last). Odds make Barnet 46% to win, draw 24%. Would have won in 7 of Barnet's last 8 and 5 of York's last 8. No meetings in the data since 2015.",
+     "support": "fair"
+    },
+    {
+     "category": "Home Team Cards",
+     "pick": "Home Cards Over 0.5",
+     "prob": 0.845,
+     "fair_odds": 1.18,
+     "why": "Referee B Toner averages 4.1 cards a game (last 20). Cards per game: Barnet matches 4.9, York matches 3.6. Expected cards 1.8\u20132.1. Would have won in 6 of Barnet's last 8 and 8 of York's last 8. No meetings in the data since 2015.",
+     "support": "strong"
+    },
+    {
+     "category": "Over/Under",
+     "pick": "Over 1.5",
+     "prob": 0.835,
+     "fair_odds": 1.2,
+     "why": "Goals per game: Barnet matches 3.5, York matches 2.4. Expected goals 1.8\u20131.4. Would have won in 8 of Barnet's last 8 and 8 of York's last 8. No meetings in the data since 2015.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.794
+  },
+  {
+   "date": "2026-10-27",
+   "time": "17:30",
+   "league": "Italy Serie A",
+   "home": "Sassuolo",
+   "away": "Lazio",
+   "referee": "",
+   "xg_home": 1.27,
+   "xg_away": 1.65,
+   "p_home": 0.288,
+   "p_draw": 0.255,
+   "p_away": 0.456,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.712,
+     "fair_odds": 1.4,
+     "why": "Form: Sassuolo WLDLL, Lazio DWWWW (latest last). Odds make Lazio 46% to win, draw 26%. Would have won in 6 of Sassuolo's last 8, 8 of Lazio's last 8 and 5 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Total Corners",
+     "pick": "Corners Under 12.5",
+     "prob": 0.839,
+     "fair_odds": 1.19,
+     "why": "Sassuolo win 4.2 corners a game, Lazio 5.5 (last 8). Expected corners 4.6\u20134.9. Would have won in 6 of Sassuolo's last 8, 6 of Lazio's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Over/Under",
+     "pick": "Under 4.5",
+     "prob": 0.829,
+     "fair_odds": 1.21,
+     "why": "Goals per game: Sassuolo matches 3.5, Lazio matches 2.6. Expected goals 1.3\u20131.6. Would have won in 6 of Sassuolo's last 8, 8 of Lazio's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.793
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "Italy Serie A",
+   "home": "Roma",
+   "away": "Cagliari",
+   "referee": "",
+   "xg_home": 2.31,
+   "xg_away": 0.75,
+   "p_home": 0.72,
+   "p_draw": 0.181,
+   "p_away": 0.1,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home",
+     "prob": 0.72,
+     "fair_odds": 1.39,
+     "why": "Form: Roma WDDWD, Cagliari WWDLL (latest last). Odds make Roma 72% to win, draw 18%. Would have won in 5 of Roma's last 8, 3 of Cagliari's last 8 and 4 of 6 head-to-heads.",
+     "support": "mixed"
+    },
+    {
+     "category": "Home Team Corners",
+     "pick": "Home Corners Over 3.5",
+     "prob": 0.837,
+     "fair_odds": 1.2,
+     "why": "Roma win 5.9 corners a game, Cagliari 3.6 (last 8). Expected corners 6.4\u20133.2. Would have won in 5 of Roma's last 8, 5 of Cagliari's last 8 and 3 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Over/Under",
+     "pick": "Away Under 1.5",
+     "prob": 0.827,
+     "fair_odds": 1.21,
+     "why": "Cagliari score 0.8 and concede 1.1 a game (last 8). Expected goals 2.3\u20130.7. Would have won in 6 of Roma's last 8, 7 of Cagliari's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.795
+  },
+  {
+   "date": "2026-10-27",
+   "time": "19:45",
+   "league": "Italy Serie A",
+   "home": "Torino",
+   "away": "Como",
+   "referee": "",
+   "xg_home": 1.09,
+   "xg_away": 1.85,
+   "p_home": 0.215,
+   "p_draw": 0.24,
+   "p_away": 0.545,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.785,
+     "fair_odds": 1.27,
+     "why": "Form: Torino LDWWW, Como WLDWW (latest last). Odds make Como 55% to win, draw 24%. Would have won in 4 of Torino's last 8, 7 of Como's last 8 and 3 of 4 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Over/Under",
+     "pick": "Away Over 0.5",
+     "prob": 0.843,
+     "fair_odds": 1.19,
+     "why": "Como score 1.8 and concede 0.9 a game (last 8). Expected goals 1.1\u20131.8. Would have won in 7 of Torino's last 8, 6 of Como's last 8 and 3 of 4 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Over/Under",
+     "pick": "Under 4.5",
+     "prob": 0.825,
+     "fair_odds": 1.21,
+     "why": "Goals per game: Torino matches 3.0, Como matches 2.6. Expected goals 1.1\u20131.8. Would have won in 7 of Torino's last 8, 7 of Como's last 8 and 2 of 4 head-to-heads.",
+     "support": "fair"
+    }
+   ],
+   "safety": 0.818
+  },
+  {
+   "date": "2026-10-28",
+   "time": "17:30",
+   "league": "Italy Serie A",
+   "home": "Milan",
+   "away": "Bologna",
+   "referee": "",
+   "xg_home": 1.83,
+   "xg_away": 0.91,
+   "p_home": 0.584,
+   "p_draw": 0.239,
+   "p_away": 0.177,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.823,
+     "fair_odds": 1.22,
+     "why": "Form: Milan DWDWW, Bologna LDWLW (latest last). Odds make Milan 58% to win, draw 24%. Would have won in 8 of Milan's last 8, 6 of Bologna's last 8 and 5 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Home Team Corners",
+     "pick": "Home Corners Under 7.5",
+     "prob": 0.844,
+     "fair_odds": 1.18,
+     "why": "Milan win 3.1 corners a game, Bologna 4.0 (last 8). Expected corners 4.9\u20133.6. Would have won in 8 of Milan's last 8, 6 of Bologna's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Home Team Over/Under",
+     "pick": "Home Over 0.5",
+     "prob": 0.84,
+     "fair_odds": 1.19,
+     "why": "Milan score 2.0 and concede 0.9 a game (last 8). Expected goals 1.8\u20130.9. Would have won in 8 of Milan's last 8, 7 of Bologna's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.836
+  },
+  {
+   "date": "2026-10-28",
+   "time": "17:30",
+   "league": "Italy Serie A",
+   "home": "Parma",
+   "away": "Udinese",
+   "referee": "",
+   "xg_home": 1.15,
+   "xg_away": 1.25,
+   "p_home": 0.33,
+   "p_draw": 0.292,
+   "p_away": 0.378,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.67,
+     "fair_odds": 1.49,
+     "why": "Form: Parma LWLLL, Udinese LLLLL (latest last). Odds make Udinese 38% to win, draw 29%. Would have won in 7 of Parma's last 8, 2 of Udinese's last 8 and 5 of 6 head-to-heads.",
+     "support": "mixed"
+    },
+    {
+     "category": "Away Team Cards",
+     "pick": "Away Cards Under 3.5",
+     "prob": 0.84,
+     "fair_odds": 1.19,
+     "why": "Cards per game: Parma matches 3.1, Udinese matches 2.4. Expected cards 1.6\u20132.1. Would have won in 8 of Parma's last 8, 7 of Udinese's last 8 and 5 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Total Corners",
+     "pick": "Corners Under 12.5",
+     "prob": 0.838,
+     "fair_odds": 1.19,
+     "why": "Parma win 3.4 corners a game, Udinese 4.0 (last 8). Expected corners 5.0\u20134.5. Would have won in 7 of Parma's last 8, 7 of Udinese's last 8 and 2 of 6 head-to-heads.",
+     "support": "mixed"
+    }
+   ],
+   "safety": 0.783
+  },
+  {
+   "date": "2026-10-28",
+   "time": "17:30",
+   "league": "Italy Serie A",
+   "home": "Venezia",
+   "away": "Inter",
+   "referee": "",
+   "xg_home": 1.03,
+   "xg_away": 2.61,
+   "p_home": 0.123,
+   "p_draw": 0.17,
+   "p_away": 0.708,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away",
+     "prob": 0.708,
+     "fair_odds": 1.41,
+     "why": "Form: Venezia LLLWL, Inter WDWWW (latest last). Odds make Inter 71% to win, draw 17%. Would have won in 7 of Venezia's last 8, 7 of Inter's last 8 and 4 of 4 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Total Cards",
+     "pick": "Cards Under 5.5",
+     "prob": 0.848,
+     "fair_odds": 1.18,
+     "why": "Cards per game: Venezia matches 3.6, Inter matches 3.5. Expected cards 1.8\u20131.7. Would have won in 6 of Venezia's last 8, 6 of Inter's last 8 and 3 of 4 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Total Corners",
+     "pick": "Corners Under 12.5",
+     "prob": 0.829,
+     "fair_odds": 1.21,
+     "why": "Venezia win 4.5 corners a game, Inter 5.8 (last 8). Expected corners 4.0\u20135.7. Would have won in 7 of Venezia's last 8, 6 of Inter's last 8 and 4 of 4 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.795
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:45",
+   "league": "Italy Serie A",
+   "home": "Genoa",
+   "away": "Juventus",
+   "referee": "",
+   "xg_home": 0.85,
+   "xg_away": 1.67,
+   "p_home": 0.183,
+   "p_draw": 0.256,
+   "p_away": 0.561,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.817,
+     "fair_odds": 1.22,
+     "why": "Form: Genoa DLWLW, Juventus LWDLW (latest last). Odds make Juventus 56% to win, draw 26%. Would have won in 6 of Genoa's last 8, 6 of Juventus's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Away Team Corners",
+     "pick": "Away Corners Over 2.5",
+     "prob": 0.849,
+     "fair_odds": 1.18,
+     "why": "Genoa win 4.1 corners a game, Juventus 7.5 (last 8). Expected corners 4.2\u20135.2. Would have won in 7 of Genoa's last 8, 8 of Juventus's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Home Team Cards",
+     "pick": "Home Cards Over 0.5",
+     "prob": 0.84,
+     "fair_odds": 1.19,
+     "why": "Cards per game: Genoa matches 4.4, Juventus matches 3.4. Expected cards 1.8\u20132.0. Would have won in 8 of Genoa's last 8, 8 of Juventus's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.835
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:45",
+   "league": "Italy Serie A",
+   "home": "Monza",
+   "away": "Napoli",
+   "referee": "",
+   "xg_home": 1.09,
+   "xg_away": 1.83,
+   "p_home": 0.218,
+   "p_draw": 0.242,
+   "p_away": 0.54,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.782,
+     "fair_odds": 1.28,
+     "why": "Form: Monza LWLWL, Napoli WDWLD (latest last). Odds make Napoli 54% to win, draw 24%. Would have won in 6 of Monza's last 8, 5 of Napoli's last 8 and 5 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Total Cards",
+     "pick": "Cards Under 5.5",
+     "prob": 0.849,
+     "fair_odds": 1.18,
+     "why": "Cards per game: Monza matches 3.1, Napoli matches 2.5. Expected cards 1.8\u20131.7. Would have won in 8 of Monza's last 8, 8 of Napoli's last 8 and 4 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Home Team Corners",
+     "pick": "Home Corners Under 6.5",
+     "prob": 0.844,
+     "fair_odds": 1.18,
+     "why": "Monza win 4.2 corners a game, Napoli 5.9 (last 8). Expected corners 4.1\u20134.9. Would have won in 7 of Monza's last 8, 5 of Napoli's last 8 and 6 of 6 head-to-heads.",
+     "support": "fair"
+    }
+   ],
+   "safety": 0.825
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:45",
+   "league": "Scotland Premiership",
+   "home": "Aberdeen",
+   "away": "Falkirk",
+   "referee": "C Scott",
+   "xg_home": 1.57,
+   "xg_away": 1.17,
+   "p_home": 0.459,
+   "p_draw": 0.264,
+   "p_away": 0.277,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.723,
+     "fair_odds": 1.38,
+     "why": "Form: Aberdeen WDLWL, Falkirk WDLWW (latest last). Odds make Aberdeen 46% to win, draw 26%. Would have won in 4 of Aberdeen's last 8, 5 of Falkirk's last 8 and 1 of 3 head-to-heads.",
+     "support": "mixed"
+    },
+    {
+     "category": "Home Team Cards",
+     "pick": "Home Cards Over 0.5",
+     "prob": 0.834,
+     "fair_odds": 1.2,
+     "why": "Referee C Scott averages 3.4 cards a game (last 20). Cards per game: Aberdeen matches 4.2, Falkirk matches 3.6. Expected cards 1.8\u20132.0. Would have won in 8 of Aberdeen's last 8, 7 of Falkirk's last 8 and 3 of 3 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Away Team Corners",
+     "pick": "Away Corners Over 2.5",
+     "prob": 0.808,
+     "fair_odds": 1.24,
+     "why": "Aberdeen win 6.4 corners a game, Falkirk 4.9 (last 8). Expected corners 5.6\u20134.8. Would have won in 7 of Aberdeen's last 8, 8 of Falkirk's last 8 and 3 of 3 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.788
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:45",
+   "league": "Scotland Premiership",
+   "home": "Celtic",
+   "away": "Dundee United",
+   "referee": "S McLean",
+   "xg_home": 2.69,
+   "xg_away": 0.93,
+   "p_home": 0.742,
+   "p_draw": 0.157,
+   "p_away": 0.101,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home",
+     "prob": 0.742,
+     "fair_odds": 1.35,
+     "why": "Form: Celtic WLWWW, Dundee United DWWDW (latest last). Odds make Celtic 74% to win, draw 16%. Would have won in 7 of Celtic's last 8, 2 of Dundee United's last 8 and 4 of 6 head-to-heads.",
+     "support": "mixed"
+    },
+    {
+     "category": "Away Team Corners",
+     "pick": "Away Corners Over 1.5",
+     "prob": 0.849,
+     "fair_odds": 1.18,
+     "why": "Celtic win 8.9 corners a game, Dundee United 6.6 (last 8). Expected corners 8.1\u20133.8. Would have won in 8 of Celtic's last 8, 8 of Dundee United's last 8 and 4 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Cards",
+     "pick": "Away Cards Under 3.5",
+     "prob": 0.831,
+     "fair_odds": 1.2,
+     "why": "Referee S McLean averages 3.8 cards a game (last 20). Cards per game: Celtic matches 4.1, Dundee United matches 4.8. Expected cards 1.5\u20132.2. Would have won in 6 of Celtic's last 8, 5 of Dundee United's last 8 and 6 of 6 head-to-heads.",
+     "support": "fair"
+    }
+   ],
+   "safety": 0.807
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:45",
+   "league": "Scotland Premiership",
+   "home": "Dundee",
+   "away": "Kilmarnock",
+   "referee": "D Nicolson",
+   "xg_home": 1.79,
+   "xg_away": 1.29,
+   "p_home": 0.485,
+   "p_draw": 0.244,
+   "p_away": 0.27,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.73,
+     "fair_odds": 1.37,
+     "why": "Form: Dundee LWWDL, Kilmarnock WDLWL (latest last). Odds make Dundee 49% to win, draw 24%. Would have won in 5 of Dundee's last 8, 6 of Kilmarnock's last 8 and 4 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Home Team Over/Under",
+     "pick": "Home Over 0.5",
+     "prob": 0.833,
+     "fair_odds": 1.2,
+     "why": "Dundee score 1.5 and concede 1.4 a game (last 8). Expected goals 1.8\u20131.3. Would have won in 8 of Dundee's last 8, 6 of Kilmarnock's last 8 and 5 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Over/Under",
+     "pick": "Over 1.5",
+     "prob": 0.819,
+     "fair_odds": 1.22,
+     "why": "Goals per game: Dundee matches 2.9, Kilmarnock matches 2.5. Expected goals 1.8\u20131.3. Would have won in 8 of Dundee's last 8, 5 of Kilmarnock's last 8 and 5 of 6 head-to-heads.",
+     "support": "fair"
+    }
+   ],
+   "safety": 0.794
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:45",
+   "league": "Scotland Premiership",
+   "home": "St Johnstone",
+   "away": "Motherwell",
+   "referee": "J Beaton",
+   "xg_home": 1.43,
+   "xg_away": 1.35,
+   "p_home": 0.384,
+   "p_draw": 0.268,
+   "p_away": 0.348,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.652,
+     "fair_odds": 1.53,
+     "why": "Form: St Johnstone LDWDL, Motherwell LLLLL (latest last). Odds make St Johnstone 38% to win, draw 27%. Would have won in 5 of St Johnstone's last 8, 7 of Motherwell's last 8 and 3 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Over/Under",
+     "pick": "Away Under 2.5",
+     "prob": 0.845,
+     "fair_odds": 1.18,
+     "why": "Motherwell score 1.1 and concede 2.1 a game (last 8). Expected goals 1.4\u20131.3. Would have won in 7 of St Johnstone's last 8, 6 of Motherwell's last 8 and 5 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Home Team Over/Under",
+     "pick": "Home Under 2.5",
+     "prob": 0.826,
+     "fair_odds": 1.21,
+     "why": "St Johnstone score 0.9 and concede 1.4 a game (last 8). Expected goals 1.4\u20131.3. Would have won in 8 of St Johnstone's last 8, 5 of Motherwell's last 8 and 6 of 6 head-to-heads.",
+     "support": "fair"
+    }
+   ],
+   "safety": 0.774
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:45",
+   "league": "Scotland Premiership",
+   "home": "St Mirren",
+   "away": "Hibernian",
+   "referee": "R Hardie",
+   "xg_home": 1.29,
+   "xg_away": 1.67,
+   "p_home": 0.29,
+   "p_draw": 0.253,
+   "p_away": 0.457,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.71,
+     "fair_odds": 1.41,
+     "why": "Form: St Mirren LLLLW, Hibernian LDLLL (latest last). Odds make Hibernian 46% to win, draw 25%. Would have won in 6 of St Mirren's last 8, 2 of Hibernian's last 8 and 5 of 6 head-to-heads.",
+     "support": "mixed"
+    },
+    {
+     "category": "Total Corners",
+     "pick": "Corners Over 7.5",
+     "prob": 0.841,
+     "fair_odds": 1.19,
+     "why": "St Mirren win 3.8 corners a game, Hibernian 6.4 (last 8). Expected corners 5.7\u20135.7. Would have won in 7 of St Mirren's last 8, 8 of Hibernian's last 8 and 5 of 6 head-to-heads.",
+     "support": "strong"
+    },
+    {
+     "category": "Home Team Cards",
+     "pick": "Home Cards Under 3.5",
+     "prob": 0.826,
+     "fair_odds": 1.21,
+     "why": "Referee R Hardie averages 4.7 cards a game (last 20). Cards per game: St Mirren matches 4.2, Hibernian matches 3.9. Expected cards 2.2\u20131.9. Would have won in 6 of St Mirren's last 8, 6 of Hibernian's last 8 and 4 of 6 head-to-heads.",
+     "support": "fair"
+    }
+   ],
+   "safety": 0.792
+  },
+  {
+   "date": "2026-10-28",
+   "time": "20:00",
+   "league": "Scotland Premiership",
+   "home": "Hearts",
+   "away": "Rangers",
+   "referee": "D Robertson",
+   "xg_home": 1.35,
+   "xg_away": 1.67,
+   "p_home": 0.304,
+   "p_draw": 0.252,
+   "p_away": 0.444,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Away/Draw",
+     "prob": 0.696,
+     "fair_odds": 1.44,
+     "why": "Form: Hearts LDWLW, Rangers WWWDW (latest last). Odds make Rangers 44% to win, draw 25%. Would have won in 3 of Hearts's last 8, 8 of Rangers's last 8 and 3 of 6 head-to-heads.",
+     "support": "mixed"
+    },
+    {
+     "category": "Home Team Corners",
+     "pick": "Home Corners Over 2.5",
+     "prob": 0.847,
+     "fair_odds": 1.18,
+     "why": "Hearts win 6.8 corners a game, Rangers 7.5 (last 8). Expected corners 5.2\u20135.5. Would have won in 8 of Hearts's last 8, 6 of Rangers's last 8 and 4 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Home Team Over/Under",
+     "pick": "Home Under 2.5",
+     "prob": 0.845,
+     "fair_odds": 1.18,
+     "why": "Hearts score 2.1 and concede 1.6 a game (last 8). Expected goals 1.3\u20131.7. Would have won in 6 of Hearts's last 8, 8 of Rangers's last 8 and 6 of 6 head-to-heads.",
+     "support": "strong"
+    }
+   ],
+   "safety": 0.796
+  },
+  {
+   "date": "2026-10-29",
+   "time": "17:30",
+   "league": "Italy Serie A",
+   "home": "Frosinone",
+   "away": "Lecce",
+   "referee": "",
+   "xg_home": 2.11,
+   "xg_away": 1.23,
+   "p_home": 0.57,
+   "p_draw": 0.218,
+   "p_away": 0.212,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.788,
+     "fair_odds": 1.27,
+     "why": "Form: Frosinone DWLWD, Lecce WLLWL (latest last). Odds make Frosinone 57% to win, draw 22%. Would have won in 6 of Frosinone's last 8 and 5 of Lecce's last 8.",
+     "support": "fair"
+    },
+    {
+     "category": "Away Team Cards",
+     "pick": "Away Cards Under 3.5",
+     "prob": 0.829,
+     "fair_odds": 1.21,
+     "why": "Cards per game: Frosinone matches 4.4, Lecce matches 2.6. Expected cards 1.6\u20132.2. Would have won in 6 of Frosinone's last 8 and 8 of Lecce's last 8.",
+     "support": "strong"
+    },
+    {
+     "category": "Home Team Corners",
+     "pick": "Home Corners Over 4.5",
+     "prob": 0.824,
+     "fair_odds": 1.21,
+     "why": "Frosinone win 5.9 corners a game, Lecce 4.5 (last 8). Expected corners 7.6\u20134.7. Would have won in 6 of Frosinone's last 8 and 3 of Lecce's last 8.",
+     "support": "mixed"
+    }
+   ],
+   "safety": 0.814
+  },
+  {
+   "date": "2026-10-29",
+   "time": "19:45",
+   "league": "Italy Serie A",
+   "home": "Fiorentina",
+   "away": "Atalanta",
+   "referee": "",
+   "xg_home": 1.65,
+   "xg_away": 1.39,
+   "p_home": 0.431,
+   "p_draw": 0.252,
+   "p_away": 0.317,
+   "odds_used": true,
+   "picks": [
+    {
+     "category": "1X2 / Double Chance",
+     "pick": "Home/Draw",
+     "prob": 0.683,
+     "fair_odds": 1.46,
+     "why": "Form: Fiorentina WDLLL, Atalanta LLWLD (latest last). Odds make Fiorentina 43% to win, draw 25%. Would have won in 2 of Fiorentina's last 8, 5 of Atalanta's last 8 and 4 of 6 head-to-heads.",
+     "support": "mixed"
+    },
+    {
+     "category": "Away Team Over/Under",
+     "pick": "Away Under 2.5",
+     "prob": 0.836,
+     "fair_odds": 1.2,
+     "why": "Atalanta score 1.8 and concede 1.9 a game (last 8). Expected goals 1.6\u20131.4. Would have won in 5 of Fiorentina's last 8, 6 of Atalanta's last 8 and 5 of 6 head-to-heads.",
+     "support": "fair"
+    },
+    {
+     "category": "Home Team Corners",
+     "pick": "Home Corners Over 2.5",
+     "prob": 0.83,
+     "fair_odds": 1.2,
+     "why": "Fiorentina win 4.8 corners a game, Atalanta 4.0 (last 8). Expected corners 5.0\u20134.0. Would have won in 7 of Fiorentina's last 8, 5 of Atalanta's last 8 and 4 of 6 head-to-heads.",
+     "support": "fair"
+    }
+   ],
+   "safety": 0.783
+  }
+ ],
+ "backtest": {
+  "matches": 37010,
+  "from": "2019-07-26",
+  "to": "2026-10-26",
+  "market_weight": 1.0,
+  "by_option": [
+   {
+    "category": "1X2 / Double Chance",
+    "label": "Home/Draw",
+    "n": 20976.0,
+    "pred": 0.7404,
+    "hit": 0.7517,
+    "roi": -0.0448,
+    "n_odds": 20976.0
+   },
+   {
+    "category": "1X2 / Double Chance",
+    "label": "Away/Draw",
+    "n": 10736.0,
+    "pred": 0.7246,
+    "hit": 0.7428,
+    "roi": -0.035,
+    "n_odds": 10736.0
+   },
+   {
+    "category": "Over/Under",
+    "label": "Under 4.5",
+    "n": 4599.0,
+    "pred": 0.8363,
+    "hit": 0.8482,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Under 6.5",
+    "n": 4326.0,
+    "pred": 0.8327,
+    "hit": 0.8322,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Over/Under",
+    "label": "Home Under 2.5",
+    "n": 4308.0,
+    "pred": 0.8307,
+    "hit": 0.8459,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Cards",
+    "label": "Home Cards Over 0.5",
+    "n": 4009.0,
+    "pred": 0.8373,
+    "hit": 0.8458,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "1X2 / Double Chance",
+    "label": "Home",
+    "n": 4007.0,
+    "pred": 0.738,
+    "hit": 0.7776,
+    "roi": -0.0047,
+    "n_odds": 4007.0
+   },
+   {
+    "category": "Away Team Cards",
+    "label": "Away Cards Under 3.5",
+    "n": 3571.0,
+    "pred": 0.8355,
+    "hit": 0.8412,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Corners",
+    "label": "Corners Under 12.5",
+    "n": 3454.0,
+    "pred": 0.831,
+    "hit": 0.8422,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Over 2.5",
+    "n": 3425.0,
+    "pred": 0.8386,
+    "hit": 0.8371,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Over 2.5",
+    "n": 3341.0,
+    "pred": 0.8315,
+    "hit": 0.8324,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Cards",
+    "label": "Away Cards Over 0.5",
+    "n": 3135.0,
+    "pred": 0.8367,
+    "hit": 0.8335,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Over/Under",
+    "label": "Home Over 0.5",
+    "n": 2880.0,
+    "pred": 0.8304,
+    "hit": 0.8483,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Under 7.5",
+    "n": 2716.0,
+    "pred": 0.839,
+    "hit": 0.8465,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Over/Under",
+    "label": "Over 1.5",
+    "n": 2649.0,
+    "pred": 0.8329,
+    "hit": 0.8354,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Over/Under",
+    "label": "Away Under 2.5",
+    "n": 2624.0,
+    "pred": 0.8324,
+    "hit": 0.8377,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Cards",
+    "label": "Home Cards Under 3.5",
+    "n": 2487.0,
+    "pred": 0.834,
+    "hit": 0.8448,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Cards",
+    "label": "Cards Under 5.5",
+    "n": 2371.0,
+    "pred": 0.8319,
+    "hit": 0.8288,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Cards",
+    "label": "Cards Over 2.5",
+    "n": 2330.0,
+    "pred": 0.8372,
+    "hit": 0.8365,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Over 1.5",
+    "n": 2043.0,
+    "pred": 0.84,
+    "hit": 0.8365,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Cards",
+    "label": "Cards Over 1.5",
+    "n": 2022.0,
+    "pred": 0.8373,
+    "hit": 0.8408,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Cards",
+    "label": "Cards Under 6.5",
+    "n": 1940.0,
+    "pred": 0.8384,
+    "hit": 0.8423,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Over 3.5",
+    "n": 1804.0,
+    "pred": 0.8332,
+    "hit": 0.8476,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Cards",
+    "label": "Home Cards Under 2.5",
+    "n": 1647.0,
+    "pred": 0.8356,
+    "hit": 0.8312,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Corners",
+    "label": "Corners Over 7.5",
+    "n": 1467.0,
+    "pred": 0.8264,
+    "hit": 0.8105,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Over/Under",
+    "label": "Away Over 0.5",
+    "n": 1376.0,
+    "pred": 0.8306,
+    "hit": 0.8481,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Under 6.5",
+    "n": 1360.0,
+    "pred": 0.8306,
+    "hit": 0.8382,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Over/Under",
+    "label": "Under 3.5",
+    "n": 1347.0,
+    "pred": 0.8142,
+    "hit": 0.8352,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "1X2 / Double Chance",
+    "label": "Away",
+    "n": 1291.0,
+    "pred": 0.7142,
+    "hit": 0.7459,
+    "roi": -0.014,
+    "n_odds": 1291.0
+   },
+   {
+    "category": "Away Team Over/Under",
+    "label": "Away Under 1.5",
+    "n": 1083.0,
+    "pred": 0.8324,
+    "hit": 0.8273,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Under 5.5",
+    "n": 1029.0,
+    "pred": 0.838,
+    "hit": 0.8737,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Cards",
+    "label": "Away Cards Over 1.5",
+    "n": 976.0,
+    "pred": 0.8231,
+    "hit": 0.8105,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Corners",
+    "label": "Corners Under 11.5",
+    "n": 573.0,
+    "pred": 0.8303,
+    "hit": 0.8272,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Cards",
+    "label": "Cards Over 3.5",
+    "n": 473.0,
+    "pred": 0.8253,
+    "hit": 0.8668,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Over/Under",
+    "label": "Home Under 1.5",
+    "n": 406.0,
+    "pred": 0.8309,
+    "hit": 0.8374,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Cards",
+    "label": "Cards Under 4.5",
+    "n": 362.0,
+    "pred": 0.8307,
+    "hit": 0.7983,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Over 3.5",
+    "n": 333.0,
+    "pred": 0.8314,
+    "hit": 0.8228,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "1st Half Over/Under",
+    "label": "1st Half Over 0.5",
+    "n": 294.0,
+    "pred": 0.8192,
+    "hit": 0.8333,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Over 4.5",
+    "n": 244.0,
+    "pred": 0.8332,
+    "hit": 0.8238,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Cards",
+    "label": "Home Cards Over 1.5",
+    "n": 228.0,
+    "pred": 0.8198,
+    "hit": 0.7675,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Cards",
+    "label": "Away Cards Under 2.5",
+    "n": 219.0,
+    "pred": 0.8254,
+    "hit": 0.8813,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Under 5.5",
+    "n": 189.0,
+    "pred": 0.8281,
+    "hit": 0.8677,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Under 4.5",
+    "n": 111.0,
+    "pred": 0.8282,
+    "hit": 0.8559,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Over/Under",
+    "label": "Home Over 1.5",
+    "n": 107.0,
+    "pred": 0.8315,
+    "hit": 0.8879,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Over/Under",
+    "label": "Over 0.5",
+    "n": 28.0,
+    "pred": 0.8426,
+    "hit": 0.9643,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Over 5.5",
+    "n": 27.0,
+    "pred": 0.8325,
+    "hit": 0.6667,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Over 4.5",
+    "n": 26.0,
+    "pred": 0.8307,
+    "hit": 0.8462,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Corners",
+    "label": "Corners Under 10.5",
+    "n": 13.0,
+    "pred": 0.8032,
+    "hit": 0.7692,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Corners",
+    "label": "Corners Over 8.5",
+    "n": 12.0,
+    "pred": 0.8313,
+    "hit": 0.5833,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Over/Under",
+    "label": "Away Over 1.5",
+    "n": 11.0,
+    "pred": 0.8349,
+    "hit": 0.9091,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Over/Under",
+    "label": "Over 2.5",
+    "n": 10.0,
+    "pred": 0.8246,
+    "hit": 1.0,
+    "roi": 0.139,
+    "n_odds": 10.0
+   },
+   {
+    "category": "1st Half Over/Under",
+    "label": "1st Half Under 1.5",
+    "n": 8.0,
+    "pred": 0.778,
+    "hit": 0.75,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Under 4.5",
+    "n": 4.0,
+    "pred": 0.8261,
+    "hit": 0.75,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Over 5.5",
+    "n": 3.0,
+    "pred": 0.8282,
+    "hit": 0.6667,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Over 6.5",
+    "n": 3.0,
+    "pred": 0.8378,
+    "hit": 0.3333,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Corners",
+    "label": "Away Corners Under 3.5",
+    "n": 2.0,
+    "pred": 0.8311,
+    "hit": 1.0,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Away Team Cards",
+    "label": "Away Cards Over 2.5",
+    "n": 1.0,
+    "pred": 0.7682,
+    "hit": 0.0,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Home Team Corners",
+    "label": "Home Corners Over 7.5",
+    "n": 1.0,
+    "pred": 0.8443,
+    "hit": 1.0,
+    "roi": NaN,
+    "n_odds": 0.0
+   },
+   {
+    "category": "Total Corners",
+    "label": "Corners Over 9.5",
+    "n": 1.0,
+    "pred": 0.8212,
+    "hit": 1.0,
+    "roi": NaN,
+    "n_odds": 0.0
+   }
+  ],
+  "by_slot": [
+   {
+    "slot": "pick1",
+    "n": 37010.0,
+    "pred": 0.7346,
+    "hit": 0.7517,
+    "roi": -0.0365,
+    "n_odds": 37010.0
+   },
+   {
+    "slot": "pick2",
+    "n": 37003.0,
+    "pred": 0.84,
+    "hit": 0.8464,
+    "roi": 0.13,
+    "n_odds": 4.0
+   },
+   {
+    "slot": "pick3",
+    "n": 37005.0,
+    "pred": 0.827,
+    "hit": 0.8318,
+    "roi": 0.145,
+    "n_odds": 6.0
+   }
+  ],
+  "cat1_reliability": [
+   {
+    "bucket": "(0.6, 0.65]",
+    "n": 1788,
+    "pred": 0.6424,
+    "hit": 0.6532
+   },
+   {
+    "bucket": "(0.65, 0.7]",
+    "n": 11057,
+    "pred": 0.675,
+    "hit": 0.6928
+   },
+   {
+    "bucket": "(0.7, 0.75]",
+    "n": 9872,
+    "pred": 0.724,
+    "hit": 0.7384
+   },
+   {
+    "bucket": "(0.75, 0.8]",
+    "n": 7729,
+    "pred": 0.7743,
+    "hit": 0.7965
+   },
+   {
+    "bucket": "(0.8, 0.85]",
+    "n": 5489,
+    "pred": 0.8234,
+    "hit": 0.8369
+   },
+   {
+    "bucket": "(0.85, 0.9]",
+    "n": 1061,
+    "pred": 0.861,
+    "hit": 0.8878
+   },
+   {
+    "bucket": "(0.9, 1.0]",
+    "n": 14,
+    "pred": 0.9086,
+    "hit": 0.8571
+   }
+  ],
+  "all_three_hit": {
+   "n": 37001,
+   "naive_pred": 0.5105,
+   "actual": 0.5335
+  },
+  "by_league_cat1": [
+   {
+    "league": "Spain La Liga",
+    "n": 2759.0,
+    "pred": 0.7436,
+    "hit": 0.7854,
+    "roi": 0.0066,
+    "n_odds": 2759.0
+   },
+   {
+    "league": "Portugal Primeira Liga",
+    "n": 2223.0,
+    "pred": 0.7383,
+    "hit": 0.7791,
+    "roi": -0.0103,
+    "n_odds": 2223.0
+   },
+   {
+    "league": "Italy Serie A",
+    "n": 2739.0,
+    "pred": 0.741,
+    "hit": 0.7707,
+    "roi": -0.0132,
+    "n_odds": 2739.0
+   },
+   {
+    "league": "Turkey Super Lig",
+    "n": 2528.0,
+    "pred": 0.7299,
+    "hit": 0.7702,
+    "roi": -0.0143,
+    "n_odds": 2528.0
+   },
+   {
+    "league": "Scotland Premiership",
+    "n": 1607.0,
+    "pred": 0.7403,
+    "hit": 0.7592,
+    "roi": -0.0388,
+    "n_odds": 1607.0
+   },
+   {
+    "league": "Greece Super League",
+    "n": 1723.0,
+    "pred": 0.7479,
+    "hit": 0.7557,
+    "roi": -0.0648,
+    "n_odds": 1723.0
+   },
+   {
+    "league": "Netherlands Eredivisie",
+    "n": 2158.0,
+    "pred": 0.7396,
+    "hit": 0.7553,
+    "roi": -0.0404,
+    "n_odds": 2158.0
+   },
+   {
+    "league": "France Ligue 1",
+    "n": 2409.0,
+    "pred": 0.7369,
+    "hit": 0.7484,
+    "roi": -0.0368,
+    "n_odds": 2409.0
+   },
+   {
+    "league": "England Premier League",
+    "n": 2740.0,
+    "pred": 0.7398,
+    "hit": 0.746,
+    "roi": -0.0366,
+    "n_odds": 2740.0
+   },
+   {
+    "league": "England League One",
+    "n": 3849.0,
+    "pred": 0.7299,
+    "hit": 0.7456,
+    "roi": -0.0451,
+    "n_odds": 3849.0
+   },
+   {
+    "league": "Belgium Pro League",
+    "n": 2165.0,
+    "pred": 0.7318,
+    "hit": 0.745,
+    "roi": -0.0474,
+    "n_odds": 2165.0
+   },
+   {
+    "league": "Germany Bundesliga",
+    "n": 2205.0,
+    "pred": 0.7315,
+    "hit": 0.7438,
+    "roi": -0.0332,
+    "n_odds": 2205.0
+   },
+   {
+    "league": "England League Two",
+    "n": 3897.0,
+    "pred": 0.7227,
+    "hit": 0.7285,
+    "roi": -0.0584,
+    "n_odds": 3897.0
+   },
+   {
+    "league": "England Championship",
+    "n": 4008.0,
+    "pred": 0.7291,
+    "hit": 0.7243,
+    "roi": -0.062,
+    "n_odds": 4008.0
+   }
+  ],
+  "count_skill": [
+   {
+    "market": "corners over 9.5",
+    "n": 37000,
+    "logloss_raw_model": 0.6955,
+    "logloss_calibrated": 0.6849,
+    "logloss_league_avg": 0.6884,
+    "actual_rate": 0.5162
+   },
+   {
+    "market": "corners over 10.5",
+    "n": 37000,
+    "logloss_raw_model": 0.6755,
+    "logloss_calibrated": 0.6651,
+    "logloss_league_avg": 0.6688,
+    "actual_rate": 0.4
+   },
+   {
+    "market": "cards over 3.5",
+    "n": 37001,
+    "logloss_raw_model": 0.6597,
+    "logloss_calibrated": 0.6504,
+    "logloss_league_avg": 0.6586,
+    "actual_rate": 0.5743
+   },
+   {
+    "market": "cards over 4.5",
+    "n": 37001,
+    "logloss_raw_model": 0.6461,
+    "logloss_calibrated": 0.6354,
+    "logloss_league_avg": 0.6434,
+    "actual_rate": 0.3957
+   }
+  ],
+  "goals_only_extras_hit": {
+   "pick2": 0.8292,
+   "pick3": 0.7794
+  },
+  "support_check": {
+   "from_season": 2024,
+   "picks": 34524,
+   "by_support": [
+    {
+     "support": "fair",
+     "n": 15873,
+     "predicted": 0.7944,
+     "hit_rate": 0.8043
+    },
+    {
+     "support": "mixed",
+     "n": 4539,
+     "predicted": 0.7413,
+     "hit_rate": 0.7603
+    },
+    {
+     "support": "model only",
+     "n": 9,
+     "predicted": 0.7909,
+     "hit_rate": 1.0
+    },
+    {
+     "support": "strong",
+     "n": 14103,
+     "predicted": 0.8277,
+     "hit_rate": 0.8394
+    }
+   ],
+   "by_band": {
+    "55\u201370%": {
+     "fair": 0.6782,
+     "mixed": 0.6877,
+     "model only": 1.0,
+     "strong": 0.6711
+    },
+    "70\u201380%": {
+     "fair": 0.7677,
+     "mixed": 0.7664,
+     "model only": 1.0,
+     "strong": 0.786
+    },
+    "80\u201385%": {
+     "fair": 0.8413,
+     "mixed": 0.8461,
+     "model only": 1.0,
+     "strong": 0.8468
+    }
+   }
+  }
+ }
+}

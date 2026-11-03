@@ -1,0 +1,1170 @@
+<style>
+  /* Layout: a simple tips page. Top tabs (Picks, Results, Performance, How it works); on Picks a row of
+     market chips, then one panel with day buttons and matches grouped by competition, each match on
+     one centred line with its picks as coloured pills underneath. No odds anywhere: probabilities only. */
+  .fp { font-family: var(--font-anthropic-sans); display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+  .fp h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .fp h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .fp h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .fp p { margin: 0; }
+  .fp .note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); max-width: 75ch; line-height: 1.5; }
+  .fp section.page { display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+  .fp .block { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+  .fp :is(button, select, input, summary):focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+
+  /* header and tabs */
+  .fp .head { display: flex; flex-direction: column; gap: 4px; }
+  .fp .status { display: flex; flex-wrap: wrap; gap: 4px var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .status b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .fp .live-dot { display: inline-block; width: .45rem; height: .45rem; border-radius: 50%; background: var(--color-ok); margin-right: .3rem; vertical-align: middle; }
+  .fp .tabs { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--color-border-line); }
+  .fp .tabs button { font: inherit; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--color-fg-muted); padding: 10px 14px; cursor: pointer; white-space: nowrap; margin-bottom: -1px; text-transform: uppercase; letter-spacing: .04em; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); }
+  .fp .tabs button:hover { color: var(--color-fg); }
+  .fp .tabs button[aria-selected="true"] { color: var(--color-ok); border-bottom-color: var(--color-ok); }
+
+  /* market chips */
+  .fp .chiprow { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+  .fp .chip { font: inherit; font-size: var(--cds-font-size-caption); white-space: nowrap; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+  .fp .chip:hover { border-color: var(--color-fg-muted); }
+  .fp .chip[aria-pressed="true"] { background: var(--color-ok); border-color: var(--color-ok); color: var(--color-bg); font-weight: var(--cds-font-weight-medium); }
+  .fp .chip i { width: .55rem; height: .55rem; border-radius: 50%; background: var(--fam); }
+
+  /* the picks panel */
+  .fp .panel { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: calc(var(--cds-radius) * 2); overflow: hidden; }
+  .fp .panel-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--cds-gap-sm) var(--cds-gap-md); padding: var(--cds-pad-lg); border-bottom: 1px solid var(--color-border-line); }
+  .fp .panel-title { display: flex; flex-direction: column; gap: 2px; }
+  .fp .panel-title h2 { text-transform: uppercase; letter-spacing: .03em; font-weight: 700; }
+  .fp .panel-title .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .panel-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .fp .days { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+  .fp .days button, .fp .mini { font: inherit; font-size: var(--cds-font-size-caption); border: 0; background: none; color: var(--color-fg-muted); padding: 7px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap; }
+  .fp .days button:hover, .fp .mini:hover { color: var(--color-fg); }
+  .fp .days button[aria-pressed="true"] { background: var(--color-ok); color: var(--color-bg); font-weight: var(--cds-font-weight-medium); }
+  .fp .mini { border: 1px solid var(--color-border-line); }
+  .fp .mini[aria-pressed="true"] { border-color: var(--color-fg); color: var(--color-fg); }
+  .fp .panel select { font: inherit; font-size: var(--cds-font-size-caption); padding: 6px 10px; border: 1px solid var(--color-border-line); border-radius: 999px; background: var(--color-bg); color: var(--color-fg); max-width: 14rem; }
+  .fp .summary { padding: 8px var(--cds-pad-lg); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border-bottom: 1px solid var(--color-border-line); }
+  .fp .comp-head { display: flex; align-items: center; gap: 8px; padding: 10px var(--cds-pad-lg); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); background: var(--color-bg); border-bottom: 1px solid var(--color-border-line); }
+  .fp .comp-head b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .fp .comp-head .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--color-ok); }
+  .fp .row { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 14px var(--cds-pad-lg); border-bottom: 1px solid var(--color-border-line); }
+  .fp .line { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px; width: 100%; max-width: 40rem; }
+  .fp .line .h { text-align: right; font-weight: var(--cds-font-weight-medium); overflow-wrap: anywhere; }
+  .fp .line .a { text-align: left; font-weight: var(--cds-font-weight-medium); overflow-wrap: anywhere; }
+  .fp .mid { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; min-width: 4.2rem; padding: 4px 10px; border: 1px solid var(--color-border-line); border-radius: 999px; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; line-height: 1.2; }
+  .fp .mid .sc { font-size: var(--cds-font-size-body); font-weight: 700; color: var(--color-fg); }
+  .fp .mid .ft { font-size: 10px; color: var(--color-fg-muted); letter-spacing: .05em; }
+  .fp .pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+  .fp .pill { font: inherit; font-size: var(--cds-font-size-caption); display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--fam); background: var(--color-bg); color: var(--color-fg); cursor: pointer; }
+  .fp .pill .fdot { width: .55rem; height: .55rem; border-radius: 50%; background: var(--fam); flex: none; }
+  .fp .pill b { font-weight: var(--cds-font-weight-medium); }
+  .fp .pill .pp { font-variant-numeric: tabular-nums; color: var(--color-fg-muted); }
+  .fp .pill.hi .pp { color: var(--color-ok); font-weight: var(--cds-font-weight-medium); }
+  .fp .pill[aria-pressed="true"] { background: var(--fam); color: var(--color-bg); }
+  .fp .pill[aria-pressed="true"] .pp { color: var(--color-bg); }
+  .fp .pill[aria-pressed="true"] .fdot { background: var(--color-bg); }
+  .fp .pill.won { border-color: var(--color-ok); } .fp .pill.lost { border-color: var(--color-bad); opacity: .8; }
+  .fp .pill .res { font-weight: 700; } .fp .pill.won .res { color: var(--color-ok); } .fp .pill.lost .res { color: var(--color-bad); }
+  .fp details.why { width: 100%; max-width: 40rem; }
+  .fp details.why > summary { cursor: pointer; list-style: none; text-align: center; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp details.why > summary::-webkit-details-marker { display: none; }
+  .fp details.why > summary::after { content: " ▾"; }
+  .fp details.why[open] > summary::after { content: " ▴"; }
+  .fp details.why > summary:hover { color: var(--color-fg); }
+  .fp details.why ul { margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .fp details.why li { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; border-left: 3px solid var(--fam); padding-left: 10px; }
+  .fp details.why li b { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .fp .empty { color: var(--color-fg-muted); padding: var(--cds-pad-lg); text-align: center; }
+  .fp .legend { display: flex; flex-wrap: wrap; gap: 6px var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); padding: 10px var(--cds-pad-lg); }
+  .fp .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .fp .legend i { width: .55rem; height: .55rem; border-radius: 50%; background: var(--fam); }
+
+  .fp .panel input[type=date] { font: inherit; font-size: var(--cds-font-size-caption); padding: 5px 10px; border: 1px solid var(--color-border-line); border-radius: 999px; background: var(--color-bg); color: var(--color-fg); }
+  .fp .tag { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--color-warn); color: var(--color-warn); margin-left: 6px; vertical-align: 1px; }
+
+  /* competitions: ranking and grid */
+  .fp .ctools { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm) var(--cds-gap-md); align-items: center; }
+  .fp .ctools .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp table.rank tbody tr { cursor: pointer; }
+  .fp table.rank tbody tr:hover td { background: var(--color-bg); }
+  .fp table.rank tbody tr.sel td { background: color-mix(in srgb, var(--color-ok) 14%, transparent); }
+  .fp table.rank tbody tr.sel td:first-child { box-shadow: inset 3px 0 0 var(--color-ok); }
+  .fp table.rank tbody tr.small td { color: var(--color-fg-muted); }
+  .fp table.rank td.big-n { font-weight: var(--cds-font-weight-medium); }
+  .fp .spark { display: block; overflow: visible; }
+  .fp table.heat td.c { text-align: center; font-variant-numeric: tabular-nums; }
+  .fp table.heat td.c.thin { color: var(--color-fg-muted); }
+  .fp .sel-chip { display: inline-flex; align-items: center; gap: 6px; font-size: var(--cds-font-size-caption); padding: 4px 10px; border-radius: 999px; background: color-mix(in srgb, var(--color-ok) 14%, transparent); }
+  .fp .sel-chip button { font: inherit; border: 0; background: none; color: var(--color-fg-muted); cursor: pointer; }
+
+  .fp .pill.best-pill { font-size: var(--cds-font-size-body); padding: 9px 16px; border-width: 2px; }
+  .fp .best-tag { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: var(--color-ok); font-weight: 700; }
+  .fp .pill[aria-pressed="true"] .best-tag { color: var(--color-bg); }
+  .fp details.more-picks { width: 100%; max-width: 40rem; }
+  .fp details.more-picks > summary { cursor: pointer; list-style: none; text-align: center; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp details.more-picks > summary::-webkit-details-marker { display: none; }
+  .fp details.more-picks > summary::after { content: " ▾"; }
+  .fp details.more-picks[open] > summary::after { content: " ▴"; }
+  .fp details.more-picks .pills { margin-top: 8px; }
+
+  .fp .row-comp { display: inline-flex; align-items: center; gap: 6px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .row-comp .dot { width: .45rem; height: .45rem; border-radius: 50%; background: var(--color-ok); }
+
+  .fp .sugg { border-color: var(--color-ok); }
+  .fp .sugg-n { display: inline-flex; align-items: center; gap: 6px; }
+  .fp .sugg-n select { font: inherit; font-size: var(--cds-font-size-caption); padding: 6px 10px; border: 1px solid var(--color-border-line); border-radius: 999px; background: var(--color-bg); color: var(--color-fg); }
+  .fp .sugg-n .btn { width: 2rem; padding: 4px 0; text-align: center; }
+  .fp .sugg-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: var(--cds-gap-sm); }
+  .fp .sugg-head h3 { margin-bottom: 2px; }
+  .fp .sugg-row { display: grid; grid-template-columns: .55rem minmax(0, 1fr) auto auto; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--color-border-line); }
+  .fp .sugg-row .fdot { width: .55rem; height: .55rem; border-radius: 50%; background: var(--fam); }
+  .fp .sugg-row .m { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .sugg-row .pk { font-weight: var(--cds-font-weight-medium); }
+  .fp .sugg-row .pp { font-variant-numeric: tabular-nums; font-weight: var(--cds-font-weight-medium); }
+  .fp .sugg-foot { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px var(--cds-gap-md); padding-top: 6px; }
+  .fp .sugg-foot .btn { margin-left: auto; }
+
+  /* slip */
+  .fp .betslip { position: sticky; bottom: max(var(--cds-gap-sm), env(safe-area-inset-bottom, 0px)); z-index: 3; background: var(--color-panel); border: 1px solid var(--color-ok); border-radius: calc(var(--cds-radius) * 2); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-sm) var(--cds-pad-md); display: flex; flex-direction: column; gap: 6px; }
+  .fp .bs-sum { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px var(--cds-gap-md); }
+  .fp .bs-title { font-weight: var(--cds-font-weight-medium); }
+  .fp .bs-fig { display: inline-flex; align-items: baseline; gap: .35rem; }
+  .fp .bs-fig .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .bs-fig .v { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-heading); font-variant-numeric: tabular-nums; }
+  .fp .bs-clear { margin-left: auto; }
+  .fp .bs-list { display: flex; flex-direction: column; max-height: 11rem; overflow: auto; border-top: 1px solid var(--color-border-line); }
+  .fp .bs-row { display: grid; grid-template-columns: .55rem minmax(0, 1fr) auto auto; gap: 10px; align-items: center; padding: 5px 0; border-bottom: 1px solid var(--color-border-line); font-size: var(--cds-font-size-caption); }
+  .fp .bs-row .fdot { width: .55rem; height: .55rem; border-radius: 50%; background: var(--fam); }
+  .fp .bs-row .m { color: var(--color-fg-muted); }
+  .fp .bs-row button { font: inherit; border: 0; background: none; color: var(--color-fg-muted); cursor: pointer; }
+  .fp .bs-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+
+  /* results strip */
+  .fp .strip { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px; }
+  .fp .daytile { flex: none; width: 4.4rem; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 6px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-panel); }
+  .fp .daytile .mk { font-size: 1.3rem; line-height: 1; }
+  .fp .daytile .mk.ok { color: var(--color-ok); } .fp .daytile .mk.bad { color: var(--color-bad); } .fp .daytile .mk.wait { color: var(--color-fg-muted); }
+  .fp .daytile .dd { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .fp .daytile .mm, .fp .daytile .nn { font-size: 11px; color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+
+  /* results portal, performance */
+  .fp .filters { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm) var(--cds-gap-md); align-items: flex-end; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: calc(var(--cds-radius) * 2); padding: var(--cds-pad-sm) var(--cds-pad-md); }
+  .fp .field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .fp .field > .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .seg { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+  .fp .seg button { font: inherit; font-size: var(--cds-font-size-caption); background: var(--color-bg); color: var(--color-fg); border: 1px solid var(--color-border-line); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+  .fp .seg button[aria-pressed="true"] { background: var(--color-ok); border-color: var(--color-ok); color: var(--color-bg); }
+  .fp .filters select, .fp .filters input, .fp .btn { font: inherit; font-size: var(--cds-font-size-caption); padding: 6px 10px; border: 1px solid var(--color-border-line); border-radius: 999px; background: var(--color-bg); color: var(--color-fg); min-width: 0; }
+  .fp .btn { cursor: pointer; }
+  .fp .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .fp .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: var(--cds-gap-md); }
+  .fp .kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: calc(var(--cds-radius) * 2); padding: var(--cds-pad-md) var(--cds-pad-lg); display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .fp .kpi .lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .kpi .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.15; }
+  .fp .kpi .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); overflow-wrap: anywhere; }
+  .fp .pos { color: var(--color-ok); } .fp .neg { color: var(--color-bad); }
+  .fp .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: calc(var(--cds-radius) * 2); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .fp .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+  .fp .chart { position: relative; min-height: 240px; }
+  .fp .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; }
+  .fp .tip .t { color: var(--cds-text-secondary); }
+  .fp .key { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .key i { display: inline-block; width: .6rem; height: .6rem; border-radius: 50%; margin-right: .3rem; vertical-align: middle; }
+  .fp .tbl-wrap { overflow: auto; max-height: 34rem; }
+  .fp table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .fp th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); position: sticky; top: 0; background: var(--color-panel); padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; z-index: 1; }
+  .fp td { padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .fp td.r, .fp th.r { text-align: right; }
+  .fp td.pick-cell { border-left: 3px solid var(--fam); }
+  .fp td .o-won { color: var(--color-ok); font-weight: var(--cds-font-weight-medium); }
+  .fp td .o-lost { color: var(--color-bad); font-weight: var(--cds-font-weight-medium); }
+  .fp td .o-pending { color: var(--color-fg-muted); }
+  .fp .src-test { color: var(--color-fg-muted); }
+  .fp .more { display: flex; align-items: center; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .fp .banner { border: 1px solid var(--color-border-line); border-left: 4px solid var(--color-warn); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); background: var(--color-panel); font-size: var(--cds-font-size-caption); line-height: 1.5; }
+  .fp .method { max-width: 75ch; }
+  .fp .method ul { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: var(--cds-gap-xs); line-height: 1.55; }
+  .fp .method dl { margin: 0; display: grid; grid-template-columns: minmax(7rem, max-content) 1fr; gap: 6px var(--cds-gap-md); line-height: 1.5; }
+  .fp .method dt { font-weight: var(--cds-font-weight-medium); }
+  .fp .method dd { margin: 0; color: var(--color-fg-muted); }
+  @media (max-width: 40rem) {
+    .fp .hide-sm { display: none; } .fp .method dl { grid-template-columns: 1fr; }
+    .fp .row { padding: 12px var(--cds-pad-md); } .fp .line { gap: 8px; } .fp .panel-head { padding: var(--cds-pad-md); }
+  }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  .fp .title-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .fp[data-sport="volley"] [data-only="football"], .fp[data-sport="football"] [data-only="volley"] { display: none !important; }
+  .fp .perf-stack { display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+</style>
+
+<div class="fp" id="fp" data-sport="football">
+  <header class="head">
+    <div class="title-row"><h1 id="title">Football Safe Picks</h1>
+      <div class="seg" id="sport" role="group" aria-label="Sport"><button data-v="football" aria-pressed="true">Football</button><button data-v="volley" aria-pressed="false">Volleyball</button></div></div>
+    <div class="status" data-fetchpriority="high">
+      <span><i class="live-dot"></i>Updated <b data-source="status" data-field="updated_at" data-row="0">—</b></span>
+      <span>Results up to <b data-source="status" data-field="data_through" data-row="0">—</b></span>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-picks" data-page="picks" aria-selected="true">Picks</button>
+    <button role="tab" id="tab-results" data-page="results" aria-selected="false">Results</button>
+    <button role="tab" id="tab-performance" data-page="performance" aria-selected="false">Performance</button>
+    <button role="tab" id="tab-method" data-page="method" aria-selected="false">How it works</button>
+  </nav>
+
+  <!-- ============================================================ PICKS -->
+  <section class="page" id="picks" role="tabpanel" aria-labelledby="tab-picks">
+    <div class="card sugg" id="sugg" data-source="upcoming history">
+      <div class="sugg-head">
+        <div><h3 id="sugg-title">Suggested slip</h3><span class="note" id="sugg-sub"></span></div>
+        <div class="seg" id="sugg-span" role="group" aria-label="Days">
+          <button data-v="1" aria-pressed="true">1 day</button><button data-v="2">2 days</button></div>
+        <div class="seg" id="sugg-mode" role="group" aria-label="Slip type">
+          <button data-v="n" aria-pressed="true">By number</button><button data-v="2">2 odds</button><button data-v="3">3 odds</button><button data-v="5">5 odds</button><button data-v="10">10 odds</button></div>
+        <div class="sugg-n" id="sugg-n-box"><label class="note" for="sugg-n">Picks</label>
+          <button class="btn" id="sugg-minus" aria-label="One pick fewer">−</button>
+          <select id="sugg-n"></select>
+          <button class="btn" id="sugg-plus" aria-label="One pick more">+</button></div>
+      </div>
+      <div id="sugg-list"></div>
+      <div class="sugg-foot"><span class="bs-fig"><span class="lbl">Chance all win</span><span class="v" id="sugg-chance">—</span></span>
+        <span class="note" id="sugg-track"></span><button class="btn" id="sugg-add">Add to my slip</button></div>
+    </div>
+
+    <div class="chiprow" id="chips" role="group" aria-label="Market"></div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <div class="panel-title"><h2>Picks</h2><span class="sub" id="day-title">—</span></div>
+        <div class="panel-tools">
+          <div class="days" id="days" role="group" aria-label="Day"></div>
+          <input type="date" id="pickdate" aria-label="Choose any day" title="Choose any earlier day">
+          <select id="comp" aria-label="Competition"><option value="">All competitions</option></select>
+          <button class="mini" id="sort" aria-pressed="false" title="Show games grouped by competition instead of by chance">Group by competition</button>
+          <button class="mini" id="whyall" aria-pressed="false">Show reasons</button>
+          <button class="mini" id="moreall" aria-pressed="false">Show more picks</button>
+        </div>
+      </div>
+      <div class="summary" id="summary" data-source="upcoming">—</div>
+      <div id="list" data-source="upcoming history"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <p class="note" data-only="football">Each match has one <b>Best pick</b>: the safest option up to a 79% chance (so it pays about 1.20 or more on SportyBet) across 1X2, double chance, over/under, multigoals, GG/NG, team goals and combos, plus corners and cards in the Premier League, La Liga, Serie A, Bundesliga and Ligue 1. Since 2019 best picks chosen this way won 79% of the time. “More picks” shows three others. Tap a pick to add it to your slip. Settled on the 90-minute result.</p>
+    <p class="note" data-only="volley">Each match has one <b>Best pick</b>: the safest option between 55% and 79% (so it pays about 1.20 or more on SportyBet) across winner, set handicap, total sets and 1st-set winner. In the 2024/25 test season best picks won 73% of the time. A game with a team we have no past games for gets no best pick until that team has played 3. “More picks” shows the winner and total sets. Tap a pick to add it to your slip.</p>
+    <div class="betslip" id="betslip" hidden aria-live="polite"></div>
+  </section>
+
+  <!-- ============================================================ RESULTS -->
+  <section class="page" id="results" role="tabpanel" aria-labelledby="tab-results" hidden>
+    <div class="block">
+      <h2>Recent results</h2>
+      <div class="strip" id="strip" data-source="history"></div>
+      <p class="note">✓ means 70% or more of that day's live picks won; ✗ fewer; ○ still waiting for results. Test picks are not counted here.</p>
+    </div>
+
+    <div class="card" id="by-comp">
+      <h3>Where the system works best</h3>
+      <div class="ctools">
+        <span class="lbl">Period</span>
+        <div class="seg" id="c-range" role="group" aria-label="Period">
+          <button data-v="long" aria-pressed="true">Since 2019 (long run)</button><button data-v="recent" aria-pressed="false">Since Aug 2025</button></div>
+        <span class="lbl">Order by</span>
+        <div class="seg" id="c-sort" role="group" aria-label="Order">
+          <button data-v="won" aria-pressed="true">% won</button><button data-v="diff" aria-pressed="false">Beat its forecast</button><button data-v="n" aria-pressed="false">Most picks</button></div>
+      </div>
+      <p class="note" id="c-note" data-only="football">Every pick checked against its 90-minute result. A higher win rate can simply mean safer picks were available there, for example more one-sided games; <b>won vs predicted</b> shows whether the system beat its own forecast. Click a competition to filter everything below to it.</p>
+      <p class="note" data-only="volley">Every best pick checked against the final result. A higher win rate can simply mean safer picks were available there; <b>won vs predicted</b> shows whether the system beat its own forecast. Click a competition to filter everything below to it.</p>
+      <div class="tbl-wrap" id="comp-table"></div>
+    </div>
+
+    <div class="card">
+      <h3>Which markets work in which competition</h3>
+      <p class="note">Share of picks that won, by market type. Darker green is higher; grey numbers rest on fewer than 50 picks.</p>
+      <div class="tbl-wrap" id="comp-grid"></div>
+    </div>
+
+    <p class="banner" data-only="football">Every pick made, with its result on the 90-minute score. Until real history builds up, <b>test picks</b> from the backtest (Aug 2025 to Oct 2026, each made using only earlier matches) fill this page, labelled <b>Test</b>. Cup and European games are settled on API-Football's 90-minute score the morning after they're played.</p>
+
+    <p class="banner" data-only="volley">Every volleyball pick made, with its final result. Until real history builds up, <b>test picks</b> from the 2024/25 season (each made using only earlier games) fill this page, labelled <b>Test</b>. The free data plan has no 2025/26 season, so this season's ratings start from 2024/25 and sharpen as each day's results are saved.</p>
+    <div class="filters">
+      <div class="field"><span class="lbl">Picks</span><div class="seg" id="h-slot" role="group" aria-label="Picks">
+        <button data-v="best" aria-pressed="true">Best picks</button><button data-v="" aria-pressed="false">All picks</button></div></div>
+      <div class="field"><span class="lbl">Source</span><div class="seg" id="h-src" role="group" aria-label="Source">
+        <button data-v="" aria-pressed="true">All</button><button data-v="live" aria-pressed="false">Live</button><button data-v="Test" aria-pressed="false">Test</button></div></div>
+      <div class="field"><label class="lbl" for="h-from">From</label><input type="date" id="h-from" min="2015-01-01" max="2099-12-31"></div>
+      <div class="field"><label class="lbl" for="h-to">To</label><input type="date" id="h-to" min="2015-01-01" max="2099-12-31"></div>
+      <div class="field"><label class="lbl" for="h-comp">Competition</label><select id="h-comp"><option value="">All competitions</option></select></div>
+      <div class="field"><span class="lbl">Markets</span><div class="chips" id="h-fams" role="group" aria-label="Markets"></div></div>
+      <div class="field"><span class="lbl">Outcome</span><div class="seg" id="h-out" role="group" aria-label="Outcome">
+        <button data-v="" aria-pressed="true">All</button><button data-v="won" aria-pressed="false">Won</button><button data-v="lost" aria-pressed="false">Lost</button><button data-v="pending" aria-pressed="false">Pending</button></div></div>
+      <div class="field"><label class="lbl" for="h-q">Team</label><input type="search" id="h-q" placeholder="Search a team"></div>
+      <div class="field"><span class="lbl">&nbsp;</span><button class="btn" id="h-reset">Reset</button></div>
+    </div>
+
+    <div class="kpis" id="h-kpis" data-source="history">
+      <div class="kpi"><span class="lbl">Settled picks</span><span class="big dash-skeleton" id="hk-n">—</span><span class="sub" id="hk-n-sub"></span></div>
+      <div class="kpi"><span class="lbl">Won</span><span class="big dash-skeleton" id="hk-won">—</span><span class="sub" id="hk-won-sub"></span></div>
+      <div class="kpi"><span class="lbl">Predicted</span><span class="big dash-skeleton" id="hk-pred">—</span><span class="sub">average stated probability</span></div>
+      <div class="kpi"><span class="lbl">Won minus predicted</span><span class="big dash-skeleton" id="hk-diff">—</span><span class="sub">positive: better than stated</span></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>Won vs predicted, by month</h3>
+        <p class="note">Bars: share of picks that won. Dots: the average probability stated before kickoff.</p>
+        <div class="key"><span><i id="h-key-won"></i>Won</span><span><i style="background: var(--color-fg)"></i>Predicted</span></div>
+        <div class="chart" id="h-month" data-source="history"></div>
+      </div>
+      <div class="card">
+        <h3>By market type</h3>
+        <p class="note">For the picks matching the filters.</p>
+        <div class="tbl-wrap" id="h-fam-table" data-source="history"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 id="h-table-title">Picks</h3>
+      <div class="tbl-wrap">
+        <table id="h-table" data-source="history" data-row-key="pick_id">
+          <thead><tr>
+            <th data-field="date">Date</th><th data-field="competition" class="hide-sm">Competition</th>
+            <th data-field="home">Home</th><th data-field="away">Away</th><th data-field="result">Score</th>
+            <th data-field="pick">Pick</th><th data-field="prob" class="r">Chance</th>
+            <th data-field="outcome">Outcome</th><th data-field="source" class="hide-sm">Source</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="more"><span id="h-more-text"></span><button class="btn" id="h-more" hidden>Show 200 more</button></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ PERFORMANCE -->
+  <section class="page" id="performance" role="tabpanel" aria-labelledby="tab-performance" hidden>
+    <div class="perf-stack" data-only="volley">
+      <div class="block">
+        <h2>Volleyball backtest, 2024/25 season</h2>
+        <p class="note">Games from 15 leagues and the men's Champions League, each predicted using only games played before it. The model was tuned on 2023/24, so these are games it never saw.</p>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><span class="lbl">Best pick</span><span class="big dash-skeleton" data-source="volley_backtest_best" data-field="hit_rate" data-where="slot=best">—</span><span class="sub">won · predicted <span data-source="volley_backtest_best" data-field="predicted" data-where="slot=best">—</span></span></div>
+        <div class="kpi"><span class="lbl">Best picks tested</span><span class="big dash-skeleton" data-source="volley_backtest_best" data-field="n" data-where="slot=best">—</span><span class="sub">games</span></div>
+      </div>
+      <div class="grid2">
+        <div class="card">
+          <h3>Best pick: predicted vs actual</h3>
+          <p class="note">Close numbers mean the stated chance is honest.</p>
+          <div class="tbl-wrap"><table id="v-rel-table" data-source="volley_reliability">
+            <thead><tr><th data-field="band">Chance</th><th class="r" data-field="n">Picks</th><th class="r" data-field="predicted">Predicted</th><th class="r" data-field="hit_rate">Won</th></tr></thead><tbody></tbody></table></div>
+        </div>
+        <div class="card">
+          <h3>Best pick by league</h3>
+          <div class="tbl-wrap"><table id="v-league-table" data-source="volley_leagues">
+            <thead><tr><th data-field="league">League</th><th class="r" data-field="n">Picks</th><th class="r" data-field="predicted">Predicted</th><th class="r" data-field="hit_rate">Won</th></tr></thead><tbody></tbody></table></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Every market, backtested</h3>
+        <p class="note">Predicted and won are over all test games; “Best pick” counts how often it was chosen.</p>
+        <div class="tbl-wrap"><table id="v-mkt-table" data-source="volley_markets">
+          <thead><tr><th data-field="family">Type</th><th data-field="category">Market</th><th data-field="option">Pick</th><th class="r" data-field="n">Best pick</th><th class="r" data-field="predicted">Predicted</th><th class="r" data-field="hit_rate">Won</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+    <div class="perf-stack" data-only="football">
+    <div class="block">
+      <h2>Backtest record, Jul 2019 to Oct 2026</h2>
+      <p class="note">37,010 league matches, each predicted using only matches played before it, then checked against the 90-minute result.</p>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><span class="lbl">Best pick</span><span class="big dash-skeleton" data-source="backtest_slots" data-field="hit_rate" data-where="slot=best">—</span><span class="sub">won · predicted <span data-source="backtest_slots" data-field="predicted" data-where="slot=best">—</span></span></div>
+      <div class="kpi"><span class="lbl">Pick 1 · Result</span><span class="big dash-skeleton" data-source="backtest_slots" data-field="hit_rate" data-where="slot=pick1">—</span><span class="sub">won · predicted <span data-source="backtest_slots" data-field="predicted" data-where="slot=pick1">—</span></span></div>
+      <div class="kpi"><span class="lbl">Pick 2 · safest other market</span><span class="big dash-skeleton" data-source="backtest_slots" data-field="hit_rate" data-where="slot=pick2">—</span><span class="sub">won · predicted <span data-source="backtest_slots" data-field="predicted" data-where="slot=pick2">—</span></span></div>
+      <div class="kpi"><span class="lbl">Pick 3 · next market</span><span class="big dash-skeleton" data-source="backtest_slots" data-field="hit_rate" data-where="slot=pick3">—</span><span class="sub">won · predicted <span data-source="backtest_slots" data-field="predicted" data-where="slot=pick3">—</span></span></div>
+      <div class="kpi"><span class="lbl">All three in one match</span><span class="big dash-skeleton" data-source="backtest_slots" data-field="hit_rate" data-where="slot=all3">—</span><span class="sub">won · if independent <span data-source="backtest_slots" data-field="predicted" data-where="slot=all3">—</span></span></div>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <h3>Pick 1: predicted vs actual, by confidence</h3>
+        <p class="note">Dots close together mean the stated probability is honest.</p>
+        <div class="key"><span><i style="background: var(--cds-chart-muted)"></i>Predicted</span><span><i id="key-actual"></i>Actually won</span></div>
+        <div class="chart" id="rel-chart" data-source="cat1_reliability"></div>
+      </div>
+      <div class="card">
+        <h3>Pick 1 by league</h3>
+        <p class="note">How often the Result pick won in each league.</p>
+        <div class="tbl-wrap">
+          <table id="league-table" data-source="league_cat1" data-row-key="league">
+            <thead><tr><th data-field="league">League</th><th class="r" data-field="n">Picks</th><th class="r" data-field="predicted">Predicted</th><th class="r" data-field="hit_rate">Won</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Does recent history make a pick safer?</h3>
+      <p class="note">Picks from Aug 2024 to Oct 2026, labelled using only matches played before them. At the same probability they won at about the same rate whatever recent form said. Trust the percentage; the reasons explain a pick but don't make it safer.</p>
+      <div class="tbl-wrap">
+        <table id="support-table" data-source="support_check" data-row-key="band">
+          <thead><tr><th data-field="band">Probability</th><th class="r" data-field="agrees">History agrees</th><th class="r" data-field="mostly_agrees">Mostly agrees</th><th class="r" data-field="split">History split</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Every pick option, backtested</h3>
+      <div class="tbl-wrap">
+        <table id="opt-table" data-source="backtest_options" data-row-key="category,option">
+          <thead><tr><th data-field="family">Type</th><th data-field="category">Market</th><th data-field="option">Pick</th><th class="r" data-field="n">Times picked</th><th class="r" data-field="predicted">Predicted</th><th class="r" data-field="hit_rate">Won</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ HOW IT WORKS -->
+  <section class="page method" id="method" role="tabpanel" aria-labelledby="tab-method" hidden>
+    <div class="block" data-only="volley">
+      <h2>How the volleyball picks are made</h2>
+      <ul>
+        <li><b>Every morning</b> the system saves yesterday's, today's and tomorrow's games from API-Volleyball, retrains, and makes picks for today and tomorrow (the free plan lists no further ahead).</li>
+        <li><b>Team strength</b> comes from points won and lost in every set, recent games counting more, plus a league level so stronger leagues rate higher in the Champions League.</li>
+        <li><b>From rallies to sets:</b> a side's chance of winning a rally gives its exact chance of winning a set to 25 (or the 5th set to 15), and from that every final score from 3-0 to 0-3.</li>
+        <li><b>Best pick:</b> the safest option between 55% and 79% across winner, set handicap (±1.5, ±2.5), total sets (over/under 3.5 and 4.5) and 1st-set winner.</li>
+        <li><b>No bookmaker prices</b> are available for volleyball from our free sources, so chances come from the ratings alone.</li>
+        <li><b>Coverage:</b> Italy, Poland, Turkey, Brazil, Russia and Japan (men's and women's top leagues), Germany and France (men), and the CEV Champions League (men's; women's from this season).</li>
+      </ul>
+    </div>
+    <div class="block" data-only="football">
+      <h2>How the picks are made</h2>
+      <ul>
+        <li><b>Every morning</b> the system downloads the latest results and fixtures, retrains on every match played so far, and makes picks for today and the next two days. Games that have already kicked off never get picks.</li>
+        <li><b>Pick 1 (Result):</b> a straight Home or Away win when it is at least 65% likely; otherwise the safer Home/Draw or Away/Draw.</li>
+        <li><b>Picks 2 and 3:</b> the safest option in two different markets (goals, corners or cards), between 55% and 85% likely, with at most one corners and one cards pick per match.</li>
+        <li><b>Result and goal chances</b> come from bookmakers' prices with their margin removed, turned into expected goals for each side. Corners and cards come from each team's record, adjusted for how strong each side is.</li>
+        <li><b>Settled on 90 minutes.</b> Extra time and penalties never count. League results come from football-data.co.uk; cup and European results from API-Football, which reports the 90-minute score separately from extra time and penalties.</li>
+        <li><b>A match's picks are frozen on match day</b>, so the record always shows the last prediction made before kickoff.</li>
+      </ul>
+    </div>
+    <div class="block" data-only="football">
+      <h2>What the labels mean</h2>
+      <dl>
+        <dt>Chance</dt><dd>How often picks like this have won. 80% means about 8 in 10.</dd>
+        <dt>Result</dt><dd>Home, Away, Home/Draw or Away/Draw.</dd>
+        <dt>Goals</dt><dd>Over/Under, GG/NG (both teams to score), team goals and 1st-half goals.</dd>
+        <dt>Corners</dt><dd>Total, home or away corners.</dd>
+        <dt>Cards</dt><dd>Total, home or away cards; yellows and reds count one each.</dd>
+        <dt>History agrees / split</dt><dd>Whether the same bet would have won in each team's last 8 matches and past meetings. Context only: it did not change how often picks won.</dd>
+        <dt>Live / Back-check / Test</dt><dd>Live: made before kickoff. Back-check: generated after the games from pre-match data. Test: from the backtest.</dd>
+      </dl>
+    </div>
+    <div class="block" data-only="football">
+      <h2>Coverage</h2>
+      <p class="note">Leagues: England (Premier League, Championship, League One, League Two), Spain, Italy, Germany, France, Netherlands, Portugal, Belgium, Turkey, Greece and Scotland.</p>
+      <p class="note">Cups and Europe: Champions League, Europa League, Conference League, EFL Cup, FA Cup, DFB-Pokal, Copa del Rey, Coppa Italia and Coupe de France. These get Result and goals picks only. The Portuguese, Dutch, Belgian, Turkish, Greek and Scottish cups aren't available from our data sources.</p>
+      <p class="note">Safe does not mean profitable: bookmakers' margins mean that even picks that win often can lose money over time, and SportyBet's prices are usually lower than other bookmakers'. Picks from the same match move together, so a same-match slip is riskier than its chance suggests.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+const pct = d3.format('.0%'), pct1 = d3.format('.1%'), num = d3.format(','), signed = d3.format('+.1%');
+const N = (x) => (x === '' || x == null ? NaN : Number(x));
+const FAMS_BY = { football: ['Result', 'Goals', 'Corners', 'Cards'], volley: ['Result', 'Sets'] };
+let sport = (() => { try { return localStorage.getItem('sport') === 'volley' ? 'volley' : 'football'; } catch (e) { return 'football'; } })();
+let FAMS = FAMS_BY[sport];
+// volleyball reads its own files, which have the same columns
+const VSETS = { upcoming: 'volley_upcoming', history: 'volley_history', status: 'volley_status', league_seasons: 'volley_league_seasons' };
+const D = (name) => dash.data(sport === 'volley' && VSETS[name] ? VSETS[name] : name);
+const famColor = (f) => dash.colors[FAMS.indexOf(f)] || 'var(--cds-chart-muted)';
+const asDay = (s) => new Date(`${s}T00:00:00Z`);
+const localDay = (offset = 0) => { const d = new Date(); d.setDate(d.getDate() + offset); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+const dayName = (s) => (s === localDay(0) ? 'Today' : s === localDay(1) ? 'Tomorrow' : s === localDay(-1) ? 'Yesterday' : d3.utcFormat('%A')(asDay(s)));
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const mark = (e, source, field, where) => { e.setAttribute('data-source', source); e.setAttribute('data-field', field); e.setAttribute('data-where', where); return e; };
+
+// competition label "Country: Competition"
+const CUP_COUNTRY = { 'EFL Cup': 'England', 'FA Cup': 'England', 'DFB-Pokal': 'Germany', 'Copa del Rey': 'Spain', 'Coppa Italia': 'Italy', 'Coupe de France': 'France',
+  'Champions League': 'Europe', 'Europa League': 'Europe', 'Conference League': 'Europe' };
+const compParts = (name) => (CUP_COUNTRY[name] ? [CUP_COUNTRY[name], name] : [name.split(' ')[0], name.split(' ').slice(1).join(' ')]);
+const COMP_ORDER = ['Champions League', 'Europa League', 'Conference League', 'England Premier League', 'Spain La Liga', 'Italy Serie A', 'Germany Bundesliga', 'France Ligue 1'];
+const compRank = (c) => { const i = COMP_ORDER.indexOf(c); return i < 0 ? 99 : i; };
+
+// market chips: label -> test on a pick {label, market, family, p}
+const CHIPS_BY = { football: [
+  ['All markets', () => true], ['Safest (80%+)', (k) => k.p >= 0.8],
+  ['Home / Away win', (k) => k.label === 'Home' || k.label === 'Away'], ['Double chance', (k) => k.label === 'Home/Draw' || k.label === 'Away/Draw'],
+  ['Over / Under', (k) => k.market === 'Over/Under' || k.market === '1st Half Over/Under'], ['Both teams to score', (k) => k.market === 'GG/NG'],
+  ['Team goals', (k) => k.market === 'Home Team Over/Under' || k.market === 'Away Team Over/Under'],
+  ['Corners', (k) => k.family === 'Corners'], ['Cards', (k) => k.family === 'Cards'],
+], volley: [
+  ['All markets', () => true], ['Safest (75%+)', (k) => k.p >= 0.75],
+  ['Winner', (k) => k.market === 'Winner'], ['Set handicap', (k) => k.market === 'Set Handicap'],
+  ['Total sets', (k) => k.market === 'Total Sets'], ['1st set', (k) => k.market === '1st Set Winner'],
+] };
+let CHIPS = CHIPS_BY[sport];
+
+// ------------------------------------------------------------------ tabs
+const PAGES = ['picks', 'results', 'performance', 'method'];
+let page = PAGES.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'picks';
+function showPage(p) {
+  page = p;
+  PAGES.forEach((id) => { document.getElementById(id).hidden = id !== p; document.getElementById(`tab-${id}`).setAttribute('aria-selected', id === p); });
+  dash.setLink(p);
+  draw();
+}
+document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => showPage(b.dataset.page)));
+function segment(box, get, set) {
+  box.querySelectorAll('button').forEach((b) => { b.setAttribute('aria-pressed', b.dataset.v === get()); b.onclick = () => { set(b.dataset.v); draw(); }; });
+}
+
+// ------------------------------------------------------------------ status
+function drawStatus() {
+  const s = D('status');
+  document.querySelectorAll('[data-source="status"]').forEach((e) => {
+    e.classList.toggle('dash-skeleton', s.status === 'loading');
+    if (s.status !== 'ok' || !s.data.length || !s.data[0][e.dataset.field]) { e.textContent = '—'; return; }
+    const v = s.data[0][e.dataset.field];
+    e.textContent = e.dataset.field === 'updated_at' ? d3.utcFormat('%a %-d %b, %H:%M')(new Date(`${v.replace(' ', 'T')}:00Z`)) : d3.utcFormat('%a %-d %b')(asDay(v));
+  });
+}
+
+// ------------------------------------------------------------------ picks
+const ps = { chip: 0, day: localDay(0), comp: '', safest: true, whyAll: false, more: false };
+const openMore = new Set();
+let suggN = 3, suggPicks = [], suggMax = 3, suggMode = 'n', suggSpan = '1';
+const nextDay = (s) => d3.utcFormat('%Y-%m-%d')(new Date(asDay(s).getTime() + 864e5));
+const SB = 0.95;   // SportyBet's price is estimated at about 5% below fair odds (1 / chance)
+// safest best picks, one per match, until the estimated SportyBet total reaches the target
+function toOdds(pool, target) {
+  const out = []; let odds = 1;
+  for (const x of pool) { out.push(x); odds *= SB / x.p; if (odds >= target) return out; }
+  return null;
+}   // suggN 0 = all of the day's best picks
+const trackCache = new Map();
+// how often a daily slip of the n safest best picks won, from the test picks (Aug 2025 on)
+function slipTrack(n) {
+  const h = D('history');
+  if (h.status !== 'ok') return null;
+  const key = `${suggSpan}|${n}`;
+  if (!trackCache.has(key)) {
+    const byDay = d3.group(h.data.filter((r) => r.source === 'Test' && r.slot === 'Best' && r.outcome !== 'pending'), (r) => r.date);
+    const days = [...byDay.keys()].map((d) => (suggSpan === '2' ? [...byDay.get(d), ...(byDay.get(nextDay(d)) || [])] : byDay.get(d))
+      .slice().sort((a, b) => N(b.prob) - N(a.prob)));
+    let slips;
+    if (typeof n === 'string') {   // "odds:5"
+      const target = Number(n.split(':')[1]);
+      slips = days.map((v) => toOdds(v.map((r) => ({ p: N(r.prob), r })), target)).filter(Boolean).map((l) => l.map((x) => x.r));
+    } else slips = days.filter((v) => v.length >= n).map((v) => v.slice(0, n));
+    const won = slips.filter((l) => l.every((r) => r.outcome === 'won')).length;
+    trackCache.set(key, slips.length ? [won / slips.length, slips.length] : null);
+  }
+  return trackCache.get(key);
+}
+const suggSel = document.getElementById('sugg-n');
+suggSel.addEventListener('change', () => { suggN = Number(suggSel.value); draw(); });
+document.getElementById('sugg-minus').addEventListener('click', () => { const n = suggN || suggMax; suggN = Math.max(2, n - 1); draw(); });
+document.getElementById('sugg-plus').addEventListener('click', () => { if (suggN) suggN = suggN + 1 >= suggMax ? 0 : suggN + 1; draw(); });
+document.getElementById('sugg-add').addEventListener('click', () => {
+  suggPicks.forEach(({ m, k }) => slip.set(k.key, { home: m.home, away: m.away, label: k.label, family: k.family, p: k.p, won: k.won }));
+  draw();
+});
+const slip = new Map();      // key -> {home, away, label, family, p, won}
+const openWhy = new Set();
+document.getElementById('comp').addEventListener('change', (e) => { ps.comp = e.target.value; draw(); });
+document.getElementById('moreall').addEventListener('click', (e) => {
+  ps.more = !ps.more; if (!ps.more) openMore.clear();
+  e.currentTarget.setAttribute('aria-pressed', ps.more); e.currentTarget.textContent = ps.more ? 'Hide more picks' : 'Show more picks'; draw();
+});
+const pickDate = document.getElementById('pickdate');
+pickDate.addEventListener('change', () => { if (pickDate.value && pickDate.validity.valid) { ps.day = pickDate.value; draw(); } });
+pickDate.addEventListener('blur', () => { pickDate.value = ps.day; });
+document.getElementById('sort').addEventListener('click', (e) => { ps.safest = !ps.safest; e.currentTarget.setAttribute('aria-pressed', !ps.safest); draw(); });
+document.getElementById('whyall').addEventListener('click', (e) => {
+  ps.whyAll = !ps.whyAll; if (!ps.whyAll) openWhy.clear();
+  e.currentTarget.setAttribute('aria-pressed', ps.whyAll); e.currentTarget.textContent = ps.whyAll ? 'Hide reasons' : 'Show reasons'; draw();
+});
+
+// matches for a day: upcoming file for today onward, history file (live picks) for earlier days
+function matchesFor(day) {
+  const u = D('upcoming'), h = D('history');
+  if (u.status === 'ok' && u.data.some((m) => m.date === day)) {
+    return u.data.filter((m) => m.date === day).map((m) => ({
+      id: m.match_id, src: 'upcoming', date: m.date, time: m.time, comp: m.league, home: m.home, away: m.away, result: m.result,
+      picks: [0, 1, 2, 3].filter((i) => m[`pick${i}`]).map((i) => ({
+        i, key: `${m.match_id}|${i}`, label: m[`pick${i}`], market: m[`pick${i}_market`], family: m[`pick${i}_family`], p: N(m[`pick${i}_prob`]),
+        won: m[`pick${i}_won`], why: m[`pick${i}_why`], support: m[`pick${i}_support`] })),
+    }));
+  }
+  if (h.status === 'ok') {
+    let rows = h.data.filter((r) => r.date === day && r.source !== 'Test');
+    const test = !rows.length;                     // no live picks that day: show the test picks
+    if (test) rows = h.data.filter((r) => r.date === day && r.source === 'Test');
+    const list = d3.groups(rows, (r) => r.match_id).map(([id, rs]) => ({
+      id, src: 'history', date: day, time: '', comp: rs[0].competition, home: rs[0].home, away: rs[0].away, result: rs[0].result,
+      picks: rs.sort((a, b) => (a.slot === 'Best' ? -1 : b.slot === 'Best' ? 1 : a.slot.localeCompare(b.slot))).map((r) => ({
+        i: r.slot === 'Best' ? 0 : Number(r.slot.slice(-1)), key: r.pick_id, pickId: r.pick_id, label: r.pick, market: r.market, family: r.family, p: N(r.prob),
+        won: r.outcome === 'pending' ? '' : r.outcome, why: '', support: '' })),
+    }));
+    list.test = test && list.length > 0;
+    return list;
+  }
+  return [];
+}
+
+function pillFor(m, k) {
+  const pill = el('button', `pill${k.p >= 0.8 ? ' hi' : ''}${k.won ? ` ${k.won}` : ''}`);
+  pill.style.setProperty('--fam', famColor(k.family));
+  pill.setAttribute('aria-pressed', slip.has(k.key));
+  pill.title = `${k.family} · ${k.market} · Pick ${k.i}${slip.has(k.key) ? ' · on your slip' : ' · tap to add to your slip'}`;
+  const where = m.src === 'upcoming' ? `match_id=${encodeURIComponent(m.id)}` : `pick_id=${encodeURIComponent(k.pickId)}`;
+  const lbl = el('b', null, k.label), pp = el('span', 'pp', pct(k.p));
+  if (m.src === 'upcoming') { mark(lbl, 'upcoming', `pick${k.i}`, where); mark(pp, 'upcoming', `pick${k.i}_prob`, where); }
+  else { mark(lbl, 'history', 'pick', where); mark(pp, 'history', 'prob', where); }
+  if (k.won) pill.append(el('span', 'res', k.won === 'won' ? '✓' : '✗'));
+  pill.append(el('span', 'fdot'), lbl, pp);
+  pill.addEventListener('click', () => {
+    if (slip.has(k.key)) slip.delete(k.key);
+    else slip.set(k.key, { home: m.home, away: m.away, label: k.label, family: k.family, p: k.p, won: k.won });
+    draw();
+  });
+  return pill;
+}
+
+function matchRow(m, test) {
+  const row = el('div', 'row'); row.id = `m-${m.id}`;
+  const line = el('div', 'line');
+  const mid = el('span', 'mid');
+  if (m.result) { mid.append(el('span', 'sc', m.result.replace('-', ' – ')), el('span', 'ft', 'FT')); }
+  else mid.append(el('span', null, m.time || '—'));
+  const h = el('span', 'h', m.home), a = el('span', 'a', m.away);
+  if (m.src === 'upcoming') { mark(h, 'upcoming', 'home', `match_id=${encodeURIComponent(m.id)}`); mark(a, 'upcoming', 'away', `match_id=${encodeURIComponent(m.id)}`); }
+  line.append(h, mid, a);
+  const pills = el('div', 'pills');
+  const best = m.picks.find((k) => k.i === 0);
+  const others = m.picks.filter((k) => k.i !== 0);
+  if (best) {
+    const bp = pillFor(m, best); bp.classList.add('best-pill');
+    const tag = el('span', 'best-tag', 'Best pick'); bp.prepend(tag);
+    pills.append(bp);
+  } else others.filter(test).forEach((k) => pills.append(pillFor(m, k)));   // older days, before the best pick
+  row.append(line, pills);
+  if (best && others.length) {
+    const more = el('details', 'more-picks');
+    more.append(el('summary', null, `More picks (${others.length})`));
+    const op = el('div', 'pills'); others.forEach((k) => op.append(pillFor(m, k)));
+    more.append(op);
+    more.open = ps.more || openMore.has(m.id);
+    more.addEventListener('toggle', () => { if (more.open) openMore.add(m.id); else openMore.delete(m.id); });
+    row.append(more);
+  }
+  const withWhy = (best ? [best] : m.picks.filter(test)).filter((k) => k.why);
+  if (withWhy.length) {
+    const box = el('details', 'why');
+    box.append(el('summary', null, best ? 'Why this pick' : 'Why these picks'));
+    const ul = el('ul');
+    withWhy.forEach((k) => {
+      const li = el('li'); li.style.setProperty('--fam', famColor(k.family));
+      li.append(el('b', null, `${k.label} · ${pct(k.p)}. `), document.createTextNode(`${k.support}. ${k.why}`));
+      ul.append(li);
+    });
+    box.append(ul);
+    box.open = ps.whyAll || openWhy.has(m.id);
+    box.addEventListener('toggle', () => { if (box.open) openWhy.add(m.id); else openWhy.delete(m.id); });
+    row.append(box);
+  }
+  return row;
+}
+
+function drawPicks() {
+  const st = D('status'), u = D('upcoming');
+  document.getElementById('chips').replaceChildren(...CHIPS.map(([label], j) => {
+    const b = el('button', 'chip', label); b.setAttribute('aria-pressed', ps.chip === j);
+    b.addEventListener('click', () => { ps.chip = j; draw(); }); return b;
+  }));
+  // days: yesterday + the prediction window
+  let days = [localDay(-1)];
+  if (st.status === 'ok' && st.data.length && st.data[0].window_from) {
+    for (let t = asDay(st.data[0].window_from); t <= asDay(st.data[0].window_to); t = new Date(t.getTime() + 864e5)) days.push(d3.utcFormat('%Y-%m-%d')(t));
+  } else if (u.status === 'ok') days = days.concat([...new Set(u.data.map((m) => m.date))].sort());
+  days = [...new Set(days)].sort();
+  // any day from the first recorded pick to the end of the window; buttons for the nearest ones
+  const hd = D('history');
+  const minDay = hd.status === 'ok' && hd.data.length ? d3.min(hd.data, (r) => r.date) : days[0];
+  const maxDay = days[days.length - 1];
+  if (!ps.day || ps.day < minDay || ps.day > maxDay) ps.day = days.find((d) => d >= localDay(0)) || maxDay;
+  const dayBox = document.getElementById('days');
+  dayBox.replaceChildren(...days.map((d) => { const b = el('button', null, dayName(d)); b.dataset.v = d; return b; }));
+  segment(dayBox, () => ps.day, (v) => { ps.day = v; });
+  const dp = document.getElementById('pickdate');
+  dp.min = minDay; dp.max = maxDay;
+  if (dp !== document.activeElement) dp.value = ps.day;
+  document.getElementById('day-title').textContent = d3.utcFormat('%A %-d %B %Y')(asDay(ps.day));
+  document.getElementById('legend').replaceChildren(...FAMS.map((f) => { const s = el('span'); const i = el('i'); i.style.setProperty('--fam', famColor(f)); s.append(i, document.createTextNode(f)); return s; }));
+
+  const list = document.getElementById('list');
+  const summary = document.getElementById('summary');
+  list.classList.toggle('dash-skeleton', u.status === 'loading');
+  if (u.status !== 'ok') { list.replaceChildren(); summary.textContent = u.status === 'error' ? 'Failed to load' : '—'; return; }
+
+  const all = matchesFor(ps.day);
+  const comps = [...new Set(all.map((m) => m.comp))].sort((a, b) => compRank(a) - compRank(b) || a.localeCompare(b));
+  const sel = document.getElementById('comp');
+  sel.replaceChildren(new Option('All competitions', ''), ...comps.map((c) => new Option(compParts(c).join(': '), c)));
+  if (!comps.includes(ps.comp)) ps.comp = '';
+  sel.value = ps.comp;
+  const test = CHIPS[ps.chip][1];
+  // volleyball games with a team we have too few games for get no best pick: left out
+  const main = (m) => { const b = m.picks.find((k) => k.i === 0); return b ? [b] : sport === 'volley' ? [] : m.picks; };
+  const shown = all.filter((m) => (!ps.comp || m.comp === ps.comp) && main(m).some(test));
+  const picks = shown.flatMap((m) => main(m).filter(test));
+  const settled = picks.filter((k) => k.won);
+  summary.replaceChildren(document.createTextNode(shown.length
+    ? `${num(shown.length)} matches · ${num(picks.length)} best picks · ${num(picks.filter((k) => k.p >= 0.8).length)} at 80% or more` +
+      (settled.length ? ` · ${num(settled.filter((k) => k.won === 'won').length)} of ${num(settled.length)} settled picks won` : '')
+      + (sport === 'volley' && all.some((m) => !main(m).length) ? ` · ${num(all.filter((m) => !main(m).length).length)} games left out (a team with too few past games)` : '')
+    : ''));
+  if (all.test) {
+    const t = el('span', 'tag', 'Test picks'); t.title = 'No live picks were made this day; these come from the backtest, each made using only earlier matches.';
+    summary.append(t);
+  }
+  if (!shown.length) {
+    list.replaceChildren(el('p', 'empty', all.length ? 'No picks in this market for this day.'
+      : ps.day < localDay(0) ? (sport === 'volley' ? 'No picks recorded for this day (volleyball test picks cover the 2024/25 season).' : 'No picks recorded for this day (test picks cover league games from August 2025).') : 'No fixtures listed for this day yet. The daily update adds them as soon as they are published.'));
+    return;
+  }
+  const best = (m) => d3.max(main(m).filter(test), (k) => k.p);
+  const nodes = [];
+  if (ps.safest) {   // one list, highest chance first, competition shown on each game
+    shown.slice().sort((a, b) => best(b) - best(a) || (a.time || '').localeCompare(b.time || '')).forEach((m) => {
+      const row = matchRow(m, test);
+      const [country, name] = compParts(m.comp);
+      const c = el('div', 'row-comp'); c.append(el('span', 'dot'), document.createTextNode(`${country}: ${name}${m.time && !m.result ? ' · ' + m.time : ''}`));
+      row.prepend(c);
+      nodes.push(row);
+    });
+  } else {
+    const groups = d3.groups(shown, (m) => m.comp).sort((a, b) => compRank(a[0]) - compRank(b[0]) || a[0].localeCompare(b[0]));
+    for (const [comp, ms] of groups) {
+      const head = el('div', 'comp-head'); const [country, name] = compParts(comp);
+      head.append(el('span', 'dot'), document.createTextNode(`${country}: `), el('b', null, name));
+      nodes.push(head);
+      ms.slice().sort((a, b) => (a.time || '').localeCompare(b.time || '')).forEach((m) => nodes.push(matchRow(m, test)));
+    }
+  }
+  list.replaceChildren(...nodes);
+}
+
+function drawSuggested() {
+  segment(document.getElementById('sugg-span'), () => suggSpan, (v) => { suggSpan = v; });
+  const all = suggSpan === '2' ? [...matchesFor(ps.day), ...matchesFor(nextDay(ps.day))] : matchesFor(ps.day);
+  const pool = all.map((m) => ({ m, k: m.picks.find((x) => x.i === 0) })).filter((x) => x.k).sort((a, b) => b.k.p - a.k.p);
+  suggMax = Math.max(2, pool.length);
+  if (suggN >= suggMax) suggN = 0;
+  suggSel.replaceChildren(...d3.range(2, suggMax).map((n) => new Option(`${n}`, n)), new Option(`All (${pool.length})`, 0));
+  suggSel.value = String(suggN);
+  document.getElementById('sugg-minus').disabled = suggN === 2;
+  document.getElementById('sugg-plus').disabled = suggN === 0;
+  segment(document.getElementById('sugg-mode'), () => suggMode, (v) => { suggMode = v; });
+  document.getElementById('sugg-n-box').hidden = suggMode !== 'n';
+  const target = suggMode === 'n' ? 0 : Number(suggMode);
+  const legs = target ? (toOdds(pool.map((x) => ({ ...x, p: x.k.p })), target) || []) : suggN ? pool.slice(0, suggN) : pool;
+  suggPicks = legs;
+  const box = document.getElementById('sugg-list');
+  document.getElementById('sugg-title').textContent = `Suggested slip · ${dayName(ps.day)}${suggSpan === '2' ? ' + ' + dayName(nextDay(ps.day)) : ''}`;
+  document.getElementById('sugg-sub').textContent = legs.length
+    ? (target ? `The day's safest best picks, one per match, until the total reaches about ${target} odds.` : `The ${legs.length} safest best picks of the day, each from a different match.`) : '';
+  if (legs.length < 2) {
+    box.replaceChildren(el('p', 'note', target ? `This day's best picks don't add up to ${target} odds.` : 'Not enough best picks on this day for a slip.'));
+    document.getElementById('sugg-chance').textContent = '—'; document.getElementById('sugg-track').textContent = '';
+    document.getElementById('sugg-add').hidden = true; return;
+  }
+  document.getElementById('sugg-add').hidden = false;
+  box.replaceChildren(...legs.map(({ m, k }) => {
+    const r = el('div', 'sugg-row'); r.style.setProperty('--fam', famColor(k.family));
+    const what = el('div'); what.append(el('div', 'pk', `${k.label}${k.won ? (k.won === 'won' ? ' ✓' : ' ✗') : ''}`),
+      el('div', 'm', `${m.home} v ${m.away} · ${compParts(m.comp).join(': ')}${suggSpan === '2' ? ' · ' + dayName(m.date) : ''}${m.time && !m.result ? ' · ' + m.time : ''}`));
+    r.append(el('span', 'fdot'), what, el('span', 'm', m.result || ''), el('span', 'pp', pct(k.p)));
+    return r;
+  }));
+  const chance = legs.reduce((a, x) => a * x.k.p, 1);
+  const res = legs.map((x) => x.k.won);
+  const state = res.includes('lost') ? ' · ✗ lost' : res.every((w) => w === 'won') ? ' · ✓ won' : '';
+  const estOdds = legs.reduce((a, x) => a * SB / x.k.p, 1);
+  document.getElementById('sugg-chance').textContent = pct(chance) + state;
+  const t = slipTrack(target ? `odds:${target}` : legs.length);
+  document.getElementById('sugg-track').textContent = (target ? `${legs.length} picks, about ${estOdds.toFixed(1)} odds on SportyBet (estimated). ` : '') +
+    (t ? `${target ? `${target}-odds slips` : `Slips of ${legs.length}`}${suggSpan === '2' ? ' over 2 days' : ''} won ${pct(t[0])} of ${num(t[1])} times in testing.` : 'Too few test days to say how often it won.');
+}
+
+function drawBetslip() {
+  const box = document.getElementById('betslip');
+  const sels = [...slip.entries()];
+  box.hidden = page !== 'picks' || !sels.length;
+  if (!sels.length) { box.replaceChildren(); return; }
+  const chance = sels.reduce((a, [, s]) => a * s.p, 1);
+  const res = sels.map(([, s]) => s.won);
+  const state = res.includes('lost') ? 'lost' : res.every((w) => w === 'won') ? 'won' : '';
+  const sum = el('div', 'bs-sum');
+  const fig = el('span', 'bs-fig'); fig.append(el('span', 'lbl', 'Chance all win'), el('span', 'v', pct(chance)));
+  sum.append(el('span', 'bs-title', `Your slip · ${sels.length} pick${sels.length > 1 ? 's' : ''}`), fig);
+  if (state) sum.append(el('span', state === 'won' ? 'pos' : 'neg', state === 'won' ? '✓ Slip won' : '✗ Slip lost'));
+  const clear = el('button', 'btn bs-clear', 'Clear'); clear.addEventListener('click', () => { slip.clear(); draw(); });
+  sum.append(clear);
+  const list = el('div', 'bs-list');
+  for (const [k, s] of sels) {
+    const row = el('div', 'bs-row'); row.style.setProperty('--fam', famColor(s.family));
+    const what = el('span'); what.append(el('span', 'm', `${s.home} v ${s.away} · `), document.createTextNode(`${s.label}${s.won ? (s.won === 'won' ? ' ✓' : ' ✗') : ''}`));
+    const rm = el('button', null, '✕'); rm.setAttribute('aria-label', `Remove ${s.label} from slip`);
+    rm.addEventListener('click', () => { slip.delete(k); draw(); });
+    row.append(el('span', 'fdot'), what, el('span', null, pct(s.p)), rm);
+    list.append(row);
+  }
+  const linked = sels.length > new Set(sels.map(([, s]) => `${s.home}|${s.away}`)).size;
+  box.replaceChildren(sum, list, el('p', 'bs-note', (linked ? 'Some picks come from the same match, so the real chance can differ from this. ' : '') +
+    'Each pick you add multiplies the chance down. The slip clears when the page reloads.'));
+}
+
+// ------------------------------------------------------------------ results
+const hs = { slot: 'best', src: '', from: '', to: '', comp: '', fams: new Set(FAMS), out: '', q: '', limit: 200 };
+const slotOk = (r) => !hs.slot || r.slot === 'Best';
+let hCache = { key: '', rows: [] };
+document.getElementById('h-comp').addEventListener('change', (e) => { hs.comp = e.target.value; hs.limit = 200; draw(); });
+for (const id of ['h-from', 'h-to']) {
+  const inp = document.getElementById(id), f = id === 'h-from' ? 'from' : 'to';
+  inp.addEventListener('change', () => { if (!inp.value || inp.validity.valid) { hs[f] = inp.value; hs.limit = 200; draw(); } });
+  inp.addEventListener('blur', () => { inp.value = hs[f]; });
+}
+let qTimer;
+document.getElementById('h-q').addEventListener('input', (e) => { clearTimeout(qTimer); const v = e.target.value; qTimer = setTimeout(() => { hs.q = v.trim().toLowerCase(); hs.limit = 200; draw(); }, 200); });
+document.getElementById('h-more').addEventListener('click', () => { hs.limit += 200; draw(); });
+document.getElementById('h-reset').addEventListener('click', () => {
+  Object.assign(hs, { slot: 'best', src: '', from: '', to: '', comp: '', out: '', q: '', limit: 200, fams: new Set(FAMS) });
+  ['h-from', 'h-to', 'h-q'].forEach((id) => { document.getElementById(id).value = ''; }); draw();
+});
+function famChips(box, state, onChange) {
+  box.replaceChildren(...FAMS.map((f) => {
+    const b = el('button', 'chip'); b.style.setProperty('--fam', famColor(f)); b.setAttribute('aria-pressed', state.has(f));
+    b.append(el('i'), document.createTextNode(f));
+    b.addEventListener('click', () => { if (state.has(f) && state.size > 1) state.delete(f); else state.add(f); onChange(); });
+    return b;
+  }));
+}
+function historyRows(all) {
+  const key = JSON.stringify([hs.slot, hs.src, hs.from, hs.to, hs.comp, [...hs.fams].sort(), hs.out, hs.q, all.length]);
+  if (hCache.key === key) return hCache.rows;
+  const rows = all.filter((r) => slotOk(r) && (!hs.src || (hs.src === 'live' ? r.source !== 'Test' : r.source === hs.src))
+    && (!hs.from || r.date >= hs.from) && (!hs.to || r.date <= hs.to) && (!hs.comp || r.competition === hs.comp)
+    && hs.fams.has(r.family) && (!hs.out || r.outcome === hs.out)
+    && (!hs.q || r.home.toLowerCase().includes(hs.q) || r.away.toLowerCase().includes(hs.q)));
+  hCache = { key, rows };
+  return rows;
+}
+function drawStrip(all) {
+  const box = document.getElementById('strip');
+  const live = all.filter((r) => r.source !== 'Test' && slotOk(r));
+  const days = d3.groups(live, (r) => r.date).sort((a, b) => a[0].localeCompare(b[0])).slice(-10);
+  if (!days.length) { box.replaceChildren(el('p', 'note', 'No live picks yet.')); return; }
+  box.replaceChildren(...days.map(([d, rs]) => {
+    const settled = rs.filter((r) => r.outcome !== 'pending'), won = settled.filter((r) => r.outcome === 'won').length;
+    const waiting = settled.length < rs.length * 0.5;
+    const rate = settled.length ? won / settled.length : 0;
+    const t = el('div', 'daytile'); t.title = `${d}: ${won} of ${settled.length} settled picks won${rs.length > settled.length ? `, ${rs.length - settled.length} pending` : ''}`;
+    t.append(el('span', `mk ${waiting ? 'wait' : rate >= 0.7 ? 'ok' : 'bad'}`, waiting ? '○' : rate >= 0.7 ? '✓' : '✗'),
+      el('span', 'dd', d3.utcFormat('%-d')(asDay(d))), el('span', 'mm', d3.utcFormat('%b')(asDay(d))), el('span', 'nn', settled.length ? `${won}/${settled.length}` : '–'));
+    return t;
+  }));
+}
+// ------------------------------------------------------------------ competitions: ranking + grid
+const cs = { range: 'long', sort: 'won' };
+function sparkline(points) {   // points: [{x label, rate}]
+  const W = 96, H = 24;
+  const svg = d3.create('svg').attr('class', 'spark').attr('width', W).attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+  const pts = points.filter((p) => !isNaN(p.rate));
+  if (pts.length < 2) return svg.node();
+  const x = d3.scaleLinear([0, pts.length - 1], [3, W - 3]);
+  const y = d3.scaleLinear(d3.extent(pts, (p) => p.rate).map((v, i) => v + (i ? 0.02 : -0.02)), [H - 3, 3]);
+  svg.append('path').attr('d', d3.line((p, i) => x(i), (p) => y(p.rate))(pts)).attr('fill', 'none')
+    .attr('stroke', dash.colors[0]).attr('stroke-width', 1.5).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round');
+  const last = pts[pts.length - 1];
+  svg.append('circle').attr('cx', x(pts.length - 1)).attr('cy', y(last.rate)).attr('r', 2.5).attr('fill', dash.colors[0]);
+  svg.append('title').text(pts.map((p) => `${p.x}: ${pct(p.rate)}`).join('\n'));
+  return svg.node();
+}
+function compStats() {
+  if (cs.range === 'long') {
+    const d = D('league_seasons');
+    if (d.status !== 'ok') return null;
+    const rows = d.data.filter((r) => hs.fams.has(r.family) && (!hs.slot || r.slot === 'Best')).map((r) => ({ ...r, n: N(r.n), won: N(r.won), predicted: N(r.predicted) }));
+    return d3.groups(rows, (r) => r.league).map(([comp, rs]) => {
+      const n = d3.sum(rs, (r) => r.n), won = d3.sum(rs, (r) => r.won), pred = d3.sum(rs, (r) => r.predicted * r.n) / n;
+      const series = d3.groups(rs, (r) => r.season).sort((a, b) => a[0].localeCompare(b[0]))
+        .map(([s, v]) => ({ x: s, rate: d3.sum(v, (r) => r.won) / d3.sum(v, (r) => r.n) }));
+      const fam = Object.fromEntries(FAMS.map((f) => { const v = rs.filter((r) => r.family === f); const fn = d3.sum(v, (r) => r.n);
+        return [f, { n: fn, rate: fn ? d3.sum(v, (r) => r.won) / fn : NaN }]; }));
+      return { comp, n, rate: won / n, pred, series, fam };
+    });
+  }
+  const d = D('history');
+  if (d.status !== 'ok') return null;
+  const rows = d.data.filter((r) => r.outcome !== 'pending' && slotOk(r) && (!hs.src || (hs.src === 'live' ? r.source !== 'Test' : r.source === hs.src))
+    && (!hs.from || r.date >= hs.from) && (!hs.to || r.date <= hs.to) && hs.fams.has(r.family));
+  return d3.groups(rows, (r) => r.competition).map(([comp, rs]) => {
+    const n = rs.length, won = rs.filter((r) => r.outcome === 'won').length;
+    const series = d3.groups(rs, (r) => r.date.slice(0, 7)).sort((a, b) => a[0].localeCompare(b[0])).filter(([, v]) => v.length >= 10)
+      .map(([m, v]) => ({ x: d3.utcFormat('%b %y')(new Date(`${m}-01T00:00:00Z`)), rate: v.filter((r) => r.outcome === 'won').length / v.length }));
+    const fam = Object.fromEntries(FAMS.map((f) => { const v = rs.filter((r) => r.family === f);
+      return [f, { n: v.length, rate: v.length ? v.filter((r) => r.outcome === 'won').length / v.length : NaN }]; }));
+    return { comp, n, rate: won / n, pred: d3.mean(rs, (r) => N(r.prob)), series, fam };
+  });
+}
+function drawCompetitions() {
+  const [lb, rb] = document.querySelectorAll('#c-range button');
+  lb.textContent = sport === 'volley' ? 'Since Sep 2023 (long run)' : 'Since 2019 (long run)';
+  rb.textContent = sport === 'volley' ? 'Since Jul 2024' : 'Since Aug 2025';
+  segment(document.getElementById('c-range'), () => cs.range, (v) => { cs.range = v; });
+  segment(document.getElementById('c-sort'), () => cs.sort, (v) => { cs.sort = v; });
+  const box = document.getElementById('comp-table'), grid = document.getElementById('comp-grid');
+  const src = cs.range === 'long' ? 'league_seasons' : 'history';
+  box.setAttribute('data-source', src); grid.setAttribute('data-source', src);
+  const stats = compStats();
+  box.classList.toggle('dash-skeleton', !stats); grid.classList.toggle('dash-skeleton', !stats);
+  if (!stats) { box.replaceChildren(); grid.replaceChildren(); return; }
+  if (!stats.length) { box.replaceChildren(el('p', 'note', 'No settled picks match these filters.')); grid.replaceChildren(); return; }
+  const key = { won: (s) => s.rate, diff: (s) => s.rate - s.pred, n: (s) => s.n }[cs.sort];
+  stats.sort((a, b) => key(b) - key(a));
+  const SMALL = 150;
+
+  const t = el('table', 'rank'), th = el('thead'), hr = el('tr');
+  [['#', ''], ['Competition', ''], ['Picks', 'r'], ['Won', 'r'], ['Predicted', 'r'], ['Won vs predicted', 'r'], [cs.range === 'long' ? 'By season' : 'By month', '']].forEach(([x, c]) => hr.append(el('th', c, x)));
+  th.append(hr);
+  const tb = el('tbody');
+  stats.forEach((s, i) => {
+    const tr = el('tr', `${s.comp === hs.comp ? 'sel' : ''} ${s.n < SMALL ? 'small' : ''}`.trim());
+    tr.tabIndex = 0; tr.title = s.n < SMALL ? 'Fewer than 150 picks: treat with care' : `Click to filter everything below to ${s.comp}`;
+    const pick = () => { hs.comp = hs.comp === s.comp ? '' : s.comp; hs.limit = 200; draw(); };
+    tr.addEventListener('click', pick);
+    tr.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(); } });
+    const diff = s.rate - s.pred;
+    const sp = el('td'); sp.append(sparkline(s.series));
+    tr.append(el('td', null, String(i + 1)), el('td', null, s.comp), el('td', 'r', num(s.n)), el('td', 'r big-n', pct1(s.rate)),
+      el('td', 'r', pct1(s.pred)), el('td', `r ${diff >= 0 ? 'pos' : 'neg'}`, signed(diff)), sp);
+    tb.append(tr);
+  });
+  t.append(th, tb);
+  box.replaceChildren(t);
+
+  // grid: competition x market type, shaded by share won
+  const cells = stats.flatMap((s) => FAMS.map((f) => s.fam[f])).filter((c) => c.n >= 50);
+  const [lo, hi] = d3.extent(cells, (c) => c.rate);
+  const g = el('table', 'heat'), gh = el('thead'), ghr = el('tr');
+  ghr.append(el('th', null, 'Competition'));
+  FAMS.forEach((f) => { const h = el('th', 'r'); const i = el('i'); i.style.cssText = `display:inline-block;width:.55rem;height:.55rem;border-radius:50%;margin-right:4px;background:${famColor(f)}`; h.append(i, document.createTextNode(f)); ghr.append(h); });
+  gh.append(ghr);
+  const gb = el('tbody');
+  stats.forEach((s) => {
+    const tr = el('tr'); tr.append(el('td', null, s.comp));
+    FAMS.forEach((f) => {
+      const c = s.fam[f];
+      const td = el('td', `c${c.n < 50 ? ' thin' : ''}`, c.n ? pct(c.rate) : '–');
+      td.title = c.n ? `${s.comp} · ${f}: ${num(c.n)} picks, ${pct1(c.rate)} won` : 'No picks';
+      if (c.n >= 50 && hi > lo) td.style.background = `color-mix(in srgb, var(--color-ok) ${Math.round(8 + 42 * (c.rate - lo) / (hi - lo))}%, transparent)`;
+      tr.append(td);
+    });
+    gb.append(tr);
+  });
+  g.append(gh, gb);
+  grid.replaceChildren(g);
+}
+
+function drawResults() {
+  drawCompetitions();
+  const d = D('history');
+  famChips(document.getElementById('h-fams'), hs.fams, () => { hs.limit = 200; draw(); });
+  segment(document.getElementById('h-src'), () => hs.src, (v) => { hs.src = v; hs.limit = 200; });
+  segment(document.getElementById('h-out'), () => hs.out, (v) => { hs.out = v; hs.limit = 200; });
+  segment(document.getElementById('h-slot'), () => hs.slot, (v) => { hs.slot = v; hs.limit = 200; });
+  document.querySelectorAll('#h-kpis .big').forEach((e) => e.classList.toggle('dash-skeleton', d.status === 'loading'));
+  const tb = document.querySelector('#h-table tbody');
+  if (d.status !== 'ok') { tb.replaceChildren(); return; }
+  drawStrip(d.data);
+  const compSel = document.getElementById('h-comp');
+  const comps = [...new Set(d.data.map((r) => r.competition))].sort();
+  if (compSel.options.length !== comps.length + 1) compSel.replaceChildren(new Option('All competitions', ''), ...comps.map((c) => new Option(c, c)));
+  compSel.value = hs.comp;
+  const rows = historyRows(d.data);
+  const settled = rows.filter((r) => r.outcome !== 'pending');
+  const won = settled.filter((r) => r.outcome === 'won').length;
+  const predicted = d3.mean(settled, (r) => N(r.prob));
+  const rate = settled.length ? won / settled.length : NaN;
+  document.getElementById('hk-n').textContent = num(settled.length);
+  document.getElementById('hk-n-sub').textContent = `${num(rows.length - settled.length)} pending`;
+  document.getElementById('hk-won').textContent = isNaN(rate) ? '—' : pct1(rate);
+  document.getElementById('hk-won-sub').textContent = `${num(won)} won, ${num(settled.length - won)} lost`;
+  document.getElementById('hk-pred').textContent = predicted ? pct1(predicted) : '—';
+  const diffEl = document.getElementById('hk-diff');
+  diffEl.textContent = isNaN(rate) ? '—' : signed(rate - predicted);
+  diffEl.className = `big ${isNaN(rate) ? '' : rate >= predicted ? 'pos' : 'neg'}`;
+
+  const famT = el('table'), thead = el('thead'), hr = el('tr');
+  ['Type', 'Picks', 'Won', 'Predicted'].forEach((t, j) => hr.append(el('th', j ? 'r' : '', t))); thead.append(hr);
+  const tbody = el('tbody');
+  for (const f of FAMS) {
+    const s = settled.filter((r) => r.family === f); if (!s.length) continue;
+    const tr = el('tr'); const c0 = el('td', 'pick-cell', f); c0.style.setProperty('--fam', famColor(f));
+    tr.append(c0, el('td', 'r', num(s.length)), el('td', 'r', pct1(s.filter((r) => r.outcome === 'won').length / s.length)), el('td', 'r', pct1(d3.mean(s, (r) => N(r.prob)))));
+    tbody.append(tr);
+  }
+  famT.append(thead, tbody);
+  document.getElementById('h-fam-table').replaceChildren(famT);
+  drawMonthChart(settled);
+
+  const show = rows.slice(0, hs.limit);
+  tb.replaceChildren(...show.map((r) => {
+    const tr = el('tr'); tr.dataset.key = r.pick_id;
+    const pickTd = el('td', 'pick-cell', r.pick); pickTd.style.setProperty('--fam', famColor(r.family)); pickTd.title = `${r.family} · ${r.market} · ${r.slot}`;
+    const outTd = el('td'); outTd.append(el('span', `o-${r.outcome}`, r.outcome === 'won' ? '✓ won' : r.outcome === 'lost' ? '✗ lost' : 'pending'));
+    tr.append(el('td', null, r.date), el('td', 'hide-sm', r.competition), el('td', null, r.home), el('td', null, r.away), el('td', null, r.result),
+      pickTd, el('td', 'r', pct(N(r.prob))), outTd, el('td', `hide-sm ${r.source === 'Test' ? 'src-test' : ''}`, r.source));
+    return tr;
+  }));
+  document.getElementById('h-table-title').textContent = `Picks · ${num(rows.length)}`;
+  document.getElementById('h-more-text').textContent = `Showing ${num(show.length)} of ${num(rows.length)}, newest first`;
+  document.getElementById('h-more').hidden = show.length >= rows.length;
+}
+function drawMonthChart(settled) {
+  const box = document.getElementById('h-month');
+  document.getElementById('h-key-won').style.background = dash.colors[0];
+  box.replaceChildren();
+  const data = d3.rollups(settled, (v) => ({ n: v.length, won: v.filter((r) => r.outcome === 'won').length / v.length, pred: d3.mean(v, (r) => N(r.prob)) }), (r) => r.date.slice(0, 7))
+    .map(([m, v]) => ({ m, ...v })).sort((a, b) => a.m.localeCompare(b.m));
+  if (!data.length) { box.append(el('p', 'note', 'No settled picks match these filters.')); return; }
+  const W = box.clientWidth || 400, H = 240, mg = { t: 12, r: 8, b: 30, l: 40 };
+  const x = d3.scaleBand(data.map((d) => d.m), [mg.l, W - mg.r]).padding(0.25);
+  const lo = Math.max(0, Math.floor((d3.min(data, (d) => Math.min(d.won, d.pred)) - 0.05) * 10) / 10);
+  const y = d3.scaleLinear([lo, 1], [H - mg.b, mg.t]);
+  const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+  svg.append('g').selectAll('line').data(y.ticks(5)).join('line').attr('x1', mg.l).attr('x2', W - mg.r).attr('y1', (v) => y(v)).attr('y2', (v) => y(v)).attr('stroke', 'var(--cds-chart-grid)');
+  svg.append('g').attr('transform', `translate(${mg.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(pct).tickSize(0)).attr('font-size', null).attr('font-family', null)
+    .call((g) => g.select('.domain').remove()).selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+  const every = Math.ceil(data.length / Math.max(1, Math.floor((W - mg.l) / 56)));
+  svg.append('g').attr('transform', `translate(0,${H - mg.b})`)
+    .call(d3.axisBottom(x).tickSize(0).tickValues(data.map((d) => d.m).filter((_, i) => i % every === 0)).tickFormat((m) => d3.utcFormat('%b %y')(new Date(`${m}-01T00:00:00Z`))))
+    .attr('font-size', null).attr('font-family', null).call((g) => g.select('.domain').attr('stroke', 'var(--cds-chart-axis)'))
+    .selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('dy', '1.2em').style('font-size', 'var(--cds-font-size-caption)');
+  const g = svg.append('g').selectAll('g').data(data).join('g');
+  g.append('rect').attr('x', (d) => x(d.m)).attr('width', x.bandwidth()).attr('y', (d) => y(d.won)).attr('height', (d) => y(lo) - y(d.won)).attr('rx', 3).attr('fill', dash.colors[0]).attr('opacity', 0.85);
+  g.append('circle').attr('cx', (d) => x(d.m) + x.bandwidth() / 2).attr('cy', (d) => y(d.pred)).attr('r', 3.5).attr('fill', 'var(--color-fg)');
+  const tip = el('div', 'tip'); tip.hidden = true; box.append(tip);
+  g.append('rect').attr('x', (d) => x(d.m)).attr('width', x.bandwidth()).attr('y', mg.t).attr('height', H - mg.t - mg.b).attr('fill', 'transparent')
+    .on('mousemove', (ev, d) => {
+      tip.replaceChildren(el('div', 't', `${d3.utcFormat('%B %Y')(new Date(`${d.m}-01T00:00:00Z`))} · ${num(d.n)} picks`), el('div', null, `Won ${pct1(d.won)}`), el('div', null, `Predicted ${pct1(d.pred)}`));
+      tip.hidden = false;
+      const [px, py] = d3.pointer(ev, box);
+      tip.style.left = `${Math.min(Math.max(0, px + 12), box.clientWidth - tip.offsetWidth)}px`; tip.style.top = `${Math.max(0, py - 10)}px`;
+    })
+    .on('mouseleave', () => { tip.hidden = true; });
+}
+
+// ------------------------------------------------------------------ performance
+function drawTiles(source = 'backtest_slots') {
+  const d = dash.data(source);
+  document.querySelectorAll(`#performance [data-source="${source}"]`).forEach((e) => {
+    e.classList.toggle('dash-skeleton', d.status === 'loading');
+    if (d.status !== 'ok') { e.textContent = '—'; return; }
+    const slot = e.getAttribute('data-where').split('=')[1];
+    const r = d.data.find((x) => x.slot === slot);
+    const f = e.getAttribute('data-field');
+    e.textContent = r ? (f === 'n' ? num(N(r[f])) : pct1(N(r[f]))) : '—';
+  });
+}
+function drawTable(id, source, cols) {
+  const tb = document.querySelector(`#${id} tbody`);
+  const d = dash.data(source);
+  if (d.status !== 'ok') { tb.replaceChildren(); return; }
+  tb.replaceChildren(...d.data.map((r) => {
+    const tr = el('tr');
+    for (const [c, fmt] of cols) {
+      const v = r[c];
+      const td = el('td', fmt ? 'r' : '', fmt ? (v === '' || v == null ? '' : fmt(N(v))) : v);
+      if (c === 'family') { td.className = 'pick-cell'; td.style.setProperty('--fam', famColor(v)); }
+      tr.append(td);
+    }
+    return tr;
+  }));
+}
+function drawReliability() {
+  const box = document.getElementById('rel-chart');
+  const d = dash.data('cat1_reliability');
+  document.getElementById('key-actual').style.background = dash.colors[0];
+  box.replaceChildren();
+  box.classList.toggle('dash-skeleton', d.status === 'loading');
+  if (d.status !== 'ok') return;
+  const rows = d.data.map((r) => ({ bucket: r.bucket, n: N(r.n), pred: N(r.predicted), hit: N(r.hit_rate) }));
+  const W = box.clientWidth || 400, H = 240, m = { t: 12, r: 12, b: 40, l: 40 };
+  const x = d3.scaleBand(rows.map((r) => r.bucket), [m.l, W - m.r]).padding(0.3);
+  const lo = Math.max(0, Math.floor((d3.min(rows, (r) => Math.min(r.pred, r.hit)) - 0.05) * 10) / 10);
+  const y = d3.scaleLinear([lo, 1], [H - m.b, m.t]);
+  const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+  svg.append('g').selectAll('line').data(y.ticks(5)).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', (v) => y(v)).attr('y2', (v) => y(v)).attr('stroke', 'var(--cds-chart-grid)');
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(pct).tickSize(0)).attr('font-size', null).attr('font-family', null)
+    .call((g) => g.select('.domain').remove()).selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickSize(0)).attr('font-size', null).attr('font-family', null)
+    .call((g) => g.select('.domain').attr('stroke', 'var(--cds-chart-axis)')).selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('dy', '1.2em').style('font-size', 'var(--cds-font-size-caption)');
+  const g = svg.append('g').selectAll('g').data(rows).join('g').attr('transform', (r) => `translate(${x(r.bucket) + x.bandwidth() / 2},0)`);
+  g.append('line').attr('y1', (r) => y(r.pred)).attr('y2', (r) => y(r.hit)).attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 2);
+  g.append('circle').attr('cy', (r) => y(r.pred)).attr('r', 5).attr('fill', 'var(--cds-chart-muted)');
+  g.append('circle').attr('cy', (r) => y(r.hit)).attr('r', 5).attr('fill', dash.colors[0]);
+  const tip = el('div', 'tip'); tip.hidden = true; box.append(tip);
+  g.append('rect').attr('x', -x.bandwidth() / 2).attr('width', x.bandwidth()).attr('y', m.t).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+    .on('mousemove', (ev, r) => {
+      tip.replaceChildren(el('div', 't', `Confidence ${r.bucket} · ${num(r.n)} picks`), el('div', null, `Predicted ${pct1(r.pred)}`), el('div', null, `Won ${pct1(r.hit)}`));
+      tip.hidden = false;
+      const [px, py] = d3.pointer(ev, box);
+      tip.style.left = `${Math.min(Math.max(0, px + 12), box.clientWidth - tip.offsetWidth)}px`; tip.style.top = `${py - 10}px`;
+    })
+    .on('mouseleave', () => { tip.hidden = true; });
+}
+function drawPerformance() {
+  if (sport === 'volley') {
+    drawTiles('volley_backtest_best');
+    drawTable('v-rel-table', 'volley_reliability', [['band'], ['n', num], ['predicted', pct1], ['hit_rate', pct1]]);
+    drawTable('v-league-table', 'volley_leagues', [['league'], ['n', num], ['predicted', pct1], ['hit_rate', pct1]]);
+    drawTable('v-mkt-table', 'volley_markets', [['family'], ['category'], ['option'], ['n', num], ['predicted', pct1], ['hit_rate', pct1]]);
+    return;
+  }
+  drawTiles();
+  drawReliability();
+  drawTable('league-table', 'league_cat1', [['league'], ['n', num], ['predicted', pct1], ['hit_rate', pct1]]);
+  drawTable('support-table', 'support_check', [['band'], ['agrees', pct1], ['mostly_agrees', pct1], ['split', pct1]]);
+  drawTable('opt-table', 'backtest_options', [['family'], ['category'], ['option'], ['n', num], ['predicted', pct1], ['hit_rate', pct1]]);
+}
+
+// ------------------------------------------------------------------ draw
+function draw() {
+  drawStatus();
+  if (page === 'picks') { drawPicks(); drawSuggested(); }
+  if (page === 'results') drawResults();
+  if (page === 'performance') drawPerformance();
+  drawBetslip();
+}
+// ------------------------------------------------------------------ sport switch
+function setSport(v) {
+  sport = v; FAMS = FAMS_BY[v]; CHIPS = CHIPS_BY[v];
+  try { localStorage.setItem('sport', v); } catch (e) { /* private window: not remembered */ }
+  Object.assign(ps, { chip: 0, comp: '', day: localDay(0) });
+  Object.assign(hs, { slot: 'best', src: '', from: '', to: '', comp: '', out: '', q: '', limit: 200, fams: new Set(FAMS) });
+  ['h-from', 'h-to', 'h-q'].forEach((id) => { document.getElementById(id).value = ''; });
+  document.getElementById('h-comp').replaceChildren(new Option('All competitions', ''));
+  trackCache.clear(); hCache = { key: '', rows: [] }; openMore.clear(); openWhy.clear();
+  document.getElementById('fp').dataset.sport = v;
+  document.getElementById('title').textContent = v === 'volley' ? 'Volleyball Safe Picks' : 'Football Safe Picks';
+  segment(document.getElementById('sport'), () => sport, setSport);
+}
+setSport(sport);
+dash.onData(draw);
+showPage(page);
+</script>

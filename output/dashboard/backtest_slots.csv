@@ -1,0 +1,6 @@
+slot,slot_name,n,predicted,hit_rate,roi
+best,Best pick,37008.0,0.7759,0.7876,
+pick1,Pick 1 · 1X2 / Double Chance,37010.0,0.7346,0.7517,-0.0365
+pick2,Pick 2 · safest other market,37009.0,0.829,0.8425,
+pick3,Pick 3 · next market,37010.0,0.8092,0.8172,
+all3,All three in one match,37009.0,0.4933,0.5445,

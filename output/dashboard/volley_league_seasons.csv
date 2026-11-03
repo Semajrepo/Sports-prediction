@@ -1,0 +1,65 @@
+slot,league,season,family,n,won,predicted
+Best,Brazil Superliga,2023/24,Result,27,22,0.7606
+Best,Brazil Superliga,2023/24,Sets,123,92,0.7235
+Best,Brazil Superliga,2024/25,Result,30,26,0.7611
+Best,Brazil Superliga,2024/25,Sets,118,85,0.7244
+Best,Brazil Superliga,2026/27,Sets,3,3,0.7437
+Best,Brazil Superliga Women,2023/24,Result,36,28,0.7608
+Best,Brazil Superliga Women,2023/24,Sets,104,68,0.7105
+Best,Brazil Superliga Women,2024/25,Result,30,22,0.7664
+Best,Brazil Superliga Women,2024/25,Sets,106,78,0.7218
+Best,CEV Champions League,2023/24,Result,21,16,0.7613
+Best,CEV Champions League,2023/24,Sets,83,65,0.7272
+Best,CEV Champions League,2024/25,Result,23,18,0.7681
+Best,CEV Champions League,2024/25,Sets,82,56,0.7253
+Best,France Ligue A,2023/24,Result,37,28,0.7576
+Best,France Ligue A,2023/24,Sets,166,117,0.7278
+Best,France Ligue A,2024/25,Result,31,24,0.7634
+Best,France Ligue A,2024/25,Sets,147,108,0.7432
+Best,Germany Bundesliga,2023/24,Result,20,15,0.7624
+Best,Germany Bundesliga,2023/24,Sets,114,87,0.7142
+Best,Germany Bundesliga,2024/25,Result,27,22,0.766
+Best,Germany Bundesliga,2024/25,Sets,128,92,0.7133
+Best,Germany Bundesliga,2026/27,Result,1,1,0.743
+Best,Germany Bundesliga,2026/27,Sets,1,1,0.7698
+Best,Italy Serie A1 Women,2023/24,Result,49,39,0.7632
+Best,Italy Serie A1 Women,2023/24,Sets,146,103,0.714
+Best,Italy Serie A1 Women,2024/25,Result,47,37,0.7661
+Best,Italy Serie A1 Women,2024/25,Sets,155,106,0.722
+Best,Italy Serie A1 Women,2026/27,Sets,1,1,0.79
+Best,Italy SuperLega,2023/24,Result,49,42,0.7666
+Best,Italy SuperLega,2023/24,Sets,133,101,0.7327
+Best,Italy SuperLega,2024/25,Result,46,38,0.7638
+Best,Italy SuperLega,2024/25,Sets,131,91,0.7229
+Best,Japan SV.League,2024/25,Result,38,32,0.7665
+Best,Japan SV.League,2024/25,Sets,191,137,0.7255
+Best,Japan SV.League Women,2024/25,Result,53,35,0.7642
+Best,Japan SV.League Women,2024/25,Sets,263,198,0.7245
+Best,Poland PlusLiga,2023/24,Result,59,49,0.7662
+Best,Poland PlusLiga,2023/24,Sets,206,143,0.7307
+Best,Poland PlusLiga,2024/25,Result,55,47,0.7626
+Best,Poland PlusLiga,2024/25,Sets,209,146,0.727
+Best,Poland PlusLiga,2026/27,Sets,1,1,0.7825
+Best,Poland Tauron Liga Women,2023/24,Result,26,19,0.7653
+Best,Poland Tauron Liga Women,2023/24,Sets,124,86,0.7141
+Best,Poland Tauron Liga Women,2024/25,Result,37,29,0.7624
+Best,Poland Tauron Liga Women,2024/25,Sets,112,75,0.7103
+Best,Poland Tauron Liga Women,2026/27,Sets,1,1,0.7283
+Best,Russia Superleague,2023/24,Result,72,55,0.7631
+Best,Russia Superleague,2023/24,Sets,231,166,0.719
+Best,Russia Superleague,2024/25,Result,55,44,0.7593
+Best,Russia Superleague,2024/25,Sets,174,125,0.7086
+Best,Russia Superleague,2026/27,Sets,1,1,0.7868
+Best,Russia Superleague Women,2023/24,Result,41,32,0.7598
+Best,Russia Superleague Women,2023/24,Sets,179,123,0.713
+Best,Russia Superleague Women,2024/25,Result,48,34,0.7593
+Best,Russia Superleague Women,2024/25,Sets,154,104,0.7145
+Best,Turkey Efeler Ligi,2023/24,Result,46,41,0.7596
+Best,Turkey Efeler Ligi,2023/24,Sets,141,96,0.7164
+Best,Turkey Efeler Ligi,2024/25,Result,39,28,0.762
+Best,Turkey Efeler Ligi,2024/25,Sets,135,107,0.7204
+Best,Turkey Efeler Ligi,2026/27,Sets,7,5,0.7212
+Best,Turkey Sultanlar Ligi Women,2023/24,Result,37,28,0.7587
+Best,Turkey Sultanlar Ligi Women,2023/24,Sets,153,99,0.7114
+Best,Turkey Sultanlar Ligi Women,2024/25,Result,40,27,0.762
+Best,Turkey Sultanlar Ligi Women,2024/25,Sets,149,105,0.7192

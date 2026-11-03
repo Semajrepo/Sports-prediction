@@ -1,0 +1,608 @@
+slot,league,season,family,n,won,predicted
+Best,Belgium Pro League,2019/20,Goals,202,160,0.7801
+Best,Belgium Pro League,2019/20,Result,30,25,0.781
+Best,Belgium Pro League,2020/21,Goals,275,216,0.7794
+Best,Belgium Pro League,2020/21,Result,31,25,0.78
+Best,Belgium Pro League,2021/22,Goals,270,230,0.7802
+Best,Belgium Pro League,2021/22,Result,35,25,0.7808
+Best,Belgium Pro League,2022/23,Goals,272,222,0.7783
+Best,Belgium Pro League,2022/23,Result,34,26,0.7784
+Best,Belgium Pro League,2023/24,Goals,289,224,0.7795
+Best,Belgium Pro League,2023/24,Result,23,18,0.7799
+Best,Belgium Pro League,2024/25,Goals,267,200,0.7779
+Best,Belgium Pro League,2024/25,Result,45,41,0.7806
+Best,Belgium Pro League,2025/26,Goals,281,225,0.7769
+Best,Belgium Pro League,2025/26,Result,30,21,0.7796
+Best,Belgium Pro League,2026/27,Goals,74,60,0.777
+Best,Belgium Pro League,2026/27,Result,6,6,0.7815
+Best,England Championship,2019/20,Goals,509,401,0.7718
+Best,England Championship,2019/20,Result,43,38,0.7759
+Best,England Championship,2020/21,Goals,516,398,0.763
+Best,England Championship,2020/21,Result,36,27,0.7743
+Best,England Championship,2021/22,Goals,501,400,0.7677
+Best,England Championship,2021/22,Result,51,44,0.7728
+Best,England Championship,2022/23,Goals,502,387,0.767
+Best,England Championship,2022/23,Result,50,31,0.7718
+Best,England Championship,2023/24,Goals,497,386,0.7727
+Best,England Championship,2023/24,Result,55,40,0.7775
+Best,England Championship,2024/25,Goals,504,405,0.7697
+Best,England Championship,2024/25,Result,48,32,0.7748
+Best,England Championship,2025/26,Goals,509,407,0.7704
+Best,England Championship,2025/26,Result,43,29,0.7783
+Best,England Championship,2026/27,Goals,134,108,0.775
+Best,England Championship,2026/27,Result,10,7,0.776
+Best,England League One,2019/20,Goals,354,267,0.772
+Best,England League One,2019/20,Result,45,40,0.7751
+Best,England League One,2020/21,Goals,508,392,0.7701
+Best,England League One,2020/21,Result,44,34,0.7716
+Best,England League One,2021/22,Goals,495,371,0.7712
+Best,England League One,2021/22,Result,57,51,0.7769
+Best,England League One,2022/23,Goals,484,379,0.7708
+Best,England League One,2022/23,Result,68,53,0.7737
+Best,England League One,2023/24,Goals,503,413,0.7731
+Best,England League One,2023/24,Result,49,41,0.7748
+Best,England League One,2024/25,Goals,492,402,0.7728
+Best,England League One,2024/25,Result,60,45,0.7741
+Best,England League One,2025/26,Goals,510,398,0.7719
+Best,England League One,2025/26,Result,42,34,0.7785
+Best,England League One,2026/27,Goals,128,101,0.7751
+Best,England League One,2026/27,Result,10,10,0.7801
+Best,England League Two,2019/20,Goals,410,329,0.7682
+Best,England League Two,2019/20,Result,26,19,0.7734
+Best,England League Two,2020/21,Goals,530,412,0.764
+Best,England League Two,2020/21,Result,22,16,0.775
+Best,England League Two,2021/22,Goals,513,397,0.7649
+Best,England League Two,2021/22,Result,39,31,0.774
+Best,England League Two,2022/23,Goals,505,410,0.7647
+Best,England League Two,2022/23,Result,46,38,0.776
+Best,England League Two,2023/24,Goals,512,395,0.7766
+Best,England League Two,2023/24,Result,40,32,0.7787
+Best,England League Two,2024/25,Goals,504,395,0.7707
+Best,England League Two,2024/25,Result,48,43,0.7763
+Best,England League Two,2025/26,Goals,502,388,0.7717
+Best,England League Two,2025/26,Result,50,38,0.7749
+Best,England League Two,2026/27,Goals,135,102,0.7733
+Best,England League Two,2026/27,Result,15,13,0.777
+Best,England Premier League,2019/20,Cards,108,87,0.7821
+Best,England Premier League,2019/20,Corners,116,88,0.7836
+Best,England Premier League,2019/20,Goals,141,114,0.7821
+Best,England Premier League,2019/20,Result,15,12,0.7842
+Best,England Premier League,2020/21,Cards,108,81,0.7845
+Best,England Premier League,2020/21,Corners,125,95,0.7837
+Best,England Premier League,2020/21,Goals,127,101,0.7842
+Best,England Premier League,2020/21,Result,20,17,0.7864
+Best,England Premier League,2021/22,Cards,122,94,0.784
+Best,England Premier League,2021/22,Corners,125,94,0.7832
+Best,England Premier League,2021/22,Goals,117,96,0.7827
+Best,England Premier League,2021/22,Result,16,11,0.784
+Best,England Premier League,2022/23,Cards,85,65,0.7842
+Best,England Premier League,2022/23,Corners,155,119,0.7834
+Best,England Premier League,2022/23,Goals,122,96,0.784
+Best,England Premier League,2022/23,Result,18,15,0.7828
+Best,England Premier League,2023/24,Cards,78,59,0.783
+Best,England Premier League,2023/24,Corners,116,94,0.784
+Best,England Premier League,2023/24,Goals,159,129,0.7833
+Best,England Premier League,2023/24,Result,27,24,0.7832
+Best,England Premier League,2024/25,Cards,82,66,0.7844
+Best,England Premier League,2024/25,Corners,113,88,0.7836
+Best,England Premier League,2024/25,Goals,157,129,0.7827
+Best,England Premier League,2024/25,Result,28,19,0.7838
+Best,England Premier League,2025/26,Cards,75,65,0.7853
+Best,England Premier League,2025/26,Corners,137,108,0.7832
+Best,England Premier League,2025/26,Goals,149,115,0.784
+Best,England Premier League,2025/26,Result,19,14,0.7861
+Best,England Premier League,2026/27,Cards,12,9,0.7857
+Best,England Premier League,2026/27,Corners,33,29,0.7845
+Best,England Premier League,2026/27,Goals,32,23,0.7844
+Best,England Premier League,2026/27,Result,3,1,0.7814
+Best,France Ligue 1,2019/20,Cards,75,59,0.7821
+Best,France Ligue 1,2019/20,Corners,102,77,0.7794
+Best,France Ligue 1,2019/20,Goals,90,71,0.7823
+Best,France Ligue 1,2019/20,Result,12,9,0.7846
+Best,France Ligue 1,2020/21,Cards,102,86,0.7816
+Best,France Ligue 1,2020/21,Corners,143,111,0.7831
+Best,France Ligue 1,2020/21,Goals,121,93,0.783
+Best,France Ligue 1,2020/21,Result,14,12,0.7849
+Best,France Ligue 1,2021/22,Cards,108,89,0.7822
+Best,France Ligue 1,2021/22,Corners,109,82,0.7814
+Best,France Ligue 1,2021/22,Goals,147,123,0.7831
+Best,France Ligue 1,2021/22,Result,16,12,0.7844
+Best,France Ligue 1,2022/23,Cards,69,56,0.7813
+Best,France Ligue 1,2022/23,Corners,114,92,0.7832
+Best,France Ligue 1,2022/23,Goals,169,137,0.7829
+Best,France Ligue 1,2022/23,Result,28,23,0.7828
+Best,France Ligue 1,2023/24,Cards,75,57,0.7833
+Best,France Ligue 1,2023/24,Corners,94,70,0.7812
+Best,France Ligue 1,2023/24,Goals,119,97,0.784
+Best,France Ligue 1,2023/24,Result,18,13,0.7812
+Best,France Ligue 1,2024/25,Cards,56,41,0.7813
+Best,France Ligue 1,2024/25,Corners,92,73,0.7823
+Best,France Ligue 1,2024/25,Goals,136,106,0.7827
+Best,France Ligue 1,2024/25,Result,22,18,0.7836
+Best,France Ligue 1,2025/26,Cards,59,49,0.7822
+Best,France Ligue 1,2025/26,Corners,90,68,0.7838
+Best,France Ligue 1,2025/26,Goals,139,99,0.7831
+Best,France Ligue 1,2025/26,Result,18,14,0.7831
+Best,France Ligue 1,2026/27,Cards,17,16,0.7854
+Best,France Ligue 1,2026/27,Corners,20,17,0.7842
+Best,France Ligue 1,2026/27,Goals,35,26,0.7832
+Best,Germany Bundesliga,2019/20,Cards,45,32,0.7843
+Best,Germany Bundesliga,2019/20,Corners,120,89,0.7838
+Best,Germany Bundesliga,2019/20,Goals,122,99,0.7831
+Best,Germany Bundesliga,2019/20,Result,19,12,0.7855
+Best,Germany Bundesliga,2020/21,Cards,51,42,0.7849
+Best,Germany Bundesliga,2020/21,Corners,104,87,0.7834
+Best,Germany Bundesliga,2020/21,Goals,134,108,0.7831
+Best,Germany Bundesliga,2020/21,Result,17,14,0.7813
+Best,Germany Bundesliga,2021/22,Cards,45,34,0.7832
+Best,Germany Bundesliga,2021/22,Corners,94,76,0.7831
+Best,Germany Bundesliga,2021/22,Goals,151,124,0.7825
+Best,Germany Bundesliga,2021/22,Result,16,13,0.782
+Best,Germany Bundesliga,2022/23,Cards,57,40,0.7833
+Best,Germany Bundesliga,2022/23,Corners,90,73,0.7837
+Best,Germany Bundesliga,2022/23,Goals,141,120,0.7833
+Best,Germany Bundesliga,2022/23,Result,18,14,0.7858
+Best,Germany Bundesliga,2023/24,Cards,57,45,0.7838
+Best,Germany Bundesliga,2023/24,Corners,93,76,0.7845
+Best,Germany Bundesliga,2023/24,Goals,132,109,0.7837
+Best,Germany Bundesliga,2023/24,Result,24,22,0.7843
+Best,Germany Bundesliga,2024/25,Cards,63,52,0.7835
+Best,Germany Bundesliga,2024/25,Corners,95,79,0.7833
+Best,Germany Bundesliga,2024/25,Goals,129,97,0.7833
+Best,Germany Bundesliga,2024/25,Result,18,12,0.7851
+Best,Germany Bundesliga,2025/26,Cards,53,42,0.7833
+Best,Germany Bundesliga,2025/26,Corners,108,80,0.7842
+Best,Germany Bundesliga,2025/26,Goals,122,99,0.7847
+Best,Germany Bundesliga,2025/26,Result,23,22,0.7851
+Best,Germany Bundesliga,2026/27,Cards,13,10,0.782
+Best,Germany Bundesliga,2026/27,Corners,20,15,0.7841
+Best,Germany Bundesliga,2026/27,Goals,28,18,0.7851
+Best,Germany Bundesliga,2026/27,Result,2,2,0.78
+Best,Greece Super League,2019/20,Goals,204,159,0.7665
+Best,Greece Super League,2019/20,Result,36,26,0.7772
+Best,Greece Super League,2020/21,Goals,205,175,0.7637
+Best,Greece Super League,2020/21,Result,34,26,0.7765
+Best,Greece Super League,2021/22,Goals,204,155,0.7658
+Best,Greece Super League,2021/22,Result,36,25,0.7783
+Best,Greece Super League,2022/23,Goals,204,158,0.7649
+Best,Greece Super League,2022/23,Result,36,32,0.7783
+Best,Greece Super League,2023/24,Goals,202,153,0.7705
+Best,Greece Super League,2023/24,Result,38,30,0.7759
+Best,Greece Super League,2024/25,Goals,203,153,0.7697
+Best,Greece Super League,2024/25,Result,30,27,0.7759
+Best,Greece Super League,2025/26,Goals,212,168,0.7688
+Best,Greece Super League,2025/26,Result,24,18,0.7712
+Best,Greece Super League,2026/27,Goals,52,42,0.7716
+Best,Greece Super League,2026/27,Result,3,2,0.7789
+Best,Italy Serie A,2019/20,Cards,103,76,0.7823
+Best,Italy Serie A,2019/20,Corners,77,59,0.7838
+Best,Italy Serie A,2019/20,Goals,174,149,0.7828
+Best,Italy Serie A,2019/20,Result,26,21,0.7824
+Best,Italy Serie A,2020/21,Cards,77,65,0.7829
+Best,Italy Serie A,2020/21,Corners,137,110,0.7843
+Best,Italy Serie A,2020/21,Goals,143,108,0.7839
+Best,Italy Serie A,2020/21,Result,23,17,0.7826
+Best,Italy Serie A,2021/22,Cards,84,68,0.7841
+Best,Italy Serie A,2021/22,Corners,118,99,0.7844
+Best,Italy Serie A,2021/22,Goals,153,115,0.7844
+Best,Italy Serie A,2021/22,Result,24,22,0.7849
+Best,Italy Serie A,2022/23,Cards,112,91,0.7824
+Best,Italy Serie A,2022/23,Corners,116,93,0.7828
+Best,Italy Serie A,2022/23,Goals,129,104,0.783
+Best,Italy Serie A,2022/23,Result,23,20,0.7844
+Best,Italy Serie A,2023/24,Cards,93,72,0.783
+Best,Italy Serie A,2023/24,Corners,146,111,0.782
+Best,Italy Serie A,2023/24,Goals,118,94,0.7828
+Best,Italy Serie A,2023/24,Result,23,19,0.7826
+Best,Italy Serie A,2024/25,Cards,93,73,0.781
+Best,Italy Serie A,2024/25,Corners,139,114,0.7824
+Best,Italy Serie A,2024/25,Goals,129,102,0.7831
+Best,Italy Serie A,2024/25,Result,19,13,0.7833
+Best,Italy Serie A,2025/26,Cards,112,90,0.7823
+Best,Italy Serie A,2025/26,Corners,139,110,0.782
+Best,Italy Serie A,2025/26,Goals,106,87,0.7824
+Best,Italy Serie A,2025/26,Result,23,19,0.7811
+Best,Italy Serie A,2026/27,Cards,11,8,0.7828
+Best,Italy Serie A,2026/27,Corners,32,23,0.7824
+Best,Italy Serie A,2026/27,Goals,31,24,0.7837
+Best,Italy Serie A,2026/27,Result,6,5,0.7808
+Best,Netherlands Eredivisie,2019/20,Goals,210,163,0.7774
+Best,Netherlands Eredivisie,2019/20,Result,22,19,0.7769
+Best,Netherlands Eredivisie,2020/21,Goals,267,199,0.7771
+Best,Netherlands Eredivisie,2020/21,Result,39,33,0.7824
+Best,Netherlands Eredivisie,2021/22,Goals,274,211,0.7745
+Best,Netherlands Eredivisie,2021/22,Result,32,26,0.7803
+Best,Netherlands Eredivisie,2022/23,Goals,267,200,0.7754
+Best,Netherlands Eredivisie,2022/23,Result,39,33,0.7825
+Best,Netherlands Eredivisie,2023/24,Goals,269,208,0.7763
+Best,Netherlands Eredivisie,2023/24,Result,37,32,0.7835
+Best,Netherlands Eredivisie,2024/25,Goals,270,211,0.7768
+Best,Netherlands Eredivisie,2024/25,Result,36,27,0.7783
+Best,Netherlands Eredivisie,2025/26,Goals,267,226,0.7789
+Best,Netherlands Eredivisie,2025/26,Result,39,29,0.782
+Best,Netherlands Eredivisie,2026/27,Goals,73,60,0.7732
+Best,Netherlands Eredivisie,2026/27,Result,17,10,0.7812
+Best,Portugal Primeira Liga,2019/20,Goals,262,205,0.768
+Best,Portugal Primeira Liga,2019/20,Result,44,36,0.7772
+Best,Portugal Primeira Liga,2020/21,Goals,271,200,0.7635
+Best,Portugal Primeira Liga,2020/21,Result,35,26,0.7758
+Best,Portugal Primeira Liga,2021/22,Goals,276,209,0.7684
+Best,Portugal Primeira Liga,2021/22,Result,30,25,0.7777
+Best,Portugal Primeira Liga,2022/23,Goals,286,230,0.7673
+Best,Portugal Primeira Liga,2022/23,Result,20,16,0.7821
+Best,Portugal Primeira Liga,2023/24,Goals,272,216,0.7699
+Best,Portugal Primeira Liga,2023/24,Result,34,26,0.7789
+Best,Portugal Primeira Liga,2024/25,Goals,269,216,0.7678
+Best,Portugal Primeira Liga,2024/25,Result,37,28,0.7742
+Best,Portugal Primeira Liga,2025/26,Goals,272,209,0.7697
+Best,Portugal Primeira Liga,2025/26,Result,34,26,0.7801
+Best,Portugal Primeira Liga,2026/27,Goals,69,48,0.7718
+Best,Portugal Primeira Liga,2026/27,Result,12,5,0.7774
+Best,Scotland Premiership,2019/20,Goals,162,121,0.7694
+Best,Scotland Premiership,2019/20,Result,17,14,0.7772
+Best,Scotland Premiership,2020/21,Goals,210,166,0.7689
+Best,Scotland Premiership,2020/21,Result,18,11,0.7744
+Best,Scotland Premiership,2021/22,Goals,211,160,0.767
+Best,Scotland Premiership,2021/22,Result,17,11,0.7736
+Best,Scotland Premiership,2022/23,Goals,208,162,0.7685
+Best,Scotland Premiership,2022/23,Result,20,18,0.7772
+Best,Scotland Premiership,2023/24,Goals,204,158,0.7704
+Best,Scotland Premiership,2023/24,Result,24,18,0.7753
+Best,Scotland Premiership,2024/25,Goals,217,173,0.7741
+Best,Scotland Premiership,2024/25,Result,11,9,0.7764
+Best,Scotland Premiership,2025/26,Goals,202,160,0.7762
+Best,Scotland Premiership,2025/26,Result,26,21,0.7802
+Best,Scotland Premiership,2026/27,Goals,51,44,0.7802
+Best,Scotland Premiership,2026/27,Result,9,9,0.7822
+Best,Spain La Liga,2019/20,Cards,123,101,0.7833
+Best,Spain La Liga,2019/20,Corners,123,101,0.7825
+Best,Spain La Liga,2019/20,Goals,109,88,0.7833
+Best,Spain La Liga,2019/20,Result,25,21,0.7834
+Best,Spain La Liga,2020/21,Cards,107,81,0.7829
+Best,Spain La Liga,2020/21,Corners,133,103,0.7817
+Best,Spain La Liga,2020/21,Goals,111,94,0.7819
+Best,Spain La Liga,2020/21,Result,29,26,0.7829
+Best,Spain La Liga,2021/22,Cards,118,91,0.783
+Best,Spain La Liga,2021/22,Corners,138,109,0.7828
+Best,Spain La Liga,2021/22,Goals,100,78,0.7822
+Best,Spain La Liga,2021/22,Result,24,17,0.7834
+Best,Spain La Liga,2022/23,Cards,105,89,0.7816
+Best,Spain La Liga,2022/23,Corners,145,109,0.7812
+Best,Spain La Liga,2022/23,Goals,108,89,0.7827
+Best,Spain La Liga,2022/23,Result,22,20,0.7849
+Best,Spain La Liga,2023/24,Cards,100,79,0.7827
+Best,Spain La Liga,2023/24,Corners,139,106,0.7825
+Best,Spain La Liga,2023/24,Goals,124,102,0.7812
+Best,Spain La Liga,2023/24,Result,17,14,0.7819
+Best,Spain La Liga,2024/25,Cards,116,95,0.7819
+Best,Spain La Liga,2024/25,Corners,125,103,0.7822
+Best,Spain La Liga,2024/25,Goals,117,91,0.7816
+Best,Spain La Liga,2024/25,Result,22,13,0.7837
+Best,Spain La Liga,2025/26,Cards,95,74,0.783
+Best,Spain La Liga,2025/26,Corners,150,117,0.7827
+Best,Spain La Liga,2025/26,Goals,119,99,0.7832
+Best,Spain La Liga,2025/26,Result,16,13,0.7822
+Best,Spain La Liga,2026/27,Cards,23,20,0.7839
+Best,Spain La Liga,2026/27,Corners,35,30,0.7826
+Best,Spain La Liga,2026/27,Goals,40,35,0.7836
+Best,Spain La Liga,2026/27,Result,1,1,0.7887
+Best,Turkey Super Lig,2019/20,Goals,271,229,0.7762
+Best,Turkey Super Lig,2019/20,Result,35,29,0.7781
+Best,Turkey Super Lig,2020/21,Goals,376,286,0.774
+Best,Turkey Super Lig,2020/21,Result,44,39,0.7812
+Best,Turkey Super Lig,2021/22,Goals,353,280,0.7759
+Best,Turkey Super Lig,2021/22,Result,27,22,0.7815
+Best,Turkey Super Lig,2022/23,Goals,278,204,0.7778
+Best,Turkey Super Lig,2022/23,Result,35,30,0.7805
+Best,Turkey Super Lig,2023/24,Goals,344,255,0.777
+Best,Turkey Super Lig,2023/24,Result,36,28,0.7792
+Best,Turkey Super Lig,2024/25,Goals,309,241,0.7749
+Best,Turkey Super Lig,2024/25,Result,33,30,0.7815
+Best,Turkey Super Lig,2025/26,Goals,266,216,0.7756
+Best,Turkey Super Lig,2025/26,Result,40,32,0.7771
+Best,Turkey Super Lig,2026/27,Goals,73,55,0.7743
+Best,Turkey Super Lig,2026/27,Result,8,7,0.7726
+Other,Belgium Pro League,2019/20,Goals,464,392,0.8183
+Other,Belgium Pro League,2019/20,Result,232,174,0.7329
+Other,Belgium Pro League,2020/21,Goals,612,520,0.8176
+Other,Belgium Pro League,2020/21,Result,306,208,0.7334
+Other,Belgium Pro League,2021/22,Goals,612,529,0.8181
+Other,Belgium Pro League,2021/22,Result,306,218,0.7304
+Other,Belgium Pro League,2022/23,Goals,612,506,0.8163
+Other,Belgium Pro League,2022/23,Result,306,235,0.7339
+Other,Belgium Pro League,2023/24,Goals,624,518,0.8185
+Other,Belgium Pro League,2023/24,Result,312,245,0.7326
+Other,Belgium Pro League,2024/25,Goals,624,509,0.8144
+Other,Belgium Pro League,2024/25,Result,312,248,0.7352
+Other,Belgium Pro League,2025/26,Goals,622,524,0.8136
+Other,Belgium Pro League,2025/26,Result,311,221,0.7265
+Other,Belgium Pro League,2026/27,Goals,160,131,0.8165
+Other,Belgium Pro League,2026/27,Result,80,64,0.7227
+Other,England Championship,2019/20,Goals,1104,910,0.8078
+Other,England Championship,2019/20,Result,552,393,0.7245
+Other,England Championship,2020/21,Goals,1104,908,0.8076
+Other,England Championship,2020/21,Result,552,395,0.7282
+Other,England Championship,2021/22,Goals,1104,896,0.8067
+Other,England Championship,2021/22,Result,552,408,0.7338
+Other,England Championship,2022/23,Goals,1104,905,0.8045
+Other,England Championship,2022/23,Result,552,399,0.7284
+Other,England Championship,2023/24,Goals,1104,904,0.8108
+Other,England Championship,2023/24,Result,552,389,0.7316
+Other,England Championship,2024/25,Goals,1104,920,0.8071
+Other,England Championship,2024/25,Result,552,415,0.7319
+Other,England Championship,2025/26,Goals,1104,938,0.8075
+Other,England Championship,2025/26,Result,552,396,0.7268
+Other,England Championship,2026/27,Goals,288,234,0.8112
+Other,England Championship,2026/27,Result,144,108,0.7223
+Other,England League One,2019/20,Goals,798,640,0.8066
+Other,England League One,2019/20,Result,399,307,0.7293
+Other,England League One,2020/21,Goals,1104,887,0.8061
+Other,England League One,2020/21,Result,552,395,0.7262
+Other,England League One,2021/22,Goals,1104,897,0.8052
+Other,England League One,2021/22,Result,552,429,0.7305
+Other,England League One,2022/23,Goals,1104,909,0.8058
+Other,England League One,2022/23,Result,552,417,0.7318
+Other,England League One,2023/24,Goals,1104,908,0.8075
+Other,England League One,2023/24,Result,552,403,0.7341
+Other,England League One,2024/25,Goals,1104,914,0.8097
+Other,England League One,2024/25,Result,552,405,0.7373
+Other,England League One,2025/26,Goals,1104,918,0.8075
+Other,England League One,2025/26,Result,552,413,0.7237
+Other,England League One,2026/27,Goals,276,229,0.8134
+Other,England League One,2026/27,Result,138,101,0.7152
+Other,England League Two,2019/20,Goals,872,711,0.803
+Other,England League Two,2019/20,Result,436,327,0.7162
+Other,England League Two,2020/21,Goals,1104,907,0.8036
+Other,England League Two,2020/21,Result,552,394,0.7156
+Other,England League Two,2021/22,Goals,1104,899,0.8042
+Other,England League Two,2021/22,Result,552,405,0.718
+Other,England League Two,2022/23,Goals,1102,908,0.8059
+Other,England League Two,2022/23,Result,551,406,0.7278
+Other,England League Two,2023/24,Goals,1104,901,0.8117
+Other,England League Two,2023/24,Result,552,376,0.7204
+Other,England League Two,2024/25,Goals,1104,882,0.8077
+Other,England League Two,2024/25,Result,552,404,0.7318
+Other,England League Two,2025/26,Goals,1104,916,0.8057
+Other,England League Two,2025/26,Result,552,413,0.7281
+Other,England League Two,2026/27,Goals,300,243,0.8089
+Other,England League Two,2026/27,Result,150,114,0.7215
+Other,England Premier League,2019/20,Cards,289,247,0.8372
+Other,England Premier League,2019/20,Corners,220,187,0.8351
+Other,England Premier League,2019/20,Goals,251,215,0.8341
+Other,England Premier League,2019/20,Result,380,282,0.7383
+Other,England Premier League,2020/21,Cards,285,240,0.8348
+Other,England Premier League,2020/21,Corners,205,177,0.8347
+Other,England Premier League,2020/21,Goals,270,227,0.8338
+Other,England Premier League,2020/21,Result,380,267,0.7465
+Other,England Premier League,2021/22,Cards,310,252,0.8353
+Other,England Premier League,2021/22,Corners,200,166,0.8328
+Other,England Premier League,2021/22,Goals,250,209,0.8341
+Other,England Premier League,2021/22,Result,380,296,0.7425
+Other,England Premier League,2022/23,Cards,281,229,0.8377
+Other,England Premier League,2022/23,Corners,227,190,0.8341
+Other,England Premier League,2022/23,Goals,252,206,0.8329
+Other,England Premier League,2022/23,Result,380,282,0.7421
+Other,England Premier League,2023/24,Cards,234,204,0.8384
+Other,England Premier League,2023/24,Corners,230,192,0.8375
+Other,England Premier League,2023/24,Goals,296,242,0.836
+Other,England Premier League,2023/24,Result,380,297,0.7392
+Other,England Premier League,2024/25,Cards,236,200,0.8374
+Other,England Premier League,2024/25,Corners,218,181,0.8381
+Other,England Premier League,2024/25,Goals,306,254,0.8354
+Other,England Premier League,2024/25,Result,380,282,0.7327
+Other,England Premier League,2025/26,Cards,268,221,0.8361
+Other,England Premier League,2025/26,Corners,210,169,0.8343
+Other,England Premier League,2025/26,Goals,282,244,0.8339
+Other,England Premier League,2025/26,Result,380,279,0.7392
+Other,England Premier League,2026/27,Cards,58,53,0.8383
+Other,England Premier League,2026/27,Corners,36,29,0.8358
+Other,England Premier League,2026/27,Goals,66,50,0.8356
+Other,England Premier League,2026/27,Result,80,59,0.7304
+Other,France Ligue 1,2019/20,Cards,198,170,0.8367
+Other,France Ligue 1,2019/20,Corners,217,190,0.8356
+Other,France Ligue 1,2019/20,Goals,143,117,0.8326
+Other,France Ligue 1,2019/20,Result,279,211,0.7399
+Other,France Ligue 1,2020/21,Cards,308,266,0.8372
+Other,France Ligue 1,2020/21,Corners,244,201,0.8351
+Other,France Ligue 1,2020/21,Goals,208,170,0.8327
+Other,France Ligue 1,2020/21,Result,380,281,0.7338
+Other,France Ligue 1,2021/22,Cards,279,235,0.8394
+Other,France Ligue 1,2021/22,Corners,258,221,0.8371
+Other,France Ligue 1,2021/22,Goals,223,182,0.8332
+Other,France Ligue 1,2021/22,Result,380,283,0.7369
+Other,France Ligue 1,2022/23,Cards,270,229,0.8387
+Other,France Ligue 1,2022/23,Corners,267,244,0.8379
+Other,France Ligue 1,2022/23,Goals,223,191,0.8343
+Other,France Ligue 1,2022/23,Result,380,293,0.7383
+Other,France Ligue 1,2023/24,Cards,223,193,0.8374
+Other,France Ligue 1,2023/24,Corners,231,191,0.8368
+Other,France Ligue 1,2023/24,Goals,158,133,0.8348
+Other,France Ligue 1,2023/24,Result,306,225,0.7382
+Other,France Ligue 1,2024/25,Cards,210,187,0.8384
+Other,France Ligue 1,2024/25,Corners,220,182,0.8394
+Other,France Ligue 1,2024/25,Goals,182,159,0.8357
+Other,France Ligue 1,2024/25,Result,306,220,0.7393
+Other,France Ligue 1,2025/26,Cards,224,191,0.8384
+Other,France Ligue 1,2025/26,Corners,219,178,0.8385
+Other,France Ligue 1,2025/26,Goals,169,137,0.8351
+Other,France Ligue 1,2025/26,Result,306,232,0.7369
+Other,France Ligue 1,2026/27,Cards,51,45,0.8395
+Other,France Ligue 1,2026/27,Corners,56,51,0.8398
+Other,France Ligue 1,2026/27,Goals,37,32,0.8336
+Other,France Ligue 1,2026/27,Result,72,58,0.7199
+Other,Germany Bundesliga,2019/20,Cards,212,182,0.8383
+Other,Germany Bundesliga,2019/20,Corners,156,136,0.8382
+Other,Germany Bundesliga,2019/20,Goals,244,211,0.8359
+Other,Germany Bundesliga,2019/20,Result,306,217,0.7356
+Other,Germany Bundesliga,2020/21,Cards,211,180,0.8384
+Other,Germany Bundesliga,2020/21,Corners,176,152,0.8379
+Other,Germany Bundesliga,2020/21,Goals,225,190,0.8359
+Other,Germany Bundesliga,2020/21,Result,306,227,0.7316
+Other,Germany Bundesliga,2021/22,Cards,206,174,0.8392
+Other,Germany Bundesliga,2021/22,Corners,189,160,0.8381
+Other,Germany Bundesliga,2021/22,Goals,217,177,0.8356
+Other,Germany Bundesliga,2021/22,Result,306,223,0.7364
+Other,Germany Bundesliga,2022/23,Cards,194,164,0.8391
+Other,Germany Bundesliga,2022/23,Corners,196,170,0.8381
+Other,Germany Bundesliga,2022/23,Goals,222,186,0.835
+Other,Germany Bundesliga,2022/23,Result,306,228,0.7307
+Other,Germany Bundesliga,2023/24,Cards,208,172,0.8388
+Other,Germany Bundesliga,2023/24,Corners,184,166,0.838
+Other,Germany Bundesliga,2023/24,Goals,220,192,0.8369
+Other,Germany Bundesliga,2023/24,Result,306,237,0.7273
+Other,Germany Bundesliga,2024/25,Cards,188,161,0.8384
+Other,Germany Bundesliga,2024/25,Corners,186,163,0.8375
+Other,Germany Bundesliga,2024/25,Goals,237,201,0.8368
+Other,Germany Bundesliga,2024/25,Result,306,225,0.7333
+Other,Germany Bundesliga,2025/26,Cards,194,167,0.8383
+Other,Germany Bundesliga,2025/26,Corners,167,142,0.8387
+Other,Germany Bundesliga,2025/26,Goals,251,209,0.8353
+Other,Germany Bundesliga,2025/26,Result,306,238,0.7267
+Other,Germany Bundesliga,2026/27,Cards,39,31,0.8421
+Other,Germany Bundesliga,2026/27,Corners,31,28,0.8384
+Other,Germany Bundesliga,2026/27,Goals,56,44,0.8368
+Other,Germany Bundesliga,2026/27,Result,63,45,0.7266
+Other,Greece Super League,2019/20,Goals,480,387,0.8122
+Other,Greece Super League,2019/20,Result,240,194,0.7567
+Other,Greece Super League,2020/21,Goals,478,413,0.8136
+Other,Greece Super League,2020/21,Result,239,177,0.7489
+Other,Greece Super League,2021/22,Goals,480,382,0.8118
+Other,Greece Super League,2021/22,Result,240,173,0.7441
+Other,Greece Super League,2022/23,Goals,480,396,0.811
+Other,Greece Super League,2022/23,Result,240,188,0.7475
+Other,Greece Super League,2023/24,Goals,480,393,0.8106
+Other,Greece Super League,2023/24,Result,240,187,0.7463
+Other,Greece Super League,2024/25,Goals,466,381,0.8119
+Other,Greece Super League,2024/25,Result,233,161,0.7491
+Other,Greece Super League,2025/26,Goals,472,377,0.8104
+Other,Greece Super League,2025/26,Result,236,178,0.7462
+Other,Greece Super League,2026/27,Goals,110,91,0.8103
+Other,Greece Super League,2026/27,Result,55,44,0.7339
+Other,Italy Serie A,2019/20,Cards,93,79,0.831
+Other,Italy Serie A,2019/20,Corners,316,265,0.8365
+Other,Italy Serie A,2019/20,Goals,351,288,0.8311
+Other,Italy Serie A,2019/20,Result,380,285,0.7378
+Other,Italy Serie A,2020/21,Cards,151,131,0.8397
+Other,Italy Serie A,2020/21,Corners,261,210,0.8318
+Other,Italy Serie A,2020/21,Goals,348,290,0.8306
+Other,Italy Serie A,2020/21,Result,380,297,0.7326
+Other,Italy Serie A,2021/22,Cards,197,173,0.8377
+Other,Italy Serie A,2021/22,Corners,224,182,0.8338
+Other,Italy Serie A,2021/22,Goals,337,280,0.8314
+Other,Italy Serie A,2021/22,Result,379,282,0.7386
+Other,Italy Serie A,2022/23,Cards,219,188,0.8367
+Other,Italy Serie A,2022/23,Corners,285,240,0.8368
+Other,Italy Serie A,2022/23,Goals,256,225,0.8299
+Other,Italy Serie A,2022/23,Result,380,287,0.7428
+Other,Italy Serie A,2023/24,Cards,252,213,0.836
+Other,Italy Serie A,2023/24,Corners,259,220,0.8363
+Other,Italy Serie A,2023/24,Goals,249,214,0.8305
+Other,Italy Serie A,2023/24,Result,380,308,0.7396
+Other,Italy Serie A,2024/25,Cards,284,246,0.8356
+Other,Italy Serie A,2024/25,Corners,292,247,0.8374
+Other,Italy Serie A,2024/25,Goals,184,157,0.831
+Other,Italy Serie A,2024/25,Result,380,298,0.7491
+Other,Italy Serie A,2025/26,Cards,263,241,0.8369
+Other,Italy Serie A,2025/26,Corners,281,235,0.838
+Other,Italy Serie A,2025/26,Goals,216,180,0.8324
+Other,Italy Serie A,2025/26,Result,380,291,0.7457
+Other,Italy Serie A,2026/27,Cards,61,51,0.8357
+Other,Italy Serie A,2026/27,Corners,56,48,0.8366
+Other,Italy Serie A,2026/27,Goals,43,37,0.8356
+Other,Italy Serie A,2026/27,Result,80,63,0.7445
+Other,Netherlands Eredivisie,2019/20,Goals,464,387,0.8252
+Other,Netherlands Eredivisie,2019/20,Result,232,176,0.7373
+Other,Netherlands Eredivisie,2020/21,Goals,612,509,0.8188
+Other,Netherlands Eredivisie,2020/21,Result,306,237,0.7441
+Other,Netherlands Eredivisie,2021/22,Goals,612,516,0.8146
+Other,Netherlands Eredivisie,2021/22,Result,306,220,0.7404
+Other,Netherlands Eredivisie,2022/23,Goals,612,486,0.8169
+Other,Netherlands Eredivisie,2022/23,Result,306,231,0.7411
+Other,Netherlands Eredivisie,2023/24,Goals,612,517,0.8207
+Other,Netherlands Eredivisie,2023/24,Result,306,235,0.7432
+Other,Netherlands Eredivisie,2024/25,Goals,612,510,0.8164
+Other,Netherlands Eredivisie,2024/25,Result,306,232,0.7424
+Other,Netherlands Eredivisie,2025/26,Goals,612,522,0.821
+Other,Netherlands Eredivisie,2025/26,Result,306,235,0.7286
+Other,Netherlands Eredivisie,2026/27,Goals,180,144,0.8219
+Other,Netherlands Eredivisie,2026/27,Result,90,64,0.737
+Other,Portugal Primeira Liga,2019/20,Goals,612,507,0.8122
+Other,Portugal Primeira Liga,2019/20,Result,306,226,0.747
+Other,Portugal Primeira Liga,2020/21,Goals,612,518,0.8102
+Other,Portugal Primeira Liga,2020/21,Result,306,239,0.731
+Other,Portugal Primeira Liga,2021/22,Goals,612,515,0.8083
+Other,Portugal Primeira Liga,2021/22,Result,306,239,0.735
+Other,Portugal Primeira Liga,2022/23,Goals,612,518,0.8113
+Other,Portugal Primeira Liga,2022/23,Result,306,243,0.731
+Other,Portugal Primeira Liga,2023/24,Goals,612,494,0.8109
+Other,Portugal Primeira Liga,2023/24,Result,306,243,0.733
+Other,Portugal Primeira Liga,2024/25,Goals,612,519,0.8136
+Other,Portugal Primeira Liga,2024/25,Result,306,239,0.7476
+Other,Portugal Primeira Liga,2025/26,Goals,612,503,0.8114
+Other,Portugal Primeira Liga,2025/26,Result,306,246,0.7418
+Other,Portugal Primeira Liga,2026/27,Goals,162,133,0.8113
+Other,Portugal Primeira Liga,2026/27,Result,81,57,0.7448
+Other,Scotland Premiership,2019/20,Goals,358,288,0.8113
+Other,Scotland Premiership,2019/20,Result,179,139,0.7438
+Other,Scotland Premiership,2020/21,Goals,456,379,0.8101
+Other,Scotland Premiership,2020/21,Result,228,172,0.7462
+Other,Scotland Premiership,2021/22,Goals,456,380,0.812
+Other,Scotland Premiership,2021/22,Result,228,177,0.7413
+Other,Scotland Premiership,2022/23,Goals,456,379,0.8099
+Other,Scotland Premiership,2022/23,Result,228,177,0.7369
+Other,Scotland Premiership,2023/24,Goals,456,374,0.812
+Other,Scotland Premiership,2023/24,Result,228,180,0.7372
+Other,Scotland Premiership,2024/25,Goals,456,375,0.8123
+Other,Scotland Premiership,2024/25,Result,228,166,0.7405
+Other,Scotland Premiership,2025/26,Goals,456,371,0.8111
+Other,Scotland Premiership,2025/26,Result,228,170,0.7383
+Other,Scotland Premiership,2026/27,Goals,120,100,0.8209
+Other,Scotland Premiership,2026/27,Result,60,39,0.7354
+Other,Spain La Liga,2019/20,Cards,51,38,0.8229
+Other,Spain La Liga,2019/20,Corners,321,272,0.8356
+Other,Spain La Liga,2019/20,Goals,388,333,0.8277
+Other,Spain La Liga,2019/20,Result,380,291,0.7442
+Other,Spain La Liga,2020/21,Cards,113,90,0.8365
+Other,Spain La Liga,2020/21,Corners,300,252,0.8373
+Other,Spain La Liga,2020/21,Goals,347,281,0.8279
+Other,Spain La Liga,2020/21,Result,380,305,0.747
+Other,Spain La Liga,2021/22,Cards,113,89,0.8346
+Other,Spain La Liga,2021/22,Corners,330,269,0.8355
+Other,Spain La Liga,2021/22,Goals,317,255,0.8249
+Other,Spain La Liga,2021/22,Result,380,298,0.7409
+Other,Spain La Liga,2022/23,Cards,103,83,0.8324
+Other,Spain La Liga,2022/23,Corners,323,273,0.8366
+Other,Spain La Liga,2022/23,Goals,334,282,0.8263
+Other,Spain La Liga,2022/23,Result,380,290,0.744
+Other,Spain La Liga,2023/24,Cards,95,83,0.8356
+Other,Spain La Liga,2023/24,Corners,305,244,0.8362
+Other,Spain La Liga,2023/24,Goals,360,290,0.8278
+Other,Spain La Liga,2023/24,Result,380,310,0.7445
+Other,Spain La Liga,2024/25,Cards,146,116,0.8356
+Other,Spain La Liga,2024/25,Corners,307,260,0.8381
+Other,Spain La Liga,2024/25,Goals,307,261,0.8306
+Other,Spain La Liga,2024/25,Result,380,300,0.7487
+Other,Spain La Liga,2025/26,Cards,237,195,0.8341
+Other,Spain La Liga,2025/26,Corners,280,240,0.8368
+Other,Spain La Liga,2025/26,Goals,243,210,0.8328
+Other,Spain La Liga,2025/26,Result,380,293,0.7379
+Other,Spain La Liga,2026/27,Cards,62,54,0.8358
+Other,Spain La Liga,2026/27,Corners,67,55,0.8354
+Other,Spain La Liga,2026/27,Goals,69,59,0.831
+Other,Spain La Liga,2026/27,Result,99,80,0.7356
+Other,Turkey Super Lig,2019/20,Goals,612,500,0.8149
+Other,Turkey Super Lig,2019/20,Result,306,225,0.731
+Other,Turkey Super Lig,2020/21,Goals,840,678,0.8116
+Other,Turkey Super Lig,2020/21,Result,420,314,0.7275
+Other,Turkey Super Lig,2021/22,Goals,760,616,0.8092
+Other,Turkey Super Lig,2021/22,Result,380,290,0.7224
+Other,Turkey Super Lig,2022/23,Goals,626,492,0.8152
+Other,Turkey Super Lig,2022/23,Result,313,237,0.728
+Other,Turkey Super Lig,2023/24,Goals,760,617,0.814
+Other,Turkey Super Lig,2023/24,Result,380,303,0.7289
+Other,Turkey Super Lig,2024/25,Goals,684,552,0.8125
+Other,Turkey Super Lig,2024/25,Result,342,276,0.7355
+Other,Turkey Super Lig,2025/26,Goals,612,501,0.8125
+Other,Turkey Super Lig,2025/26,Result,306,245,0.7387
+Other,Turkey Super Lig,2026/27,Goals,162,132,0.815
+Other,Turkey Super Lig,2026/27,Result,81,57,0.7285

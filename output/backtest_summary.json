@@ -1,0 +1,1437 @@
+{
+  "matches": 37010,
+  "from": "2019-07-26",
+  "to": "2026-10-26",
+  "logloss_by_market_weight": {
+    "0.0": 1.0083,
+    "0.3": 0.9974,
+    "0.5": 0.992,
+    "0.6": 0.9899,
+    "0.7": 0.9882,
+    "0.8": 0.9868,
+    "0.9": 0.9858,
+    "1.0": 0.9853
+  },
+  "market_weight": 1.0,
+  "first_half_share": 0.4452,
+  "count_calibration": {
+    "corners_H": {
+      "shrink": 0.7167,
+      "phi": 1.4288
+    },
+    "corners_A": {
+      "shrink": 0.7402,
+      "phi": 1.394
+    },
+    "corners_T": {
+      "shrink": 0.3709,
+      "phi": 1.1359
+    },
+    "cards_H": {
+      "shrink": 0.5632,
+      "phi": 0.9714
+    },
+    "cards_A": {
+      "shrink": 0.4649,
+      "phi": 0.9476
+    },
+    "cards_T": {
+      "shrink": 0.4541,
+      "phi": 1.134
+    }
+  },
+  "count_skill": [
+    {
+      "market": "corners over 9.5",
+      "n": 37000,
+      "logloss_raw_model": 0.6955,
+      "logloss_calibrated": 0.6849,
+      "logloss_league_avg": 0.6884,
+      "actual_rate": 0.5162
+    },
+    {
+      "market": "corners over 10.5",
+      "n": 37000,
+      "logloss_raw_model": 0.6755,
+      "logloss_calibrated": 0.6651,
+      "logloss_league_avg": 0.6688,
+      "actual_rate": 0.4
+    },
+    {
+      "market": "cards over 3.5",
+      "n": 37001,
+      "logloss_raw_model": 0.6597,
+      "logloss_calibrated": 0.6504,
+      "logloss_league_avg": 0.6586,
+      "actual_rate": 0.5743
+    },
+    {
+      "market": "cards over 4.5",
+      "n": 37001,
+      "logloss_raw_model": 0.6461,
+      "logloss_calibrated": 0.6354,
+      "logloss_league_avg": 0.6434,
+      "actual_rate": 0.3957
+    }
+  ],
+  "calibration": {
+    "1": {
+      "pred": 0.433,
+      "actual": 0.4322
+    },
+    "2": {
+      "pred": 0.3157,
+      "actual": 0.3131
+    },
+    "1X": {
+      "pred": 0.6843,
+      "actual": 0.6869
+    },
+    "X2": {
+      "pred": 0.567,
+      "actual": 0.5678
+    },
+    "GG": {
+      "pred": 0.5215,
+      "actual": 0.5281
+    },
+    "NG": {
+      "pred": 0.4785,
+      "actual": 0.4719
+    },
+    "O0.5": {
+      "pred": 0.9253,
+      "actual": 0.9308
+    },
+    "U0.5": {
+      "pred": 0.0747,
+      "actual": 0.0692
+    },
+    "O1.5": {
+      "pred": 0.7593,
+      "actual": 0.7564
+    },
+    "U1.5": {
+      "pred": 0.2407,
+      "actual": 0.2436
+    },
+    "O2.5": {
+      "pred": 0.513,
+      "actual": 0.5151
+    },
+    "U2.5": {
+      "pred": 0.487,
+      "actual": 0.4849
+    },
+    "O3.5": {
+      "pred": 0.2965,
+      "actual": 0.2911
+    },
+    "U3.5": {
+      "pred": 0.7035,
+      "actual": 0.7089
+    },
+    "O4.5": {
+      "pred": 0.1477,
+      "actual": 0.1407
+    },
+    "U4.5": {
+      "pred": 0.8523,
+      "actual": 0.8593
+    },
+    "HO0.5": {
+      "pred": 0.7586,
+      "actual": 0.7655
+    },
+    "HU0.5": {
+      "pred": 0.2414,
+      "actual": 0.2345
+    },
+    "AO0.5": {
+      "pred": 0.6881,
+      "actual": 0.6934
+    },
+    "AU0.5": {
+      "pred": 0.3119,
+      "actual": 0.3066
+    },
+    "HO1.5": {
+      "pred": 0.4345,
+      "actual": 0.4325
+    },
+    "HU1.5": {
+      "pred": 0.5655,
+      "actual": 0.5675
+    },
+    "AO1.5": {
+      "pred": 0.3428,
+      "actual": 0.3433
+    },
+    "AU1.5": {
+      "pred": 0.6572,
+      "actual": 0.6567
+    },
+    "HO2.5": {
+      "pred": 0.2005,
+      "actual": 0.192
+    },
+    "HU2.5": {
+      "pred": 0.7995,
+      "actual": 0.808
+    },
+    "AO2.5": {
+      "pred": 0.1357,
+      "actual": 0.1297
+    },
+    "AU2.5": {
+      "pred": 0.8643,
+      "actual": 0.8703
+    },
+    "1HO0.5": {
+      "pred": 0.7018,
+      "actual": 0.7082
+    },
+    "1HU0.5": {
+      "pred": 0.2982,
+      "actual": 0.2918
+    },
+    "1HO1.5": {
+      "pred": 0.3443,
+      "actual": 0.343
+    },
+    "1HU1.5": {
+      "pred": 0.6557,
+      "actual": 0.657
+    },
+    "12": {
+      "pred": 0.7487,
+      "actual": 0.7452
+    },
+    "MG1-2": {
+      "pred": 0.4123,
+      "actual": 0.4157
+    },
+    "MG1-3": {
+      "pred": 0.6287,
+      "actual": 0.6397
+    },
+    "MG1-4": {
+      "pred": 0.7776,
+      "actual": 0.7901
+    },
+    "MG1-5": {
+      "pred": 0.8607,
+      "actual": 0.8729
+    },
+    "MG1-6": {
+      "pred": 0.9001,
+      "actual": 0.9092
+    },
+    "MG2-3": {
+      "pred": 0.4627,
+      "actual": 0.4653
+    },
+    "MG2-4": {
+      "pred": 0.6116,
+      "actual": 0.6157
+    },
+    "MG2-5": {
+      "pred": 0.6947,
+      "actual": 0.6985
+    },
+    "MG2-6": {
+      "pred": 0.7341,
+      "actual": 0.7348
+    },
+    "MG3-4": {
+      "pred": 0.3653,
+      "actual": 0.3744
+    },
+    "MG3-5": {
+      "pred": 0.4484,
+      "actual": 0.4572
+    },
+    "MG3-6": {
+      "pred": 0.4878,
+      "actual": 0.4935
+    },
+    "1X&O1.5": {
+      "pred": 0.5185,
+      "actual": 0.5208
+    },
+    "1X&U1.5": {
+      "pred": 0.1658,
+      "actual": 0.1662
+    },
+    "1X&O2.5": {
+      "pred": 0.3251,
+      "actual": 0.3298
+    },
+    "1X&U2.5": {
+      "pred": 0.3592,
+      "actual": 0.3572
+    },
+    "1X&O3.5": {
+      "pred": 0.202,
+      "actual": 0.2016
+    },
+    "1X&U3.5": {
+      "pred": 0.4823,
+      "actual": 0.4853
+    },
+    "1X&O4.5": {
+      "pred": 0.0931,
+      "actual": 0.0894
+    },
+    "1X&U4.5": {
+      "pred": 0.5912,
+      "actual": 0.5975
+    },
+    "X2&O1.5": {
+      "pred": 0.4173,
+      "actual": 0.4212
+    },
+    "X2&U1.5": {
+      "pred": 0.1497,
+      "actual": 0.1467
+    },
+    "X2&O2.5": {
+      "pred": 0.2462,
+      "actual": 0.2507
+    },
+    "X2&U2.5": {
+      "pred": 0.3208,
+      "actual": 0.3172
+    },
+    "X2&O3.5": {
+      "pred": 0.1528,
+      "actual": 0.1548
+    },
+    "X2&U3.5": {
+      "pred": 0.4142,
+      "actual": 0.4131
+    },
+    "X2&O4.5": {
+      "pred": 0.0653,
+      "actual": 0.0628
+    },
+    "X2&U4.5": {
+      "pred": 0.5017,
+      "actual": 0.505
+    },
+    "12&O1.5": {
+      "pred": 0.5827,
+      "actual": 0.5708
+    },
+    "12&U1.5": {
+      "pred": 0.166,
+      "actual": 0.1744
+    },
+    "12&O2.5": {
+      "pred": 0.4547,
+      "actual": 0.4497
+    },
+    "12&U2.5": {
+      "pred": 0.2941,
+      "actual": 0.2955
+    },
+    "12&O3.5": {
+      "pred": 0.2382,
+      "actual": 0.2257
+    },
+    "12&U3.5": {
+      "pred": 0.5105,
+      "actual": 0.5195
+    },
+    "12&O4.5": {
+      "pred": 0.1371,
+      "actual": 0.1291
+    },
+    "12&U4.5": {
+      "pred": 0.6117,
+      "actual": 0.6161
+    },
+    "COT7.5O": {
+      "pred": 0.7503,
+      "actual": 0.7435
+    },
+    "COT7.5U": {
+      "pred": 0.2497,
+      "actual": 0.2565
+    },
+    "COT8.5O": {
+      "pred": 0.6395,
+      "actual": 0.634
+    },
+    "COT8.5U": {
+      "pred": 0.3605,
+      "actual": 0.366
+    },
+    "COT9.5O": {
+      "pred": 0.5209,
+      "actual": 0.5162
+    },
+    "COT9.5U": {
+      "pred": 0.4791,
+      "actual": 0.4838
+    },
+    "COT10.5O": {
+      "pred": 0.4049,
+      "actual": 0.4
+    },
+    "COT10.5U": {
+      "pred": 0.5951,
+      "actual": 0.6
+    },
+    "COT11.5O": {
+      "pred": 0.3004,
+      "actual": 0.2958
+    },
+    "COT11.5U": {
+      "pred": 0.6996,
+      "actual": 0.7042
+    },
+    "COT12.5O": {
+      "pred": 0.2128,
+      "actual": 0.2114
+    },
+    "COT12.5U": {
+      "pred": 0.7872,
+      "actual": 0.7886
+    },
+    "COH2.5O": {
+      "pred": 0.8482,
+      "actual": 0.84
+    },
+    "COH2.5U": {
+      "pred": 0.1518,
+      "actual": 0.16
+    },
+    "COH3.5O": {
+      "pred": 0.7217,
+      "actual": 0.7162
+    },
+    "COH3.5U": {
+      "pred": 0.2783,
+      "actual": 0.2838
+    },
+    "COH4.5O": {
+      "pred": 0.5778,
+      "actual": 0.5725
+    },
+    "COH4.5U": {
+      "pred": 0.4222,
+      "actual": 0.4275
+    },
+    "COH5.5O": {
+      "pred": 0.4367,
+      "actual": 0.4342
+    },
+    "COH5.5U": {
+      "pred": 0.5633,
+      "actual": 0.5658
+    },
+    "COH6.5O": {
+      "pred": 0.313,
+      "actual": 0.3137
+    },
+    "COH6.5U": {
+      "pred": 0.687,
+      "actual": 0.6863
+    },
+    "COH7.5O": {
+      "pred": 0.2139,
+      "actual": 0.2132
+    },
+    "COH7.5U": {
+      "pred": 0.7861,
+      "actual": 0.7868
+    },
+    "COA1.5O": {
+      "pred": 0.8944,
+      "actual": 0.8899
+    },
+    "COA1.5U": {
+      "pred": 0.1056,
+      "actual": 0.1101
+    },
+    "COA2.5O": {
+      "pred": 0.7645,
+      "actual": 0.7585
+    },
+    "COA2.5U": {
+      "pred": 0.2355,
+      "actual": 0.2415
+    },
+    "COA3.5O": {
+      "pred": 0.6064,
+      "actual": 0.6007
+    },
+    "COA3.5U": {
+      "pred": 0.3936,
+      "actual": 0.3993
+    },
+    "COA4.5O": {
+      "pred": 0.4485,
+      "actual": 0.4435
+    },
+    "COA4.5U": {
+      "pred": 0.5515,
+      "actual": 0.5565
+    },
+    "COA5.5O": {
+      "pred": 0.3114,
+      "actual": 0.3088
+    },
+    "COA5.5U": {
+      "pred": 0.6886,
+      "actual": 0.6912
+    },
+    "COA6.5O": {
+      "pred": 0.2044,
+      "actual": 0.2039
+    },
+    "COA6.5U": {
+      "pred": 0.7956,
+      "actual": 0.7961
+    },
+    "CAT1.5O": {
+      "pred": 0.8917,
+      "actual": 0.8904
+    },
+    "CAT1.5U": {
+      "pred": 0.1083,
+      "actual": 0.1096
+    },
+    "CAT2.5O": {
+      "pred": 0.7475,
+      "actual": 0.7515
+    },
+    "CAT2.5U": {
+      "pred": 0.2525,
+      "actual": 0.2485
+    },
+    "CAT3.5O": {
+      "pred": 0.5704,
+      "actual": 0.5743
+    },
+    "CAT3.5U": {
+      "pred": 0.4296,
+      "actual": 0.4257
+    },
+    "CAT4.5O": {
+      "pred": 0.3976,
+      "actual": 0.3957
+    },
+    "CAT4.5U": {
+      "pred": 0.6024,
+      "actual": 0.6043
+    },
+    "CAT5.5O": {
+      "pred": 0.2552,
+      "actual": 0.2498
+    },
+    "CAT5.5U": {
+      "pred": 0.7448,
+      "actual": 0.7502
+    },
+    "CAT6.5O": {
+      "pred": 0.1521,
+      "actual": 0.1465
+    },
+    "CAT6.5U": {
+      "pred": 0.8479,
+      "actual": 0.8535
+    },
+    "CAH0.5O": {
+      "pred": 0.8483,
+      "actual": 0.8492
+    },
+    "CAH0.5U": {
+      "pred": 0.1517,
+      "actual": 0.1508
+    },
+    "CAH1.5O": {
+      "pred": 0.5707,
+      "actual": 0.5717
+    },
+    "CAH1.5U": {
+      "pred": 0.4293,
+      "actual": 0.4283
+    },
+    "CAH2.5O": {
+      "pred": 0.3093,
+      "actual": 0.3048
+    },
+    "CAH2.5U": {
+      "pred": 0.6907,
+      "actual": 0.6952
+    },
+    "CAH3.5O": {
+      "pred": 0.1396,
+      "actual": 0.1349
+    },
+    "CAH3.5U": {
+      "pred": 0.8604,
+      "actual": 0.8651
+    },
+    "CAA0.5O": {
+      "pred": 0.889,
+      "actual": 0.8872
+    },
+    "CAA0.5U": {
+      "pred": 0.111,
+      "actual": 0.1128
+    },
+    "CAA1.5O": {
+      "pred": 0.6461,
+      "actual": 0.6444
+    },
+    "CAA1.5U": {
+      "pred": 0.3539,
+      "actual": 0.3556
+    },
+    "CAA2.5O": {
+      "pred": 0.3798,
+      "actual": 0.3745
+    },
+    "CAA2.5U": {
+      "pred": 0.6202,
+      "actual": 0.6255
+    },
+    "CAA3.5O": {
+      "pred": 0.1843,
+      "actual": 0.177
+    },
+    "CAA3.5U": {
+      "pred": 0.8157,
+      "actual": 0.823
+    }
+  },
+  "goals_only_extras_hit": {
+    "pick2": 0.8351,
+    "pick3": 0.812
+  },
+  "by_option": [
+    {
+      "category": "1X2 / Double Chance",
+      "label": "Home/Draw",
+      "n": 20976.0,
+      "pred": 0.7404,
+      "hit": 0.7517,
+      "roi": -0.0448,
+      "n_odds": 20976.0
+    },
+    {
+      "category": "Multigoals",
+      "label": "Multigoals 1-4",
+      "n": 16074.0,
+      "pred": 0.798,
+      "hit": 0.8083,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "1X2 / Double Chance",
+      "label": "Away/Draw",
+      "n": 10736.0,
+      "pred": 0.7246,
+      "hit": 0.7428,
+      "roi": -0.035,
+      "n_odds": 10736.0
+    },
+    {
+      "category": "Home Team Over/Under",
+      "label": "Home Under 2.5",
+      "n": 6801.0,
+      "pred": 0.8247,
+      "hit": 0.8434,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Over/Under",
+      "label": "Under 4.5",
+      "n": 6241.0,
+      "pred": 0.833,
+      "hit": 0.8452,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Over/Under",
+      "label": "Home Over 0.5",
+      "n": 5503.0,
+      "pred": 0.8205,
+      "hit": 0.8343,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Over/Under",
+      "label": "Under 3.5",
+      "n": 4792.0,
+      "pred": 0.7885,
+      "hit": 0.7982,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "1X2 / Double Chance",
+      "label": "Home",
+      "n": 4007.0,
+      "pred": 0.738,
+      "hit": 0.7776,
+      "roi": -0.0047,
+      "n_odds": 4007.0
+    },
+    {
+      "category": "Away Team Over/Under",
+      "label": "Away Under 2.5",
+      "n": 3802.0,
+      "pred": 0.8274,
+      "hit": 0.8275,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Over/Under",
+      "label": "Over 1.5",
+      "n": 3498.0,
+      "pred": 0.8246,
+      "hit": 0.8273,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Multigoals",
+      "label": "Multigoals 1-5",
+      "n": 2987.0,
+      "pred": 0.8388,
+      "hit": 0.8584,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Over/Under",
+      "label": "Away Over 0.5",
+      "n": 2321.0,
+      "pred": 0.8219,
+      "hit": 0.8393,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Over/Under",
+      "label": "Away Under 1.5",
+      "n": 2127.0,
+      "pred": 0.819,
+      "hit": 0.8171,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Corners",
+      "label": "Corners Under 12.5",
+      "n": 1885.0,
+      "pred": 0.835,
+      "hit": 0.843,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Cards",
+      "label": "Home Cards Over 0.5",
+      "n": 1446.0,
+      "pred": 0.8387,
+      "hit": 0.8513,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Cards",
+      "label": "Away Cards Under 3.5",
+      "n": 1366.0,
+      "pred": 0.8367,
+      "hit": 0.8565,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Corners",
+      "label": "Away Corners Under 6.5",
+      "n": 1321.0,
+      "pred": 0.8354,
+      "hit": 0.8478,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "1X2 / Double Chance",
+      "label": "Away",
+      "n": 1291.0,
+      "pred": 0.7142,
+      "hit": 0.7459,
+      "roi": -0.014,
+      "n_odds": 1291.0
+    },
+    {
+      "category": "Multigoals",
+      "label": "Multigoals 2-6",
+      "n": 1119.0,
+      "pred": 0.7792,
+      "hit": 0.7811,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Cards",
+      "label": "Cards Over 2.5",
+      "n": 1113.0,
+      "pred": 0.838,
+      "hit": 0.8437,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Cards",
+      "label": "Home Cards Under 3.5",
+      "n": 1021.0,
+      "pred": 0.837,
+      "hit": 0.8639,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Over 2.5",
+      "n": 1007.0,
+      "pred": 0.8402,
+      "hit": 0.8441,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Under 7.5",
+      "n": 844.0,
+      "pred": 0.8407,
+      "hit": 0.8472,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Corners",
+      "label": "Away Corners Over 1.5",
+      "n": 833.0,
+      "pred": 0.8409,
+      "hit": 0.8403,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Cards",
+      "label": "Cards Under 6.5",
+      "n": 805.0,
+      "pred": 0.8387,
+      "hit": 0.8658,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Corners",
+      "label": "Away Corners Over 2.5",
+      "n": 770.0,
+      "pred": 0.8344,
+      "hit": 0.8364,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Over/Under",
+      "label": "Home Under 1.5",
+      "n": 708.0,
+      "pred": 0.8193,
+      "hit": 0.8164,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "1st Half Over/Under",
+      "label": "1st Half Over 0.5",
+      "n": 552.0,
+      "pred": 0.8037,
+      "hit": 0.8478,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Cards",
+      "label": "Cards Under 5.5",
+      "n": 517.0,
+      "pred": 0.8338,
+      "hit": 0.7911,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Over 3.5",
+      "n": 509.0,
+      "pred": 0.8363,
+      "hit": 0.8487,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Cards",
+      "label": "Away Cards Over 0.5",
+      "n": 507.0,
+      "pred": 0.8377,
+      "hit": 0.8383,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Under 6.5",
+      "n": 484.0,
+      "pred": 0.8329,
+      "hit": 0.8409,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Double Chance & Over/Under",
+      "label": "Home/Draw & Over 1.5",
+      "n": 480.0,
+      "pred": 0.8216,
+      "hit": 0.8521,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Corners",
+      "label": "Away Corners Under 5.5",
+      "n": 393.0,
+      "pred": 0.8388,
+      "hit": 0.8651,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Corners",
+      "label": "Corners Over 7.5",
+      "n": 390.0,
+      "pred": 0.8313,
+      "hit": 0.8154,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Cards",
+      "label": "Cards Over 1.5",
+      "n": 341.0,
+      "pred": 0.8393,
+      "hit": 0.8856,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Cards",
+      "label": "Home Cards Under 2.5",
+      "n": 211.0,
+      "pred": 0.8353,
+      "hit": 0.8436,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Double Chance & Over/Under",
+      "label": "Home/Draw & Under 4.5",
+      "n": 139.0,
+      "pred": 0.7895,
+      "hit": 0.8058,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Over/Under",
+      "label": "Home Over 1.5",
+      "n": 131.0,
+      "pred": 0.8301,
+      "hit": 0.8855,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Cards",
+      "label": "Away Cards Over 1.5",
+      "n": 120.0,
+      "pred": 0.8229,
+      "hit": 0.75,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Double Chance & Over/Under",
+      "label": "Away/Draw & Over 1.5",
+      "n": 102.0,
+      "pred": 0.8198,
+      "hit": 0.7843,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Corners",
+      "label": "Away Corners Over 3.5",
+      "n": 94.0,
+      "pred": 0.834,
+      "hit": 0.8404,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Multigoals",
+      "label": "Multigoals 1-6",
+      "n": 92.0,
+      "pred": 0.8428,
+      "hit": 0.8478,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Over 4.5",
+      "n": 74.0,
+      "pred": 0.8368,
+      "hit": 0.8243,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Double Chance & Over/Under",
+      "label": "Home/Away & Over 1.5",
+      "n": 70.0,
+      "pred": 0.8313,
+      "hit": 0.8571,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Corners",
+      "label": "Corners Under 11.5",
+      "n": 62.0,
+      "pred": 0.8189,
+      "hit": 0.871,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Cards",
+      "label": "Cards Over 3.5",
+      "n": 62.0,
+      "pred": 0.8273,
+      "hit": 0.8387,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Under 5.5",
+      "n": 50.0,
+      "pred": 0.8322,
+      "hit": 0.84,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Cards",
+      "label": "Away Cards Under 2.5",
+      "n": 41.0,
+      "pred": 0.8267,
+      "hit": 0.9024,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Double Chance & Over/Under",
+      "label": "Away/Draw & Under 4.5",
+      "n": 40.0,
+      "pred": 0.7835,
+      "hit": 0.8,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Cards",
+      "label": "Cards Under 4.5",
+      "n": 38.0,
+      "pred": 0.8327,
+      "hit": 0.7368,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Over/Under",
+      "label": "Over 0.5",
+      "n": 29.0,
+      "pred": 0.8424,
+      "hit": 0.9655,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Cards",
+      "label": "Home Cards Over 1.5",
+      "n": 28.0,
+      "pred": 0.8258,
+      "hit": 0.8214,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Corners",
+      "label": "Away Corners Under 4.5",
+      "n": 24.0,
+      "pred": 0.8338,
+      "hit": 0.8333,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Over/Under",
+      "label": "Away Over 1.5",
+      "n": 20.0,
+      "pred": 0.8278,
+      "hit": 0.8,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Over/Under",
+      "label": "Over 2.5",
+      "n": 12.0,
+      "pred": 0.8239,
+      "hit": 1.0,
+      "roi": 0.1375,
+      "n_odds": 12.0
+    },
+    {
+      "category": "1st Half Over/Under",
+      "label": "1st Half Under 1.5",
+      "n": 9.0,
+      "pred": 0.7778,
+      "hit": 1.0,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Over 5.5",
+      "n": 4.0,
+      "pred": 0.8402,
+      "hit": 0.75,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Double Chance & Over/Under",
+      "label": "Home/Draw & Over 2.5",
+      "n": 3.0,
+      "pred": 0.838,
+      "hit": 1.0,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Away Team Corners",
+      "label": "Away Corners Over 4.5",
+      "n": 2.0,
+      "pred": 0.8257,
+      "hit": 1.0,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Corners",
+      "label": "Corners Over 8.5",
+      "n": 2.0,
+      "pred": 0.8365,
+      "hit": 0.5,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Home Team Corners",
+      "label": "Home Corners Over 6.5",
+      "n": 1.0,
+      "pred": 0.8376,
+      "hit": 0.0,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Over/Under",
+      "label": "Under 1.5",
+      "n": 1.0,
+      "pred": 0.753,
+      "hit": 0.0,
+      "roi": NaN,
+      "n_odds": 0.0
+    },
+    {
+      "category": "Total Corners",
+      "label": "Corners Over 9.5",
+      "n": 1.0,
+      "pred": 0.8212,
+      "hit": 1.0,
+      "roi": NaN,
+      "n_odds": 0.0
+    }
+  ],
+  "by_slot": [
+    {
+      "slot": "pick1",
+      "n": 37010.0,
+      "pred": 0.7346,
+      "hit": 0.7517,
+      "roi": -0.0365,
+      "n_odds": 37010.0
+    },
+    {
+      "slot": "pick2",
+      "n": 37009.0,
+      "pred": 0.829,
+      "hit": 0.8425,
+      "roi": 0.122,
+      "n_odds": 5.0
+    },
+    {
+      "slot": "pick3",
+      "n": 37010.0,
+      "pred": 0.8092,
+      "hit": 0.8172,
+      "roi": 0.1486,
+      "n_odds": 7.0
+    }
+  ],
+  "by_league_cat1": [
+    {
+      "league": "Spain La Liga",
+      "n": 2759.0,
+      "pred": 0.7436,
+      "hit": 0.7854,
+      "roi": 0.0066,
+      "n_odds": 2759.0
+    },
+    {
+      "league": "Portugal Primeira Liga",
+      "n": 2223.0,
+      "pred": 0.7383,
+      "hit": 0.7791,
+      "roi": -0.0103,
+      "n_odds": 2223.0
+    },
+    {
+      "league": "Italy Serie A",
+      "n": 2739.0,
+      "pred": 0.741,
+      "hit": 0.7707,
+      "roi": -0.0132,
+      "n_odds": 2739.0
+    },
+    {
+      "league": "Turkey Super Lig",
+      "n": 2528.0,
+      "pred": 0.7299,
+      "hit": 0.7702,
+      "roi": -0.0143,
+      "n_odds": 2528.0
+    },
+    {
+      "league": "Scotland Premiership",
+      "n": 1607.0,
+      "pred": 0.7403,
+      "hit": 0.7592,
+      "roi": -0.0388,
+      "n_odds": 1607.0
+    },
+    {
+      "league": "Greece Super League",
+      "n": 1723.0,
+      "pred": 0.7479,
+      "hit": 0.7557,
+      "roi": -0.0648,
+      "n_odds": 1723.0
+    },
+    {
+      "league": "Netherlands Eredivisie",
+      "n": 2158.0,
+      "pred": 0.7396,
+      "hit": 0.7553,
+      "roi": -0.0404,
+      "n_odds": 2158.0
+    },
+    {
+      "league": "France Ligue 1",
+      "n": 2409.0,
+      "pred": 0.7369,
+      "hit": 0.7484,
+      "roi": -0.0368,
+      "n_odds": 2409.0
+    },
+    {
+      "league": "England Premier League",
+      "n": 2740.0,
+      "pred": 0.7398,
+      "hit": 0.746,
+      "roi": -0.0366,
+      "n_odds": 2740.0
+    },
+    {
+      "league": "England League One",
+      "n": 3849.0,
+      "pred": 0.7299,
+      "hit": 0.7456,
+      "roi": -0.0451,
+      "n_odds": 3849.0
+    },
+    {
+      "league": "Belgium Pro League",
+      "n": 2165.0,
+      "pred": 0.7318,
+      "hit": 0.745,
+      "roi": -0.0474,
+      "n_odds": 2165.0
+    },
+    {
+      "league": "Germany Bundesliga",
+      "n": 2205.0,
+      "pred": 0.7315,
+      "hit": 0.7438,
+      "roi": -0.0332,
+      "n_odds": 2205.0
+    },
+    {
+      "league": "England League Two",
+      "n": 3897.0,
+      "pred": 0.7227,
+      "hit": 0.7285,
+      "roi": -0.0584,
+      "n_odds": 3897.0
+    },
+    {
+      "league": "England Championship",
+      "n": 4008.0,
+      "pred": 0.7291,
+      "hit": 0.7243,
+      "roi": -0.062,
+      "n_odds": 4008.0
+    }
+  ],
+  "all_three_hit": {
+    "n": 37009,
+    "naive_pred": 0.4933,
+    "actual": 0.5445
+  },
+  "cat1_reliability": [
+    {
+      "bucket": "(0.6, 0.65]",
+      "n": 1788,
+      "pred": 0.6424,
+      "hit": 0.6532
+    },
+    {
+      "bucket": "(0.65, 0.7]",
+      "n": 11057,
+      "pred": 0.675,
+      "hit": 0.6928
+    },
+    {
+      "bucket": "(0.7, 0.75]",
+      "n": 9872,
+      "pred": 0.724,
+      "hit": 0.7384
+    },
+    {
+      "bucket": "(0.75, 0.8]",
+      "n": 7729,
+      "pred": 0.7743,
+      "hit": 0.7965
+    },
+    {
+      "bucket": "(0.8, 0.85]",
+      "n": 5489,
+      "pred": 0.8234,
+      "hit": 0.8369
+    },
+    {
+      "bucket": "(0.85, 0.9]",
+      "n": 1061,
+      "pred": 0.861,
+      "hit": 0.8878
+    },
+    {
+      "bucket": "(0.9, 1.0]",
+      "n": 14,
+      "pred": 0.9086,
+      "hit": 0.8571
+    }
+  ],
+  "support_check": {
+    "from_season": 2024,
+    "picks": 34524,
+    "by_support": [
+      {
+        "support": "fair",
+        "n": 15873,
+        "predicted": 0.7944,
+        "hit_rate": 0.8043
+      },
+      {
+        "support": "mixed",
+        "n": 4539,
+        "predicted": 0.7413,
+        "hit_rate": 0.7603
+      },
+      {
+        "support": "model only",
+        "n": 9,
+        "predicted": 0.7909,
+        "hit_rate": 1.0
+      },
+      {
+        "support": "strong",
+        "n": 14103,
+        "predicted": 0.8277,
+        "hit_rate": 0.8394
+      }
+    ],
+    "by_band": {
+      "55\u201370%": {
+        "fair": 0.6782,
+        "mixed": 0.6877,
+        "model only": 1.0,
+        "strong": 0.6711
+      },
+      "70\u201380%": {
+        "fair": 0.7677,
+        "mixed": 0.7664,
+        "model only": 1.0,
+        "strong": 0.786
+      },
+      "80\u201385%": {
+        "fair": 0.8413,
+        "mixed": 0.8461,
+        "model only": 1.0,
+        "strong": 0.8468
+      }
+    }
+  },
+  "best_pick": {
+    "n": 37008,
+    "pred": 0.7759,
+    "hit": 0.7876
+  }
+}
