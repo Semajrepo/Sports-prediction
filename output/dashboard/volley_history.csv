@@ -1,4 +1,34 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+V-2026-11-03-Goias-Minas|0,V-2026-11-03-Goias-Minas,2026-11-03,Brazil Superliga,Goias,Minas,,Best,Result,1st Set Winner,Away wins 1st set,0.755,pending,Live
+V-2026-11-03-Goias-Minas|1,V-2026-11-03-Goias-Minas,2026-11-03,Brazil Superliga,Goias,Minas,,Pick 1,Result,Winner,Away,0.857,pending,Live
+V-2026-11-03-Goias-Minas|2,V-2026-11-03-Goias-Minas,2026-11-03,Brazil Superliga,Goias,Minas,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.506,pending,Live
+V-2026-11-03-Guarulhos-Sada-Cruzeiro|0,V-2026-11-03-Guarulhos-Sada-Cruzeiro,2026-11-03,Brazil Superliga,Guarulhos,Sada Cruzeiro,1-3,Best,Sets,Total Sets,Under 4.5 sets,0.779,won,Live
+V-2026-11-03-Guarulhos-Sada-Cruzeiro|1,V-2026-11-03-Guarulhos-Sada-Cruzeiro,2026-11-03,Brazil Superliga,Guarulhos,Sada Cruzeiro,1-3,Pick 1,Result,Winner,Away,0.811,won,Live
+V-2026-11-03-Guarulhos-Sada-Cruzeiro|2,V-2026-11-03-Guarulhos-Sada-Cruzeiro,2026-11-03,Brazil Superliga,Guarulhos,Sada Cruzeiro,1-3,Pick 2,Sets,Total Sets,Over 3.5 sets,0.553,won,Live
+V-2026-11-03-Monte-Carmelo-Suzano-Volei|1,V-2026-11-03-Monte-Carmelo-Suzano-Volei,2026-11-03,Brazil Superliga,Monte Carmelo,Suzano Volei,,Pick 1,Result,Winner,Away,0.601,pending,Live
+V-2026-11-03-Monte-Carmelo-Suzano-Volei|2,V-2026-11-03-Monte-Carmelo-Suzano-Volei,2026-11-03,Brazil Superliga,Monte Carmelo,Suzano Volei,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.661,pending,Live
+V-2026-11-03-Barueri-W-Sesi-Bauru-W|0,V-2026-11-03-Barueri-W-Sesi-Bauru-W,2026-11-03,Brazil Superliga Women,Barueri W,Sesi Bauru W,,Best,Result,1st Set Winner,Away wins 1st set,0.744,pending,Live
+V-2026-11-03-Barueri-W-Sesi-Bauru-W|1,V-2026-11-03-Barueri-W-Sesi-Bauru-W,2026-11-03,Brazil Superliga Women,Barueri W,Sesi Bauru W,,Pick 1,Result,Winner,Away,0.845,pending,Live
+V-2026-11-03-Barueri-W-Sesi-Bauru-W|2,V-2026-11-03-Barueri-W-Sesi-Bauru-W,2026-11-03,Brazil Superliga Women,Barueri W,Sesi Bauru W,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.52,pending,Live
+V-2026-11-03-Khilasedichi-Baku-Sporting-CP|1,V-2026-11-03-Khilasedichi-Baku-Sporting-CP,2026-11-03,CEV Champions League,Khilasedichi Baku,Sporting CP,,Pick 1,Result,Winner,Home,0.558,pending,Live
+V-2026-11-03-Khilasedichi-Baku-Sporting-CP|2,V-2026-11-03-Khilasedichi-Baku-Sporting-CP,2026-11-03,CEV Champions League,Khilasedichi Baku,Sporting CP,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.668,pending,Live
+V-2026-11-03-Maritsa-Plovdiv-W-Tovuz-W|1,V-2026-11-03-Maritsa-Plovdiv-W-Tovuz-W,2026-11-03,CEV Champions League Women,Maritsa Plovdiv W,Tovuz W,,Pick 1,Result,Winner,Home,0.645,pending,Live
+V-2026-11-03-Maritsa-Plovdiv-W-Tovuz-W|2,V-2026-11-03-Maritsa-Plovdiv-W-Tovuz-W,2026-11-03,CEV Champions League Women,Maritsa Plovdiv W,Tovuz W,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.649,pending,Live
+V-2026-11-03-Karlsruhe-Rottenburg|1,V-2026-11-03-Karlsruhe-Rottenburg,2026-11-03,Germany Bundesliga,Karlsruhe,Rottenburg,,Pick 1,Result,Winner,Home,0.863,pending,Live
+V-2026-11-03-Karlsruhe-Rottenburg|2,V-2026-11-03-Karlsruhe-Rottenburg,2026-11-03,Germany Bundesliga,Karlsruhe,Rottenburg,,Pick 2,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.501,pending,Live
+V-2026-11-03-Netzhoppers-Duren|0,V-2026-11-03-Netzhoppers-Duren,2026-11-03,Germany Bundesliga,Netzhoppers,Duren,,Best,Sets,Total Sets,Under 4.5 sets,0.723,pending,Live
+V-2026-11-03-Netzhoppers-Duren|1,V-2026-11-03-Netzhoppers-Duren,2026-11-03,Germany Bundesliga,Netzhoppers,Duren,,Pick 1,Result,Winner,Away,0.687,pending,Live
+V-2026-11-03-Netzhoppers-Duren|2,V-2026-11-03-Netzhoppers-Duren,2026-11-03,Germany Bundesliga,Netzhoppers,Duren,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.633,pending,Live
+V-2026-11-03-VCO-Berlin-Friedrichshafen|0,V-2026-11-03-VCO-Berlin-Friedrichshafen,2026-11-03,Germany Bundesliga,VCO Berlin,Friedrichshafen,,Best,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.739,pending,Live
+V-2026-11-03-VCO-Berlin-Friedrichshafen|1,V-2026-11-03-VCO-Berlin-Friedrichshafen,2026-11-03,Germany Bundesliga,VCO Berlin,Friedrichshafen,,Pick 1,Result,Winner,Away,0.975,pending,Live
+V-2026-11-03-Warnemunde-Ludwigsburg|1,V-2026-11-03-Warnemunde-Ludwigsburg,2026-11-03,Germany Bundesliga,Warnemunde,Ludwigsburg,,Pick 1,Result,Winner,Away,0.85,pending,Live
+V-2026-11-03-Warnemunde-Ludwigsburg|2,V-2026-11-03-Warnemunde-Ludwigsburg,2026-11-03,Germany Bundesliga,Warnemunde,Ludwigsburg,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.514,pending,Live
+V-2026-11-03-Gdansk-Cuprum-Gorzow|0,V-2026-11-03-Gdansk-Cuprum-Gorzow,2026-11-03,Poland PlusLiga,Gdansk,Cuprum Gorzow,,Best,Sets,Set Handicap,Away +2.5 sets (wins a set),0.784,pending,Live
+V-2026-11-03-Gdansk-Cuprum-Gorzow|1,V-2026-11-03-Gdansk-Cuprum-Gorzow,2026-11-03,Poland PlusLiga,Gdansk,Cuprum Gorzow,,Pick 1,Result,Winner,Home,0.589,pending,Live
+V-2026-11-03-Gdansk-Cuprum-Gorzow|2,V-2026-11-03-Gdansk-Cuprum-Gorzow,2026-11-03,Poland PlusLiga,Gdansk,Cuprum Gorzow,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.663,pending,Live
+V-2026-11-03-Istanbul-GSK-Gaziantep-Genclik|1,V-2026-11-03-Istanbul-GSK-Gaziantep-Genclik,2026-11-03,Turkey Efeler Ligi,Istanbul GSK,Gaziantep Genclik,,Pick 1,Result,Winner,Home,0.737,pending,Live
+V-2026-11-03-Istanbul-GSK-Gaziantep-Genclik|2,V-2026-11-03-Istanbul-GSK-Gaziantep-Genclik,2026-11-03,Turkey Efeler Ligi,Istanbul GSK,Gaziantep Genclik,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.608,pending,Live
+V-2026-11-03-Ziraat-Bankasi-Sungurlu|1,V-2026-11-03-Ziraat-Bankasi-Sungurlu,2026-11-03,Turkey Efeler Ligi,Ziraat Bankasi,Sungurlu,,Pick 1,Result,Winner,Home,0.92,pending,Live
 V-2026-11-02-Montes-Claros-Norde-Volei|1,V-2026-11-02-Montes-Claros-Norde-Volei,2026-11-02,Brazil Superliga,Montes Claros,Norde Volei,3-1,Pick 1,Result,Winner,Home,0.84,won,Live
 V-2026-11-02-Montes-Claros-Norde-Volei|2,V-2026-11-02-Montes-Claros-Norde-Volei,2026-11-02,Brazil Superliga,Montes Claros,Norde Volei,3-1,Pick 2,Sets,Total Sets,Over 3.5 sets,0.526,won,Live
 V-2026-11-02-Sesi-Praia-Clube|0,V-2026-11-02-Sesi-Praia-Clube,2026-11-02,Brazil Superliga,Sesi,Praia Clube,3-0,Best,Sets,Set Handicap,Home +1.5 sets,0.696,won,Live
