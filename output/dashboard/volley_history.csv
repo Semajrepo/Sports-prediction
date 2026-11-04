@@ -1,4 +1,75 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata|0,V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata,2026-11-04,Brazil Superliga,Sao Jose dos Campos,Volei Renata,,Best,Result,Winner,Away,0.786,pending,Live
+V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata|1,V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata,2026-11-04,Brazil Superliga,Sao Jose dos Campos,Volei Renata,,Pick 1,Sets,Total Sets,Over 3.5 sets,0.574,pending,Live
+V-2026-11-04-HAOK-Mladost-Levski-Sofia|0,V-2026-11-04-HAOK-Mladost-Levski-Sofia,2026-11-04,CEV Champions League,HAOK Mladost,Levski Sofia,,Best,Sets,Total Sets,Under 4.5 sets,0.694,pending,Live
+V-2026-11-04-HAOK-Mladost-Levski-Sofia|1,V-2026-11-04-HAOK-Mladost-Levski-Sofia,2026-11-04,CEV Champions League,HAOK Mladost,Levski Sofia,,Pick 1,Result,Winner,Away,0.528,pending,Live
+V-2026-11-04-HAOK-Mladost-Levski-Sofia|2,V-2026-11-04-HAOK-Mladost-Levski-Sofia,2026-11-04,CEV Champions League,HAOK Mladost,Levski Sofia,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.671,pending,Live
+V-2026-11-04-Orion-Stars-ACH-Ljubljana|0,V-2026-11-04-Orion-Stars-ACH-Ljubljana,2026-11-04,CEV Champions League,Orion Stars,ACH Ljubljana,,Best,Sets,Total Sets,Under 4.5 sets,0.743,pending,Live
+V-2026-11-04-Orion-Stars-ACH-Ljubljana|1,V-2026-11-04-Orion-Stars-ACH-Ljubljana,2026-11-04,CEV Champions League,Orion Stars,ACH Ljubljana,,Pick 1,Result,Winner,Home,0.741,pending,Live
+V-2026-11-04-Orion-Stars-ACH-Ljubljana|2,V-2026-11-04-Orion-Stars-ACH-Ljubljana,2026-11-04,CEV Champions League,Orion Stars,ACH Ljubljana,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.605,pending,Live
+V-2026-11-04-BR-Volleys-Friedrichshafen|0,V-2026-11-04-BR-Volleys-Friedrichshafen,2026-11-04,Germany Bundesliga,BR Volleys,Friedrichshafen,,Best,Result,Winner,Home,0.772,pending,Live
+V-2026-11-04-BR-Volleys-Friedrichshafen|1,V-2026-11-04-BR-Volleys-Friedrichshafen,2026-11-04,Germany Bundesliga,BR Volleys,Friedrichshafen,,Pick 1,Sets,Total Sets,Over 3.5 sets,0.585,pending,Live
+V-2026-11-04-Freiburg-Luneburg|0,V-2026-11-04-Freiburg-Luneburg,2026-11-04,Germany Bundesliga,Freiburg,Luneburg,,Best,Sets,Set Handicap,Away -1.5 sets,0.789,pending,Live
+V-2026-11-04-Freiburg-Luneburg|1,V-2026-11-04-Freiburg-Luneburg,2026-11-04,Germany Bundesliga,Freiburg,Luneburg,,Pick 1,Result,Winner,Away,0.896,pending,Live
+V-2026-11-04-Freiburg-Luneburg|2,V-2026-11-04-Freiburg-Luneburg,2026-11-04,Germany Bundesliga,Freiburg,Luneburg,,Pick 2,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.547,pending,Live
+V-2026-11-04-Giesen-Mitteldeutschland|1,V-2026-11-04-Giesen-Mitteldeutschland,2026-11-04,Germany Bundesliga,Giesen,Mitteldeutschland,,Pick 1,Sets,Total Sets,Over 3.5 sets,0.59,pending,Live
+V-2026-11-04-Cuneo-Volley-Monza|1,V-2026-11-04-Cuneo-Volley-Monza,2026-11-04,Italy SuperLega,Cuneo Volley,Monza,,Pick 1,Result,Winner,Home,0.652,pending,Live
+V-2026-11-04-Cuneo-Volley-Monza|2,V-2026-11-04-Cuneo-Volley-Monza,2026-11-04,Italy SuperLega,Cuneo Volley,Monza,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.647,pending,Live
+V-2026-11-04-Lube-Civitanova-Modena|0,V-2026-11-04-Lube-Civitanova-Modena,2026-11-04,Italy SuperLega,Lube Civitanova,Modena,,Best,Sets,Set Handicap,Home +1.5 sets,0.775,pending,Live
+V-2026-11-04-Lube-Civitanova-Modena|1,V-2026-11-04-Lube-Civitanova-Modena,2026-11-04,Italy SuperLega,Lube Civitanova,Modena,,Pick 1,Result,Winner,Home,0.646,pending,Live
+V-2026-11-04-Lube-Civitanova-Modena|2,V-2026-11-04-Lube-Civitanova-Modena,2026-11-04,Italy SuperLega,Lube Civitanova,Modena,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.649,pending,Live
+V-2026-11-04-Perugia-Cisterna|0,V-2026-11-04-Perugia-Cisterna,2026-11-04,Italy SuperLega,Perugia,Cisterna,,Best,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.596,pending,Live
+V-2026-11-04-Perugia-Cisterna|1,V-2026-11-04-Perugia-Cisterna,2026-11-04,Italy SuperLega,Perugia,Cisterna,,Pick 1,Result,Winner,Home,0.924,pending,Live
+V-2026-11-04-Trentino-Piacenza|0,V-2026-11-04-Trentino-Piacenza,2026-11-04,Italy SuperLega,Trentino,Piacenza,,Best,Sets,Total Sets,Under 4.5 sets,0.744,pending,Live
+V-2026-11-04-Trentino-Piacenza|1,V-2026-11-04-Trentino-Piacenza,2026-11-04,Italy SuperLega,Trentino,Piacenza,,Pick 1,Result,Winner,Home,0.742,pending,Live
+V-2026-11-04-Trentino-Piacenza|2,V-2026-11-04-Trentino-Piacenza,2026-11-04,Italy SuperLega,Trentino,Piacenza,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.604,pending,Live
+V-2026-11-04-Verona-Milano|0,V-2026-11-04-Verona-Milano,2026-11-04,Italy SuperLega,Verona,Milano,,Best,Sets,Set Handicap,Home +2.5 sets (wins a set),0.771,pending,Live
+V-2026-11-04-Verona-Milano|1,V-2026-11-04-Verona-Milano,2026-11-04,Italy SuperLega,Verona,Milano,,Pick 1,Result,Winner,Away,0.609,pending,Live
+V-2026-11-04-Verona-Milano|2,V-2026-11-04-Verona-Milano,2026-11-04,Italy SuperLega,Verona,Milano,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.659,pending,Live
+V-2026-11-04-GKS-Katowice-ChKS-Chelm|1,V-2026-11-04-GKS-Katowice-ChKS-Chelm,2026-11-04,Poland PlusLiga,GKS Katowice,ChKS Chelm,,Pick 1,Result,Winner,Away,0.554,pending,Live
+V-2026-11-04-GKS-Katowice-ChKS-Chelm|2,V-2026-11-04-GKS-Katowice-ChKS-Chelm,2026-11-04,Poland PlusLiga,GKS Katowice,ChKS Chelm,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.669,pending,Live
+V-2026-11-04-Kedzierzyn-Kozle-Rzeszow|0,V-2026-11-04-Kedzierzyn-Kozle-Rzeszow,2026-11-04,Poland PlusLiga,Kedzierzyn-Kozle,Rzeszow,,Best,Sets,Set Handicap,Home +1.5 sets,0.761,pending,Live
+V-2026-11-04-Kedzierzyn-Kozle-Rzeszow|1,V-2026-11-04-Kedzierzyn-Kozle-Rzeszow,2026-11-04,Poland PlusLiga,Kedzierzyn-Kozle,Rzeszow,,Pick 1,Result,Winner,Home,0.628,pending,Live
+V-2026-11-04-Kedzierzyn-Kozle-Rzeszow|2,V-2026-11-04-Kedzierzyn-Kozle-Rzeszow,2026-11-04,Poland PlusLiga,Kedzierzyn-Kozle,Rzeszow,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.654,pending,Live
+V-2026-11-04-Lublin-Belchatow|0,V-2026-11-04-Lublin-Belchatow,2026-11-04,Poland PlusLiga,Lublin,Belchatow,,Best,Result,1st Set Winner,Home wins 1st set,0.747,pending,Live
+V-2026-11-04-Lublin-Belchatow|1,V-2026-11-04-Lublin-Belchatow,2026-11-04,Poland PlusLiga,Lublin,Belchatow,,Pick 1,Result,Winner,Home,0.847,pending,Live
+V-2026-11-04-Lublin-Belchatow|2,V-2026-11-04-Lublin-Belchatow,2026-11-04,Poland PlusLiga,Lublin,Belchatow,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.517,pending,Live
+V-2026-11-04-Norwid-Czestochowa-Barkom|0,V-2026-11-04-Norwid-Czestochowa-Barkom,2026-11-04,Poland PlusLiga,Norwid Czestochowa,Barkom,,Best,Sets,Set Handicap,Home +1.5 sets,0.713,pending,Live
+V-2026-11-04-Norwid-Czestochowa-Barkom|1,V-2026-11-04-Norwid-Czestochowa-Barkom,2026-11-04,Poland PlusLiga,Norwid Czestochowa,Barkom,,Pick 1,Result,Winner,Home,0.569,pending,Live
+V-2026-11-04-Norwid-Czestochowa-Barkom|2,V-2026-11-04-Norwid-Czestochowa-Barkom,2026-11-04,Poland PlusLiga,Norwid Czestochowa,Barkom,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.667,pending,Live
+V-2026-11-04-Projekt-Warszawa-Slepsk-Suwalki|0,V-2026-11-04-Projekt-Warszawa-Slepsk-Suwalki,2026-11-04,Poland PlusLiga,Projekt Warszawa,Slepsk Suwalki,,Best,Sets,Total Sets,Under 4.5 sets,0.768,pending,Live
+V-2026-11-04-Projekt-Warszawa-Slepsk-Suwalki|1,V-2026-11-04-Projekt-Warszawa-Slepsk-Suwalki,2026-11-04,Poland PlusLiga,Projekt Warszawa,Slepsk Suwalki,,Pick 1,Result,Winner,Home,0.792,pending,Live
+V-2026-11-04-Projekt-Warszawa-Slepsk-Suwalki|2,V-2026-11-04-Projekt-Warszawa-Slepsk-Suwalki,2026-11-04,Poland PlusLiga,Projekt Warszawa,Slepsk Suwalki,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.57,pending,Live
+V-2026-11-04-Zawiercie-Olsztyn|0,V-2026-11-04-Zawiercie-Olsztyn,2026-11-04,Poland PlusLiga,Zawiercie,Olsztyn,,Best,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.604,pending,Live
+V-2026-11-04-Zawiercie-Olsztyn|1,V-2026-11-04-Zawiercie-Olsztyn,2026-11-04,Poland PlusLiga,Zawiercie,Olsztyn,,Pick 1,Result,Winner,Home,0.928,pending,Live
+V-2026-11-04-Belgorod-Ufa|0,V-2026-11-04-Belgorod-Ufa,2026-11-04,Russia Superleague,Belgorod,Ufa,,Best,Sets,Total Sets,Under 4.5 sets,0.778,pending,Live
+V-2026-11-04-Belgorod-Ufa|1,V-2026-11-04-Belgorod-Ufa,2026-11-04,Russia Superleague,Belgorod,Ufa,,Pick 1,Result,Winner,Home,0.81,pending,Live
+V-2026-11-04-Belgorod-Ufa|2,V-2026-11-04-Belgorod-Ufa,2026-11-04,Russia Superleague,Belgorod,Ufa,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.555,pending,Live
+V-2026-11-04-Din-Moscow-MGTU-Moscow|0,V-2026-11-04-Din-Moscow-MGTU-Moscow,2026-11-04,Russia Superleague,Din. Moscow,MGTU Moscow,,Best,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.734,pending,Live
+V-2026-11-04-Din-Moscow-MGTU-Moscow|1,V-2026-11-04-Din-Moscow-MGTU-Moscow,2026-11-04,Russia Superleague,Din. Moscow,MGTU Moscow,,Pick 1,Result,Winner,Home,0.974,pending,Live
+V-2026-11-04-Gorky-N-Novgorod-Novokuybyshevsk|1,V-2026-11-04-Gorky-N-Novgorod-Novokuybyshevsk,2026-11-04,Russia Superleague,Gorky N. Novgorod,Novokuybyshevsk,,Pick 1,Result,Winner,Home,0.719,pending,Live
+V-2026-11-04-Gorky-N-Novgorod-Novokuybyshevsk|2,V-2026-11-04-Gorky-N-Novgorod-Novokuybyshevsk,2026-11-04,Russia Superleague,Gorky N. Novgorod,Novokuybyshevsk,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.618,pending,Live
+V-2026-11-04-Kemerovo-Yaroslavl|1,V-2026-11-04-Kemerovo-Yaroslavl,2026-11-04,Russia Superleague,Kemerovo,Yaroslavl,,Pick 1,Result,Winner,Home,0.635,pending,Live
+V-2026-11-04-Kemerovo-Yaroslavl|2,V-2026-11-04-Kemerovo-Yaroslavl,2026-11-04,Russia Superleague,Kemerovo,Yaroslavl,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.652,pending,Live
+V-2026-11-04-Krasnoyarsk-Zenit-Kazan|0,V-2026-11-04-Krasnoyarsk-Zenit-Kazan,2026-11-04,Russia Superleague,Krasnoyarsk,Zenit Kazan,,Best,Sets,Total Sets,Under 4.5 sets,0.788,pending,Live
+V-2026-11-04-Krasnoyarsk-Zenit-Kazan|1,V-2026-11-04-Krasnoyarsk-Zenit-Kazan,2026-11-04,Russia Superleague,Krasnoyarsk,Zenit Kazan,,Pick 1,Result,Winner,Away,0.826,pending,Live
+V-2026-11-04-Krasnoyarsk-Zenit-Kazan|2,V-2026-11-04-Krasnoyarsk-Zenit-Kazan,2026-11-04,Russia Superleague,Krasnoyarsk,Zenit Kazan,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.54,pending,Live
+V-2026-11-04-Novyi-Urengoy-Orenburg|0,V-2026-11-04-Novyi-Urengoy-Orenburg,2026-11-04,Russia Superleague,Novyi Urengoy,Orenburg,,Best,Sets,Total Sets,Under 4.5 sets,0.732,pending,Live
+V-2026-11-04-Novyi-Urengoy-Orenburg|1,V-2026-11-04-Novyi-Urengoy-Orenburg,2026-11-04,Russia Superleague,Novyi Urengoy,Orenburg,,Pick 1,Result,Winner,Home,0.715,pending,Live
+V-2026-11-04-Novyi-Urengoy-Orenburg|2,V-2026-11-04-Novyi-Urengoy-Orenburg,2026-11-04,Russia Superleague,Novyi Urengoy,Orenburg,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.619,pending,Live
+V-2026-11-04-Surgut-region-Zenit-St-Petersburg|0,V-2026-11-04-Surgut-region-Zenit-St-Petersburg,2026-11-04,Russia Superleague,Surgut region,Zenit St. Petersburg,,Best,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.553,pending,Live
+V-2026-11-04-Surgut-region-Zenit-St-Petersburg|1,V-2026-11-04-Surgut-region-Zenit-St-Petersburg,2026-11-04,Russia Superleague,Surgut region,Zenit St. Petersburg,,Pick 1,Result,Winner,Away,0.9,pending,Live
+V-2026-11-04-Besiktas-W-Eczacibasi-W|0,V-2026-11-04-Besiktas-W-Eczacibasi-W,2026-11-04,Turkey Sultanlar Ligi Women,Besiktas W,Eczacibasi W,,Best,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.592,pending,Live
+V-2026-11-04-Besiktas-W-Eczacibasi-W|1,V-2026-11-04-Besiktas-W-Eczacibasi-W,2026-11-04,Turkey Sultanlar Ligi Women,Besiktas W,Eczacibasi W,,Pick 1,Result,Winner,Away,0.922,pending,Live
+V-2026-11-04-Goztepe-W-Zeren-Spor-W|1,V-2026-11-04-Goztepe-W-Zeren-Spor-W,2026-11-04,Turkey Sultanlar Ligi Women,Goztepe W,Zeren Spor W,,Pick 1,Result,Winner,Home,0.692,pending,Live
+V-2026-11-04-Goztepe-W-Zeren-Spor-W|2,V-2026-11-04-Goztepe-W-Zeren-Spor-W,2026-11-04,Turkey Sultanlar Ligi Women,Goztepe W,Zeren Spor W,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.631,pending,Live
+V-2026-11-04-Kuzey-Boru-Genclik-W-Aras-Kargo-W|0,V-2026-11-04-Kuzey-Boru-Genclik-W-Aras-Kargo-W,2026-11-04,Turkey Sultanlar Ligi Women,Kuzey Boru Genclik W,Aras Kargo W,,Best,Result,Winner,Home,0.754,pending,Live
+V-2026-11-04-Kuzey-Boru-Genclik-W-Aras-Kargo-W|1,V-2026-11-04-Kuzey-Boru-Genclik-W-Aras-Kargo-W,2026-11-04,Turkey Sultanlar Ligi Women,Kuzey Boru Genclik W,Aras Kargo W,,Pick 1,Sets,Total Sets,Over 3.5 sets,0.597,pending,Live
+V-2026-11-04-Manisa-BB-W-Galatasaray-W|1,V-2026-11-04-Manisa-BB-W-Galatasaray-W,2026-11-04,Turkey Sultanlar Ligi Women,Manisa BB W,Galatasaray W,,Pick 1,Result,Winner,Away,0.795,pending,Live
+V-2026-11-04-Manisa-BB-W-Galatasaray-W|2,V-2026-11-04-Manisa-BB-W-Galatasaray-W,2026-11-04,Turkey Sultanlar Ligi Women,Manisa BB W,Galatasaray W,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.567,pending,Live
+V-2026-11-04-Vakifbank-W-THY-W|0,V-2026-11-04-Vakifbank-W-THY-W,2026-11-04,Turkey Sultanlar Ligi Women,Vakifbank W,THY W,,Best,Result,1st Set Winner,Home wins 1st set,0.767,pending,Live
+V-2026-11-04-Vakifbank-W-THY-W|1,V-2026-11-04-Vakifbank-W-THY-W,2026-11-04,Turkey Sultanlar Ligi Women,Vakifbank W,THY W,,Pick 1,Result,Winner,Home,0.87,pending,Live
+V-2026-11-04-Vakifbank-W-THY-W|2,V-2026-11-04-Vakifbank-W-THY-W,2026-11-04,Turkey Sultanlar Ligi Women,Vakifbank W,THY W,,Pick 2,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.51,pending,Live
 V-2026-11-03-Goias-Minas|0,V-2026-11-03-Goias-Minas,2026-11-03,Brazil Superliga,Goias,Minas,,Best,Result,1st Set Winner,Away wins 1st set,0.755,pending,Live
 V-2026-11-03-Goias-Minas|1,V-2026-11-03-Goias-Minas,2026-11-03,Brazil Superliga,Goias,Minas,,Pick 1,Result,Winner,Away,0.857,pending,Live
 V-2026-11-03-Goias-Minas|2,V-2026-11-03-Goias-Minas,2026-11-03,Brazil Superliga,Goias,Minas,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.506,pending,Live

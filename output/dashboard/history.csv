@@ -1,4 +1,100 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-04-KV-Kortrijk-KV-Mechelen|0,2026-11-04-KV-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,KV Kortrijk,KV Mechelen,,Best,Goals,Multigoals,Multigoals 1-4,0.782,pending,Live
+2026-11-04-KV-Kortrijk-KV-Mechelen|1,2026-11-04-KV-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,KV Kortrijk,KV Mechelen,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.643,pending,Live
+2026-11-04-KV-Kortrijk-KV-Mechelen|2,2026-11-04-KV-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,KV Kortrijk,KV Mechelen,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.841,pending,Live
+2026-11-04-KV-Kortrijk-KV-Mechelen|3,2026-11-04-KV-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,KV Kortrijk,KV Mechelen,,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.831,pending,Live
+2026-11-04-Kortrijk-KV-Mechelen|0,2026-11-04-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,Kortrijk,KV Mechelen,1-3,Best,Goals,Multigoals,Multigoals 1-4,0.783,won,Live
+2026-11-04-Kortrijk-KV-Mechelen|1,2026-11-04-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,Kortrijk,KV Mechelen,1-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.639,won,Live
+2026-11-04-Kortrijk-KV-Mechelen|2,2026-11-04-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,Kortrijk,KV Mechelen,1-3,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.841,won,Live
+2026-11-04-Kortrijk-KV-Mechelen|3,2026-11-04-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,Kortrijk,KV Mechelen,1-3,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.836,lost,Live
+2026-11-04-AEK-Real-Madrid|0,2026-11-04-AEK-Real-Madrid,2026-11-04,Champions League,AEK,Real Madrid,,Best,Goals,Away Team Over/Under,Away Over 1.5,0.777,pending,Live
+2026-11-04-AEK-Real-Madrid|1,2026-11-04-AEK-Real-Madrid,2026-11-04,Champions League,AEK,Real Madrid,,Pick 1,Result,1X2 / Double Chance,Away,0.765,pending,Live
+2026-11-04-AEK-Real-Madrid|2,2026-11-04-AEK-Real-Madrid,2026-11-04,Champions League,AEK,Real Madrid,,Pick 2,Goals,Double Chance & Over/Under,Away/Draw & Over 1.5,0.822,pending,Live
+2026-11-04-AEK-Real-Madrid|3,2026-11-04-AEK-Real-Madrid,2026-11-04,Champions League,AEK,Real Madrid,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.806,pending,Live
+2026-11-04-Dortmund-Betis|0,2026-11-04-Dortmund-Betis,2026-11-04,Champions League,Dortmund,Betis,,Best,Result,1X2 / Double Chance,Home/Draw,0.78,pending,Live
+2026-11-04-Dortmund-Betis|1,2026-11-04-Dortmund-Betis,2026-11-04,Champions League,Dortmund,Betis,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.78,pending,Live
+2026-11-04-Dortmund-Betis|2,2026-11-04-Dortmund-Betis,2026-11-04,Champions League,Dortmund,Betis,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.847,pending,Live
+2026-11-04-Dortmund-Betis|3,2026-11-04-Dortmund-Betis,2026-11-04,Champions League,Dortmund,Betis,,Pick 3,Goals,Over/Under,Over 1.5,0.837,pending,Live
+2026-11-04-Fenerbahce-Liverpool|0,2026-11-04-Fenerbahce-Liverpool,2026-11-04,Champions League,Fenerbahce,Liverpool,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.786,pending,Live
+2026-11-04-Fenerbahce-Liverpool|1,2026-11-04-Fenerbahce-Liverpool,2026-11-04,Champions League,Fenerbahce,Liverpool,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.828,pending,Live
+2026-11-04-Fenerbahce-Liverpool|2,2026-11-04-Fenerbahce-Liverpool,2026-11-04,Champions League,Fenerbahce,Liverpool,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.826,pending,Live
+2026-11-04-Fenerbahce-Liverpool|3,2026-11-04-Fenerbahce-Liverpool,2026-11-04,Champions League,Fenerbahce,Liverpool,,Pick 3,Goals,Over/Under,Under 4.5,0.733,pending,Live
+2026-11-04-Lens-Como|0,2026-11-04-Lens-Como,2026-11-04,Champions League,Lens,Como,,Best,Goals,Multigoals,Multigoals 2-6,0.789,pending,Live
+2026-11-04-Lens-Como|1,2026-11-04-Lens-Como,2026-11-04,Champions League,Lens,Como,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.682,pending,Live
+2026-11-04-Lens-Como|2,2026-11-04-Lens-Como,2026-11-04,Champions League,Lens,Como,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.849,pending,Live
+2026-11-04-Lens-Como|3,2026-11-04-Lens-Como,2026-11-04,Champions League,Lens,Como,,Pick 3,Goals,Over/Under,Over 1.5,0.832,pending,Live
+2026-11-04-PSV-Eindhoven-Club-Brugge|0,2026-11-04-PSV-Eindhoven-Club-Brugge,2026-11-04,Champions League,PSV Eindhoven,Club Brugge,,Best,Goals,Away Team Over/Under,Away Under 2.5,0.776,pending,Live
+2026-11-04-PSV-Eindhoven-Club-Brugge|1,2026-11-04-PSV-Eindhoven-Club-Brugge,2026-11-04,Champions League,PSV Eindhoven,Club Brugge,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.689,pending,Live
+2026-11-04-PSV-Eindhoven-Club-Brugge|2,2026-11-04-PSV-Eindhoven-Club-Brugge,2026-11-04,Champions League,PSV Eindhoven,Club Brugge,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.807,pending,Live
+2026-11-04-PSV-Eindhoven-Club-Brugge|3,2026-11-04-PSV-Eindhoven-Club-Brugge,2026-11-04,Champions League,PSV Eindhoven,Club Brugge,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.804,pending,Live
+2026-11-04-Porto-Napoli|0,2026-11-04-Porto-Napoli,2026-11-04,Champions League,Porto,Napoli,,Best,Goals,Over/Under,Over 1.5,0.786,pending,Live
+2026-11-04-Porto-Napoli|1,2026-11-04-Porto-Napoli,2026-11-04,Champions League,Porto,Napoli,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.743,pending,Live
+2026-11-04-Porto-Napoli|2,2026-11-04-Porto-Napoli,2026-11-04,Champions League,Porto,Napoli,,Pick 2,Goals,Over/Under,Under 4.5,0.838,pending,Live
+2026-11-04-Porto-Napoli|3,2026-11-04-Porto-Napoli,2026-11-04,Champions League,Porto,Napoli,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.815,pending,Live
+2026-11-04-RB-Leipzig-Man-City|0,2026-11-04-RB-Leipzig-Man-City,2026-11-04,Champions League,RB Leipzig,Man City,,Best,Goals,Double Chance & Over/Under,Away/Draw & Over 1.5,0.729,pending,Live
+2026-11-04-RB-Leipzig-Man-City|1,2026-11-04-RB-Leipzig-Man-City,2026-11-04,Champions League,RB Leipzig,Man City,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.818,pending,Live
+2026-11-04-RB-Leipzig-Man-City|2,2026-11-04-RB-Leipzig-Man-City,2026-11-04,Champions League,RB Leipzig,Man City,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.808,pending,Live
+2026-11-04-RB-Leipzig-Man-City|3,2026-11-04-RB-Leipzig-Man-City,2026-11-04,Champions League,RB Leipzig,Man City,,Pick 3,Goals,Double Chance & Over/Under,Away/Draw & Over 1.5,0.729,pending,Live
+2026-11-04-Slavia-Praha-Arsenal|0,2026-11-04-Slavia-Praha-Arsenal,2026-11-04,Champions League,Slavia Praha,Arsenal,,Best,Goals,Double Chance & Over/Under,Away/Draw & Over 1.5,0.785,pending,Live
+2026-11-04-Slavia-Praha-Arsenal|1,2026-11-04-Slavia-Praha-Arsenal,2026-11-04,Champions League,Slavia Praha,Arsenal,,Pick 1,Result,1X2 / Double Chance,Away,0.754,pending,Live
+2026-11-04-Slavia-Praha-Arsenal|2,2026-11-04-Slavia-Praha-Arsenal,2026-11-04,Champions League,Slavia Praha,Arsenal,,Pick 2,Goals,Over/Under,Over 1.5,0.848,pending,Live
+2026-11-04-Slavia-Praha-Arsenal|3,2026-11-04-Slavia-Praha-Arsenal,2026-11-04,Champions League,Slavia Praha,Arsenal,,Pick 3,Goals,Multigoals,Multigoals 1-5,0.84,pending,Live
+2026-11-04-Viking-FK-Sabah-FK|0,2026-11-04-Viking-FK-Sabah-FK,2026-11-04,Champions League,Viking FK,Sabah FK,,Best,Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,0.758,pending,Live
+2026-11-04-Viking-FK-Sabah-FK|1,2026-11-04-Viking-FK-Sabah-FK,2026-11-04,Champions League,Viking FK,Sabah FK,,Pick 1,Result,1X2 / Double Chance,Home,0.67,pending,Live
+2026-11-04-Viking-FK-Sabah-FK|2,2026-11-04-Viking-FK-Sabah-FK,2026-11-04,Champions League,Viking FK,Sabah FK,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.812,pending,Live
+2026-11-04-Viking-FK-Sabah-FK|3,2026-11-04-Viking-FK-Sabah-FK,2026-11-04,Champions League,Viking FK,Sabah FK,,Pick 3,Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,0.758,pending,Live
+2026-11-04-Badajoz-Tenerife|0,2026-11-04-Badajoz-Tenerife,2026-11-04,Copa del Rey,Badajoz,Tenerife,,Best,Goals,Away Team Over/Under,Away Under 2.5,0.755,pending,Live
+2026-11-04-Badajoz-Tenerife|1,2026-11-04-Badajoz-Tenerife,2026-11-04,Copa del Rey,Badajoz,Tenerife,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.798,pending,Live
+2026-11-04-Badajoz-Tenerife|2,2026-11-04-Badajoz-Tenerife,2026-11-04,Copa del Rey,Badajoz,Tenerife,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.819,pending,Live
+2026-11-04-Badajoz-Tenerife|3,2026-11-04-Badajoz-Tenerife,2026-11-04,Copa del Rey,Badajoz,Tenerife,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.792,pending,Live
+2026-11-04-CD-Minera-FC-Cartagena|0,2026-11-04-CD-Minera-FC-Cartagena,2026-11-04,Copa del Rey,CD Minera,FC Cartagena,,Best,Goals,Over/Under,Under 3.5,0.753,pending,Live
+2026-11-04-CD-Minera-FC-Cartagena|1,2026-11-04-CD-Minera-FC-Cartagena,2026-11-04,Copa del Rey,CD Minera,FC Cartagena,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.693,pending,Live
+2026-11-04-CD-Minera-FC-Cartagena|2,2026-11-04-CD-Minera-FC-Cartagena,2026-11-04,Copa del Rey,CD Minera,FC Cartagena,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.841,pending,Live
+2026-11-04-CD-Minera-FC-Cartagena|3,2026-11-04-CD-Minera-FC-Cartagena,2026-11-04,Copa del Rey,CD Minera,FC Cartagena,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.8,pending,Live
+2026-11-04-CD-Puertollano-Albacete|0,2026-11-04-CD-Puertollano-Albacete,2026-11-04,Copa del Rey,CD Puertollano,Albacete,,Best,Result,1X2 / Double Chance,Home/Away,0.771,pending,Live
+2026-11-04-CD-Puertollano-Albacete|1,2026-11-04-CD-Puertollano-Albacete,2026-11-04,Copa del Rey,CD Puertollano,Albacete,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.815,pending,Live
+2026-11-04-CD-Puertollano-Albacete|2,2026-11-04-CD-Puertollano-Albacete,2026-11-04,Copa del Rey,CD Puertollano,Albacete,,Pick 2,Goals,Over/Under,Under 4.5,0.822,pending,Live
+2026-11-04-CD-Puertollano-Albacete|3,2026-11-04-CD-Puertollano-Albacete,2026-11-04,Copa del Rey,CD Puertollano,Albacete,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.769,pending,Live
+2026-11-04-Club-Portugalete-Real-Uni-n|0,2026-11-04-Club-Portugalete-Real-Uni-n,2026-11-04,Copa del Rey,Club Portugalete,Real Unión,,Best,Goals,Over/Under,Under 3.5,0.758,pending,Live
+2026-11-04-Club-Portugalete-Real-Uni-n|1,2026-11-04-Club-Portugalete-Real-Uni-n,2026-11-04,Copa del Rey,Club Portugalete,Real Unión,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.689,pending,Live
+2026-11-04-Club-Portugalete-Real-Uni-n|2,2026-11-04-Club-Portugalete-Real-Uni-n,2026-11-04,Copa del Rey,Club Portugalete,Real Unión,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.845,pending,Live
+2026-11-04-Club-Portugalete-Real-Uni-n|3,2026-11-04-Club-Portugalete-Real-Uni-n,2026-11-04,Copa del Rey,Club Portugalete,Real Unión,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.801,pending,Live
+2026-11-04-Reus-FC-Reddis-Barakaldo|0,2026-11-04-Reus-FC-Reddis-Barakaldo,2026-11-04,Copa del Rey,Reus FC Reddis,Barakaldo,,Best,Goals,Over/Under,Under 3.5,0.775,pending,Live
+2026-11-04-Reus-FC-Reddis-Barakaldo|1,2026-11-04-Reus-FC-Reddis-Barakaldo,2026-11-04,Copa del Rey,Reus FC Reddis,Barakaldo,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.755,pending,Live
+2026-11-04-Reus-FC-Reddis-Barakaldo|2,2026-11-04-Reus-FC-Reddis-Barakaldo,2026-11-04,Copa del Rey,Reus FC Reddis,Barakaldo,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.821,pending,Live
+2026-11-04-Reus-FC-Reddis-Barakaldo|3,2026-11-04-Reus-FC-Reddis-Barakaldo,2026-11-04,Copa del Rey,Reus FC Reddis,Barakaldo,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.805,pending,Live
+2026-11-04-SD-Amorebieta-UD-Logro-s|0,2026-11-04-SD-Amorebieta-UD-Logro-s,2026-11-04,Copa del Rey,SD Amorebieta,UD Logroñés,,Best,Goals,Multigoals,Multigoals 1-4,0.789,pending,Live
+2026-11-04-SD-Amorebieta-UD-Logro-s|1,2026-11-04-SD-Amorebieta-UD-Logro-s,2026-11-04,Copa del Rey,SD Amorebieta,UD Logroñés,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.741,pending,Live
+2026-11-04-SD-Amorebieta-UD-Logro-s|2,2026-11-04-SD-Amorebieta-UD-Logro-s,2026-11-04,Copa del Rey,SD Amorebieta,UD Logroñés,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.796,pending,Live
+2026-11-04-SD-Amorebieta-UD-Logro-s|3,2026-11-04-SD-Amorebieta-UD-Logro-s,2026-11-04,Copa del Rey,SD Amorebieta,UD Logroñés,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.789,pending,Live
+2026-11-04-Utebo-FC-Sabadell-FC|0,2026-11-04-Utebo-FC-Sabadell-FC,2026-11-04,Copa del Rey,Utebo FC,Sabadell FC,,Best,Result,1X2 / Double Chance,Home/Away,0.766,pending,Live
+2026-11-04-Utebo-FC-Sabadell-FC|1,2026-11-04-Utebo-FC-Sabadell-FC,2026-11-04,Copa del Rey,Utebo FC,Sabadell FC,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.847,pending,Live
+2026-11-04-Utebo-FC-Sabadell-FC|2,2026-11-04-Utebo-FC-Sabadell-FC,2026-11-04,Copa del Rey,Utebo FC,Sabadell FC,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.843,pending,Live
+2026-11-04-Utebo-FC-Sabadell-FC|3,2026-11-04-Utebo-FC-Sabadell-FC,2026-11-04,Copa del Rey,Utebo FC,Sabadell FC,,Pick 3,Goals,Home Team Over/Under,Home Under 1.5,0.805,pending,Live
+2026-11-04-Bristol-City-Wolves|0,2026-11-04-Bristol-City-Wolves,2026-11-04,England Championship,Bristol City,Wolves,1-2,Best,Goals,Away Team Over/Under,Away Over 0.5,0.788,won,Live
+2026-11-04-Bristol-City-Wolves|1,2026-11-04-Bristol-City-Wolves,2026-11-04,England Championship,Bristol City,Wolves,1-2,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.72,won,Live
+2026-11-04-Bristol-City-Wolves|2,2026-11-04-Bristol-City-Wolves,2026-11-04,England Championship,Bristol City,Wolves,1-2,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.796,won,Live
+2026-11-04-Bristol-City-Wolves|3,2026-11-04-Bristol-City-Wolves,2026-11-04,England Championship,Bristol City,Wolves,1-2,Pick 3,Goals,Multigoals,Multigoals 1-4,0.787,won,Live
+2026-11-04-Cardiff-West-Ham|0,2026-11-04-Cardiff-West-Ham,2026-11-04,England Championship,Cardiff,West Ham,3-3,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.789,won,Live
+2026-11-04-Cardiff-West-Ham|1,2026-11-04-Cardiff-West-Ham,2026-11-04,England Championship,Cardiff,West Ham,3-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.704,won,Live
+2026-11-04-Cardiff-West-Ham|2,2026-11-04-Cardiff-West-Ham,2026-11-04,England Championship,Cardiff,West Ham,3-3,Pick 2,Goals,Multigoals,Multigoals 1-5,0.822,lost,Live
+2026-11-04-Cardiff-West-Ham|3,2026-11-04-Cardiff-West-Ham,2026-11-04,England Championship,Cardiff,West Ham,3-3,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.801,lost,Live
+2026-11-04-Wrexham-Middlesbrough|0,2026-11-04-Wrexham-Middlesbrough,2026-11-04,England Championship,Wrexham,Middlesbrough,2-0,Best,Goals,Multigoals,Multigoals 2-6,0.776,won,Live
+2026-11-04-Wrexham-Middlesbrough|1,2026-11-04-Wrexham-Middlesbrough,2026-11-04,England Championship,Wrexham,Middlesbrough,2-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.766,lost,Live
+2026-11-04-Wrexham-Middlesbrough|2,2026-11-04-Wrexham-Middlesbrough,2026-11-04,England Championship,Wrexham,Middlesbrough,2-0,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.843,lost,Live
+2026-11-04-Wrexham-Middlesbrough|3,2026-11-04-Wrexham-Middlesbrough,2026-11-04,England Championship,Wrexham,Middlesbrough,2-0,Pick 3,Goals,Over/Under,Under 4.5,0.812,won,Live
+2026-11-04-Oxford-Reading|0,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Best,Goals,Away Team Over/Under,Away Over 0.5,0.77,pending,Live
+2026-11-04-Oxford-Reading|1,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.64,pending,Live
+2026-11-04-Oxford-Reading|2,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Pick 2,Goals,Over/Under,Under 4.5,0.832,pending,Live
+2026-11-04-Oxford-Reading|3,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.826,pending,Live
+2026-11-04-Oxford-Utd-Reading|0,2026-11-04-Oxford-Utd-Reading,2026-11-04,England League One,Oxford Utd,Reading,2-0,Best,Goals,Away Team Over/Under,Away Over 0.5,0.775,lost,Live
+2026-11-04-Oxford-Utd-Reading|1,2026-11-04-Oxford-Utd-Reading,2026-11-04,England League One,Oxford Utd,Reading,2-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.644,lost,Live
+2026-11-04-Oxford-Utd-Reading|2,2026-11-04-Oxford-Utd-Reading,2026-11-04,England League One,Oxford Utd,Reading,2-0,Pick 2,Goals,Over/Under,Under 4.5,0.829,won,Live
+2026-11-04-Oxford-Utd-Reading|3,2026-11-04-Oxford-Utd-Reading,2026-11-04,England League One,Oxford Utd,Reading,2-0,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.826,won,Live
+2026-11-04-Rennes-Olympiakos|0,2026-11-04-Rennes-Olympiakos,2026-11-04,Europa League,Rennes,Olympiakos,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.788,pending,Live
+2026-11-04-Rennes-Olympiakos|1,2026-11-04-Rennes-Olympiakos,2026-11-04,Europa League,Rennes,Olympiakos,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.69,pending,Live
+2026-11-04-Rennes-Olympiakos|2,2026-11-04-Rennes-Olympiakos,2026-11-04,Europa League,Rennes,Olympiakos,,Pick 2,Goals,Over/Under,Under 4.5,0.841,pending,Live
+2026-11-04-Rennes-Olympiakos|3,2026-11-04-Rennes-Olympiakos,2026-11-04,Europa League,Rennes,Olympiakos,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.796,pending,Live
 2026-11-03-Ath-Madrid-Bayern-Munich|0,2026-11-03-Ath-Madrid-Bayern-Munich,2026-11-03,Champions League,Ath Madrid,Bayern Munich,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.78,pending,Live
 2026-11-03-Ath-Madrid-Bayern-Munich|1,2026-11-03-Ath-Madrid-Bayern-Munich,2026-11-03,Champions League,Ath Madrid,Bayern Munich,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.631,pending,Live
 2026-11-03-Ath-Madrid-Bayern-Munich|2,2026-11-03-Ath-Madrid-Bayern-Munich,2026-11-03,Champions League,Ath Madrid,Bayern Munich,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.831,pending,Live
@@ -43,58 +139,58 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-11-03-CD-Pamplona-Eibar|1,2026-11-03-CD-Pamplona-Eibar,2026-11-03,Copa del Rey,CD Pamplona,Eibar,,Pick 1,Result,1X2 / Double Chance,Away,0.763,pending,Live
 2026-11-03-CD-Pamplona-Eibar|2,2026-11-03-CD-Pamplona-Eibar,2026-11-03,Copa del Rey,CD Pamplona,Eibar,,Pick 2,Goals,Double Chance & Over/Under,Away/Draw & Over 1.5,0.811,pending,Live
 2026-11-03-CD-Pamplona-Eibar|3,2026-11-03-CD-Pamplona-Eibar,2026-11-03,Copa del Rey,CD Pamplona,Eibar,,Pick 3,Goals,Multigoals,Multigoals 1-5,0.811,pending,Live
-2026-11-03-Birmingham-Millwall|0,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,,Best,Goals,Over/Under,Over 1.5,0.779,pending,Live
-2026-11-03-Birmingham-Millwall|1,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.736,pending,Live
-2026-11-03-Birmingham-Millwall|2,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,,Pick 2,Goals,Over/Under,Under 4.5,0.845,pending,Live
-2026-11-03-Birmingham-Millwall|3,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.808,pending,Live
-2026-11-03-Blackburn-Stoke|0,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,,Best,Goals,Over/Under,Under 3.5,0.745,pending,Live
-2026-11-03-Blackburn-Stoke|1,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.645,pending,Live
-2026-11-03-Blackburn-Stoke|2,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.798,pending,Live
-2026-11-03-Blackburn-Stoke|3,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,,Pick 3,Goals,Over/Under,Under 3.5,0.745,pending,Live
-2026-11-03-Charlton-Bolton|0,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.788,pending,Live
-2026-11-03-Charlton-Bolton|1,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.69,pending,Live
-2026-11-03-Charlton-Bolton|2,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,,Pick 2,Goals,Over/Under,Under 4.5,0.841,pending,Live
-2026-11-03-Charlton-Bolton|3,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.796,pending,Live
-2026-11-03-Derby-Norwich|0,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,,Best,Goals,Multigoals,Multigoals 2-6,0.768,pending,Live
-2026-11-03-Derby-Norwich|1,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.715,pending,Live
-2026-11-03-Derby-Norwich|2,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,,Pick 2,Goals,Over/Under,Under 4.5,0.825,pending,Live
-2026-11-03-Derby-Norwich|3,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.812,pending,Live
-2026-11-03-Portsmouth-Swansea|0,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,,Best,Goals,Over/Under,Over 1.5,0.74,pending,Live
-2026-11-03-Portsmouth-Swansea|1,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.644,pending,Live
-2026-11-03-Portsmouth-Swansea|2,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.796,pending,Live
-2026-11-03-Portsmouth-Swansea|3,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,,Pick 3,Goals,Over/Under,Over 1.5,0.74,pending,Live
+2026-11-03-Birmingham-Millwall|0,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,3-0,Best,Goals,Over/Under,Over 1.5,0.779,won,Live
+2026-11-03-Birmingham-Millwall|1,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,3-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.736,won,Live
+2026-11-03-Birmingham-Millwall|2,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,3-0,Pick 2,Goals,Over/Under,Under 4.5,0.845,won,Live
+2026-11-03-Birmingham-Millwall|3,2026-11-03-Birmingham-Millwall,2026-11-03,England Championship,Birmingham,Millwall,3-0,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.808,won,Live
+2026-11-03-Blackburn-Stoke|0,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,1-2,Best,Goals,Over/Under,Under 3.5,0.745,won,Live
+2026-11-03-Blackburn-Stoke|1,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,1-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.645,lost,Live
+2026-11-03-Blackburn-Stoke|2,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,1-2,Pick 2,Goals,Multigoals,Multigoals 1-4,0.798,won,Live
+2026-11-03-Blackburn-Stoke|3,2026-11-03-Blackburn-Stoke,2026-11-03,England Championship,Blackburn,Stoke,1-2,Pick 3,Goals,Over/Under,Under 3.5,0.745,won,Live
+2026-11-03-Charlton-Bolton|0,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,0-1,Best,Goals,Home Team Over/Under,Home Over 0.5,0.788,lost,Live
+2026-11-03-Charlton-Bolton|1,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,0-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.69,lost,Live
+2026-11-03-Charlton-Bolton|2,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,0-1,Pick 2,Goals,Over/Under,Under 4.5,0.841,won,Live
+2026-11-03-Charlton-Bolton|3,2026-11-03-Charlton-Bolton,2026-11-03,England Championship,Charlton,Bolton,0-1,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.796,won,Live
+2026-11-03-Derby-Norwich|0,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,0-4,Best,Goals,Multigoals,Multigoals 2-6,0.768,won,Live
+2026-11-03-Derby-Norwich|1,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,0-4,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.715,won,Live
+2026-11-03-Derby-Norwich|2,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,0-4,Pick 2,Goals,Over/Under,Under 4.5,0.825,won,Live
+2026-11-03-Derby-Norwich|3,2026-11-03-Derby-Norwich,2026-11-03,England Championship,Derby,Norwich,0-4,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.812,won,Live
+2026-11-03-Portsmouth-Swansea|0,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,3-1,Best,Goals,Over/Under,Over 1.5,0.74,won,Live
+2026-11-03-Portsmouth-Swansea|1,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,3-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.644,lost,Live
+2026-11-03-Portsmouth-Swansea|2,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,3-1,Pick 2,Goals,Multigoals,Multigoals 1-4,0.796,won,Live
+2026-11-03-Portsmouth-Swansea|3,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,3-1,Pick 3,Goals,Over/Under,Over 1.5,0.74,won,Live
 2026-11-03-Preston-Sheffield-United|0,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Best,Goals,Away Team Over/Under,Away Under 2.5,0.786,pending,Live
-2026-11-03-Preston-Sheffield-Utd|0,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,,Best,Goals,Multigoals,Multigoals 1-4,0.78,pending,Live
+2026-11-03-Preston-Sheffield-Utd|0,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Best,Goals,Multigoals,Multigoals 1-4,0.78,lost,Live
 2026-11-03-Preston-Sheffield-United|1,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.707,pending,Live
-2026-11-03-Preston-Sheffield-Utd|1,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.733,pending,Live
+2026-11-03-Preston-Sheffield-Utd|1,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.733,won,Live
 2026-11-03-Preston-Sheffield-United|2,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Pick 2,Goals,Over/Under,Under 4.5,0.841,pending,Live
-2026-11-03-Preston-Sheffield-Utd|2,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,,Pick 2,Goals,Over/Under,Under 4.5,0.848,pending,Live
+2026-11-03-Preston-Sheffield-Utd|2,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Pick 2,Goals,Over/Under,Under 4.5,0.848,lost,Live
 2026-11-03-Preston-Sheffield-United|3,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.796,pending,Live
-2026-11-03-Preston-Sheffield-Utd|3,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.804,pending,Live
-2026-11-03-QPR-Burnley|0,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,,Best,Goals,Multigoals,Multigoals 2-6,0.77,pending,Live
-2026-11-03-QPR-Burnley|1,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.727,pending,Live
-2026-11-03-QPR-Burnley|2,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,,Pick 2,Goals,Over/Under,Under 4.5,0.822,pending,Live
-2026-11-03-QPR-Burnley|3,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.819,pending,Live
-2026-11-03-Watford-Lincoln|0,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,,Best,Goals,Multigoals,Multigoals 1-4,0.788,pending,Live
-2026-11-03-Watford-Lincoln|1,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.664,pending,Live
-2026-11-03-Watford-Lincoln|2,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.831,pending,Live
-2026-11-03-Watford-Lincoln|3,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.788,pending,Live
-2026-11-03-West-Brom-Southampton|0,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.783,pending,Live
-2026-11-03-West-Brom-Southampton|1,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.641,pending,Live
-2026-11-03-West-Brom-Southampton|2,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.816,pending,Live
-2026-11-03-West-Brom-Southampton|3,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,,Pick 3,Goals,Over/Under,Under 4.5,0.815,pending,Live
-2026-11-03-Huddersfield-Luton|0,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,,Best,Goals,Multigoals,Multigoals 2-6,0.783,pending,Live
-2026-11-03-Huddersfield-Luton|1,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.717,pending,Live
-2026-11-03-Huddersfield-Luton|2,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.83,pending,Live
-2026-11-03-Huddersfield-Luton|3,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,,Pick 3,Goals,Over/Under,Over 1.5,0.822,pending,Live
-2026-11-03-Wigan-Mansfield|0,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,,Best,Goals,Away Team Over/Under,Away Over 0.5,0.788,pending,Live
-2026-11-03-Wigan-Mansfield|1,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.7,pending,Live
-2026-11-03-Wigan-Mansfield|2,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,,Pick 2,Goals,Over/Under,Under 4.5,0.848,pending,Live
-2026-11-03-Wigan-Mansfield|3,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.796,pending,Live
-2026-11-03-Northampton-Oldham|0,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,,Best,Goals,Over/Under,Under 3.5,0.766,pending,Live
-2026-11-03-Northampton-Oldham|1,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.682,pending,Live
-2026-11-03-Northampton-Oldham|2,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.803,pending,Live
-2026-11-03-Northampton-Oldham|3,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,,Pick 3,Goals,Over/Under,Under 3.5,0.766,pending,Live
+2026-11-03-Preston-Sheffield-Utd|3,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.804,won,Live
+2026-11-03-QPR-Burnley|0,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,1-1,Best,Goals,Multigoals,Multigoals 2-6,0.77,won,Live
+2026-11-03-QPR-Burnley|1,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.727,won,Live
+2026-11-03-QPR-Burnley|2,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,1-1,Pick 2,Goals,Over/Under,Under 4.5,0.822,won,Live
+2026-11-03-QPR-Burnley|3,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,1-1,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.819,won,Live
+2026-11-03-Watford-Lincoln|0,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,1-0,Best,Goals,Multigoals,Multigoals 1-4,0.788,won,Live
+2026-11-03-Watford-Lincoln|1,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,1-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.664,won,Live
+2026-11-03-Watford-Lincoln|2,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,1-0,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.831,won,Live
+2026-11-03-Watford-Lincoln|3,2026-11-03-Watford-Lincoln,2026-11-03,England Championship,Watford,Lincoln,1-0,Pick 3,Goals,Multigoals,Multigoals 1-4,0.788,won,Live
+2026-11-03-West-Brom-Southampton|0,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,1-1,Best,Goals,Home Team Over/Under,Home Over 0.5,0.783,won,Live
+2026-11-03-West-Brom-Southampton|1,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.641,won,Live
+2026-11-03-West-Brom-Southampton|2,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,1-1,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.816,won,Live
+2026-11-03-West-Brom-Southampton|3,2026-11-03-West-Brom-Southampton,2026-11-03,England Championship,West Brom,Southampton,1-1,Pick 3,Goals,Over/Under,Under 4.5,0.815,won,Live
+2026-11-03-Huddersfield-Luton|0,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,1-1,Best,Goals,Multigoals,Multigoals 2-6,0.783,won,Live
+2026-11-03-Huddersfield-Luton|1,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.717,won,Live
+2026-11-03-Huddersfield-Luton|2,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,1-1,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.83,won,Live
+2026-11-03-Huddersfield-Luton|3,2026-11-03-Huddersfield-Luton,2026-11-03,England League One,Huddersfield,Luton,1-1,Pick 3,Goals,Over/Under,Over 1.5,0.822,won,Live
+2026-11-03-Wigan-Mansfield|0,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,0-0,Best,Goals,Away Team Over/Under,Away Over 0.5,0.788,lost,Live
+2026-11-03-Wigan-Mansfield|1,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,0-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.7,won,Live
+2026-11-03-Wigan-Mansfield|2,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,0-0,Pick 2,Goals,Over/Under,Under 4.5,0.848,won,Live
+2026-11-03-Wigan-Mansfield|3,2026-11-03-Wigan-Mansfield,2026-11-03,England League One,Wigan,Mansfield,0-0,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.796,won,Live
+2026-11-03-Northampton-Oldham|0,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,0-1,Best,Goals,Over/Under,Under 3.5,0.766,won,Live
+2026-11-03-Northampton-Oldham|1,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,0-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.682,lost,Live
+2026-11-03-Northampton-Oldham|2,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,0-1,Pick 2,Goals,Multigoals,Multigoals 1-4,0.803,won,Live
+2026-11-03-Northampton-Oldham|3,2026-11-03-Northampton-Oldham,2026-11-03,England League Two,Northampton,Oldham,0-1,Pick 3,Goals,Over/Under,Under 3.5,0.766,won,Live
 2026-11-02-Newcastle-Everton|0,2026-11-02-Newcastle-Everton,2026-11-02,England Premier League,Newcastle,Everton,0-1,Best,Corners,Total Corners,Corners Over 7.5,0.79,won,Live
 2026-11-02-Newcastle-Everton|1,2026-11-02-Newcastle-Everton,2026-11-02,England Premier League,Newcastle,Everton,0-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.67,lost,Live
 2026-11-02-Newcastle-Everton|2,2026-11-02-Newcastle-Everton,2026-11-02,England Premier League,Newcastle,Everton,0-1,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.841,won,Live
