@@ -35,12 +35,33 @@
   [hidden] { display: none !important; }
   .dash-skeleton { opacity: .45; }
   #load-error { color: var(--color-bad); }
+
+  /* Update bar: start the GitHub update, then reload the data */
+  .upd { max-width: 1200px; margin: 0 auto; padding: 12px 16px 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: flex-end; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .upd a, .upd button { font: inherit; color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 6px 12px; cursor: pointer; text-decoration: none; }
+  .upd a:hover, .upd button:hover { border-color: var(--color-fg-muted); }
+  .upd :focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .upd .tip { flex-basis: 100%; text-align: right; }
+  .upd .tip[hidden] { display: none; }
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="dash-shim.js"></script>
 </head>
 <body>
+<div class="upd">
+  <a id="upd-run" href="https://github.com/Semajrepo/Sports-prediction/actions/workflows/daily-update.yml" target="_blank" rel="noopener">Get latest results</a>
+  <button id="upd-reload" type="button">Reload</button>
+  <span class="tip" id="upd-tip" hidden>On GitHub, press <b>Run workflow</b> (twice). When it shows a green tick (about 5 minutes), come back and press <b>Reload</b>.</span>
+</div>
 <div id="dash-root"></div>
+<script>
+  document.getElementById('upd-run').addEventListener('click', () => { document.getElementById('upd-tip').hidden = false; });
+  document.getElementById('upd-reload').addEventListener('click', (e) => {
+    dash.refreshAll();
+    e.currentTarget.textContent = 'Reloaded ✓';
+    setTimeout(() => { document.getElementById('upd-reload').textContent = 'Reload'; }, 2000);
+  });
+</script>
 <script>
   // Load the dashboard page (index.html) and run its scripts.
   fetch('index.html', { cache: 'no-cache' })

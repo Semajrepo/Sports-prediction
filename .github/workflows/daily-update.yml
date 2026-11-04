@@ -4,7 +4,10 @@ name: Daily update
 
 on:
   schedule:
-    - cron: "25 6 * * *"   # 06:25 UTC = 07:25 West Africa time
+    - cron: "25 6 * * *"   # 07:25 West Africa time (UTC+1): new picks
+    - cron: "0 12 * * *"   # 13:00: late overnight results
+    - cron: "0 18 * * *"   # 19:00
+    - cron: "30 22 * * *"  # 23:30: same-day results
   workflow_dispatch:         # "Run workflow" button on the Actions tab
 
 permissions:
@@ -32,8 +35,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Only the 07:25 run uses The Odds API (free plan: 500 credits a month, ~8 a run).
+      # Later and manual runs keep the morning's European picks and only fetch results.
       - name: Run update (one retry)
-        run: python src/update.py || (sleep 60 && python src/update.py)
+        run: |
+          if [ "${{ github.event.schedule }}" = "25 6 * * *" ]; then ARGS=""; else ARGS="--no-europe"; fi
+          python src/update.py $ARGS || (sleep 60 && python src/update.py $ARGS)
 
       - name: Save results to the repo
         run: |

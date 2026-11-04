@@ -25,7 +25,7 @@ python src/update.py
 4. Fills in results for past picks.
 5. Writes the dashboard files.
 
-GitHub Actions runs it every morning at 07:25 West Africa time (`.github/workflows/daily-update.yml`) and commits the new files to the repo. It needs the repository secrets `API_FOOTBALL_KEY` and `ODDS_API_KEY`. To update now, open the repo's Actions tab, pick "Daily update" and press "Run workflow".
+GitHub Actions runs it at 07:25, 13:00, 19:00 and 23:30 West Africa time (`.github/workflows/daily-update.yml`) and commits the new files to the repo. Only the 07:25 run uses The Odds API (500 free credits a month); the others and manual runs use `--no-europe`, keeping the morning's European picks and fetching results only. It needs the repository secrets `API_FOOTBALL_KEY` and `ODDS_API_KEY`. To update now, press "Get latest results" on the site (or open the repo's Actions tab, pick "Daily update" and press "Run workflow"), then "Reload" once it finishes.
 
 To run it on this PC instead, double-click `daily_update.bat` (it pulls first, then commits and pushes). `setup_daily_task.ps1` schedules that .bat in Windows; use either GitHub or the Windows task, not both. Options for `update.py`:
 

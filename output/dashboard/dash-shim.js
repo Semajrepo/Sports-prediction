@@ -24,6 +24,7 @@
     get colors() { return dark() ? DARK : LIGHT; },
     setLink(name) { history.replaceState(null, '', `#${name}`); },
     refresh(id) { load(id); },
+    refreshAll() { Object.keys(cache).forEach(load); notify(); },
     params() { return {}; }, setParams() {}, resetParams() {},
   };
 
