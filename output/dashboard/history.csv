@@ -1,4 +1,152 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-05-AGF-Aarhus-Sp-Braga|0,2026-11-05-AGF-Aarhus-Sp-Braga,2026-11-05,Conference League,AGF Aarhus,Sp Braga,,Best,Goals,Away Team Over/Under,Away Over 0.5,0.783,pending,Live
+2026-11-05-AGF-Aarhus-Sp-Braga|1,2026-11-05-AGF-Aarhus-Sp-Braga,2026-11-05,Conference League,AGF Aarhus,Sp Braga,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.742,pending,Live
+2026-11-05-AGF-Aarhus-Sp-Braga|2,2026-11-05-AGF-Aarhus-Sp-Braga,2026-11-05,Conference League,AGF Aarhus,Sp Braga,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.801,pending,Live
+2026-11-05-AGF-Aarhus-Sp-Braga|3,2026-11-05-AGF-Aarhus-Sp-Braga,2026-11-05,Conference League,AGF Aarhus,Sp Braga,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.796,pending,Live
+2026-11-05-Atalanta-FC-Kairat|0,2026-11-05-Atalanta-FC-Kairat,2026-11-05,Conference League,Atalanta,FC Kairat,,Best,Goals,Home Team Over/Under,Home Over 1.5,0.774,pending,Live
+2026-11-05-Atalanta-FC-Kairat|1,2026-11-05-Atalanta-FC-Kairat,2026-11-05,Conference League,Atalanta,FC Kairat,,Pick 1,Result,1X2 / Double Chance,Home,0.81,pending,Live
+2026-11-05-Atalanta-FC-Kairat|2,2026-11-05-Atalanta-FC-Kairat,2026-11-05,Conference League,Atalanta,FC Kairat,,Pick 2,Goals,Away Team Over/Under,Away Under 1.5,0.848,pending,Live
+2026-11-05-Atalanta-FC-Kairat|3,2026-11-05-Atalanta-FC-Kairat,2026-11-05,Conference League,Atalanta,FC Kairat,,Pick 3,Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,0.826,pending,Live
+2026-11-05-FC-Copenhagen-FC-Iberia-1999|0,2026-11-05-FC-Copenhagen-FC-Iberia-1999,2026-11-05,Conference League,FC Copenhagen,FC Iberia 1999,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.788,pending,Live
+2026-11-05-FC-Copenhagen-FC-Iberia-1999|1,2026-11-05-FC-Copenhagen-FC-Iberia-1999,2026-11-05,Conference League,FC Copenhagen,FC Iberia 1999,,Pick 1,Result,1X2 / Double Chance,Home,0.798,pending,Live
+2026-11-05-FC-Copenhagen-FC-Iberia-1999|2,2026-11-05-FC-Copenhagen-FC-Iberia-1999,2026-11-05,Conference League,FC Copenhagen,FC Iberia 1999,,Pick 2,Goals,Away Team Over/Under,Away Under 1.5,0.841,pending,Live
+2026-11-05-FC-Copenhagen-FC-Iberia-1999|3,2026-11-05-FC-Copenhagen-FC-Iberia-1999,2026-11-05,Conference League,FC Copenhagen,FC Iberia 1999,,Pick 3,Goals,Multigoals,Multigoals 1-5,0.826,pending,Live
+2026-11-05-FC-Lugano-FK-Kauno-algiris|0,2026-11-05-FC-Lugano-FK-Kauno-algiris,2026-11-05,Conference League,FC Lugano,FK Kauno Žalgiris,,Best,Goals,Home Team Over/Under,Home Over 1.5,0.781,pending,Live
+2026-11-05-FC-Lugano-FK-Kauno-algiris|1,2026-11-05-FC-Lugano-FK-Kauno-algiris,2026-11-05,Conference League,FC Lugano,FK Kauno Žalgiris,,Pick 1,Result,1X2 / Double Chance,Home,0.791,pending,Live
+2026-11-05-FC-Lugano-FK-Kauno-algiris|2,2026-11-05-FC-Lugano-FK-Kauno-algiris,2026-11-05,Conference League,FC Lugano,FK Kauno Žalgiris,,Pick 2,Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,0.829,pending,Live
+2026-11-05-FC-Lugano-FK-Kauno-algiris|3,2026-11-05-FC-Lugano-FK-Kauno-algiris,2026-11-05,Conference League,FC Lugano,FK Kauno Žalgiris,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.806,pending,Live
+2026-11-05-FC-Midtjylland-Ajax|0,2026-11-05-FC-Midtjylland-Ajax,2026-11-05,Conference League,FC Midtjylland,Ajax,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.788,pending,Live
+2026-11-05-FC-Midtjylland-Ajax|1,2026-11-05-FC-Midtjylland-Ajax,2026-11-05,Conference League,FC Midtjylland,Ajax,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.648,pending,Live
+2026-11-05-FC-Midtjylland-Ajax|2,2026-11-05-FC-Midtjylland-Ajax,2026-11-05,Conference League,FC Midtjylland,Ajax,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.846,pending,Live
+2026-11-05-FC-Midtjylland-Ajax|3,2026-11-05-FC-Midtjylland-Ajax,2026-11-05,Conference League,FC Midtjylland,Ajax,,Pick 3,Goals,Over/Under,Over 1.5,0.838,pending,Live
+2026-11-05-FC-Thun-Hearts|0,2026-11-05-FC-Thun-Hearts,2026-11-05,Conference League,FC Thun,Hearts,,Best,Goals,Over/Under,Under 4.5,0.788,pending,Live
+2026-11-05-FC-Thun-Hearts|1,2026-11-05-FC-Thun-Hearts,2026-11-05,Conference League,FC Thun,Hearts,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.654,pending,Live
+2026-11-05-FC-Thun-Hearts|2,2026-11-05-FC-Thun-Hearts,2026-11-05,Conference League,FC Thun,Hearts,,Pick 2,Goals,Over/Under,Over 1.5,0.83,pending,Live
+2026-11-05-FC-Thun-Hearts|3,2026-11-05-FC-Thun-Hearts,2026-11-05,Conference League,FC Thun,Hearts,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.808,pending,Live
+2026-11-05-Getafe-Brighton|0,2026-11-05-Getafe-Brighton,2026-11-05,Conference League,Getafe,Brighton,,Best,Result,1X2 / Double Chance,Home/Away,0.763,pending,Live
+2026-11-05-Getafe-Brighton|1,2026-11-05-Getafe-Brighton,2026-11-05,Conference League,Getafe,Brighton,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.841,pending,Live
+2026-11-05-Getafe-Brighton|2,2026-11-05-Getafe-Brighton,2026-11-05,Conference League,Getafe,Brighton,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.84,pending,Live
+2026-11-05-Getafe-Brighton|3,2026-11-05-Getafe-Brighton,2026-11-05,Conference League,Getafe,Brighton,,Pick 3,Goals,Home Team Over/Under,Home Under 1.5,0.798,pending,Live
+2026-11-05-KuPS-Kuopio-Gent|0,2026-11-05-KuPS-Kuopio-Gent,2026-11-05,Conference League,KuPS Kuopio,Gent,,Best,Goals,Home Team Over/Under,Home Under 1.5,0.769,pending,Live
+2026-11-05-KuPS-Kuopio-Gent|1,2026-11-05-KuPS-Kuopio-Gent,2026-11-05,Conference League,KuPS Kuopio,Gent,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.816,pending,Live
+2026-11-05-KuPS-Kuopio-Gent|2,2026-11-05-KuPS-Kuopio-Gent,2026-11-05,Conference League,KuPS Kuopio,Gent,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.83,pending,Live
+2026-11-05-KuPS-Kuopio-Gent|3,2026-11-05-KuPS-Kuopio-Gent,2026-11-05,Conference League,KuPS Kuopio,Gent,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.791,pending,Live
+2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split|0,2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split,2026-11-05,Conference League,Lincoln Red Imps FC,Hajduk Split,,Best,Goals,Multigoals,Multigoals 1-4,0.772,pending,Live
+2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split|1,2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split,2026-11-05,Conference League,Lincoln Red Imps FC,Hajduk Split,,Pick 1,Result,1X2 / Double Chance,Away,0.699,pending,Live
+2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split|2,2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split,2026-11-05,Conference League,Lincoln Red Imps FC,Hajduk Split,,Pick 2,Goals,Home Team Over/Under,Home Under 1.5,0.834,pending,Live
+2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split|3,2026-11-05-Lincoln-Red-Imps-FC-Hajduk-Split,2026-11-05,Conference League,Lincoln Red Imps FC,Hajduk Split,,Pick 3,Goals,Over/Under,Under 4.5,0.832,pending,Live
+2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka|0,2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka,2026-11-05,Conference League,Mjällby AIF,FK Borac Banja Luka,,Best,Goals,Over/Under,Under 3.5,0.758,pending,Live
+2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka|1,2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka,2026-11-05,Conference League,Mjällby AIF,FK Borac Banja Luka,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.708,pending,Live
+2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka|2,2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka,2026-11-05,Conference League,Mjällby AIF,FK Borac Banja Luka,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.836,pending,Live
+2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka|3,2026-11-05-Mj-llby-AIF-FK-Borac-Banja-Luka,2026-11-05,Conference League,Mjällby AIF,FK Borac Banja Luka,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.801,pending,Live
+2026-11-05-Monaco-FC-Nordsjaelland|0,2026-11-05-Monaco-FC-Nordsjaelland,2026-11-05,Conference League,Monaco,FC Nordsjaelland,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.778,pending,Live
+2026-11-05-Monaco-FC-Nordsjaelland|1,2026-11-05-Monaco-FC-Nordsjaelland,2026-11-05,Conference League,Monaco,FC Nordsjaelland,,Pick 1,Result,1X2 / Double Chance,Home,0.654,pending,Live
+2026-11-05-Monaco-FC-Nordsjaelland|2,2026-11-05-Monaco-FC-Nordsjaelland,2026-11-05,Conference League,Monaco,FC Nordsjaelland,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.834,pending,Live
+2026-11-05-Monaco-FC-Nordsjaelland|3,2026-11-05-Monaco-FC-Nordsjaelland,2026-11-05,Conference League,Monaco,FC Nordsjaelland,,Pick 3,Goals,Over/Under,Under 4.5,0.748,pending,Live
+2026-11-05-Panathinaikos-PFC-CSKA-Sofia|0,2026-11-05-Panathinaikos-PFC-CSKA-Sofia,2026-11-05,Conference League,Panathinaikos,PFC CSKA Sofia,,Best,Result,1X2 / Double Chance,Home/Away,0.778,pending,Live
+2026-11-05-Panathinaikos-PFC-CSKA-Sofia|1,2026-11-05-Panathinaikos-PFC-CSKA-Sofia,2026-11-05,Conference League,Panathinaikos,PFC CSKA Sofia,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.831,pending,Live
+2026-11-05-Panathinaikos-PFC-CSKA-Sofia|2,2026-11-05-Panathinaikos-PFC-CSKA-Sofia,2026-11-05,Conference League,Panathinaikos,PFC CSKA Sofia,,Pick 2,Goals,Over/Under,Under 4.5,0.819,pending,Live
+2026-11-05-Panathinaikos-PFC-CSKA-Sofia|3,2026-11-05-Panathinaikos-PFC-CSKA-Sofia,2026-11-05,Conference League,Panathinaikos,PFC CSKA Sofia,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.771,pending,Live
+2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes|0,2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes,2026-11-05,Conference League,Red Star Belgrade,Inter Club d'Escaldes,,Best,Goals,Multigoals,Multigoals 1-5,0.789,pending,Live
+2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes|1,2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes,2026-11-05,Conference League,Red Star Belgrade,Inter Club d'Escaldes,,Pick 1,Result,1X2 / Double Chance,Home,0.891,pending,Live
+2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes|2,2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes,2026-11-05,Conference League,Red Star Belgrade,Inter Club d'Escaldes,,Pick 2,Goals,Home Team Over/Under,Home Over 1.5,0.843,pending,Live
+2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes|3,2026-11-05-Red-Star-Belgrade-Inter-Club-d-Escaldes,2026-11-05,Conference League,Red Star Belgrade,Inter Club d'Escaldes,,Pick 3,Goals,Double Chance & Over/Under,Home/Away & Over 1.5,0.838,pending,Live
+2026-11-05-Riga-FC-FK-Jablonec|0,2026-11-05-Riga-FC-FK-Jablonec,2026-11-05,Conference League,Riga FC,FK Jablonec,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.761,pending,Live
+2026-11-05-Riga-FC-FK-Jablonec|1,2026-11-05-Riga-FC-FK-Jablonec,2026-11-05,Conference League,Riga FC,FK Jablonec,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.683,pending,Live
+2026-11-05-Riga-FC-FK-Jablonec|2,2026-11-05-Riga-FC-FK-Jablonec,2026-11-05,Conference League,Riga FC,FK Jablonec,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.826,pending,Live
+2026-11-05-Riga-FC-FK-Jablonec|3,2026-11-05-Riga-FC-FK-Jablonec,2026-11-05,Conference League,Riga FC,FK Jablonec,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.791,pending,Live
+2026-11-05-St-Truiden-SK-Brann|0,2026-11-05-St-Truiden-SK-Brann,2026-11-05,Conference League,St Truiden,SK Brann,,Best,Goals,Multigoals,Multigoals 2-6,0.786,pending,Live
+2026-11-05-St-Truiden-SK-Brann|1,2026-11-05-St-Truiden-SK-Brann,2026-11-05,Conference League,St Truiden,SK Brann,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.783,pending,Live
+2026-11-05-St-Truiden-SK-Brann|2,2026-11-05-St-Truiden-SK-Brann,2026-11-05,Conference League,St Truiden,SK Brann,,Pick 2,Goals,Over/Under,Over 1.5,0.827,pending,Live
+2026-11-05-St-Truiden-SK-Brann|3,2026-11-05-St-Truiden-SK-Brann,2026-11-05,Conference League,St Truiden,SK Brann,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.786,pending,Live
+2026-11-05-Trabzonspor-Freiburg|0,2026-11-05-Trabzonspor-Freiburg,2026-11-05,Conference League,Trabzonspor,Freiburg,,Best,Goals,Over/Under,Under 4.5,0.788,pending,Live
+2026-11-05-Trabzonspor-Freiburg|1,2026-11-05-Trabzonspor-Freiburg,2026-11-05,Conference League,Trabzonspor,Freiburg,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.629,pending,Live
+2026-11-05-Trabzonspor-Freiburg|2,2026-11-05-Trabzonspor-Freiburg,2026-11-05,Conference League,Trabzonspor,Freiburg,,Pick 2,Goals,Over/Under,Over 1.5,0.83,pending,Live
+2026-11-05-Trabzonspor-Freiburg|3,2026-11-05-Trabzonspor-Freiburg,2026-11-05,Conference League,Trabzonspor,Freiburg,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.796,pending,Live
+2026-11-05-Twente-Pafos-FC|0,2026-11-05-Twente-Pafos-FC,2026-11-05,Conference League,Twente,Pafos FC,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.782,pending,Live
+2026-11-05-Twente-Pafos-FC|1,2026-11-05-Twente-Pafos-FC,2026-11-05,Conference League,Twente,Pafos FC,,Pick 1,Result,1X2 / Double Chance,Home,0.717,pending,Live
+2026-11-05-Twente-Pafos-FC|2,2026-11-05-Twente-Pafos-FC,2026-11-05,Conference League,Twente,Pafos FC,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.831,pending,Live
+2026-11-05-Twente-Pafos-FC|3,2026-11-05-Twente-Pafos-FC,2026-11-05,Conference League,Twente,Pafos FC,,Pick 3,Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,0.774,pending,Live
+2026-11-05-Universitatea-Craiova-KF-Egnatia|0,2026-11-05-Universitatea-Craiova-KF-Egnatia,2026-11-05,Conference League,Universitatea Craiova,KF Egnatia,,Best,Goals,Over/Under,Over 1.5,0.785,pending,Live
+2026-11-05-Universitatea-Craiova-KF-Egnatia|1,2026-11-05-Universitatea-Craiova-KF-Egnatia,2026-11-05,Conference League,Universitatea Craiova,KF Egnatia,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.85,pending,Live
+2026-11-05-Universitatea-Craiova-KF-Egnatia|2,2026-11-05-Universitatea-Craiova-KF-Egnatia,2026-11-05,Conference League,Universitatea Craiova,KF Egnatia,,Pick 2,Goals,Over/Under,Under 4.5,0.838,pending,Live
+2026-11-05-Universitatea-Craiova-KF-Egnatia|3,2026-11-05-Universitatea-Craiova-KF-Egnatia,2026-11-05,Conference League,Universitatea Craiova,KF Egnatia,,Pick 3,Goals,Away Team Over/Under,Away Under 1.5,0.783,pending,Live
+2026-11-05-Alcoyano-Mallorca|0,2026-11-05-Alcoyano-Mallorca,2026-11-05,Copa del Rey,Alcoyano,Mallorca,,Best,Result,1X2 / Double Chance,Home/Away,0.757,pending,Live
+2026-11-05-Alcoyano-Mallorca|1,2026-11-05-Alcoyano-Mallorca,2026-11-05,Copa del Rey,Alcoyano,Mallorca,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.839,pending,Live
+2026-11-05-Alcoyano-Mallorca|2,2026-11-05-Alcoyano-Mallorca,2026-11-05,Copa del Rey,Alcoyano,Mallorca,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.83,pending,Live
+2026-11-05-Alcoyano-Mallorca|3,2026-11-05-Alcoyano-Mallorca,2026-11-05,Copa del Rey,Alcoyano,Mallorca,,Pick 3,Goals,Home Team Over/Under,Home Under 1.5,0.805,pending,Live
+2026-11-05-Taranc-n-Levante|0,2026-11-05-Taranc-n-Levante,2026-11-05,Copa del Rey,Tarancón,Levante,,Best,Goals,Double Chance & Over/Under,Home/Away & Over 2.5,0.773,pending,Live
+2026-11-05-Taranc-n-Levante|1,2026-11-05-Taranc-n-Levante,2026-11-05,Copa del Rey,Tarancón,Levante,,Pick 1,Result,1X2 / Double Chance,Away,0.798,pending,Live
+2026-11-05-Taranc-n-Levante|2,2026-11-05-Taranc-n-Levante,2026-11-05,Copa del Rey,Tarancón,Levante,,Pick 2,Goals,Double Chance & Over/Under,Home/Away & Over 1.5,0.84,pending,Live
+2026-11-05-Taranc-n-Levante|3,2026-11-05-Taranc-n-Levante,2026-11-05,Copa del Rey,Tarancón,Levante,,Pick 3,Goals,Over/Under,Over 2.5,0.835,pending,Live
+2026-11-05-AZ-Alkmaar-Juventus|0,2026-11-05-AZ-Alkmaar-Juventus,2026-11-05,Europa League,AZ Alkmaar,Juventus,,Best,Goals,Over/Under,Over 1.5,0.779,pending,Live
+2026-11-05-AZ-Alkmaar-Juventus|1,2026-11-05-AZ-Alkmaar-Juventus,2026-11-05,Europa League,AZ Alkmaar,Juventus,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.744,pending,Live
+2026-11-05-AZ-Alkmaar-Juventus|2,2026-11-05-AZ-Alkmaar-Juventus,2026-11-05,Europa League,AZ Alkmaar,Juventus,,Pick 2,Goals,Over/Under,Under 4.5,0.845,pending,Live
+2026-11-05-AZ-Alkmaar-Juventus|3,2026-11-05-AZ-Alkmaar-Juventus,2026-11-05,Europa League,AZ Alkmaar,Juventus,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.812,pending,Live
+2026-11-05-Anderlecht-Salzburg|0,2026-11-05-Anderlecht-Salzburg,2026-11-05,Europa League,Anderlecht,Salzburg,,Best,Goals,Multigoals,Multigoals 2-6,0.781,pending,Live
+2026-11-05-Anderlecht-Salzburg|1,2026-11-05-Anderlecht-Salzburg,2026-11-05,Europa League,Anderlecht,Salzburg,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.738,pending,Live
+2026-11-05-Anderlecht-Salzburg|2,2026-11-05-Anderlecht-Salzburg,2026-11-05,Europa League,Anderlecht,Salzburg,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.836,pending,Live
+2026-11-05-Anderlecht-Salzburg|3,2026-11-05-Anderlecht-Salzburg,2026-11-05,Europa League,Anderlecht,Salzburg,,Pick 3,Goals,Over/Under,Over 1.5,0.819,pending,Live
+2026-11-05-Benfica-Lech-Pozna|0,2026-11-05-Benfica-Lech-Pozna,2026-11-05,Europa League,Benfica,Lech Poznań,,Best,Goals,Over/Under,Over 2.5,0.731,pending,Live
+2026-11-05-Benfica-Lech-Pozna|1,2026-11-05-Benfica-Lech-Pozna,2026-11-05,Europa League,Benfica,Lech Poznań,,Pick 1,Result,1X2 / Double Chance,Home,0.819,pending,Live
+2026-11-05-Benfica-Lech-Pozna|2,2026-11-05-Benfica-Lech-Pozna,2026-11-05,Europa League,Benfica,Lech Poznań,,Pick 2,Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,0.849,pending,Live
+2026-11-05-Benfica-Lech-Pozna|3,2026-11-05-Benfica-Lech-Pozna,2026-11-05,Europa League,Benfica,Lech Poznań,,Pick 3,Goals,Away Team Over/Under,Away Under 1.5,0.82,pending,Live
+2026-11-05-Celta-St-Gilloise|0,2026-11-05-Celta-St-Gilloise,2026-11-05,Europa League,Celta,St. Gilloise,,Best,Goals,Home Team Over/Under,Home Under 2.5,0.776,pending,Live
+2026-11-05-Celta-St-Gilloise|1,2026-11-05-Celta-St-Gilloise,2026-11-05,Europa League,Celta,St. Gilloise,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.694,pending,Live
+2026-11-05-Celta-St-Gilloise|2,2026-11-05-Celta-St-Gilloise,2026-11-05,Europa League,Celta,St. Gilloise,,Pick 2,Goals,Over/Under,Under 4.5,0.822,pending,Live
+2026-11-05-Celta-St-Gilloise|3,2026-11-05-Celta-St-Gilloise,2026-11-05,Europa League,Celta,St. Gilloise,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.804,pending,Live
+2026-11-05-Celtic-Besiktas|0,2026-11-05-Celtic-Besiktas,2026-11-05,Europa League,Celtic,Besiktas,,Best,Goals,Multigoals,Multigoals 2-6,0.783,pending,Live
+2026-11-05-Celtic-Besiktas|1,2026-11-05-Celtic-Besiktas,2026-11-05,Europa League,Celtic,Besiktas,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.693,pending,Live
+2026-11-05-Celtic-Besiktas|2,2026-11-05-Celtic-Besiktas,2026-11-05,Europa League,Celtic,Besiktas,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.836,pending,Live
+2026-11-05-Celtic-Besiktas|3,2026-11-05-Celtic-Besiktas,2026-11-05,Europa League,Celtic,Besiktas,,Pick 3,Goals,Over/Under,Over 1.5,0.822,pending,Live
+2026-11-05-Crystal-Palace-Hoffenheim|0,2026-11-05-Crystal-Palace-Hoffenheim,2026-11-05,Europa League,Crystal Palace,Hoffenheim,,Best,Goals,Multigoals,Multigoals 2-6,0.789,pending,Live
+2026-11-05-Crystal-Palace-Hoffenheim|1,2026-11-05-Crystal-Palace-Hoffenheim,2026-11-05,Europa League,Crystal Palace,Hoffenheim,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.73,pending,Live
+2026-11-05-Crystal-Palace-Hoffenheim|2,2026-11-05-Crystal-Palace-Hoffenheim,2026-11-05,Europa League,Crystal Palace,Hoffenheim,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.849,pending,Live
+2026-11-05-Crystal-Palace-Hoffenheim|3,2026-11-05-Crystal-Palace-Hoffenheim,2026-11-05,Europa League,Crystal Palace,Hoffenheim,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.843,pending,Live
+2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete|0,2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete,2026-11-05,Europa League,Hapoel Be'er Sheva,OFI Crete,,Best,Goals,Multigoals,Multigoals 2-6,0.772,pending,Live
+2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete|1,2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete,2026-11-05,Europa League,Hapoel Be'er Sheva,OFI Crete,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.706,pending,Live
+2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete|2,2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete,2026-11-05,Europa League,Hapoel Be'er Sheva,OFI Crete,,Pick 2,Goals,Over/Under,Under 4.5,0.819,pending,Live
+2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete|3,2026-11-05-Hapoel-Be-er-Sheva-OFI-Crete,2026-11-05,Europa League,Hapoel Be'er Sheva,OFI Crete,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.812,pending,Live
+2026-11-05-Leverkusen-Marseille|0,2026-11-05-Leverkusen-Marseille,2026-11-05,Europa League,Leverkusen,Marseille,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.778,pending,Live
+2026-11-05-Leverkusen-Marseille|1,2026-11-05-Leverkusen-Marseille,2026-11-05,Europa League,Leverkusen,Marseille,,Pick 1,Result,1X2 / Double Chance,Home,0.679,pending,Live
+2026-11-05-Leverkusen-Marseille|2,2026-11-05-Leverkusen-Marseille,2026-11-05,Europa League,Leverkusen,Marseille,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.834,pending,Live
+2026-11-05-Leverkusen-Marseille|3,2026-11-05-Leverkusen-Marseille,2026-11-05,Europa League,Leverkusen,Marseille,,Pick 3,Goals,Double Chance & Over/Under,Home/Draw & Over 1.5,0.75,pending,Live
+2026-11-05-Lillestrom-Viktoria-Plze|0,2026-11-05-Lillestrom-Viktoria-Plze,2026-11-05,Europa League,Lillestrom,Viktoria Plzeň,,Best,Goals,Multigoals,Multigoals 2-6,0.783,pending,Live
+2026-11-05-Lillestrom-Viktoria-Plze|1,2026-11-05-Lillestrom-Viktoria-Plze,2026-11-05,Europa League,Lillestrom,Viktoria Plzeň,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.668,pending,Live
+2026-11-05-Lillestrom-Viktoria-Plze|2,2026-11-05-Lillestrom-Viktoria-Plze,2026-11-05,Europa League,Lillestrom,Viktoria Plzeň,,Pick 2,Goals,Over/Under,Over 1.5,0.822,pending,Live
+2026-11-05-Lillestrom-Viktoria-Plze|3,2026-11-05-Lillestrom-Viktoria-Plze,2026-11-05,Europa League,Lillestrom,Viktoria Plzeň,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.821,pending,Live
+2026-11-05-Milan-Ferencv-ros-TC|0,2026-11-05-Milan-Ferencv-ros-TC,2026-11-05,Europa League,Milan,Ferencváros TC,,Best,Goals,Over/Under,Under 4.5,0.777,pending,Live
+2026-11-05-Milan-Ferencv-ros-TC|1,2026-11-05-Milan-Ferencv-ros-TC,2026-11-05,Europa League,Milan,Ferencváros TC,,Pick 1,Result,1X2 / Double Chance,Home,0.723,pending,Live
+2026-11-05-Milan-Ferencv-ros-TC|2,2026-11-05-Milan-Ferencv-ros-TC,2026-11-05,Europa League,Milan,Ferencváros TC,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.848,pending,Live
+2026-11-05-Milan-Ferencv-ros-TC|3,2026-11-05-Milan-Ferencv-ros-TC,2026-11-05,Europa League,Milan,Ferencváros TC,,Pick 3,Goals,Over/Under,Over 1.5,0.836,pending,Live
+2026-11-05-Nijmegen-Omonoia-FC|0,2026-11-05-Nijmegen-Omonoia-FC,2026-11-05,Europa League,Nijmegen,Omonoia FC,,Best,Goals,Multigoals,Multigoals 2-6,0.784,pending,Live
+2026-11-05-Nijmegen-Omonoia-FC|1,2026-11-05-Nijmegen-Omonoia-FC,2026-11-05,Europa League,Nijmegen,Omonoia FC,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.766,pending,Live
+2026-11-05-Nijmegen-Omonoia-FC|2,2026-11-05-Nijmegen-Omonoia-FC,2026-11-05,Europa League,Nijmegen,Omonoia FC,,Pick 2,Goals,Over/Under,Over 1.5,0.824,pending,Live
+2026-11-05-Nijmegen-Omonoia-FC|3,2026-11-05-Nijmegen-Omonoia-FC,2026-11-05,Europa League,Nijmegen,Omonoia FC,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.784,pending,Live
+2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok|0,2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok,2026-11-05,Europa League,PFC Levski Sofia,Jagiellonia Białystok,,Best,Goals,Multigoals,Multigoals 1-4,0.782,pending,Live
+2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok|1,2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok,2026-11-05,Europa League,PFC Levski Sofia,Jagiellonia Białystok,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.738,pending,Live
+2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok|2,2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok,2026-11-05,Europa League,PFC Levski Sofia,Jagiellonia Białystok,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.804,pending,Live
+2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok|3,2026-11-05-PFC-Levski-Sofia-Jagiellonia-Bia-ystok,2026-11-05,Europa League,PFC Levski Sofia,Jagiellonia Białystok,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.782,pending,Live
+2026-11-05-SK-Sturm-Graz-NK-Celje|0,2026-11-05-SK-Sturm-Graz-NK-Celje,2026-11-05,Europa League,SK Sturm Graz,NK Celje,,Best,Result,1X2 / Double Chance,Home/Away,0.782,pending,Live
+2026-11-05-SK-Sturm-Graz-NK-Celje|1,2026-11-05-SK-Sturm-Graz-NK-Celje,2026-11-05,Europa League,SK Sturm Graz,NK Celje,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.825,pending,Live
+2026-11-05-SK-Sturm-Graz-NK-Celje|2,2026-11-05-SK-Sturm-Graz-NK-Celje,2026-11-05,Europa League,SK Sturm Graz,NK Celje,,Pick 2,Goals,Over/Under,Over 1.5,0.821,pending,Live
+2026-11-05-SK-Sturm-Graz-NK-Celje|3,2026-11-05-SK-Sturm-Graz-NK-Celje,2026-11-05,Europa League,SK Sturm Graz,NK Celje,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.782,pending,Live
+2026-11-05-Sociedad-Lyon|0,2026-11-05-Sociedad-Lyon,2026-11-05,Europa League,Sociedad,Lyon,,Best,Goals,Multigoals,Multigoals 2-6,0.786,pending,Live
+2026-11-05-Sociedad-Lyon|1,2026-11-05-Sociedad-Lyon,2026-11-05,Europa League,Sociedad,Lyon,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.754,pending,Live
+2026-11-05-Sociedad-Lyon|2,2026-11-05-Sociedad-Lyon,2026-11-05,Europa League,Sociedad,Lyon,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.849,pending,Live
+2026-11-05-Sociedad-Lyon|3,2026-11-05-Sociedad-Lyon,2026-11-05,Europa League,Sociedad,Lyon,,Pick 3,Goals,Over/Under,Over 1.5,0.827,pending,Live
+2026-11-05-Sparta-Prague-Bournemouth|0,2026-11-05-Sparta-Prague-Bournemouth,2026-11-05,Europa League,Sparta Prague,Bournemouth,,Best,Goals,Multigoals,Multigoals 2-6,0.782,pending,Live
+2026-11-05-Sparta-Prague-Bournemouth|1,2026-11-05-Sparta-Prague-Bournemouth,2026-11-05,Europa League,Sparta Prague,Bournemouth,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.844,pending,Live
+2026-11-05-Sparta-Prague-Bournemouth|2,2026-11-05-Sparta-Prague-Bournemouth,2026-11-05,Europa League,Sparta Prague,Bournemouth,,Pick 2,Goals,Over/Under,Over 1.5,0.821,pending,Live
+2026-11-05-Sparta-Prague-Bournemouth|3,2026-11-05-Sparta-Prague-Bournemouth,2026-11-05,Europa League,Sparta Prague,Bournemouth,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.782,pending,Live
+2026-11-05-Sunderland-Dinamo-Zagreb|0,2026-11-05-Sunderland-Dinamo-Zagreb,2026-11-05,Europa League,Sunderland,Dinamo Zagreb,,Best,Result,1X2 / Double Chance,Home/Away,0.789,pending,Live
+2026-11-05-Sunderland-Dinamo-Zagreb|1,2026-11-05-Sunderland-Dinamo-Zagreb,2026-11-05,Europa League,Sunderland,Dinamo Zagreb,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.856,pending,Live
+2026-11-05-Sunderland-Dinamo-Zagreb|2,2026-11-05-Sunderland-Dinamo-Zagreb,2026-11-05,Europa League,Sunderland,Dinamo Zagreb,,Pick 2,Goals,Over/Under,Under 4.5,0.819,pending,Live
+2026-11-05-Sunderland-Dinamo-Zagreb|3,2026-11-05-Sunderland-Dinamo-Zagreb,2026-11-05,Europa League,Sunderland,Dinamo Zagreb,,Pick 3,Goals,Away Team Over/Under,Away Under 1.5,0.776,pending,Live
+2026-11-05-Torreense-FC-Ararat-Armenia|0,2026-11-05-Torreense-FC-Ararat-Armenia,2026-11-05,Europa League,Torreense,FC Ararat-Armenia,,Best,Goals,Home Team Over/Under,Home Under 2.5,0.77,pending,Live
+2026-11-05-Torreense-FC-Ararat-Armenia|1,2026-11-05-Torreense-FC-Ararat-Armenia,2026-11-05,Europa League,Torreense,FC Ararat-Armenia,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.795,pending,Live
+2026-11-05-Torreense-FC-Ararat-Armenia|2,2026-11-05-Torreense-FC-Ararat-Armenia,2026-11-05,Europa League,Torreense,FC Ararat-Armenia,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.808,pending,Live
+2026-11-05-Torreense-FC-Ararat-Armenia|3,2026-11-05-Torreense-FC-Ararat-Armenia,2026-11-05,Europa League,Torreense,FC Ararat-Armenia,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.797,pending,Live
 2026-11-04-KV-Kortrijk-KV-Mechelen|0,2026-11-04-KV-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,KV Kortrijk,KV Mechelen,,Best,Goals,Multigoals,Multigoals 1-4,0.782,pending,Live
 2026-11-04-KV-Kortrijk-KV-Mechelen|1,2026-11-04-KV-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,KV Kortrijk,KV Mechelen,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.643,pending,Live
 2026-11-04-KV-Kortrijk-KV-Mechelen|2,2026-11-04-KV-Kortrijk-KV-Mechelen,2026-11-04,Belgium Pro League,KV Kortrijk,KV Mechelen,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.841,pending,Live
