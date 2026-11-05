@@ -83,10 +83,10 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-11-04-Wrexham-Middlesbrough|1,2026-11-04-Wrexham-Middlesbrough,2026-11-04,England Championship,Wrexham,Middlesbrough,2-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.766,lost,Live
 2026-11-04-Wrexham-Middlesbrough|2,2026-11-04-Wrexham-Middlesbrough,2026-11-04,England Championship,Wrexham,Middlesbrough,2-0,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.843,lost,Live
 2026-11-04-Wrexham-Middlesbrough|3,2026-11-04-Wrexham-Middlesbrough,2026-11-04,England Championship,Wrexham,Middlesbrough,2-0,Pick 3,Goals,Over/Under,Under 4.5,0.812,won,Live
-2026-11-04-Oxford-Reading|0,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Best,Goals,Away Team Over/Under,Away Over 0.5,0.77,pending,Live
-2026-11-04-Oxford-Reading|1,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.64,pending,Live
-2026-11-04-Oxford-Reading|2,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Pick 2,Goals,Over/Under,Under 4.5,0.832,pending,Live
-2026-11-04-Oxford-Reading|3,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.826,pending,Live
+2026-11-04-Oxford-Reading|0,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,2-0,Best,Goals,Away Team Over/Under,Away Over 0.5,0.77,lost,Live
+2026-11-04-Oxford-Reading|1,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,2-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.64,lost,Live
+2026-11-04-Oxford-Reading|2,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,2-0,Pick 2,Goals,Over/Under,Under 4.5,0.832,won,Live
+2026-11-04-Oxford-Reading|3,2026-11-04-Oxford-Reading,2026-11-04,England League One,Oxford,Reading,2-0,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.826,won,Live
 2026-11-04-Oxford-Utd-Reading|0,2026-11-04-Oxford-Utd-Reading,2026-11-04,England League One,Oxford Utd,Reading,2-0,Best,Goals,Away Team Over/Under,Away Over 0.5,0.775,lost,Live
 2026-11-04-Oxford-Utd-Reading|1,2026-11-04-Oxford-Utd-Reading,2026-11-04,England League One,Oxford Utd,Reading,2-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.644,lost,Live
 2026-11-04-Oxford-Utd-Reading|2,2026-11-04-Oxford-Utd-Reading,2026-11-04,England League One,Oxford Utd,Reading,2-0,Pick 2,Goals,Over/Under,Under 4.5,0.829,won,Live
@@ -159,13 +159,13 @@ pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,
 2026-11-03-Portsmouth-Swansea|1,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,3-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.644,lost,Live
 2026-11-03-Portsmouth-Swansea|2,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,3-1,Pick 2,Goals,Multigoals,Multigoals 1-4,0.796,won,Live
 2026-11-03-Portsmouth-Swansea|3,2026-11-03-Portsmouth-Swansea,2026-11-03,England Championship,Portsmouth,Swansea,3-1,Pick 3,Goals,Over/Under,Over 1.5,0.74,won,Live
-2026-11-03-Preston-Sheffield-United|0,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Best,Goals,Away Team Over/Under,Away Under 2.5,0.786,pending,Live
+2026-11-03-Preston-Sheffield-United|0,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,2-3,Best,Goals,Away Team Over/Under,Away Under 2.5,0.786,lost,Live
 2026-11-03-Preston-Sheffield-Utd|0,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Best,Goals,Multigoals,Multigoals 1-4,0.78,lost,Live
-2026-11-03-Preston-Sheffield-United|1,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.707,pending,Live
+2026-11-03-Preston-Sheffield-United|1,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,2-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.707,won,Live
 2026-11-03-Preston-Sheffield-Utd|1,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.733,won,Live
-2026-11-03-Preston-Sheffield-United|2,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Pick 2,Goals,Over/Under,Under 4.5,0.841,pending,Live
+2026-11-03-Preston-Sheffield-United|2,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,2-3,Pick 2,Goals,Over/Under,Under 4.5,0.841,lost,Live
 2026-11-03-Preston-Sheffield-Utd|2,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Pick 2,Goals,Over/Under,Under 4.5,0.848,lost,Live
-2026-11-03-Preston-Sheffield-United|3,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.796,pending,Live
+2026-11-03-Preston-Sheffield-United|3,2026-11-03-Preston-Sheffield-United,2026-11-03,England Championship,Preston,Sheffield United,2-3,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.796,won,Live
 2026-11-03-Preston-Sheffield-Utd|3,2026-11-03-Preston-Sheffield-Utd,2026-11-03,England Championship,Preston,Sheffield Utd,2-3,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.804,won,Live
 2026-11-03-QPR-Burnley|0,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,1-1,Best,Goals,Multigoals,Multigoals 2-6,0.77,won,Live
 2026-11-03-QPR-Burnley|1,2026-11-03-QPR-Burnley,2026-11-03,England Championship,QPR,Burnley,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.727,won,Live
