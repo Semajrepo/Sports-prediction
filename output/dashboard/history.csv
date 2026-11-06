@@ -1,4 +1,44 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-06-Standard-Beveren|0,2026-11-06-Standard-Beveren,2026-11-06,Belgium Pro League,Standard,Beveren,,Best,Goals,Multigoals,Multigoals 2-6,0.774,pending,Live
+2026-11-06-Standard-Beveren|1,2026-11-06-Standard-Beveren,2026-11-06,Belgium Pro League,Standard,Beveren,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.733,pending,Live
+2026-11-06-Standard-Beveren|2,2026-11-06-Standard-Beveren,2026-11-06,Belgium Pro League,Standard,Beveren,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.826,pending,Live
+2026-11-06-Standard-Beveren|3,2026-11-06-Standard-Beveren,2026-11-06,Belgium Pro League,Standard,Beveren,,Pick 3,Goals,Over/Under,Under 4.5,0.815,pending,Live
+2026-11-06-Derby-Bolton|0,2026-11-06-Derby-Bolton,2026-11-06,England Championship,Derby,Bolton,,Best,Goals,Away Team Over/Under,Away Over 0.5,0.77,pending,Live
+2026-11-06-Derby-Bolton|1,2026-11-06-Derby-Bolton,2026-11-06,England Championship,Derby,Bolton,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.64,pending,Live
+2026-11-06-Derby-Bolton|2,2026-11-06-Derby-Bolton,2026-11-06,England Championship,Derby,Bolton,,Pick 2,Goals,Over/Under,Under 4.5,0.832,pending,Live
+2026-11-06-Derby-Bolton|3,2026-11-06-Derby-Bolton,2026-11-06,England Championship,Derby,Bolton,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.826,pending,Live
+2026-11-06-Everton-Coventry|0,2026-11-06-Everton-Coventry,2026-11-06,England Premier League,Everton,Coventry,,Best,Goals,Multigoals,Multigoals 1-4,0.77,pending,Live
+2026-11-06-Everton-Coventry|1,2026-11-06-Everton-Coventry,2026-11-06,England Premier League,Everton,Coventry,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.801,pending,Live
+2026-11-06-Everton-Coventry|2,2026-11-06-Everton-Coventry,2026-11-06,England Premier League,Everton,Coventry,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.846,pending,Live
+2026-11-06-Everton-Coventry|3,2026-11-06-Everton-Coventry,2026-11-06,England Premier League,Everton,Coventry,,Pick 3,Corners,Away Team Corners,Away Corners Under 6.5,0.846,pending,Live
+2026-11-06-Toulouse-Strasbourg|0,2026-11-06-Toulouse-Strasbourg,2026-11-06,France Ligue 1,Toulouse,Strasbourg,,Best,Goals,Home Team Over/Under,Home Under 2.5,0.776,pending,Live
+2026-11-06-Toulouse-Strasbourg|1,2026-11-06-Toulouse-Strasbourg,2026-11-06,France Ligue 1,Toulouse,Strasbourg,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.684,pending,Live
+2026-11-06-Toulouse-Strasbourg|2,2026-11-06-Toulouse-Strasbourg,2026-11-06,France Ligue 1,Toulouse,Strasbourg,,Pick 2,Cards,Home Team Cards,Home Cards Over 0.5,0.846,pending,Live
+2026-11-06-Toulouse-Strasbourg|3,2026-11-06-Toulouse-Strasbourg,2026-11-06,France Ligue 1,Toulouse,Strasbourg,,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.841,pending,Live
+2026-11-06-Hamburg-M-gladbach|0,2026-11-06-Hamburg-M-gladbach,2026-11-06,Germany Bundesliga,Hamburg,M'gladbach,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.788,pending,Live
+2026-11-06-Hamburg-M-gladbach|1,2026-11-06-Hamburg-M-gladbach,2026-11-06,Germany Bundesliga,Hamburg,M'gladbach,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.665,pending,Live
+2026-11-06-Hamburg-M-gladbach|2,2026-11-06-Hamburg-M-gladbach,2026-11-06,Germany Bundesliga,Hamburg,M'gladbach,,Pick 2,Corners,Home Team Corners,Home Corners Under 7.5,0.848,pending,Live
+2026-11-06-Hamburg-M-gladbach|3,2026-11-06-Hamburg-M-gladbach,2026-11-06,Germany Bundesliga,Hamburg,M'gladbach,,Pick 3,Cards,Home Team Cards,Home Cards Under 3.5,0.837,pending,Live
+2026-11-06-Venezia-Udinese|0,2026-11-06-Venezia-Udinese,2026-11-06,Italy Serie A,Venezia,Udinese,,Best,Cards,Home Team Cards,Home Cards Under 2.5,0.782,pending,Live
+2026-11-06-Venezia-Udinese|1,2026-11-06-Venezia-Udinese,2026-11-06,Italy Serie A,Venezia,Udinese,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.687,pending,Live
+2026-11-06-Venezia-Udinese|2,2026-11-06-Venezia-Udinese,2026-11-06,Italy Serie A,Venezia,Udinese,,Pick 2,Cards,Total Cards,Cards Under 5.5,0.836,pending,Live
+2026-11-06-Venezia-Udinese|3,2026-11-06-Venezia-Udinese,2026-11-06,Italy Serie A,Venezia,Udinese,,Pick 3,Corners,Total Corners,Corners Under 12.5,0.823,pending,Live
+2026-11-06-Willem-II-Zwolle|0,2026-11-06-Willem-II-Zwolle,2026-11-06,Netherlands Eredivisie,Willem II,Zwolle,,Best,Goals,Multigoals,Multigoals 2-6,0.772,pending,Live
+2026-11-06-Willem-II-Zwolle|1,2026-11-06-Willem-II-Zwolle,2026-11-06,Netherlands Eredivisie,Willem II,Zwolle,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.706,pending,Live
+2026-11-06-Willem-II-Zwolle|2,2026-11-06-Willem-II-Zwolle,2026-11-06,Netherlands Eredivisie,Willem II,Zwolle,,Pick 2,Goals,Over/Under,Under 4.5,0.819,pending,Live
+2026-11-06-Willem-II-Zwolle|3,2026-11-06-Willem-II-Zwolle,2026-11-06,Netherlands Eredivisie,Willem II,Zwolle,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.812,pending,Live
+2026-11-06-Famalicao-Arouca|0,2026-11-06-Famalicao-Arouca,2026-11-06,Portugal Primeira Liga,Famalicao,Arouca,,Best,Goals,Over/Under,Under 3.5,0.775,pending,Live
+2026-11-06-Famalicao-Arouca|1,2026-11-06-Famalicao-Arouca,2026-11-06,Portugal Primeira Liga,Famalicao,Arouca,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.702,pending,Live
+2026-11-06-Famalicao-Arouca|2,2026-11-06-Famalicao-Arouca,2026-11-06,Portugal Primeira Liga,Famalicao,Arouca,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.805,pending,Live
+2026-11-06-Famalicao-Arouca|3,2026-11-06-Famalicao-Arouca,2026-11-06,Portugal Primeira Liga,Famalicao,Arouca,,Pick 3,Goals,Over/Under,Under 3.5,0.775,pending,Live
+2026-11-06-Sevilla-Alaves|0,2026-11-06-Sevilla-Alaves,2026-11-06,Spain La Liga,Sevilla,Alaves,,Best,Goals,Over/Under,Under 3.5,0.783,pending,Live
+2026-11-06-Sevilla-Alaves|1,2026-11-06-Sevilla-Alaves,2026-11-06,Spain La Liga,Sevilla,Alaves,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.782,pending,Live
+2026-11-06-Sevilla-Alaves|2,2026-11-06-Sevilla-Alaves,2026-11-06,Spain La Liga,Sevilla,Alaves,,Pick 2,Corners,Away Team Corners,Away Corners Over 1.5,0.843,pending,Live
+2026-11-06-Sevilla-Alaves|3,2026-11-06-Sevilla-Alaves,2026-11-06,Spain La Liga,Sevilla,Alaves,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.811,pending,Live
+2026-11-06-Gaziantep-Kasimpasa|0,2026-11-06-Gaziantep-Kasimpasa,2026-11-06,Turkey Super Lig,Gaziantep,Kasimpasa,,Best,Goals,Multigoals,Multigoals 1-4,0.785,pending,Live
+2026-11-06-Gaziantep-Kasimpasa|1,2026-11-06-Gaziantep-Kasimpasa,2026-11-06,Turkey Super Lig,Gaziantep,Kasimpasa,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.644,pending,Live
+2026-11-06-Gaziantep-Kasimpasa|2,2026-11-06-Gaziantep-Kasimpasa,2026-11-06,Turkey Super Lig,Gaziantep,Kasimpasa,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.845,pending,Live
+2026-11-06-Gaziantep-Kasimpasa|3,2026-11-06-Gaziantep-Kasimpasa,2026-11-06,Turkey Super Lig,Gaziantep,Kasimpasa,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.836,pending,Live
 2026-11-05-AGF-Aarhus-Sp-Braga|0,2026-11-05-AGF-Aarhus-Sp-Braga,2026-11-05,Conference League,AGF Aarhus,Sp Braga,,Best,Goals,Away Team Over/Under,Away Over 0.5,0.783,pending,Live
 2026-11-05-AGF-Aarhus-Sp-Braga|1,2026-11-05-AGF-Aarhus-Sp-Braga,2026-11-05,Conference League,AGF Aarhus,Sp Braga,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.742,pending,Live
 2026-11-05-AGF-Aarhus-Sp-Braga|2,2026-11-05-AGF-Aarhus-Sp-Braga,2026-11-05,Conference League,AGF Aarhus,Sp Braga,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.801,pending,Live
