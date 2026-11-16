@@ -1,64 +1,64 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
-2026-11-14-AFC-Wimbledon-Blackpool|0,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,,Best,Goals,Multigoals,Multigoals 1-4,0.78,pending,Live
-2026-11-14-AFC-Wimbledon-Blackpool|1,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.647,pending,Live
-2026-11-14-AFC-Wimbledon-Blackpool|2,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,,Pick 2,Goals,Over/Under,Under 4.5,0.848,pending,Live
-2026-11-14-AFC-Wimbledon-Blackpool|3,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.841,pending,Live
-2026-11-14-Milton-Keynes-Dons-Burton|0,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,,Best,Goals,Multigoals,Multigoals 2-6,0.772,pending,Live
-2026-11-14-Milton-Keynes-Dons-Burton|1,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.797,pending,Live
-2026-11-14-Milton-Keynes-Dons-Burton|2,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,,Pick 2,Goals,Over/Under,Under 4.5,0.819,pending,Live
-2026-11-14-Milton-Keynes-Dons-Burton|3,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.772,pending,Live
-2026-11-14-Sheffield-Weds-Plymouth|0,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,,Best,Goals,Multigoals,Multigoals 2-6,0.785,pending,Live
-2026-11-14-Sheffield-Weds-Plymouth|1,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.664,pending,Live
-2026-11-14-Sheffield-Weds-Plymouth|2,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,,Pick 2,Goals,Over/Under,Over 1.5,0.824,pending,Live
-2026-11-14-Sheffield-Weds-Plymouth|3,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.816,pending,Live
-2026-11-14-Stockport-Reading|0,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,,Best,Goals,Multigoals,Multigoals 2-6,0.776,pending,Live
-2026-11-14-Stockport-Reading|1,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.751,pending,Live
-2026-11-14-Stockport-Reading|2,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.836,pending,Live
-2026-11-14-Stockport-Reading|3,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,,Pick 3,Goals,Over/Under,Under 4.5,0.812,pending,Live
-2026-11-14-Wigan-Barnsley|0,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,,Best,Goals,Multigoals,Multigoals 2-6,0.783,pending,Live
-2026-11-14-Wigan-Barnsley|1,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.66,pending,Live
-2026-11-14-Wigan-Barnsley|2,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,,Pick 2,Goals,Over/Under,Over 1.5,0.822,pending,Live
-2026-11-14-Wigan-Barnsley|3,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.816,pending,Live
-2026-11-14-Bristol-Rvs-Chesterfield|0,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,,Best,Goals,Over/Under,Over 1.5,0.783,pending,Live
-2026-11-14-Bristol-Rvs-Chesterfield|1,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.672,pending,Live
-2026-11-14-Bristol-Rvs-Chesterfield|2,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,,Pick 2,Goals,Over/Under,Under 4.5,0.841,pending,Live
-2026-11-14-Bristol-Rvs-Chesterfield|3,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.806,pending,Live
-2026-11-14-Colchester-Gillingham|0,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.775,pending,Live
-2026-11-14-Colchester-Gillingham|1,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.72,pending,Live
-2026-11-14-Colchester-Gillingham|2,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.811,pending,Live
-2026-11-14-Colchester-Gillingham|3,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.794,pending,Live
-2026-11-14-Crewe-Newport-County|0,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.775,pending,Live
-2026-11-14-Crewe-Newport-County|1,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.72,pending,Live
-2026-11-14-Crewe-Newport-County|2,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.811,pending,Live
-2026-11-14-Crewe-Newport-County|3,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.794,pending,Live
-2026-11-14-Exeter-Cheltenham|0,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,,Best,Result,1X2 / Double Chance,Home/Draw,0.758,pending,Live
-2026-11-14-Exeter-Cheltenham|1,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.758,pending,Live
-2026-11-14-Exeter-Cheltenham|2,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.796,pending,Live
-2026-11-14-Exeter-Cheltenham|3,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.792,pending,Live
-2026-11-14-Fleetwood-Town-Tranmere|0,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,,Best,Goals,Multigoals,Multigoals 1-4,0.782,pending,Live
-2026-11-14-Fleetwood-Town-Tranmere|1,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.738,pending,Live
-2026-11-14-Fleetwood-Town-Tranmere|2,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.804,pending,Live
-2026-11-14-Fleetwood-Town-Tranmere|3,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.782,pending,Live
-2026-11-14-Port-Vale-Accrington|0,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.775,pending,Live
-2026-11-14-Port-Vale-Accrington|1,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.751,pending,Live
-2026-11-14-Port-Vale-Accrington|2,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.811,pending,Live
-2026-11-14-Port-Vale-Accrington|3,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.802,pending,Live
-2026-11-14-Rochdale-York|0,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,,Best,Goals,Multigoals,Multigoals 2-6,0.777,pending,Live
-2026-11-14-Rochdale-York|1,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.777,pending,Live
-2026-11-14-Rochdale-York|2,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.849,pending,Live
-2026-11-14-Rochdale-York|3,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,,Pick 3,Goals,Over/Under,Over 1.5,0.813,pending,Live
-2026-11-14-Salford-Northampton|0,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,,Best,Goals,Away Team Over/Under,Away Under 1.5,0.783,pending,Live
-2026-11-14-Salford-Northampton|1,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.827,pending,Live
-2026-11-14-Salford-Northampton|2,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.833,pending,Live
-2026-11-14-Salford-Northampton|3,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.792,pending,Live
-2026-11-14-Shrewsbury-Oldham|0,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,,Best,Goals,Over/Under,Over 1.5,0.744,pending,Live
-2026-11-14-Shrewsbury-Oldham|1,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.648,pending,Live
-2026-11-14-Shrewsbury-Oldham|2,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.794,pending,Live
-2026-11-14-Shrewsbury-Oldham|3,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,,Pick 3,Goals,Over/Under,Over 1.5,0.744,pending,Live
-2026-11-14-Swindon-Grimsby|0,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,,Best,Goals,Multigoals,Multigoals 2-6,0.779,pending,Live
-2026-11-14-Swindon-Grimsby|1,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.711,pending,Live
-2026-11-14-Swindon-Grimsby|2,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.823,pending,Live
-2026-11-14-Swindon-Grimsby|3,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,,Pick 3,Goals,Over/Under,Over 1.5,0.816,pending,Live
+2026-11-14-AFC-Wimbledon-Blackpool|0,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,1-0,Best,Goals,Multigoals,Multigoals 1-4,0.78,won,Live
+2026-11-14-AFC-Wimbledon-Blackpool|1,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,1-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.647,lost,Live
+2026-11-14-AFC-Wimbledon-Blackpool|2,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,1-0,Pick 2,Goals,Over/Under,Under 4.5,0.848,won,Live
+2026-11-14-AFC-Wimbledon-Blackpool|3,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,1-0,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.841,won,Live
+2026-11-14-Milton-Keynes-Dons-Burton|0,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,6-2,Best,Goals,Multigoals,Multigoals 2-6,0.772,lost,Live
+2026-11-14-Milton-Keynes-Dons-Burton|1,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,6-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.797,won,Live
+2026-11-14-Milton-Keynes-Dons-Burton|2,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,6-2,Pick 2,Goals,Over/Under,Under 4.5,0.819,lost,Live
+2026-11-14-Milton-Keynes-Dons-Burton|3,2026-11-14-Milton-Keynes-Dons-Burton,2026-11-14,England League One,Milton Keynes Dons,Burton,6-2,Pick 3,Goals,Multigoals,Multigoals 2-6,0.772,lost,Live
+2026-11-14-Sheffield-Weds-Plymouth|0,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,3-0,Best,Goals,Multigoals,Multigoals 2-6,0.785,won,Live
+2026-11-14-Sheffield-Weds-Plymouth|1,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,3-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.664,won,Live
+2026-11-14-Sheffield-Weds-Plymouth|2,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,3-0,Pick 2,Goals,Over/Under,Over 1.5,0.824,won,Live
+2026-11-14-Sheffield-Weds-Plymouth|3,2026-11-14-Sheffield-Weds-Plymouth,2026-11-14,England League One,Sheffield Weds,Plymouth,3-0,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.816,won,Live
+2026-11-14-Stockport-Reading|0,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,3-1,Best,Goals,Multigoals,Multigoals 2-6,0.776,won,Live
+2026-11-14-Stockport-Reading|1,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,3-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.751,won,Live
+2026-11-14-Stockport-Reading|2,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,3-1,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.836,won,Live
+2026-11-14-Stockport-Reading|3,2026-11-14-Stockport-Reading,2026-11-14,England League One,Stockport,Reading,3-1,Pick 3,Goals,Over/Under,Under 4.5,0.812,won,Live
+2026-11-14-Wigan-Barnsley|0,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,2-1,Best,Goals,Multigoals,Multigoals 2-6,0.783,won,Live
+2026-11-14-Wigan-Barnsley|1,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,2-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.66,won,Live
+2026-11-14-Wigan-Barnsley|2,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,2-1,Pick 2,Goals,Over/Under,Over 1.5,0.822,won,Live
+2026-11-14-Wigan-Barnsley|3,2026-11-14-Wigan-Barnsley,2026-11-14,England League One,Wigan,Barnsley,2-1,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.816,won,Live
+2026-11-14-Bristol-Rvs-Chesterfield|0,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,0-2,Best,Goals,Over/Under,Over 1.5,0.783,won,Live
+2026-11-14-Bristol-Rvs-Chesterfield|1,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,0-2,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.672,won,Live
+2026-11-14-Bristol-Rvs-Chesterfield|2,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,0-2,Pick 2,Goals,Over/Under,Under 4.5,0.841,won,Live
+2026-11-14-Bristol-Rvs-Chesterfield|3,2026-11-14-Bristol-Rvs-Chesterfield,2026-11-14,England League Two,Bristol Rvs,Chesterfield,0-2,Pick 3,Goals,Away Team Over/Under,Away Under 2.5,0.806,won,Live
+2026-11-14-Colchester-Gillingham|0,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,2-0,Best,Goals,Home Team Over/Under,Home Over 0.5,0.775,won,Live
+2026-11-14-Colchester-Gillingham|1,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,2-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.72,won,Live
+2026-11-14-Colchester-Gillingham|2,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,2-0,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.811,won,Live
+2026-11-14-Colchester-Gillingham|3,2026-11-14-Colchester-Gillingham,2026-11-14,England League Two,Colchester,Gillingham,2-0,Pick 3,Goals,Multigoals,Multigoals 1-4,0.794,won,Live
+2026-11-14-Crewe-Newport-County|0,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,2-2,Best,Goals,Home Team Over/Under,Home Over 0.5,0.775,won,Live
+2026-11-14-Crewe-Newport-County|1,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,2-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.72,won,Live
+2026-11-14-Crewe-Newport-County|2,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,2-2,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.811,won,Live
+2026-11-14-Crewe-Newport-County|3,2026-11-14-Crewe-Newport-County,2026-11-14,England League Two,Crewe,Newport County,2-2,Pick 3,Goals,Multigoals,Multigoals 1-4,0.794,won,Live
+2026-11-14-Exeter-Cheltenham|0,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,1-0,Best,Result,1X2 / Double Chance,Home/Draw,0.758,won,Live
+2026-11-14-Exeter-Cheltenham|1,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,1-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.758,won,Live
+2026-11-14-Exeter-Cheltenham|2,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,1-0,Pick 2,Goals,Multigoals,Multigoals 1-4,0.796,won,Live
+2026-11-14-Exeter-Cheltenham|3,2026-11-14-Exeter-Cheltenham,2026-11-14,England League Two,Exeter,Cheltenham,1-0,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.792,won,Live
+2026-11-14-Fleetwood-Town-Tranmere|0,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,1-0,Best,Goals,Multigoals,Multigoals 1-4,0.782,won,Live
+2026-11-14-Fleetwood-Town-Tranmere|1,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,1-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.738,won,Live
+2026-11-14-Fleetwood-Town-Tranmere|2,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,1-0,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.804,won,Live
+2026-11-14-Fleetwood-Town-Tranmere|3,2026-11-14-Fleetwood-Town-Tranmere,2026-11-14,England League Two,Fleetwood Town,Tranmere,1-0,Pick 3,Goals,Multigoals,Multigoals 1-4,0.782,won,Live
+2026-11-14-Port-Vale-Accrington|0,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,4-2,Best,Goals,Home Team Over/Under,Home Over 0.5,0.775,won,Live
+2026-11-14-Port-Vale-Accrington|1,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,4-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.751,won,Live
+2026-11-14-Port-Vale-Accrington|2,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,4-2,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.811,lost,Live
+2026-11-14-Port-Vale-Accrington|3,2026-11-14-Port-Vale-Accrington,2026-11-14,England League Two,Port Vale,Accrington,4-2,Pick 3,Goals,Multigoals,Multigoals 1-4,0.802,lost,Live
+2026-11-14-Rochdale-York|0,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,0-1,Best,Goals,Multigoals,Multigoals 2-6,0.777,lost,Live
+2026-11-14-Rochdale-York|1,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,0-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.777,won,Live
+2026-11-14-Rochdale-York|2,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,0-1,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.849,won,Live
+2026-11-14-Rochdale-York|3,2026-11-14-Rochdale-York,2026-11-14,England League Two,Rochdale,York,0-1,Pick 3,Goals,Over/Under,Over 1.5,0.813,lost,Live
+2026-11-14-Salford-Northampton|0,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,1-1,Best,Goals,Away Team Over/Under,Away Under 1.5,0.783,won,Live
+2026-11-14-Salford-Northampton|1,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.827,won,Live
+2026-11-14-Salford-Northampton|2,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,1-1,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.833,won,Live
+2026-11-14-Salford-Northampton|3,2026-11-14-Salford-Northampton,2026-11-14,England League Two,Salford,Northampton,1-1,Pick 3,Goals,Multigoals,Multigoals 1-4,0.792,won,Live
+2026-11-14-Shrewsbury-Oldham|0,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,2-1,Best,Goals,Over/Under,Over 1.5,0.744,won,Live
+2026-11-14-Shrewsbury-Oldham|1,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,2-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.648,won,Live
+2026-11-14-Shrewsbury-Oldham|2,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,2-1,Pick 2,Goals,Multigoals,Multigoals 1-4,0.794,won,Live
+2026-11-14-Shrewsbury-Oldham|3,2026-11-14-Shrewsbury-Oldham,2026-11-14,England League Two,Shrewsbury,Oldham,2-1,Pick 3,Goals,Over/Under,Over 1.5,0.744,won,Live
+2026-11-14-Swindon-Grimsby|0,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,1-4,Best,Goals,Multigoals,Multigoals 2-6,0.779,won,Live
+2026-11-14-Swindon-Grimsby|1,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,1-4,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.711,won,Live
+2026-11-14-Swindon-Grimsby|2,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,1-4,Pick 2,Goals,Away Team Over/Under,Away Over 0.5,0.823,won,Live
+2026-11-14-Swindon-Grimsby|3,2026-11-14-Swindon-Grimsby,2026-11-14,England League Two,Swindon,Grimsby,1-4,Pick 3,Goals,Over/Under,Over 1.5,0.816,won,Live
 2026-11-08-Club-Brugge-Anderlecht|0,2026-11-08-Club-Brugge-Anderlecht,2026-11-08,Belgium Pro League,Club Brugge,Anderlecht,1-1,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.789,won,Live
 2026-11-08-Club-Brugge-Anderlecht|1,2026-11-08-Club-Brugge-Anderlecht,2026-11-08,Belgium Pro League,Club Brugge,Anderlecht,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.826,won,Live
 2026-11-08-Club-Brugge-Anderlecht|2,2026-11-08-Club-Brugge-Anderlecht,2026-11-08,Belgium Pro League,Club Brugge,Anderlecht,1-1,Pick 2,Goals,Multigoals,Multigoals 1-5,0.823,won,Live
