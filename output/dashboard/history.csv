@@ -1,4 +1,24 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-20-Cercle-Brugge-Westerlo|0,2026-11-20-Cercle-Brugge-Westerlo,2026-11-20,Belgium Pro League,Cercle Brugge,Westerlo,,Best,Goals,Multigoals,Multigoals 2-6,0.779,pending,Live
+2026-11-20-Cercle-Brugge-Westerlo|1,2026-11-20-Cercle-Brugge-Westerlo,2026-11-20,Belgium Pro League,Cercle Brugge,Westerlo,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.719,pending,Live
+2026-11-20-Cercle-Brugge-Westerlo|2,2026-11-20-Cercle-Brugge-Westerlo,2026-11-20,Belgium Pro League,Cercle Brugge,Westerlo,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.826,pending,Live
+2026-11-20-Cercle-Brugge-Westerlo|3,2026-11-20-Cercle-Brugge-Westerlo,2026-11-20,Belgium Pro League,Cercle Brugge,Westerlo,,Pick 3,Goals,Over/Under,Over 1.5,0.816,pending,Live
+2026-11-20-Barnsley-Sheffield-Weds|0,2026-11-20-Barnsley-Sheffield-Weds,2026-11-20,England League One,Barnsley,Sheffield Weds,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.77,pending,Live
+2026-11-20-Barnsley-Sheffield-Weds|1,2026-11-20-Barnsley-Sheffield-Weds,2026-11-20,England League One,Barnsley,Sheffield Weds,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.691,pending,Live
+2026-11-20-Barnsley-Sheffield-Weds|2,2026-11-20-Barnsley-Sheffield-Weds,2026-11-20,England League One,Barnsley,Sheffield Weds,,Pick 2,Goals,Over/Under,Over 1.5,0.845,pending,Live
+2026-11-20-Barnsley-Sheffield-Weds|3,2026-11-20-Barnsley-Sheffield-Weds,2026-11-20,England League One,Barnsley,Sheffield Weds,,Pick 3,Goals,Multigoals,Multigoals 1-5,0.842,pending,Live
+2026-11-20-Troyes-Le-Havre|0,2026-11-20-Troyes-Le-Havre,2026-11-20,France Ligue 1,Troyes,Le Havre,,Best,Cards,Total Cards,Cards Under 5.5,0.78,pending,Live
+2026-11-20-Troyes-Le-Havre|1,2026-11-20-Troyes-Le-Havre,2026-11-20,France Ligue 1,Troyes,Le Havre,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.704,pending,Live
+2026-11-20-Troyes-Le-Havre|2,2026-11-20-Troyes-Le-Havre,2026-11-20,France Ligue 1,Troyes,Le Havre,,Pick 2,Corners,Total Corners,Corners Under 12.5,0.844,pending,Live
+2026-11-20-Troyes-Le-Havre|3,2026-11-20-Troyes-Le-Havre,2026-11-20,France Ligue 1,Troyes,Le Havre,,Pick 3,Cards,Home Team Cards,Home Cards Over 0.5,0.839,pending,Live
+2026-11-20-Bayern-Munich-FC-Koln|0,2026-11-20-Bayern-Munich-FC-Koln,2026-11-20,Germany Bundesliga,Bayern Munich,FC Koln,,Best,Corners,Away Team Corners,Away Corners Over 1.5,0.785,pending,Live
+2026-11-20-Bayern-Munich-FC-Koln|1,2026-11-20-Bayern-Munich-FC-Koln,2026-11-20,Germany Bundesliga,Bayern Munich,FC Koln,,Pick 1,Result,1X2 / Double Chance,Home,0.881,pending,Live
+2026-11-20-Bayern-Munich-FC-Koln|2,2026-11-20-Bayern-Munich-FC-Koln,2026-11-20,Germany Bundesliga,Bayern Munich,FC Koln,,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.847,pending,Live
+2026-11-20-Bayern-Munich-FC-Koln|3,2026-11-20-Bayern-Munich-FC-Koln,2026-11-20,Germany Bundesliga,Bayern Munich,FC Koln,,Pick 3,Goals,Over/Under,Over 2.5,0.833,pending,Live
+2026-11-20-Ath-Bilbao-Espanol|0,2026-11-20-Ath-Bilbao-Espanol,2026-11-20,Spain La Liga,Ath Bilbao,Espanol,,Best,Corners,Total Corners,Corners Under 12.5,0.785,pending,Live
+2026-11-20-Ath-Bilbao-Espanol|1,2026-11-20-Ath-Bilbao-Espanol,2026-11-20,Spain La Liga,Ath Bilbao,Espanol,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.85,pending,Live
+2026-11-20-Ath-Bilbao-Espanol|2,2026-11-20-Ath-Bilbao-Espanol,2026-11-20,Spain La Liga,Ath Bilbao,Espanol,,Pick 2,Corners,Away Team Corners,Away Corners Under 5.5,0.833,pending,Live
+2026-11-20-Ath-Bilbao-Espanol|3,2026-11-20-Ath-Bilbao-Espanol,2026-11-20,Spain La Liga,Ath Bilbao,Espanol,,Pick 3,Cards,Total Cards,Cards Over 2.5,0.831,pending,Live
 2026-11-14-AFC-Wimbledon-Blackpool|0,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,1-0,Best,Goals,Multigoals,Multigoals 1-4,0.78,won,Live
 2026-11-14-AFC-Wimbledon-Blackpool|1,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,1-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.647,lost,Live
 2026-11-14-AFC-Wimbledon-Blackpool|2,2026-11-14-AFC-Wimbledon-Blackpool,2026-11-14,England League One,AFC Wimbledon,Blackpool,1-0,Pick 2,Goals,Over/Under,Under 4.5,0.848,won,Live
