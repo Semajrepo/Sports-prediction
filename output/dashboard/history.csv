@@ -1,24 +1,24 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
-2026-11-23-Brentford-Everton|0,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,,Best,Goals,Over/Under,Over 1.5,0.786,pending,Live
-2026-11-23-Brentford-Everton|1,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.71,pending,Live
-2026-11-23-Brentford-Everton|2,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,,Pick 2,Goals,Over/Under,Under 4.5,0.838,pending,Live
-2026-11-23-Brentford-Everton|3,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,,Pick 3,Cards,Total Cards,Cards Under 5.5,0.824,pending,Live
-2026-11-23-Asteras-Tripolis-Aris|0,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,,Best,Goals,Over/Under,Under 3.5,0.758,pending,Live
-2026-11-23-Asteras-Tripolis-Aris|1,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.708,pending,Live
-2026-11-23-Asteras-Tripolis-Aris|2,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.836,pending,Live
-2026-11-23-Asteras-Tripolis-Aris|3,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.801,pending,Live
-2026-11-23-Monza-Fiorentina|0,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,,Best,Goals,Multigoals,Multigoals 2-6,0.779,pending,Live
-2026-11-23-Monza-Fiorentina|1,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.734,pending,Live
-2026-11-23-Monza-Fiorentina|2,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.843,pending,Live
-2026-11-23-Monza-Fiorentina|3,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.833,pending,Live
-2026-11-23-Levante-Elche|0,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,,Best,Goals,Home Team Over/Under,Home Under 2.5,0.781,pending,Live
-2026-11-23-Levante-Elche|1,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.695,pending,Live
-2026-11-23-Levante-Elche|2,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.845,pending,Live
-2026-11-23-Levante-Elche|3,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,,Pick 3,Corners,Total Corners,Corners Under 12.5,0.844,pending,Live
-2026-11-23-Buyuksehyr-Corum|0,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,,Best,Goals,Multigoals,Multigoals 2-6,0.783,pending,Live
-2026-11-23-Buyuksehyr-Corum|1,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.741,pending,Live
-2026-11-23-Buyuksehyr-Corum|2,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.84,pending,Live
-2026-11-23-Buyuksehyr-Corum|3,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,,Pick 3,Goals,Over/Under,Over 1.5,0.822,pending,Live
+2026-11-23-Brentford-Everton|0,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,4-0,Best,Goals,Over/Under,Over 1.5,0.786,won,Live
+2026-11-23-Brentford-Everton|1,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,4-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.71,won,Live
+2026-11-23-Brentford-Everton|2,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,4-0,Pick 2,Goals,Over/Under,Under 4.5,0.838,won,Live
+2026-11-23-Brentford-Everton|3,2026-11-23-Brentford-Everton,2026-11-23,England Premier League,Brentford,Everton,4-0,Pick 3,Cards,Total Cards,Cards Under 5.5,0.824,won,Live
+2026-11-23-Asteras-Tripolis-Aris|0,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,0-1,Best,Goals,Over/Under,Under 3.5,0.758,won,Live
+2026-11-23-Asteras-Tripolis-Aris|1,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,0-1,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.708,won,Live
+2026-11-23-Asteras-Tripolis-Aris|2,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,0-1,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.836,won,Live
+2026-11-23-Asteras-Tripolis-Aris|3,2026-11-23-Asteras-Tripolis-Aris,2026-11-23,Greece Super League,Asteras Tripolis,Aris,0-1,Pick 3,Goals,Multigoals,Multigoals 1-4,0.801,won,Live
+2026-11-23-Monza-Fiorentina|0,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,3-0,Best,Goals,Multigoals,Multigoals 2-6,0.779,won,Live
+2026-11-23-Monza-Fiorentina|1,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,3-0,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.734,lost,Live
+2026-11-23-Monza-Fiorentina|2,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,3-0,Pick 2,Cards,Away Team Cards,Away Cards Under 3.5,0.843,won,Live
+2026-11-23-Monza-Fiorentina|3,2026-11-23-Monza-Fiorentina,2026-11-23,Italy Serie A,Monza,Fiorentina,3-0,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.833,lost,Live
+2026-11-23-Levante-Elche|0,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,1-1,Best,Goals,Home Team Over/Under,Home Under 2.5,0.781,won,Live
+2026-11-23-Levante-Elche|1,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,1-1,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.695,won,Live
+2026-11-23-Levante-Elche|2,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,1-1,Pick 2,Cards,Home Team Cards,Home Cards Under 3.5,0.845,lost,Live
+2026-11-23-Levante-Elche|3,2026-11-23-Levante-Elche,2026-11-23,Spain La Liga,Levante,Elche,1-1,Pick 3,Corners,Total Corners,Corners Under 12.5,0.844,won,Live
+2026-11-23-Buyuksehyr-Corum|0,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,4-2,Best,Goals,Multigoals,Multigoals 2-6,0.783,won,Live
+2026-11-23-Buyuksehyr-Corum|1,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,4-2,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.741,won,Live
+2026-11-23-Buyuksehyr-Corum|2,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,4-2,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.84,won,Live
+2026-11-23-Buyuksehyr-Corum|3,2026-11-23-Buyuksehyr-Corum,2026-11-23,Turkey Super Lig,Buyuksehyr,Corum,4-2,Pick 3,Goals,Over/Under,Over 1.5,0.822,won,Live
 2026-11-22-Anderlecht-Oud-Heverlee-Leuven|0,2026-11-22-Anderlecht-Oud-Heverlee-Leuven,2026-11-22,Belgium Pro League,Anderlecht,Oud-Heverlee Leuven,1-0,Best,Goals,Multigoals,Multigoals 2-6,0.785,lost,Live
 2026-11-22-Anderlecht-Oud-Heverlee-Leuven|1,2026-11-22-Anderlecht-Oud-Heverlee-Leuven,2026-11-22,Belgium Pro League,Anderlecht,Oud-Heverlee Leuven,1-0,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.848,won,Live
 2026-11-22-Anderlecht-Oud-Heverlee-Leuven|2,2026-11-22-Anderlecht-Oud-Heverlee-Leuven,2026-11-22,Belgium Pro League,Anderlecht,Oud-Heverlee Leuven,1-0,Pick 2,Goals,Over/Under,Over 1.5,0.826,lost,Live
