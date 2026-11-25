@@ -1,4 +1,20 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-25-Bolton-West-Brom|0,2026-11-25-Bolton-West-Brom,2026-11-25,England Championship,Bolton,West Brom,,Best,Goals,Multigoals,Multigoals 1-4,0.768,pending,Live
+2026-11-25-Bolton-West-Brom|1,2026-11-25-Bolton-West-Brom,2026-11-25,England Championship,Bolton,West Brom,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.728,pending,Live
+2026-11-25-Bolton-West-Brom|2,2026-11-25-Bolton-West-Brom,2026-11-25,England Championship,Bolton,West Brom,,Pick 2,Goals,Over/Under,Under 4.5,0.829,pending,Live
+2026-11-25-Bolton-West-Brom|3,2026-11-25-Bolton-West-Brom,2026-11-25,England Championship,Bolton,West Brom,,Pick 3,Goals,Away Team Over/Under,Away Over 0.5,0.815,pending,Live
+2026-11-25-Burnley-Birmingham|0,2026-11-25-Burnley-Birmingham,2026-11-25,England Championship,Burnley,Birmingham,,Best,Goals,Over/Under,Over 1.5,0.789,pending,Live
+2026-11-25-Burnley-Birmingham|1,2026-11-25-Burnley-Birmingham,2026-11-25,England Championship,Burnley,Birmingham,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.645,pending,Live
+2026-11-25-Burnley-Birmingham|2,2026-11-25-Burnley-Birmingham,2026-11-25,England Championship,Burnley,Birmingham,,Pick 2,Goals,Over/Under,Under 4.5,0.835,pending,Live
+2026-11-25-Burnley-Birmingham|3,2026-11-25-Burnley-Birmingham,2026-11-25,England Championship,Burnley,Birmingham,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.831,pending,Live
+2026-11-25-Stoke-Millwall|0,2026-11-25-Stoke-Millwall,2026-11-25,England Championship,Stoke,Millwall,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.765,pending,Live
+2026-11-25-Stoke-Millwall|1,2026-11-25-Stoke-Millwall,2026-11-25,England Championship,Stoke,Millwall,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.702,pending,Live
+2026-11-25-Stoke-Millwall|2,2026-11-25-Stoke-Millwall,2026-11-25,England Championship,Stoke,Millwall,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.821,pending,Live
+2026-11-25-Stoke-Millwall|3,2026-11-25-Stoke-Millwall,2026-11-25,England Championship,Stoke,Millwall,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.794,pending,Live
+2026-11-25-Watford-Blackburn|0,2026-11-25-Watford-Blackburn,2026-11-25,England Championship,Watford,Blackburn,,Best,Goals,Multigoals,Multigoals 1-4,0.787,pending,Live
+2026-11-25-Watford-Blackburn|1,2026-11-25-Watford-Blackburn,2026-11-25,England Championship,Watford,Blackburn,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.65,pending,Live
+2026-11-25-Watford-Blackburn|2,2026-11-25-Watford-Blackburn,2026-11-25,England Championship,Watford,Blackburn,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.836,pending,Live
+2026-11-25-Watford-Blackburn|3,2026-11-25-Watford-Blackburn,2026-11-25,England Championship,Watford,Blackburn,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.787,pending,Live
 2026-11-24-Bristol-City-Wrexham|0,2026-11-24-Bristol-City-Wrexham,2026-11-24,England Championship,Bristol City,Wrexham,,Best,Goals,Over/Under,Under 3.5,0.77,pending,Live
 2026-11-24-Bristol-City-Wrexham|1,2026-11-24-Bristol-City-Wrexham,2026-11-24,England Championship,Bristol City,Wrexham,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.678,pending,Live
 2026-11-24-Bristol-City-Wrexham|2,2026-11-24-Bristol-City-Wrexham,2026-11-24,England Championship,Bristol City,Wrexham,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.804,pending,Live
