@@ -1,4 +1,8 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-26-Doncaster-Huddersfield|0,2026-11-26-Doncaster-Huddersfield,2026-11-26,England League One,Doncaster,Huddersfield,,Best,Goals,Multigoals,Multigoals 2-6,0.784,pending,Live
+2026-11-26-Doncaster-Huddersfield|1,2026-11-26-Doncaster-Huddersfield,2026-11-26,England League One,Doncaster,Huddersfield,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.773,pending,Live
+2026-11-26-Doncaster-Huddersfield|2,2026-11-26-Doncaster-Huddersfield,2026-11-26,England League One,Doncaster,Huddersfield,,Pick 2,Goals,Over/Under,Over 1.5,0.824,pending,Live
+2026-11-26-Doncaster-Huddersfield|3,2026-11-26-Doncaster-Huddersfield,2026-11-26,England League One,Doncaster,Huddersfield,,Pick 3,Goals,Multigoals,Multigoals 2-6,0.784,pending,Live
 2026-11-25-Bolton-West-Brom|0,2026-11-25-Bolton-West-Brom,2026-11-25,England Championship,Bolton,West Brom,1-3,Best,Goals,Multigoals,Multigoals 1-4,0.768,won,Live
 2026-11-25-Bolton-West-Brom|1,2026-11-25-Bolton-West-Brom,2026-11-25,England Championship,Bolton,West Brom,1-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.728,won,Live
 2026-11-25-Bolton-West-Brom|2,2026-11-25-Bolton-West-Brom,2026-11-25,England Championship,Bolton,West Brom,1-3,Pick 2,Goals,Over/Under,Under 4.5,0.829,won,Live
