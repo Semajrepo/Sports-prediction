@@ -1,4 +1,52 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+2026-11-27-Leuven-KV-Kortrijk|0,2026-11-27-Leuven-KV-Kortrijk,2026-11-27,Belgium Pro League,Leuven,KV Kortrijk,,Best,Goals,Multigoals,Multigoals 2-6,0.768,pending,Live
+2026-11-27-Leuven-KV-Kortrijk|1,2026-11-27-Leuven-KV-Kortrijk,2026-11-27,Belgium Pro League,Leuven,KV Kortrijk,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.731,pending,Live
+2026-11-27-Leuven-KV-Kortrijk|2,2026-11-27-Leuven-KV-Kortrijk,2026-11-27,Belgium Pro League,Leuven,KV Kortrijk,,Pick 2,Goals,Over/Under,Under 4.5,0.825,pending,Live
+2026-11-27-Leuven-KV-Kortrijk|3,2026-11-27-Leuven-KV-Kortrijk,2026-11-27,Belgium Pro League,Leuven,KV Kortrijk,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.819,pending,Live
+2026-11-27-Oud-Heverlee-Leuven-Kortrijk|0,2026-11-27-Oud-Heverlee-Leuven-Kortrijk,2026-11-27,Belgium Pro League,Oud-Heverlee Leuven,Kortrijk,,Best,Goals,Multigoals,Multigoals 2-6,0.772,pending,Live
+2026-11-27-Oud-Heverlee-Leuven-Kortrijk|1,2026-11-27-Oud-Heverlee-Leuven-Kortrijk,2026-11-27,Belgium Pro League,Oud-Heverlee Leuven,Kortrijk,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.73,pending,Live
+2026-11-27-Oud-Heverlee-Leuven-Kortrijk|2,2026-11-27-Oud-Heverlee-Leuven-Kortrijk,2026-11-27,Belgium Pro League,Oud-Heverlee Leuven,Kortrijk,,Pick 2,Goals,Home Team Over/Under,Home Over 0.5,0.823,pending,Live
+2026-11-27-Oud-Heverlee-Leuven-Kortrijk|3,2026-11-27-Oud-Heverlee-Leuven-Kortrijk,2026-11-27,Belgium Pro League,Oud-Heverlee Leuven,Kortrijk,,Pick 3,Goals,Over/Under,Under 4.5,0.819,pending,Live
+2026-11-27-Southampton-Middlesbrough|0,2026-11-27-Southampton-Middlesbrough,2026-11-27,England Championship,Southampton,Middlesbrough,,Best,Goals,Multigoals,Multigoals 2-6,0.785,pending,Live
+2026-11-27-Southampton-Middlesbrough|1,2026-11-27-Southampton-Middlesbrough,2026-11-27,England Championship,Southampton,Middlesbrough,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.68,pending,Live
+2026-11-27-Southampton-Middlesbrough|2,2026-11-27-Southampton-Middlesbrough,2026-11-27,England Championship,Southampton,Middlesbrough,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.826,pending,Live
+2026-11-27-Southampton-Middlesbrough|3,2026-11-27-Southampton-Middlesbrough,2026-11-27,England Championship,Southampton,Middlesbrough,,Pick 3,Goals,Over/Under,Over 1.5,0.824,pending,Live
+2026-11-27-Nott-m-Forest-Chelsea|0,2026-11-27-Nott-m-Forest-Chelsea,2026-11-27,England Premier League,Nott'm Forest,Chelsea,,Best,Goals,Multigoals,Multigoals 1-4,0.788,pending,Live
+2026-11-27-Nott-m-Forest-Chelsea|1,2026-11-27-Nott-m-Forest-Chelsea,2026-11-27,England Premier League,Nott'm Forest,Chelsea,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.673,pending,Live
+2026-11-27-Nott-m-Forest-Chelsea|2,2026-11-27-Nott-m-Forest-Chelsea,2026-11-27,England Premier League,Nott'm Forest,Chelsea,,Pick 2,Corners,Home Team Corners,Home Corners Over 2.5,0.837,pending,Live
+2026-11-27-Nott-m-Forest-Chelsea|3,2026-11-27-Nott-m-Forest-Chelsea,2026-11-27,England Premier League,Nott'm Forest,Chelsea,,Pick 3,Goals,Home Team Over/Under,Home Under 2.5,0.826,pending,Live
+2026-11-27-Brest-Paris-FC|0,2026-11-27-Brest-Paris-FC,2026-11-27,France Ligue 1,Brest,Paris FC,,Best,Goals,Multigoals,Multigoals 1-4,0.787,pending,Live
+2026-11-27-Brest-Paris-FC|1,2026-11-27-Brest-Paris-FC,2026-11-27,France Ligue 1,Brest,Paris FC,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.711,pending,Live
+2026-11-27-Brest-Paris-FC|2,2026-11-27-Brest-Paris-FC,2026-11-27,France Ligue 1,Brest,Paris FC,,Pick 2,Corners,Total Corners,Corners Under 12.5,0.847,pending,Live
+2026-11-27-Brest-Paris-FC|3,2026-11-27-Brest-Paris-FC,2026-11-27,France Ligue 1,Brest,Paris FC,,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.838,pending,Live
+2026-11-27-Werder-Bremen-M-gladbach|0,2026-11-27-Werder-Bremen-M-gladbach,2026-11-27,Germany Bundesliga,Werder Bremen,M'gladbach,,Best,Corners,Home Team Corners,Home Corners Over 3.5,0.787,pending,Live
+2026-11-27-Werder-Bremen-M-gladbach|1,2026-11-27-Werder-Bremen-M-gladbach,2026-11-27,Germany Bundesliga,Werder Bremen,M'gladbach,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.793,pending,Live
+2026-11-27-Werder-Bremen-M-gladbach|2,2026-11-27-Werder-Bremen-M-gladbach,2026-11-27,Germany Bundesliga,Werder Bremen,M'gladbach,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.847,pending,Live
+2026-11-27-Werder-Bremen-M-gladbach|3,2026-11-27-Werder-Bremen-M-gladbach,2026-11-27,Germany Bundesliga,Werder Bremen,M'gladbach,,Pick 3,Cards,Away Team Cards,Away Cards Under 3.5,0.842,pending,Live
+2026-11-27-Venezia-Bologna|0,2026-11-27-Venezia-Bologna,2026-11-27,Italy Serie A,Venezia,Bologna,,Best,Corners,Away Team Corners,Away Corners Over 2.5,0.777,pending,Live
+2026-11-27-Venezia-Bologna|1,2026-11-27-Venezia-Bologna,2026-11-27,Italy Serie A,Venezia,Bologna,,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.689,pending,Live
+2026-11-27-Venezia-Bologna|2,2026-11-27-Venezia-Bologna,2026-11-27,Italy Serie A,Venezia,Bologna,,Pick 2,Goals,Away Team Over/Under,Away Under 2.5,0.845,pending,Live
+2026-11-27-Venezia-Bologna|3,2026-11-27-Venezia-Bologna,2026-11-27,Italy Serie A,Venezia,Bologna,,Pick 3,Corners,Home Team Corners,Home Corners Under 6.5,0.824,pending,Live
+2026-11-27-Groningen-Willem-II|0,2026-11-27-Groningen-Willem-II,2026-11-27,Netherlands Eredivisie,Groningen,Willem II,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.782,pending,Live
+2026-11-27-Groningen-Willem-II|1,2026-11-27-Groningen-Willem-II,2026-11-27,Netherlands Eredivisie,Groningen,Willem II,,Pick 1,Result,1X2 / Double Chance,Home,0.725,pending,Live
+2026-11-27-Groningen-Willem-II|2,2026-11-27-Groningen-Willem-II,2026-11-27,Netherlands Eredivisie,Groningen,Willem II,,Pick 2,Goals,Multigoals,Multigoals 1-5,0.831,pending,Live
+2026-11-27-Groningen-Willem-II|3,2026-11-27-Groningen-Willem-II,2026-11-27,Netherlands Eredivisie,Groningen,Willem II,,Pick 3,Goals,1st Half Over/Under,1st Half Over 0.5,0.782,pending,Live
+2026-11-27-Maritimo-Nacional|0,2026-11-27-Maritimo-Nacional,2026-11-27,Portugal Primeira Liga,Maritimo,Nacional,,Best,Goals,Home Team Over/Under,Home Over 0.5,0.741,pending,Live
+2026-11-27-Maritimo-Nacional|1,2026-11-27-Maritimo-Nacional,2026-11-27,Portugal Primeira Liga,Maritimo,Nacional,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.733,pending,Live
+2026-11-27-Maritimo-Nacional|2,2026-11-27-Maritimo-Nacional,2026-11-27,Portugal Primeira Liga,Maritimo,Nacional,,Pick 2,Goals,Home Team Over/Under,Home Under 2.5,0.845,pending,Live
+2026-11-27-Maritimo-Nacional|3,2026-11-27-Maritimo-Nacional,2026-11-27,Portugal Primeira Liga,Maritimo,Nacional,,Pick 3,Goals,Multigoals,Multigoals 1-4,0.807,pending,Live
+2026-11-27-Levante-Santander|0,2026-11-27-Levante-Santander,2026-11-27,Spain La Liga,Levante,Santander,,Best,Goals,1st Half Over/Under,1st Half Over 0.5,0.786,pending,Live
+2026-11-27-Levante-Santander|1,2026-11-27-Levante-Santander,2026-11-27,Spain La Liga,Levante,Santander,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.705,pending,Live
+2026-11-27-Levante-Santander|2,2026-11-27-Levante-Santander,2026-11-27,Spain La Liga,Levante,Santander,,Pick 2,Cards,Total Cards,Cards Over 2.5,0.849,pending,Live
+2026-11-27-Levante-Santander|3,2026-11-27-Levante-Santander,2026-11-27,Spain La Liga,Levante,Santander,,Pick 3,Corners,Total Corners,Corners Over 7.5,0.832,pending,Live
+2026-11-27-Alanyaspor-Konyaspor|0,2026-11-27-Alanyaspor-Konyaspor,2026-11-27,Turkey Super Lig,Alanyaspor,Konyaspor,,Best,Goals,Over/Under,Under 3.5,0.787,pending,Live
+2026-11-27-Alanyaspor-Konyaspor|1,2026-11-27-Alanyaspor-Konyaspor,2026-11-27,Turkey Super Lig,Alanyaspor,Konyaspor,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.652,pending,Live
+2026-11-27-Alanyaspor-Konyaspor|2,2026-11-27-Alanyaspor-Konyaspor,2026-11-27,Turkey Super Lig,Alanyaspor,Konyaspor,,Pick 2,Goals,Multigoals,Multigoals 1-4,0.807,pending,Live
+2026-11-27-Alanyaspor-Konyaspor|3,2026-11-27-Alanyaspor-Konyaspor,2026-11-27,Turkey Super Lig,Alanyaspor,Konyaspor,,Pick 3,Goals,Over/Under,Under 3.5,0.787,pending,Live
+2026-11-27-Rizespor-Kasimpasa|0,2026-11-27-Rizespor-Kasimpasa,2026-11-27,Turkey Super Lig,Rizespor,Kasimpasa,,Best,Goals,Multigoals,Multigoals 1-4,0.768,pending,Live
+2026-11-27-Rizespor-Kasimpasa|1,2026-11-27-Rizespor-Kasimpasa,2026-11-27,Turkey Super Lig,Rizespor,Kasimpasa,,Pick 1,Result,1X2 / Double Chance,Home/Draw,0.736,pending,Live
+2026-11-27-Rizespor-Kasimpasa|2,2026-11-27-Rizespor-Kasimpasa,2026-11-27,Turkey Super Lig,Rizespor,Kasimpasa,,Pick 2,Goals,Over/Under,Under 4.5,0.829,pending,Live
+2026-11-27-Rizespor-Kasimpasa|3,2026-11-27-Rizespor-Kasimpasa,2026-11-27,Turkey Super Lig,Rizespor,Kasimpasa,,Pick 3,Goals,Home Team Over/Under,Home Over 0.5,0.819,pending,Live
 2026-11-26-Doncaster-Huddersfield|0,2026-11-26-Doncaster-Huddersfield,2026-11-26,England League One,Doncaster,Huddersfield,2-3,Best,Goals,Multigoals,Multigoals 2-6,0.784,won,Live
 2026-11-26-Doncaster-Huddersfield|1,2026-11-26-Doncaster-Huddersfield,2026-11-26,England League One,Doncaster,Huddersfield,2-3,Pick 1,Result,1X2 / Double Chance,Away/Draw,0.773,won,Live
 2026-11-26-Doncaster-Huddersfield|2,2026-11-26-Doncaster-Huddersfield,2026-11-26,England League One,Doncaster,Huddersfield,2-3,Pick 2,Goals,Over/Under,Over 1.5,0.824,won,Live

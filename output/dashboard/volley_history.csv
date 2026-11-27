@@ -1,4 +1,24 @@
 pick_id,match_id,date,competition,home,away,result,slot,family,market,pick,prob,outcome,source
+V-2026-11-27-Norde-Volei-Goias|1,V-2026-11-27-Norde-Volei-Goias,2026-11-27,Brazil Superliga,Norde Volei,Goias,,Pick 1,Result,Winner,Away,0.596,pending,Live
+V-2026-11-27-Norde-Volei-Goias|2,V-2026-11-27-Norde-Volei-Goias,2026-11-27,Brazil Superliga,Norde Volei,Goias,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.662,pending,Live
+V-2026-11-27-Sesi-Sao-Jose-dos-Campos|0,V-2026-11-27-Sesi-Sao-Jose-dos-Campos,2026-11-27,Brazil Superliga,Sesi,Sao Jose dos Campos,,Best,Sets,Total Sets,Under 4.5 sets,0.776,pending,Live
+V-2026-11-27-Sesi-Sao-Jose-dos-Campos|1,V-2026-11-27-Sesi-Sao-Jose-dos-Campos,2026-11-27,Brazil Superliga,Sesi,Sao Jose dos Campos,,Pick 1,Result,Winner,Home,0.805,pending,Live
+V-2026-11-27-Sesi-Sao-Jose-dos-Campos|2,V-2026-11-27-Sesi-Sao-Jose-dos-Campos,2026-11-27,Brazil Superliga,Sesi,Sao Jose dos Campos,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.558,pending,Live
+V-2026-11-27-LKS-Lodz-W-Wroclaw-W|0,V-2026-11-27-LKS-Lodz-W-Wroclaw-W,2026-11-27,Poland Tauron Liga Women,LKS Lodz W,Wroclaw W,,Best,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.771,pending,Live
+V-2026-11-27-LKS-Lodz-W-Wroclaw-W|1,V-2026-11-27-LKS-Lodz-W-Wroclaw-W,2026-11-27,Poland Tauron Liga Women,LKS Lodz W,Wroclaw W,,Pick 1,Result,Winner,Home,0.982,pending,Live
+V-2026-11-27-Mielec-W-MKS-Kalisz-W|0,V-2026-11-27-Mielec-W-MKS-Kalisz-W,2026-11-27,Poland Tauron Liga Women,Mielec W,MKS Kalisz W,,Best,Sets,Set Handicap,Home +1.5 sets,0.771,pending,Live
+V-2026-11-27-Mielec-W-MKS-Kalisz-W|1,V-2026-11-27-Mielec-W-MKS-Kalisz-W,2026-11-27,Poland Tauron Liga Women,Mielec W,MKS Kalisz W,,Pick 1,Result,Winner,Home,0.641,pending,Live
+V-2026-11-27-Mielec-W-MKS-Kalisz-W|2,V-2026-11-27-Mielec-W-MKS-Kalisz-W,2026-11-27,Poland Tauron Liga Women,Mielec W,MKS Kalisz W,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.65,pending,Live
+V-2026-11-27-MGTU-Moscow-Zenit-Kazan|1,V-2026-11-27-MGTU-Moscow-Zenit-Kazan,2026-11-27,Russia Superleague,MGTU Moscow,Zenit Kazan,,Pick 1,Result,Winner,Away,0.99,pending,Live
+V-2026-11-27-MGTU-Moscow-Zenit-Kazan|2,V-2026-11-27-MGTU-Moscow-Zenit-Kazan,2026-11-27,Russia Superleague,MGTU Moscow,Zenit Kazan,,Pick 2,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.816,pending,Live
+V-2026-11-27-Ufa-Dinamo-Lo|0,V-2026-11-27-Ufa-Dinamo-Lo,2026-11-27,Russia Superleague,Ufa,Dinamo-Lo,,Best,Sets,Total Sets,Under 4.5 sets,0.694,pending,Live
+V-2026-11-27-Ufa-Dinamo-Lo|1,V-2026-11-27-Ufa-Dinamo-Lo,2026-11-27,Russia Superleague,Ufa,Dinamo-Lo,,Pick 1,Result,Winner,Home,0.534,pending,Live
+V-2026-11-27-Ufa-Dinamo-Lo|2,V-2026-11-27-Ufa-Dinamo-Lo,2026-11-27,Russia Superleague,Ufa,Dinamo-Lo,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.671,pending,Live
+V-2026-11-27-St-Petersburg-W-Krasnodar-W|1,V-2026-11-27-St-Petersburg-W-Krasnodar-W,2026-11-27,Russia Superleague Women,St. Petersburg W,Krasnodar W,,Pick 1,Result,Winner,Home,0.995,pending,Live
+V-2026-11-27-St-Petersburg-W-Krasnodar-W|2,V-2026-11-27-St-Petersburg-W-Krasnodar-W,2026-11-27,Russia Superleague Women,St. Petersburg W,Krasnodar W,,Pick 2,Sets,Total Sets,Under 3.5 sets (3-0 or 0-3),0.865,pending,Live
+V-2026-11-27-Tulitsa-W-Minchanka-W|0,V-2026-11-27-Tulitsa-W-Minchanka-W,2026-11-27,Russia Superleague Women,Tulitsa W,Minchanka W,,Best,Sets,Set Handicap,Home +1.5 sets,0.789,pending,Live
+V-2026-11-27-Tulitsa-W-Minchanka-W|1,V-2026-11-27-Tulitsa-W-Minchanka-W,2026-11-27,Russia Superleague Women,Tulitsa W,Minchanka W,,Pick 1,Result,Winner,Home,0.665,pending,Live
+V-2026-11-27-Tulitsa-W-Minchanka-W|2,V-2026-11-27-Tulitsa-W-Minchanka-W,2026-11-27,Russia Superleague Women,Tulitsa W,Minchanka W,,Pick 2,Sets,Total Sets,Over 3.5 sets,0.642,pending,Live
 V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata|0,V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata,2026-11-04,Brazil Superliga,Sao Jose dos Campos,Volei Renata,,Best,Result,Winner,Away,0.786,pending,Live
 V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata|1,V-2026-11-04-Sao-Jose-dos-Campos-Volei-Renata,2026-11-04,Brazil Superliga,Sao Jose dos Campos,Volei Renata,,Pick 1,Sets,Total Sets,Over 3.5 sets,0.574,pending,Live
 V-2026-11-04-HAOK-Mladost-Levski-Sofia|0,V-2026-11-04-HAOK-Mladost-Levski-Sofia,2026-11-04,CEV Champions League,HAOK Mladost,Levski Sofia,,Best,Sets,Total Sets,Under 4.5 sets,0.694,pending,Live
