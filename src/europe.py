@@ -265,7 +265,8 @@ def europe_fixtures(today: pd.Timestamp, days: int, hist: pd.DataFrame, key: str
 def update_results(log: pd.DataFrame, today: pd.Timestamp, hist: pd.DataFrame, key: str) -> pd.DataFrame:
     """Fetch final scores for European picks still waiting for a result (last 3 days only,
     which is all the API keeps), add them to data/europe/results.csv and return every stored result."""
-    stored = pd.read_csv(RESULTS) if RESULTS.exists() else pd.DataFrame(columns=["Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG"])
+    cols = ["Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG"]
+    stored = pd.read_csv(RESULTS) if RESULTS.exists() and RESULTS.stat().st_size > 10 else pd.DataFrame(columns=cols)   # an empty file has no header
     if not log.empty and "div" in log:
         cutoff = (today - pd.Timedelta(days=3)).strftime("%Y-%m-%d")
         waiting = log[log["div"].isin(EURO) & (log["result"] == "") & (log["date"] < today.strftime("%Y-%m-%d"))

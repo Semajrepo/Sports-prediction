@@ -8255,3 +8255,68 @@ game_id,date,time_utc,status,league_id,season,home,away,home_id,away_id,hs,as,s1
 210270,2026-11-04,19:30,NS,97,2026,Verona,Milano,747,742,,,,,,,,,,,,,ITA
 210272,2026-11-04,19:30,NS,97,2026,Lube Civitanova,Modena,737,738,,,,,,,,,,,,,ITA
 210273,2026-11-04,19:30,NS,97,2026,Cuneo Volley,Monza,692,743,,,,,,,,,,,,,ITA
+217376,2026-11-26,09:35,FT,252,2026,Nippon Steel Sakai Blazers,Tokyo Great Bears,4438,3619,2.0,3.0,25.0,23.0,25.0,21.0,20.0,25.0,22.0,25.0,13.0,15.0,JPN
+211636,2026-11-26,17:00,FT,251,2026,Opole W,Mulhouse W,957,499,3.0,0.0,29.0,27.0,25.0,19.0,25.0,22.0,,,,,CL-W
+213635,2026-11-26,19:00,FT,63,2026,Tours,Montpellier,492,479,3.0,2.0,25.0,21.0,25.0,21.0,24.0,26.0,21.0,25.0,15.0,12.0,FRA
+218690,2026-11-26,19:00,FT,248,2026,ACH Ljubljana,Khilasedichi Baku,1141,4238,3.0,1.0,25.0,23.0,23.0,25.0,25.0,15.0,25.0,18.0,,,CL
+210304,2026-11-26,19:30,FT,97,2026,Perugia,Lube Civitanova,739,737,3.0,0.0,25.0,20.0,25.0,23.0,25.0,21.0,,,,,ITA
+211639,2026-11-26,19:30,FT,251,2026,Rzeszow W,Dresdner SC W,932,523,3.0,0.0,25.0,19.0,25.0,19.0,25.0,22.0,,,,,CL-W
+211642,2026-11-26,19:30,FT,251,2026,Conegliano W,Novara W,704,708,2.0,3.0,25.0,18.0,25.0,20.0,18.0,25.0,21.0,25.0,13.0,15.0,CL-W
+217377,2026-11-27,09:35,S1,252,2026,Nippon Steel Sakai Blazers,Tokyo Great Bears,4438,3619,0.0,0.0,23.0,17.0,,,,,,,,,JPN
+212000,2026-11-27,14:00,NS,132,2026,Ufa,Dinamo-Lo,1045,1037,,,,,,,,,,,,,RUS
+212001,2026-11-27,15:00,NS,132,2026,MGTU Moscow,Zenit Kazan,1078,1046,,,,,,,,,,,,,RUS
+211808,2026-11-27,16:00,NS,133,2026,St. Petersburg W,Krasnodar W,3917,1051,,,,,,,,,,,,,RUS-W
+208895,2026-11-27,16:30,NS,120,2026,Mielec W,MKS Kalisz W,927,926,,,,,,,,,,,,,POL-W
+211809,2026-11-27,16:30,NS,133,2026,Tulitsa W,Minchanka W,1058,111,,,,,,,,,,,,,RUS-W
+208897,2026-11-27,19:30,NS,120,2026,LKS Lodz W,Wroclaw W,924,937,,,,,,,,,,,,,POL-W
+215717,2026-11-27,21:30,NS,25,2026,Sesi,Sao Jose dos Campos,173,1514,,,,,,,,,,,,,BRA
+215718,2026-11-27,21:30,NS,25,2026,Norde Volei,Goias,4415,2135,,,,,,,,,,,,,BRA
+214996,2026-11-28,00:00,NS,24,2026,Praia Clube W,Osasco W,161,159,,,,,,,,,,,,,BRA-W
+215719,2026-11-28,00:00,NS,25,2026,Sada Cruzeiro,Minas,172,170,,,,,,,,,,,,,BRA
+209846,2026-11-28,04:05,NS,252,2026,Suntory Sunbirds,Nagoya,760,756,,,,,,,,,,,,,JPN
+209848,2026-11-28,04:05,NS,252,2026,Voreas Hokkaido,Osaka Bluteon,2192,3929,,,,,,,,,,,,,JPN
+218968,2026-11-28,04:05,NS,253,2026,Ageo W,Gunma Greenwings W,762,4464,,,,,,,,,,,,,JPN-W
+218969,2026-11-28,04:05,NS,253,2026,Aleeza Aichi W,Himeji Victorina W,4461,765,,,,,,,,,,,,,JPN-W
+218970,2026-11-28,04:05,NS,253,2026,Okayama Seagulls W,Hisamitsu Springs W,771,766,,,,,,,,,,,,,JPN-W
+218971,2026-11-28,04:05,NS,253,2026,Osaka Marvelous W,Toray Arrows W,4180,773,,,,,,,,,,,,,JPN-W
+209844,2026-11-28,05:05,NS,252,2026,JTEKT,Hokkaido Yellow Stars,754,4368,,,,,,,,,,,,,JPN
+209845,2026-11-28,05:05,NS,252,2026,Shinshu Matsumoto Tridents,Fragolad Kagoshima,4369,4367,,,,,,,,,,,,,JPN
+209847,2026-11-28,05:05,NS,252,2026,Toray Arrows,Hiroshima Thunders,761,4437,,,,,,,,,,,,,JPN
+218972,2026-11-28,05:05,NS,253,2026,NEC Red Rockets W,PFU Blue Cats W,770,772,,,,,,,,,,,,,JPN-W
+218973,2026-11-28,05:05,NS,253,2026,Kurobe Aqua Fairies W,Astemo Rivale Ibaraki W,769,4463,,,,,,,,,,,,,JPN-W
+218974,2026-11-28,05:05,NS,253,2026,Aranmare Akita Shonai W,Denso Airybees W,4462,764,,,,,,,,,,,,,JPN-W
+211812,2026-11-28,10:00,NS,133,2026,Omsk W,Dynamo Moscow W,1088,1049,,,,,,,,,,,,,RUS-W
+211814,2026-11-28,10:00,NS,133,2026,Yenisey W,Kaliningrad W,1060,1050,,,,,,,,,,,,,RUS-W
+212002,2026-11-28,10:00,NS,132,2026,Kemerovo,Gorky N. Novgorod,1038,4114,,,,,,,,,,,,,RUS
+208353,2026-11-28,11:00,NS,113,2026,Slepsk Suwalki,Belchatow,907,897,,,,,,,,,,,,,POL
+217663,2026-11-28,11:00,NS,172,2026,Gebze,Alanya Bld,3795,1305,,,,,,,,,,,,,TUR
+217664,2026-11-28,11:00,NS,172,2026,Sungurlu,Sultanbeyli,4124,4384,,,,,,,,,,,,,TUR
+217665,2026-11-28,11:00,NS,172,2026,Halkbank,Fenerbahce,1281,1271,,,,,,,,,,,,,TUR
+217707,2026-11-28,11:00,NS,174,2026,Kuzey Boru Genclik W,Vakifbank W,1297,1273,,,,,,,,,,,,,TUR-W
+211813,2026-11-28,12:30,NS,133,2026,Uralochka-NTMK W,Metar Chelyabinsk W,1059,1054,,,,,,,,,,,,,RUS-W
+212003,2026-11-28,13:30,NS,132,2026,Novokuybyshevsk,Orenburg,1081,1043,,,,,,,,,,,,,RUS
+217667,2026-11-28,13:30,NS,172,2026,Istanbul BB,Altekma,1283,1275,,,,,,,,,,,,,TUR
+208350,2026-11-28,14:00,NS,113,2026,Norwid Czestochowa,Kedzierzyn-Kozle,945,903,,,,,,,,,,,,,POL
+211810,2026-11-28,14:00,NS,133,2026,Dynamo Kazan W,Saratov W,1048,1057,,,,,,,,,,,,,RUS-W
+211811,2026-11-28,16:00,NS,133,2026,Leningradka W,Odintsovo W,1052,1056,,,,,,,,,,,,,RUS-W
+217668,2026-11-28,16:00,NS,172,2026,Galatasaray,Gaziantep Genclik,1279,3504,,,,,,,,,,,,,TUR
+217669,2026-11-28,16:00,NS,172,2026,Spor Toto,Ziraat Bankasi,1286,1287,,,,,,,,,,,,,TUR
+208349,2026-11-28,17:00,NS,113,2026,Stilon Gorzow,Olsztyn,3946,904,,,,,,,,,,,,,POL
+213629,2026-11-28,17:00,NS,63,2026,Toulouse,Paris,490,485,,,,,,,,,,,,,FRA
+207149,2026-11-28,18:00,NS,66,2026,Ludwigsburg,Freiburg,3715,549,,,,,,,,,,,,,GER
+207150,2026-11-28,18:00,NS,66,2026,Rottenburg,BR Volleys,1636,513,,,,,,,,,,,,,GER
+208896,2026-11-28,18:00,NS,120,2026,Mogilno W,Budowlani Lodz W,3046,911,,,,,,,,,,,,,POL-W
+213630,2026-11-28,18:00,NS,63,2026,Plessis Robinson,St. Nazaire,486,3636,,,,,,,,,,,,,FRA
+213631,2026-11-28,18:00,NS,63,2026,Tourcoing,Poitiers,491,487,,,,,,,,,,,,,FRA
+207151,2026-11-28,18:30,NS,66,2026,Duren,Giesen,514,516,,,,,,,,,,,,,GER
+207152,2026-11-28,18:30,NS,66,2026,Friedrichshafen,Mitteldeutschland,515,1645,,,,,,,,,,,,,GER
+213632,2026-11-28,18:30,NS,63,2026,Sete,Narbonne,489,482,,,,,,,,,,,,,FRA
+207148,2026-11-28,19:00,NS,66,2026,Haching Munchen,Netzhoppers,3782,519,,,,,,,,,,,,,GER
+207153,2026-11-28,19:00,NS,66,2026,Karlsruhe,Warnemunde,555,546,,,,,,,,,,,,,GER
+211298,2026-11-28,19:00,NS,89,2026,Talmassons W,Vero Volley W,736,3604,,,,,,,,,,,,,ITA-W
+213633,2026-11-28,19:00,NS,63,2026,Chaumont,Cannes,470,472,,,,,,,,,,,,,FRA
+213634,2026-11-28,19:00,NS,63,2026,Royan,Nice,3767,484,,,,,,,,,,,,,FRA
+215720,2026-11-28,19:00,NS,25,2026,Montes Claros,Monte Carmelo,1510,4118,,,,,,,,,,,,,BRA
+208347,2026-11-28,19:30,NS,113,2026,Barkom,Lublin,1349,3814,,,,,,,,,,,,,POL
+211295,2026-11-28,20:00,NS,89,2026,Cuneo W,Scandicci W,705,711,,,,,,,,,,,,,ITA-W
+215721,2026-11-28,21:30,NS,25,2026,Guarulhos,Volei Renata,169,176,,,,,,,,,,,,,BRA
